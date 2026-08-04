@@ -72,7 +72,7 @@ class DigestTests(unittest.TestCase):
     def test_sign_feishu_request_is_deterministic(self):
         self.assertEqual(
             sign_feishu_request("1700000000", "secret"),
-            "vli3/GfD4kJTUyxxBD82mmmq4rnrfhhcCjvn2rP9x7o=",
+            "fiWS2+gh28DOydAv7hzONH/mDn9+b1Y4Y5ivXWXy8vA=",
         )
 
 

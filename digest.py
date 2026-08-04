@@ -149,7 +149,7 @@ def parse_model_json(text: str) -> dict[str, Any]:
 
 def sign_feishu_request(timestamp: str, secret: str) -> str:
     payload = f"{timestamp}\n{secret}".encode("utf-8")
-    digest = hmac.new(secret.encode("utf-8"), payload, hashlib.sha256).digest()
+    digest = hmac.new(payload, digestmod=hashlib.sha256).digest()
     return base64.b64encode(digest).decode("ascii")
 
 
