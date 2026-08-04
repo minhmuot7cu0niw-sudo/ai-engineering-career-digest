@@ -1,6 +1,7 @@
 import json
 import unittest
 from datetime import datetime, timezone, timedelta
+from pathlib import Path
 
 from digest import (
     Article,
@@ -9,6 +10,7 @@ from digest import (
     extract_response_text,
     filter_articles,
     parse_model_json,
+    report_page_url,
     render_rss,
     sign_feishu_request,
 )
@@ -73,6 +75,18 @@ class DigestTests(unittest.TestCase):
         self.assertEqual(
             sign_feishu_request("1700000000", "secret"),
             "fiWS2+gh28DOydAv7hzONH/mDn9+b1Y4Y5ivXWXy8vA=",
+        )
+
+    def test_report_page_url_adds_cache_buster(self):
+        url = report_page_url(
+            "https://example.github.io/ai-engineering-career-digest/",
+            Path("2026-08-04.md"),
+            cache_buster=1722758400,
+        )
+
+        self.assertEqual(
+            url,
+            "https://example.github.io/ai-engineering-career-digest/daily/2026-08-04.html?v=1722758400",
         )
 
 

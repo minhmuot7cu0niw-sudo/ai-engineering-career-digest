@@ -430,6 +430,11 @@ def send_feishu(webhook_url: str, secret: str, text: str) -> None:
         raise ValueError(f"Feishu rejected message: {response}")
 
 
+def report_page_url(pages_base_url: str, report_path: Path, *, cache_buster: int) -> str:
+    base_url = pages_base_url.rstrip("/")
+    return f"{base_url}/daily/{report_path.stem}.html?v={cache_buster}"
+
+
 def write_report(report: dict[str, Any], *, root: Path, now: datetime, mode: str, pages_base_url: str) -> Path:
     docs = root / "docs"
     daily = docs / "daily"
@@ -464,7 +469,8 @@ def run(mode: str) -> Path:
     webhook = os.getenv("FEISHU_WEBHOOK_URL", "")
     secret = os.getenv("FEISHU_SECRET", "")
     if webhook and secret:
-        message = f"{path.stem} AI 工程与职业速报已生成：{pages_base_url}/daily/{path.stem}.html"
+        report_url = report_page_url(pages_base_url, path, cache_buster=int(now.timestamp()))
+        message = f"{path.stem} AI 工程与职业速报已生成：{report_url}"
         send_feishu(webhook, secret, message)
     return path
 
