@@ -292,7 +292,7 @@ def call_responses(base_url: str, api_key: str, model: str, prompt: str) -> str:
         "model": model,
         "input": prompt,
         "temperature": 0.2,
-        "max_output_tokens": 4000,
+        "max_output_tokens": 2400,
     }
     response = http_post_json(endpoint, payload, {"Authorization": f"Bearer {api_key}"})
     text = extract_response_text(response)
@@ -303,13 +303,13 @@ def call_responses(base_url: str, api_key: str, model: str, prompt: str) -> str:
 
 def build_prompt(articles: list[Article], mode: str) -> str:
     compact = [
-        {"title": a.title, "url": a.url, "source": a.source, "published": a.published, "summary": a.summary[:500]}
-        for a in articles[:80]
+        {"title": a.title, "url": a.url, "source": a.source, "published": a.published, "summary": a.summary[:300]}
+        for a in articles[:24]
     ]
     return f"""你是个人 AI 工程与职业速报编辑。当前模式：{mode}。
 只从给定条目中选择，不得编造事实；保留原文 URL。
 日报需分为：今日关键变化、工程实践、学习优先级、职业信号；职业周报需重点分析岗位技能、招聘趋势和企业落地。
-每条必须给出对读者的实际影响或下一步动作。输出严格 JSON，不要 Markdown 代码围栏：
+每条必须给出对读者的实际影响或下一步动作。今日关键变化最多 3 条，工程实践最多 4 条，学习优先级最多 2 条，职业信号最多 2 条。输出严格 JSON，不要 Markdown 代码围栏：
 {{"overview":"整体判断","sections":[{{"name":"今日关键变化","items":[{{"title":"","url":"","source":"","summary":"","why":"","action":"","importance":1}}]}}]}}
 条目：
 {json.dumps(compact, ensure_ascii=False)}"""
