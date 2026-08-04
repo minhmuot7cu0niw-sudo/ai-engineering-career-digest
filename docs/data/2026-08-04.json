@@ -1,35 +1,35 @@
 {
-  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "overview": "今日信号集中在三点：AI 投资开始更强调基础设施效率与成本约束，机器人领域面临更强的政策变量，开发工具则继续向可审计的自动化评审、更清晰的智能体交互和跨模型兼容演进。个人工程师应优先补强评测体系、代码评审自动化与检索能力，而不是只追逐新模型概念。",
   "sections": [
     {
       "name": "今日关键变化",
       "items": [
         {
-          "title": "Show HN: A GenAI image benchmark for production design work",
-          "url": "https://img.ly/ai-benchmarks/",
-          "source": "Hacker News",
-          "summary": "Show HN: A GenAI image benchmark for production design work",
-          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
-          "action": "打开原文，确认是否值得加入本周学习清单。",
-          "importance": 3
-        },
-        {
-          "title": "We need to talk about AI in mathematics",
-          "url": "https://www.youtube.com/watch?v=cS1SJ0oBbTI",
-          "source": "Hacker News",
-          "summary": "We need to talk about AI in mathematics",
-          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
-          "action": "打开原文，确认是否值得加入本周学习清单。",
-          "importance": 3
-        },
-        {
-          "title": "LinkedIn says it won't be spending big on AI hardware this year",
+          "title": "LinkedIn 今年不会大举投入 AI 硬件",
           "url": "https://www.techradar.com/pro/linkedin-says-it-wont-be-spending-big-on-ai-hardware-this-year-but-it-has-a-good-reason-why",
           "source": "Hacker News",
-          "summary": "LinkedIn says it won't be spending big on AI hardware this year",
-          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
-          "action": "打开原文，确认是否值得加入本周学习清单。",
-          "importance": 3
+          "summary": "LinkedIn 表示今年不会在 AI 硬件上进行大规模投入。",
+          "why": "大型平台的公开表态显示，AI 落地并不必然对应持续扩张硬件预算，基础设施利用率、推理成本和业务回报会成为更重要的约束。",
+          "action": "为现有 AI 项目补充单次请求成本、吞吐量、延迟和资源利用率指标，并用这些数据决定扩容，而不是仅按模型规模规划硬件。",
+          "importance": 5
+        },
+        {
+          "title": "Bending Spoons 达成以约 12.8 亿美元收购 Airtable 的最终协议",
+          "url": "https://www.businesswire.com/news/home/20260730994716/en/Bending-Spoons-has-entered-into-a-definitive-agreement-to-acquire-Airtable-for-%241.285-billion",
+          "source": "Hacker News",
+          "summary": "Bending Spoons 已达成收购 Airtable 的最终协议，条目标题披露交易金额约为 12.8 亿美元。",
+          "why": "这项交易会影响依赖 Airtable 的团队对产品路线、定价、集成稳定性和供应商风险的判断。",
+          "action": "如果核心流程依赖 Airtable，立即盘点 API、自动化脚本、数据导出能力和替代方案，并确认合同及数据可迁移性。",
+          "importance": 4
+        },
+        {
+          "title": "美国 AI 保护主义延伸至机器人领域",
+          "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
+          "source": "Hacker News",
+          "summary": "MIT Technology Review 报道称，特朗普政府的 AI 保护主义已经波及机器人领域。",
+          "why": "机器人产品通常同时依赖模型、传感器、硬件和跨境供应链，政策变化可能直接影响采购、部署地区与合规成本。",
+          "action": "涉及机器人项目时建立组件来源、模型来源和部署地区清单，并将出口限制、供应商替换周期纳入技术选型评审。",
+          "importance": 4
         }
       ]
     },
@@ -37,30 +37,39 @@
       "name": "工程实践",
       "items": [
         {
-          "title": "AI Futures Model: Timelines and Takeoff",
-          "url": "https://www.aifuturesmodel.com/",
+          "title": "面向生产设计工作的生成式图像基准",
+          "url": "https://img.ly/ai-benchmarks/",
           "source": "Hacker News",
-          "summary": "AI Futures Model: Timelines and Takeoff",
-          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
-          "action": "打开原文，确认是否值得加入本周学习清单。",
-          "importance": 3
+          "summary": "该项目提供一个针对生产设计工作的生成式 AI 图像基准。",
+          "why": "通用图像质量评分未必能反映真实设计流程中的可编辑性、一致性和任务完成度，生产导向的基准更适合支持模型选型。",
+          "action": "挑选团队最常见的 10 至 20 个设计任务，用统一提示词、人工评分标准和耗时记录复测候选模型。",
+          "importance": 4
         },
         {
-          "title": "The AI Revolution – History Repeating Itself – On Sentience",
-          "url": "https://www.alanbonnici.com/2026/07/the-ai-revolution-history-repeating.html",
+          "title": "Bubo：从评审评论中学习的 AI 代码评审器",
+          "url": "https://github.com/mountainowl/bubo",
           "source": "Hacker News",
-          "summary": "The AI Revolution – History Repeating Itself – On Sentience",
-          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
-          "action": "打开原文，确认是否值得加入本周学习清单。",
-          "importance": 3
+          "summary": "Bubo 是一个能够从代码评审评论中学习的 AI 代码评审项目。",
+          "why": "利用历史评审意见有机会让自动化检查贴近团队规范，但也可能继承过时规则或低质量反馈。",
+          "action": "先在非阻断模式下接入一个仓库，使用已确认有效的评审评论作为样本，并统计建议采纳率、误报率和重复评论率。",
+          "importance": 4
         },
         {
-          "title": "When Every AI Trend Becomes a New Discipline [video]",
-          "url": "https://www.youtube.com/watch?v=2myd3cgqe2k",
-          "source": "Hacker News",
-          "summary": "When Every AI Trend Becomes a New Discipline [video]",
-          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
-          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "title": "OpenCode v1.18.12 修复 Azure GPT-5.5+ 推理请求失败",
+          "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.12",
+          "source": "GitHub Release: anomalyco/opencode",
+          "summary": "该版本修复了启用 reasoning 时 Azure GPT-5.5+ completion 请求失败的问题。",
+          "why": "使用 Azure 模型和推理模式的开发流程可能因该兼容性问题直接中断。",
+          "action": "相关用户应升级到 v1.18.12，并在升级后回归测试 reasoning 配置、流式响应和错误重试路径。",
+          "importance": 4
+        },
+        {
+          "title": "Claude Code v2.1.221 为 VS Code 增加 Focus view",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "该版本在 VS Code 中加入 Focus view，可隐藏工具活动并按轮次显示可展开摘要及实时工具运行指示。",
+          "why": "长时间智能体任务中的工具日志容易干扰代码阅读，新视图可以降低界面噪声，同时保留执行状态。",
+          "action": "升级后在长链路任务中试用 Focus view，但在合并代码前仍展开检查工具调用和实际文件变更。",
           "importance": 3
         }
       ]
@@ -69,31 +78,22 @@
       "name": "学习优先级",
       "items": [
         {
-          "title": "Trump's AI protectionism has come for robotics",
-          "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
-          "source": "Hacker News",
-          "summary": "Trump's AI protectionism has come for robotics",
-          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
-          "action": "打开原文，确认是否值得加入本周学习清单。",
-          "importance": 3
+          "title": "UEmbed：统一稀疏与稠密多模态嵌入",
+          "url": "https://arxiv.org/abs/2608.02583v1",
+          "source": "ArXiv",
+          "summary": "UEmbed 研究统一的稀疏和稠密多模态嵌入；论文指出稀疏检索是搜索与 RAG 的重要基础。",
+          "why": "检索质量仍是 RAG 系统效果和成本的关键变量，同时理解稀疏与稠密表示有助于避免只依赖单一路线。",
+          "action": "本周用同一数据集对 BM25、稠密检索和混合检索做一次离线对比，至少记录 Recall@K、延迟和索引成本。",
+          "importance": 5
         },
         {
-          "title": "Six Problems When You Try to Build an AI Therapist",
-          "url": "https://emilylee293105.substack.com/p/six-problems-when-you-try-to-build",
-          "source": "Hacker News",
-          "summary": "Six Problems When You Try to Build an AI Therapist",
-          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
-          "action": "打开原文，确认是否值得加入本周学习清单。",
-          "importance": 3
-        },
-        {
-          "title": "China gets better bang for its buck than America in AI",
-          "url": "https://www.economist.com/finance-and-economics/2026/08/03/how-china-gets-better-bang-for-its-buck-than-america-in-ai",
-          "source": "Hacker News",
-          "summary": "China gets better bang for its buck than America in AI",
-          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
-          "action": "打开原文，确认是否值得加入本周学习清单。",
-          "importance": 3
+          "title": "GradCuit：测试时潜在推理中的信用分配梯度流",
+          "url": "https://arxiv.org/abs/2608.02585v1",
+          "source": "ArXiv",
+          "summary": "GradCuit 通过信用分配梯度流改进测试时潜在推理，目标是增强其稳健性与可解释性，同时保持模型参数冻结。",
+          "why": "测试时计算正在成为提升模型输出的独立技术方向，理解其机制有助于判断何时增加推理计算比重新训练更合适。",
+          "action": "阅读时重点整理状态如何优化、信用如何分配、额外计算成本以及与基线的评测方式，不要只关注最终指标。",
+          "importance": 4
         }
       ]
     },
@@ -101,25 +101,25 @@
       "name": "职业信号",
       "items": [
         {
-          "title": "Bubo: AI code-reviewer that learns from review comments",
-          "url": "https://github.com/mountainowl/bubo",
+          "title": "中国 AI 投入效率受到关注",
+          "url": "https://www.economist.com/finance-and-economics/2026/08/03/how-china-gets-better-bang-for-its-buck-than-america-in-ai",
           "source": "Hacker News",
-          "summary": "Bubo: AI code-reviewer that learns from review comments",
-          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
-          "action": "打开原文，确认是否值得加入本周学习清单。",
-          "importance": 3
+          "summary": "《经济学人》条目认为，中国在 AI 投入方面获得了比美国更高的投入产出效果。",
+          "why": "企业采用 AI 时可能更加看重有限算力下的交付效率，成本建模、模型压缩、推理优化和效果评测会成为更有区分度的工程能力。",
+          "action": "在简历项目中加入可核验的成本、延迟、吞吐量和质量变化，明确说明优化前后的业务或工程结果。",
+          "importance": 4
         },
         {
-          "title": "We gave an AI agent rootless VPN access to 1k live servers",
-          "url": "https://ardor.cloud/blog/ardor-getblock-agentic-operations",
-          "source": "Hacker News",
-          "summary": "We gave an AI agent rootless VPN access to 1k live servers",
-          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
-          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "title": "Qwen Code 从 Electron 桌面应用迁移至 Tauri shell",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.5",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "Qwen Code v0.21.5 为 macOS 用户增加一次性的可选更新桥接，用于从 Electron 桌面应用迁移到新的 Tauri shell。",
+          "why": "AI 开发工具不仅需要模型能力，也需要桌面端架构、升级迁移和跨平台交付能力，相关工程经验具有直接产品化价值。",
+          "action": "希望进入 AI 工具团队的工程师可补充一次 Electron 或 Tauri 应用的自动更新、数据迁移、签名与回滚实践，并在作品中展示迁移测试。",
           "importance": 3
         }
       ]
     }
   ],
-  "degraded": true
+  "degraded": false
 }
