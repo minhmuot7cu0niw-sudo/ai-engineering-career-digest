@@ -22,6 +22,20 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install report renderer
+        run: npm ci
+
+      - name: Install CJK fonts
+        run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
       - name: Generate daily digest
         run: python digest.py --mode daily
         env:
@@ -30,6 +44,9 @@ jobs:
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+          FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
           PAGES_BASE_URL: https://minhmuot7cu0niw-sudo.github.io/ai-engineering-career-digest
 
       - name: Commit generated report

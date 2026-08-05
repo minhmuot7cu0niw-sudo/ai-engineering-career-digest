@@ -1,0 +1,11 @@
+{
+  "name": "ai-engineering-career-digest",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render-report": "node scripts/render_report.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.62.1"
+  }
+}

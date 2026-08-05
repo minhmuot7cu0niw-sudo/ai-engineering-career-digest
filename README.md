@@ -9,7 +9,7 @@
 - 学习优先级：论文或技术文章，以及值得学习的原因和下一步动作。
 - 职业信号：只保留影响软件、AI、金融科技岗位技能或企业落地的内容。
 
-完整报告发布到 `docs/`，可由 GitHub Pages 托管；`docs/feed.xml` 是 RSS 订阅源。每次报告写入成功后，工作流再向飞书群机器人推送链接。
+完整报告发布到 `docs/`，可由 GitHub Pages 托管：同一天会保留 HTML、PNG、Markdown 和 JSON；`docs/feed.xml` 是 RSS 订阅源。飞书优先推送 PNG 长图，图片发送不可用时自动回退到带 Pages 地址的文本消息。
 
 ## GitHub 配置
 
@@ -22,18 +22,25 @@
 | `LLM_MODEL` | `gpt-5.6-sol` |
 | `FEISHU_WEBHOOK_URL` | 飞书自定义机器人 Webhook |
 | `FEISHU_SECRET` | 飞书机器人签名密钥 |
+| `FEISHU_APP_ID` | 飞书自建应用 App ID |
+| `FEISHU_APP_SECRET` | 飞书自建应用 App Secret |
+| `FEISHU_CHAT_ID` | 接收图片的群聊 Chat ID |
 
 密钥不要提交到仓库、Issue、日志或报告中。
 
-在 `Settings -> Pages` 中将部署来源设置为 **GitHub Actions**。之后可在 `Actions` 页面手动运行 `Daily AI Digest` 验证配置；定时任务按 UTC 执行，日报约为北京时间 08:00，周报约为北京时间周日 09:00。
+在 `Settings -> Pages` 中将部署来源设置为 **GitHub Actions**。要启用飞书图片，需要在飞书开放平台创建自建应用，开启机器人能力，把应用加入目标群聊，并为应用配置发送消息权限；然后把 App ID、App Secret 和目标群聊 Chat ID 写入上表。Webhook 仍建议保留，作为图片发送失败时的文本兜底。
+
+之后可在 `Actions` 页面手动运行 `Daily AI Digest` 验证配置；定时任务按 UTC 执行，日报约为北京时间 08:00，周报约为北京时间周日 09:00。
 
 ## 本地验证
 
-项目只使用 Python 标准库：
+项目使用 Python 标准库和固定版本的 Playwright：
 
 ```bash
 python -m unittest discover -s tests -v
+npm ci
+npx playwright install chromium
 python digest.py --mode daily
 ```
 
-没有配置 API Key 时会生成降级报告，仅用于验证采集、网页和 RSS 输出。
+没有配置 API Key 时会生成降级报告；没有配置完整的飞书应用凭据时会保留 PNG 和 Pages 归档，并在 Webhook 可用时发送文本兜底。
