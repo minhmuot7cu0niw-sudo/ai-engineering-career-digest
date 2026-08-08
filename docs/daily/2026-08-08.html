@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-08-08</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-08-08</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-08-08 09:49:57 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日信号集中在三条主线：AI 编程代理开始进入企业自托管与成本治理阶段，面向代理的浏览器和 MCP 垂直工具继续扩张，安全评估与行业工作流落地成为企业采用的重要前提。个人工程师应优先补齐代理运行治理、MCP 集成和安全边界设计能力。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 1</span></div>
+  <h3>Claude Code v2.1.224 增加企业自托管运行环境</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Claude Code 新增 self-hosted-runner，可将自有机器或容器作为 Web、移动端和桌面端会话的运行环境，适用于 Team 和 Enterprise 计划。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>编码代理正从开发者本机工具转向由企业控制的执行基础设施，这会直接影响代码访问权限、网络隔离、凭据管理和审计方案。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>评估现有 CI Runner 或容器平台能否承载编码代理，并整理代码权限、密钥注入、出网策略和会话审计四项要求。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>Cloudflare 发布面向 AI 代理的 Kitesurf 浏览器</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Cloudflare 推出专门为 AI 代理构建的 Kitesurf 浏览器。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>浏览器正在成为代理执行真实网络任务的基础运行层，相关产品可能改变网页自动化、身份认证和代理访问控制的工程选型。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>跟踪其可用接口、身份与权限模型；当前使用 Playwright 或浏览器代理的团队可建立对照测试清单，但不要在缺少细节时直接迁移。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">OpenAI</span><span class="item-importance">重要度 3</span></div>
+  <h3>OpenAI 发布 Astra 初步网络安全评估</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>OpenAI 分享了 Astra 的初步网络安全评估，以及为加强防护措施和安全控制所采取的步骤。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>前沿模型的网络安全能力正在被单独评估和治理，使用高能力模型处理代码、基础设施或安全任务的团队将面临更严格的风险控制要求。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>把模型能力评估、工具权限、敏感操作审批和日志留存加入代理上线检查表，并对安全相关任务设置独立策略。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 1</span></div>
+  <h3>Claude Code v2.1.225 增强额度提示与工作区信任控制</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>版本为用量警告增加网关支出上限支持，达到上限时显示额度名称、重置时间和运营方消息；同时为 claude agents 增加工作区信任提示。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>成本上限和工作区信任是代理进入团队环境后的两类核心控制，分别降低失控支出与不可信代码目录带来的风险。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>使用网关的团队应同步核对网关版本与额度策略，并在自动化脚本中验证新增信任提示是否会阻塞无人值守流程。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>Rippling 公开 AI Spend Console 的建设思路</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Rippling 介绍了其从缺少约束的 AI 支出走向集中控制，并建设 AI Spend Console 的实践。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>模型调用成本治理正在从账单统计升级为工程平台能力，团队需要把费用归属、预算和使用控制纳入日常运行。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>为每个应用或代理建立独立成本标签、预算阈值和负责人，并至少按模型、团队与环境拆分费用。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">GitHub Release: anomalyco/opencode</span><span class="item-importance">重要度 3</span></div>
+  <h3>OpenCode v1.18.15 修复消息时序与清理问题</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该版本修复了导入或旧消息 ID 乱序时的时间顺序问题，使回退和分叉按真实消息时间执行，并改进截断后的陈旧文件清理。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理会话的顺序错误会影响回退、分叉和上下文重放结果，是可能导致隐蔽行为偏差的数据一致性问题。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>依赖 OpenCode 历史会话、回退或分叉功能的用户应升级后复测旧会话导入，并检查截断流程是否仍残留文件。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>Podiom 尝试为代理提供持久项目上下文</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Podiom 是一个面向 AI 代理的开源项目，聚焦持久化项目上下文、目标和调度。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>长期代理的主要工程难点已从单次提示转向跨会话状态、目标跟踪和任务调度，持久上下文将直接影响可恢复性与结果一致性。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>评估时重点检查状态存储格式、任务失败恢复、人工修改入口和调度幂等性，再决定是否用于真实项目。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 1</span></div>
+  <h3>通过 JMeter 文档 MCP 学习垂直知识接入</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章介绍了一个面向 JMeter 文档的 MCP Server，以及将 AI 代理连接到该服务的方法。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这是学习如何把特定领域文档转换为代理可调用能力的具体案例，比只理解 MCP 协议概念更接近实际工程。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>按案例完成一次本地连接，并重点记录工具描述、文档检索边界、错误响应和答案溯源方式。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>理解超越下一词预测的能量模型</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该视频讲解能量模型，以及它与下一词预测范式之外的 AI 方法之间的关系。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>能量模型可扩展对生成式 AI 技术路线的理解，但对多数应用工程岗位的短期价值低于代理集成与治理能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>先掌握能量函数、推断与训练目标三个概念；仅在从事模型研究或架构评估时继续深入。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">OpenAI</span><span class="item-importance">重要度 1</span></div>
+  <h3>税务咨询企业开始把企业级 AI 用于生产力与服务质量提升</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>HSP GRUPPE 使用 ChatGPT Enterprise 提升生产力和工作质量，并为税务咨询与客户服务释放更多产能。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>企业 AI 岗位需求正向具体行业工作流延伸，既理解模型工程又理解税务、合规或客户服务流程的人更容易参与真实落地。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>求职作品集应展示一个完整行业流程，包括数据边界、人工复核、质量指标和业务产能变化，而不只是聊天界面。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>AI 对 HR 岗位的影响成为就业讨论焦点</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>报道讨论了如果 AI 开始替代岗位，HR 从业者可能较早受到影响的观点。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>重复性信息处理较多的职能岗位面临更直接的自动化压力，同时也会增加对流程重构、系统集成和结果监督能力的需求。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>HR 技术或内部工具方向的从业者应强化工作流自动化、数据合规、系统集成和人工审批设计，并用可量化案例证明价值。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
