@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-08-09</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-08-09</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-08-09 09:56:23 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日信号集中在三个方向：AI 工程工具继续向代码代理、上下文记忆和低成本执行演进；企业开始更明确地处理 AI 安全、治理与使用边界；模型来源识别、行为评估和 AI 辅助编程能力正在成为新的工程与职业分水岭。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>Model Genome：识别模型是从头训练还是派生而来</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章介绍用于判断大型语言模型是否从头训练或由其他模型派生而来的指纹识别方法。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>模型来源识别可能影响模型评估、供应链透明度、合规审查和技术归因。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>关注模型评估与模型供应链方向；在涉及第三方模型时，记录训练来源、版本和评估证据。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>AI 代理工具开始强调低 Token 消耗与更高结果质量</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Tura 是一个强调减少 Token 使用并提升结果质量的 AI agent 构建项目。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理系统的成本和延迟越来越取决于上下文组织、任务分解和调用策略，而不只是模型选择。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>检查现有 agent 的上下文长度、重复调用和无效输出；为关键任务增加 Token、延迟和成功率指标。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>企业 AI 使用治理与网络安全成为显性议题</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章讨论员工未经正式批准使用 AI 工具所形成的 Shadow AI 风险。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>未经治理的 AI 使用可能带来数据泄露、权限失控和合规风险，企业落地重点正在从试用扩展到控制体系。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>盘点团队正在使用的 AI 服务、数据类型和权限；建立批准工具清单与敏感数据使用规则。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>用 Rust 构建具备广泛 AI 功能的视频编辑器</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>项目展示了使用 Rust 构建视频编辑器并集成多项 AI 功能的实践。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI 能力正在被嵌入传统创作软件，工程师需要同时处理本地性能、媒体处理和模型能力集成。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>评估 AI 功能进入现有桌面或媒体工具的路径，重点验证本地资源占用、任务失败恢复和用户可控性。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>Filesystem as an AI Handler</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Faaah 将文件系统作为 AI 处理器的交互方式。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>文件系统接口可以降低 AI 工具接入现有工作流的门槛，也要求明确输入输出约定与权限边界。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在内部自动化中优先定义清晰的文件输入、输出和错误状态，再决定是否引入更复杂的工具协议。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>使用 Go 标准库构建 AI agent 的记忆层</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章介绍仅使用 Go 标准库构建内存高效的 AI agent context engine。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理记忆层不一定需要复杂依赖，数据结构、上下文裁剪和持久化策略本身可能决定系统效率。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>先用现有语言标准库实现最小记忆原型，测量上下文命中率、内存占用和检索延迟。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 2</span></div>
+  <h3>Claude Code 增加网关消费上限提示与工作区信任提示</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>版本更新加入网关消费上限相关的使用警告，并为 claude agents 增加工作区信任提示。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代码代理正在补齐成本控制和工作区安全确认等生产使用所需的基础能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>升级前检查团队的网关额度、重置策略和工作区信任流程，并将代理成本纳入开发工具治理。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>AI 能写代码之后如何教授编程</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章讨论在 AI 能够编写代码的背景下，编程教学重点如何变化。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>基础编程能力的价值将更多体现在问题建模、验证结果、调试和系统理解，而不是单纯记忆语法。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>学习时把重点放在需求拆解、测试设计、代码审查和故障定位，并要求 AI 生成结果能够被独立解释。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>如何使用 AI 编写生产质量代码</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章讨论借助 AI 编写生产质量代码的方法。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI 生成代码只有经过约束、验证和工程化审查，才能进入真实生产环境。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>建立个人 AI 编码检查清单，至少覆盖测试、边界条件、安全性、可维护性和依赖变更。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">OpenAI</span><span class="item-importance">重要度 3</span></div>
+  <h3>HSP GRUPPE 将 ChatGPT Enterprise 用于税务咨询业务</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>案例介绍 HSP GRUPPE 使用 ChatGPT Enterprise 提升生产力、工作质量，并为税务咨询和客户服务释放更多能力。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>企业招聘 AI 人才时，关注点正在从模型研究扩展到把通用 AI 嵌入专业业务流程并衡量产能与质量。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>准备能展示业务流程改造、企业级权限治理和质量衡量的项目案例，而不只展示模型调用代码。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">OpenAI</span><span class="item-importance">重要度 3</span></div>
+  <h3>OpenAI 发布下一代关键网络能力的初步安全评估</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>OpenAI 分享对 Astra 的初步网络安全评估，以及为强化安全防护和控制措施采取的步骤。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>随着 AI 能力进入网络安全等高风险领域，安全评估、控制设计和风险响应会成为相关岗位的重要技能。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>补充 AI 安全评估、权限控制、滥用测试和事件响应知识，并在项目中保留可审计的安全验证记录。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
