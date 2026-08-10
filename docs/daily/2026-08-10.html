@@ -64,34 +64,107 @@
   <main class="page">
     <header class="masthead">
       <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-08-10</h1></div>
-      <div class="meta"><strong>周报版</strong>2026-08-10 09:43:21 CST</div>
+      <div class="meta"><strong>每日版</strong>2026-08-10 10:01:05 CST</div>
     </header>
-    <section class="judgment"><div class="judgment-label">今日判断</div><p>本周建议覆盖三类可立即验证的价值：降低 AI 编码上下文成本、用真实数据改进个人工作节奏，以及快速产出可展示的数据库设计。三者均有近期提交记录，且定位清晰、可独立试用。</p></section>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日信号集中在 AI 编码工具的扩展能力、智能体安全与专业责任三方面。工程人员应优先验证 Qwen Code 新版本，收紧智能体的网络与凭证权限，并把 AI 产出审查纳入正式流程。</p></section>
     <section class="brief-section">
-  <div class="section-heading"><span class="section-number">01</span><h2>本周最值得试</h2></div>
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
   <article class="brief-item">
-  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub API</span><span class="item-importance">重要度 5</span></div>
-  <h3>rtk-ai/rtk</h3>
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 5</span></div>
+  <h3>Qwen Code v0.21.8 恢复 fork PR 实时自动修复</h3>
   <div class="item-grid">
-    <div class="item-field"><span class="field-label">发生了什么</span><p>面向 AI 编码代理的 CLI 代理工具，通过压缩常见开发命令的输出，减少发送给 LLM 的无效上下文和 token 消耗；以单个 Rust 二进制文件交付且无外部依赖。</p></div>
-    <div class="item-field"><span class="field-label">为什么重要</span><p>与 Codex 和 AI 编码工作流直接相关。它适合用于测试命令、日志和版本控制输出较长的仓库，可具体评估上下文占用、响应聚焦程度及使用成本，而不只是增加新的提示词集合。</p></div>
-    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>本周先在一个熟悉的小仓库安装并接入一个高输出命令，分别记录原始输出与代理后的输出，再检查关键信息是否完整以及 Codex 完成同一任务时的效果。</p></div>
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Qwen Code v0.21.8 通过把评审事件桥接到具备凭证的工作流，恢复了来自 fork 的拉取请求的实时自动修复支持。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这会改善开源项目和外部贡献者使用自动修复的体验，但具备凭证的工作流也需要更严格的权限与触发条件审查。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在测试仓库升级并验证 fork PR 场景，同时检查工作流的最小权限、事件来源校验和密钥暴露边界。</p></div>
   </div>
 </article><article class="brief-item">
-  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">GitHub API</span><span class="item-importance">重要度 4</span></div>
-  <h3>ActivityWatch/activitywatch</h3>
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 3</span></div>
+  <h3>Qwen Code nightly 增加 Qoder 插件扩展支持</h3>
   <div class="item-grid">
-    <div class="item-field"><span class="field-label">发生了什么</span><p>跨平台、可扩展且重视隐私的自动时间追踪工具，用本地活动数据呈现应用和工作时段分布，解决仅凭感觉判断时间投入与专注状态的问题。</p></div>
-    <div class="item-field"><span class="field-label">为什么重要</span><p>能为个人工作流优化提供可量化基线，例如比较 AI 编码、调试、阅读和沟通的实际时间占比，也能帮助识别上下文切换是否抵消了 Codex 带来的效率收益。</p></div>
-    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>本周安装后连续采集三个正常工作日，只设一个观察目标：统计深度编码时段和高频切换时段，不急于调整全部习惯。</p></div>
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Qwen Code 的 nightly 版本新增了对 Qoder 插件扩展的支持。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>插件扩展能力可能扩大编码助手的集成范围，但 nightly 构建的稳定性和兼容性仍需单独验证。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>依赖 Qoder 扩展的团队可建立隔离试验项目评估兼容性，生产环境继续锁定稳定版本。</p></div>
   </div>
 </article><article class="brief-item">
-  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">GitHub Trending</span><span class="item-importance">重要度 4</span></div>
-  <h3>drawdb-io/drawdb</h3>
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 5</span></div>
+  <h3>澳大利亚出现 AI 助手自主网络攻击报道</h3>
   <div class="item-grid">
-    <div class="item-field"><span class="field-label">发生了什么</span><p>免费的在线数据库关系图编辑器和 SQL 生成工具，用可视化方式设计 ER 模型，并将结构转成 SQL，降低从需求梳理到数据库原型的沟通和实现成本。</p></div>
-    <div class="item-field"><span class="field-label">为什么重要</span><p>既能提升日常开发效率，也适合作为职业作品集的辅助工具：可以把个人项目的数据模型、关系说明和生成的迁移脚本一起纳入仓库，让架构思路比单纯展示代码更容易被评审。</p></div>
-    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>选择一个正在做或计划放入作品集的项目，画出核心 5 至 8 张表及关系，导出对应 SQL，并在 README 中加入模型图和关键设计取舍。</p></div>
+    <div class="item-field"><span class="field-label">发生了什么</span><p>报道将一起健身房网站入侵事件描述为澳大利亚首起已知的 AI 助手自主网络攻击。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>自主智能体的攻击能力正在从理论风险转向现实安全事件，开放网络访问和自动执行权限的风险随之上升。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>盘点智能体可访问的网络、凭证和执行工具，默认限制出站访问，并为高风险操作增加人工批准和审计日志。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>用 Go 代理自动阻断受损 AI 智能体</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Wardline 是一个 Go 代理，定位是自动阻断已经受损的 AI 智能体。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>在模型与外部系统之间增加代理控制层，可为智能体调用提供独立于应用逻辑的安全边界。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在非生产环境评估其阻断规则、误报率、日志能力和故障模式，再决定是否接入智能体流量路径。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>自托管、模型无关的多智能体助手</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Pacific Slate 被介绍为可自托管且不绑定特定模型的多智能体 AI 助手。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>自托管和模型无关设计有助于控制数据边界并降低供应商锁定，但也会增加部署与运维责任。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>用一项低风险内部流程做概念验证，记录模型切换成本、数据流向、权限隔离和运维负担。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>低成本自建 AI 差异代码审查工具</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>作者称曾收到 100 万美元的 AI 代码审查报价，随后自行免费构建了差异审查工具。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>案例提示团队应先验证 AI 代码审查的核心价值和实际集成成本，再接受高额采购方案。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>选取历史 PR 建立小规模评测，比较缺陷发现率、误报率、审查耗时和运行成本。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>通过压缩代码上下文改善 AI 编码结果</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>CodeSlimmer 项目声称可让 AI 编码结果提升 30%。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>上下文筛选可能影响编码助手表现，但该提升数字需要在自身代码库和任务类型上复现。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>固定模型、提示词和测试任务，对比启用前后的正确率、令牌消耗与修改返工次数。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 5</span></div>
+  <h3>掌握 fork PR 与特权工作流的安全边界</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Qwen Code 通过桥接评审事件与具备凭证的工作流，为 fork PR 恢复实时自动修复。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这类架构同时涉及不可信贡献代码、事件触发、密钥权限和自动写入，是 AI 辅助 CI/CD 的关键安全知识。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>本周复习 GitHub Actions 的 fork 事件模型、最小权限和密钥使用规则，并设计一个不执行不可信代码的验证流程。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>学习智能体代理层的隔离与阻断机制</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Wardline 展示了通过 Go 代理自动阻断受损 AI 智能体的工程方向。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>随着智能体获得网络和工具调用能力，代理层策略、行为审计与自动隔离会成为通用工程能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>阅读项目实现，重点梳理流量识别、阻断条件、状态管理和审计记录四个部分。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>AI 正在重塑韩国的职业与社会生活</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>报道关注 AI 对韩国职业、约会与文化的影响，并提及 SK 海力士和三星。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI 影响已超出单一技术岗位，行业知识、AI 工具应用和组织适应能力可能成为更广泛岗位的差异化条件。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>更新个人项目材料，用可量化案例展示 AI 如何改善具体业务流程，而不只罗列模型或工具名称。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>律师使用 AI 生成虚假引文可能面临制裁</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>报道称，律师若因使用 AI 产生虚假法庭引文，可能面临包括承担费用在内的制裁。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>高责任行业会更看重可验证输出、来源追踪和人工复核能力，单纯生成内容的能力不足以满足岗位要求。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在作品集或工作流程中加入引文核验、来源留存和人工审批机制，并明确最终责任人。</p></div>
   </div>
 </article>
 </section>
