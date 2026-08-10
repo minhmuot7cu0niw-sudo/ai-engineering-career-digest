@@ -75,6 +75,18 @@ class Article:
 
 
 @dataclass(frozen=True)
+class GitHubProject:
+    full_name: str
+    url: str
+    description: str
+    stars: int
+    pushed_at: str
+    language: str = ""
+    topics: tuple[str, ...] = ()
+    source: str = "GitHub API"
+
+
+@dataclass(frozen=True)
 class ReportBundle:
     markdown_path: Path
     html_path: Path
@@ -190,6 +202,16 @@ def http_get(url: str, *, timeout: int = 25) -> bytes:
     request = urllib.request.Request(url, headers={"User-Agent": "ai-engineering-career-digest/1.0"})
     with urllib.request.urlopen(request, timeout=timeout) as response:
         return response.read()
+
+
+def http_get_json(url: str, *, headers: dict[str, str] | None = None, timeout: int = 25) -> dict[str, Any]:
+    request_headers = {"Accept": "application/vnd.github+json", **(headers or {})}
+    request = urllib.request.Request(url, headers=request_headers)
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        payload = json.loads(response.read().decode("utf-8"))
+    if not isinstance(payload, dict):
+        raise ValueError("GitHub response must be an object")
+    return payload
 
 
 def http_post_json(url: str, payload: dict[str, Any], headers: dict[str, str], *, timeout: int = 60) -> dict[str, Any]:
@@ -316,6 +338,121 @@ def fetch_github_releases() -> list[Article]:
     for repo in GITHUB_REPOS:
         articles.extend(fetch_feed(f"https://github.com/{repo}/releases.atom", f"GitHub Release: {repo}"))
     return articles
+
+
+def _github_project_from_item(item: dict[str, Any], source: str) -> GitHubProject | None:
+    full_name = str(item.get("full_name") or item.get("name") or "").strip()
+    url = str(item.get("html_url") or item.get("url") or "").strip()
+    if not full_name or not url:
+        return None
+    topics = item.get("topics") or []
+    return GitHubProject(
+        full_name=full_name,
+        url=url,
+        description=str(item.get("description") or "").strip(),
+        stars=int(item.get("stargazers_count") or item.get("stars") or 0),
+        pushed_at=str(item.get("pushed_at") or item.get("updated_at") or ""),
+        language=str(item.get("language") or ""),
+        topics=tuple(str(topic) for topic in topics if topic),
+        source=source,
+    )
+
+
+def fetch_github_projects(now: datetime, *, token: str = "") -> list[GitHubProject]:
+    cutoff = now.astimezone(timezone.utc) - timedelta(days=90)
+    headers = {"User-Agent": "ai-engineering-career-digest/1.0"}
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    pushed_since = cutoff.date().isoformat()
+    queries = (
+        f"topic:ai OR topic:agent OR topic:developer-tools pushed:>={pushed_since}",
+        f"codex OR mcp OR llm OR developer productivity pushed:>={pushed_since}",
+        f"topic:automation OR topic:knowledge-management pushed:>={pushed_since}",
+    )
+    projects: list[GitHubProject] = []
+    for query in queries:
+        try:
+            params = urllib.parse.urlencode({"q": query, "sort": "stars", "order": "desc", "per_page": 30})
+            payload = http_get_json(f"https://api.github.com/search/repositories?{params}", headers=headers)
+            for item in payload.get("items", []):
+                if not isinstance(item, dict):
+                    continue
+                project = _github_project_from_item(item, "GitHub API")
+                if project and project.pushed_at and parse_datetime(project.pushed_at) >= cutoff:
+                    projects.append(project)
+        except (OSError, urllib.error.URLError, ValueError, json.JSONDecodeError) as exc:
+            LOGGER.warning("GitHub API source failed (%s)", exc)
+    return dedupe_github_projects(projects)
+
+
+def fetch_github_trending(*, token: str = "") -> list[GitHubProject]:
+    try:
+        payload = http_get("https://github.com/trending?since=weekly").decode("utf-8", "ignore")
+    except (OSError, urllib.error.URLError) as exc:
+        LOGGER.warning("GitHub Trending source failed (%s)", exc)
+        return []
+    projects: list[GitHubProject] = []
+    headers = {"User-Agent": "ai-engineering-career-digest/1.0"}
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    for match in re.finditer(r"<article[^>]+Box-row[\s\S]*?</article>", payload, re.IGNORECASE):
+        block = match.group(0)
+        repo_match = re.search(r"href=\"/([^\"]+/[^\"]+)\"", block)
+        stars_match = re.search(r"([\d,]+)\s+stars", block, re.IGNORECASE)
+        if not repo_match:
+            continue
+        full_name = html.unescape(repo_match.group(1)).strip()
+        description = re.sub(r"<[^>]+>", " ", block)
+        description = re.sub(r"\s+", " ", html.unescape(description)).strip()[:400]
+        try:
+            detail = http_get_json(f"https://api.github.com/repos/{full_name}", headers=headers)
+            project = _github_project_from_item(detail, "GitHub Trending")
+            if project:
+                projects.append(project)
+                continue
+        except (OSError, urllib.error.URLError, ValueError, json.JSONDecodeError) as exc:
+            LOGGER.warning("GitHub Trending detail failed for %s (%s)", full_name, exc)
+        projects.append(GitHubProject(full_name, f"https://github.com/{full_name}", description, int((stars_match.group(1) if stars_match else "0").replace(",", "")), "", source="GitHub Trending"))
+    return dedupe_github_projects(projects)
+
+
+def dedupe_github_projects(projects: Iterable[GitHubProject]) -> list[GitHubProject]:
+    seen: set[str] = set()
+    result: list[GitHubProject] = []
+    for project in projects:
+        key = project.full_name.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        result.append(project)
+    return result
+
+
+def build_project_prompt(projects: list[GitHubProject]) -> str:
+    candidates = [asdict(project) for project in projects[:50]]
+    return f"""You are editing a weekly GitHub project radar for one user. Select exactly 3 projects from the candidates.
+The user wants practical value, not only AI: Codex usage, AI coding, developer productivity, personal workflow, AI engineering learning, career portfolio, and useful non-AI tools are all valid.
+Hard rules: recent activity within 90 days is required for API candidates; do not invent activity, stars, features, or fit. Prefer maintained, runnable projects. A lower-star project is allowed only when fit is unusually high.
+For each selected project write Chinese, substantive but concise fields: title, url, source, summary (what it is and problem solved), why (specific fit for this user), action (first step this week), maturity (maintenance and practical risk), importance (1-5).
+Return strict JSON only: {{"overview":"...","sections":[{{"name":"本周最值得试","items":[{{"title":"","url":"","source":"","summary":"","why":"","action":"","maturity":"","importance":5}}]}}],"degraded":false}}
+CANDIDATES:
+{json.dumps(candidates, ensure_ascii=False)}"""
+
+
+def build_project_report(projects: list[GitHubProject], *, base_url: str, api_key: str, model: str) -> dict[str, Any]:
+    if not projects:
+        return {"overview": "本周没有获得可验证的 GitHub 候选项目。", "sections": [{"name": "本周最值得试", "items": []}], "degraded": True}
+    try:
+        raw = call_responses(base_url, api_key, model, build_project_prompt(projects)) if api_key else ""
+        parsed = parse_model_json(raw) if raw else {}
+        sections = parsed.get("sections")
+        if not isinstance(sections, list):
+            raise ValueError("project report missing sections")
+        return {"overview": str(parsed.get("overview", "")), "sections": sections, "degraded": False}
+    except (OSError, urllib.error.URLError, ValueError, json.JSONDecodeError) as exc:
+        LOGGER.warning("project model unavailable; using verified fallback (%s)", exc)
+        items = [{"title": p.full_name, "url": p.url, "source": p.source, "summary": p.description or "GitHub project", "why": "候选项目满足近期活跃条件，需结合你的工作流进一步评估。", "action": "先阅读 README 并运行最小示例。", "maturity": f"{p.stars:,} stars；来源：{p.source}", "importance": 3} for p in projects[:3]]
+        return {"overview": "模型不可用；以下仅列出已验证的 GitHub 候选，适配度需要人工复核。", "sections": [{"name": "本周最值得试", "items": items}], "degraded": True}
 
 
 def collect_articles() -> list[Article]:
@@ -744,11 +881,18 @@ def write_report(
 def run(mode: str) -> ReportBundle:
     root = Path(__file__).resolve().parent
     now = datetime.now(timezone.utc)
-    hours = 24 * 7 if mode == "weekly" else 48
-    articles = filter_articles(collect_articles(), now=now, hours=hours, keywords=KEYWORDS)
     base_url = os.getenv("LLM_BASE_URL") or DEFAULT_BASE_URL
     model = os.getenv("LLM_MODEL") or DEFAULT_MODEL
-    report = build_report(articles, mode=mode, base_url=base_url, api_key=os.getenv("LLM_API_KEY", ""), model=model)
+    api_key = os.getenv("LLM_API_KEY", "")
+    if mode == "weekly":
+        github_token = os.getenv("GITHUB_TOKEN", "")
+        projects = dedupe_github_projects(fetch_github_projects(now, token=github_token) + fetch_github_trending(token=github_token))
+        cutoff = now.astimezone(timezone.utc) - timedelta(days=90)
+        projects = [project for project in projects if project.pushed_at and parse_datetime(project.pushed_at) >= cutoff]
+        report = build_project_report(projects, base_url=base_url, api_key=api_key, model=model)
+    else:
+        articles = filter_articles(collect_articles(), now=now, hours=48, keywords=KEYWORDS)
+        report = build_report(articles, mode=mode, base_url=base_url, api_key=api_key, model=model)
     pages_base_url = os.getenv("PAGES_BASE_URL", "https://example.github.io/ai-engineering-career-digest")
     bundle = write_report(report, root=root, now=now, mode=mode, pages_base_url=pages_base_url)
     render_report_png(bundle.html_path, bundle.png_path)

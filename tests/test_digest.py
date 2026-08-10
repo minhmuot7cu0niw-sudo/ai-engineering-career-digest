@@ -8,7 +8,10 @@ import xml.etree.ElementTree as ET
 
 from digest import (
     Article,
+    GitHubProject,
     build_report,
+    build_project_report,
+    dedupe_github_projects,
     dedupe_articles,
     extract_response_text,
     filter_articles,
@@ -21,6 +24,19 @@ from digest import (
 
 
 class DigestTests(unittest.TestCase):
+    def test_github_projects_dedupe_by_repository(self):
+        projects = [
+            GitHubProject("owner/tool", "https://github.com/owner/tool", "tool", 9000, "2026-08-01T00:00:00Z"),
+            GitHubProject("OWNER/TOOL", "https://github.com/OWNER/TOOL", "duplicate", 1, "", source="GitHub Trending"),
+        ]
+        self.assertEqual(len(dedupe_github_projects(projects)), 1)
+
+    def test_project_report_without_key_keeps_verified_candidates(self):
+        project = GitHubProject("owner/tool", "https://github.com/owner/tool", "A useful tool", 6000, "2026-08-01T00:00:00Z")
+        report = build_project_report([project], base_url="https://example.com/v1", api_key="", model="test")
+        self.assertTrue(report["degraded"])
+        self.assertEqual(report["sections"][0]["items"][0]["url"], project.url)
+
     def test_dedupe_articles_normalizes_tracking_query(self):
         articles = [
             Article("A", "https://example.com/post?utm_source=x", "src", "2026-08-04T00:00:00+00:00", ""),

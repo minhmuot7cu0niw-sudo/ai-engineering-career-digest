@@ -20,6 +20,7 @@
 | `LLM_BASE_URL` | `https://api.aijws.com/v1` |
 | `LLM_API_KEY` | 你的中转 API Key |
 | `LLM_MODEL` | `gpt-5.6-sol` |
+| `GITHUB_TOKEN` | 可选；Actions 自动提供，用于提高 GitHub API 限额 |
 | `FEISHU_WEBHOOK_URL` | 飞书自定义机器人 Webhook |
 | `FEISHU_SECRET` | 飞书机器人签名密钥 |
 | `FEISHU_APP_ID` | 飞书自建应用 App ID |

@@ -1,4 +1,4 @@
-name: Weekly Career Radar
+name: Weekly GitHub Project Radar
 
 on:
   schedule:
@@ -36,12 +36,13 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Generate weekly career radar
+      - name: Generate weekly GitHub project radar
         run: python digest.py --mode weekly
         env:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          GITHUB_TOKEN: ${{ github.token }}
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
           FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
@@ -58,7 +59,7 @@ jobs:
             echo "No report changes to commit"
             exit 0
           fi
-          git commit -m "chore: publish weekly career radar"
+          git commit -m "chore: publish weekly GitHub project radar"
           git push
 
       - name: Configure Pages
