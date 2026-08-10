@@ -428,13 +428,44 @@ def dedupe_github_projects(projects: Iterable[GitHubProject]) -> list[GitHubProj
     return result
 
 
+PROJECT_SCOUT_SECTIONS = ("本周值得安装", "学习与作品集", "值得观察")
+
+
+def load_previous_project_urls(root: Path) -> set[str]:
+    """Return projects already used in an earlier personal scout report."""
+    urls: set[str] = set()
+    paths = list((root / "docs" / "weekly-data").glob("*.json"))
+    paths.extend((root / "docs" / "data").glob("*.json"))
+    for path in paths:
+        try:
+            report = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError, json.JSONDecodeError):
+            continue
+        sections = report.get("sections", []) if isinstance(report, dict) else []
+        is_scout = report.get("report_type") == "project_scout"
+        if not is_scout:
+            is_scout = any(
+                isinstance(item, dict) and item.get("maturity")
+                for section in sections if isinstance(section, dict)
+                for item in section.get("items", []) if isinstance(item, dict)
+            )
+        if not is_scout:
+            continue
+        for section in sections:
+            for item in section.get("items", []) if isinstance(section, dict) else []:
+                if isinstance(item, dict) and item.get("url"):
+                    urls.add(canonical_url(str(item["url"])))
+    return urls
+
+
 def build_project_prompt(projects: list[GitHubProject]) -> str:
     candidates = [asdict(project) for project in projects[:50]]
-    return f"""You are editing a weekly GitHub project radar for one user. Select exactly 3 projects from the candidates.
-The user wants practical value, not only AI: Codex usage, AI coding, developer productivity, personal workflow, AI engineering learning, career portfolio, and useful non-AI tools are all valid.
-Hard rules: recent activity within 90 days is required for API candidates; do not invent activity, stars, features, or fit. Prefer maintained, runnable projects. A lower-star project is allowed only when fit is unusually high.
-For each selected project write Chinese, substantive but concise fields: title, url, source, summary (what it is and problem solved), why (specific fit for this user), action (first step this week), maturity (maintenance and practical risk), importance (1-5).
-Return strict JSON only: {{"overview":"...","sections":[{{"name":"本周最值得试","items":[{{"title":"","url":"","source":"","summary":"","why":"","action":"","maturity":"","importance":5}}]}}],"degraded":false}}
+    return f"""You are editing a personal tools and projects scouting weekly report for one user. Select at most 3 projects, never fill a slot with a weak recommendation.
+This is not a GitHub popularity chart. The user wants practical value: better Codex usage, AI coding, developer productivity, personal workflow, AI engineering learning, career portfolio, and useful non-AI tools are all valid.
+Use at most one project in each section: 本周值得安装, 学习与作品集, 值得观察. Omit a section when no candidate honestly qualifies.
+Hard rules: recent activity within 90 days is required; do not invent activity, stars, features, or fit. Prefer maintained, runnable projects. A lower-star project is allowed only when fit is unusually high.
+For each selected project write Chinese, substantive but concise fields: title, url, source, summary (what it is and problem solved), why (specific fit and how it improves on the user's likely current method), action (whether to try now and the first step this week), maturity (maintenance, usability and practical risk), importance (1-5).
+Return strict JSON only: {{"overview":"...","sections":[{{"name":"本周值得安装","items":[{{"title":"","url":"","source":"","summary":"","why":"","action":"","maturity":"","importance":5}}]}},{{"name":"学习与作品集","items":[]}},{{"name":"值得观察","items":[]}}],"degraded":false}}
 CANDIDATES:
 {json.dumps(candidates, ensure_ascii=False)}"""
 
@@ -448,11 +479,29 @@ def build_project_report(projects: list[GitHubProject], *, base_url: str, api_ke
         sections = parsed.get("sections")
         if not isinstance(sections, list):
             raise ValueError("project report missing sections")
-        return {"overview": str(parsed.get("overview", "")), "sections": sections, "degraded": False}
+        normalized: list[dict[str, Any]] = []
+        seen_urls: set[str] = set()
+        for name in PROJECT_SCOUT_SECTIONS:
+            section = next((value for value in sections if isinstance(value, dict) and value.get("name") == name), None)
+            items = section.get("items", []) if section else []
+            item = next((value for value in items if isinstance(value, dict) and value.get("url")), None)
+            if not item:
+                continue
+            url = canonical_url(str(item["url"]))
+            if url in seen_urls:
+                continue
+            seen_urls.add(url)
+            normalized.append({"name": name, "items": [item]})
+        if not normalized:
+            raise ValueError("project report contains no usable recommendation")
+        return {"overview": str(parsed.get("overview", "")), "sections": normalized, "degraded": False, "report_type": "project_scout"}
     except (OSError, urllib.error.URLError, ValueError, json.JSONDecodeError) as exc:
         LOGGER.warning("project model unavailable; using verified fallback (%s)", exc)
-        items = [{"title": p.full_name, "url": p.url, "source": p.source, "summary": p.description or "GitHub project", "why": "候选项目满足近期活跃条件，需结合你的工作流进一步评估。", "action": "先阅读 README 并运行最小示例。", "maturity": f"{p.stars:,} stars；来源：{p.source}", "importance": 3} for p in projects[:3]]
-        return {"overview": "模型不可用；以下仅列出已验证的 GitHub 候选，适配度需要人工复核。", "sections": [{"name": "本周最值得试", "items": items}], "degraded": True}
+        sections = []
+        for name, project in zip(PROJECT_SCOUT_SECTIONS, projects[:3]):
+            item = {"title": project.full_name, "url": project.url, "source": project.source, "summary": project.description or "GitHub project", "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。", "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。", "maturity": f"{project.stars:,} stars；来源：{project.source}", "importance": 3}
+            sections.append({"name": name, "items": [item]})
+        return {"overview": "模型不可用；以下仅列出已验证的候选，个性化适配度需要人工复核。", "sections": sections, "degraded": True, "report_type": "project_scout"}
 
 
 def collect_articles() -> list[Article]:
@@ -575,6 +624,7 @@ def render_markdown(report: dict[str, Any], *, title: str, generated_at: str, mo
                     f"- 摘要：{item.get('summary', '')}",
                     f"- 为什么重要：{item.get('why', '')}",
                     f"- 下一步：{item.get('action', '')}",
+                    f"- 成熟度与风险：{item.get('maturity', '')}" if item.get("maturity") else "",
                     "",
                 ]
             )
@@ -633,6 +683,9 @@ def render_editorial_html(report: dict[str, Any], *, title: str, generated_at: s
             summary = esc(item.get("summary"), "暂无摘要。")
             why = esc(item.get("why"), "暂未给出重要性判断。")
             action = esc(item.get("action"), "暂未给出下一步动作。")
+            maturity = esc(item.get("maturity"))
+            if maturity:
+                action = f"{action} 成熟度与风险：{maturity}"
             importance = esc(item.get("importance"), "-")
             items_html.append(
                 f'''<article class="brief-item">
@@ -840,35 +893,43 @@ def notify_feishu(
 
 def report_page_url(pages_base_url: str, report_path: Path, *, cache_buster: int) -> str:
     base_url = pages_base_url.rstrip("/")
-    return f"{base_url}/daily/{report_path.stem}.html?v={cache_buster}"
+    archive_name = report_path.parent.name
+    if archive_name in {"", "."}:
+        archive_name = "daily"
+    return f"{base_url}/{archive_name}/{report_path.stem}.html?v={cache_buster}"
 
 
 def write_report(
     report: dict[str, Any], *, root: Path, now: datetime, mode: str, pages_base_url: str
 ) -> ReportBundle:
     docs = root / "docs"
-    daily = docs / "daily"
-    data_dir = docs / "data"
-    daily.mkdir(parents=True, exist_ok=True)
+    archive_dir = docs / ("weekly" if mode == "weekly" else "daily")
+    data_dir = docs / ("weekly-data" if mode == "weekly" else "data")
+    archive_dir.mkdir(parents=True, exist_ok=True)
     data_dir.mkdir(parents=True, exist_ok=True)
     date_text = now.astimezone(LOCAL_ZONE).date().isoformat()
-    title = f"AI 工程与职业速报 · {date_text}"
+    title = f"个人工具与项目侦察周报 · {date_text}" if mode == "weekly" else f"AI 工程与职业速报 · {date_text}"
     generated_at = now.astimezone(LOCAL_ZONE).strftime("%Y-%m-%d %H:%M:%S CST")
     markdown = render_markdown(report, title=title, generated_at=generated_at, mode=mode)
-    markdown_path = daily / f"{date_text}.md"
-    html_path = daily / f"{date_text}.html"
+    markdown_path = archive_dir / f"{date_text}.md"
+    html_path = archive_dir / f"{date_text}.html"
     json_path = data_dir / f"{date_text}.json"
-    png_path = daily / f"{date_text}.png"
+    png_path = archive_dir / f"{date_text}.png"
     markdown_path.write_text(markdown, encoding="utf-8")
     html_path.write_text(
         render_editorial_html(report, title=title, generated_at=generated_at, mode=mode),
         encoding="utf-8",
     )
     json_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
-    items = report_items(report)
-    feed = render_rss(items, title="AI 工程与职业速报", link=pages_base_url)
-    (docs / "feed.xml").write_text(feed, encoding="utf-8")
-    index = f"""<!doctype html><html lang=\"zh-CN\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>AI 工程与职业速报</title><style>body{{max-width:760px;margin:40px auto;padding:0 20px;font:16px/1.7 system-ui}}a{{color:#0b57d0}}</style></head><body><h1>AI 工程与职业速报</h1><p>面向 AI 工程学习与职业判断的个人速报。</p><p><a href=\"feed.xml\">订阅 RSS</a></p><h2>最新一期</h2><p><a href=\"daily/{date_text}.html\">HTML 归档</a> · <a href=\"daily/{date_text}.png\">PNG 长图</a></p></body></html>"""
+    if mode == "daily":
+        items = report_items(report)
+        feed = render_rss(items, title="AI 工程与职业速报", link=pages_base_url)
+        (docs / "feed.xml").write_text(feed, encoding="utf-8")
+    latest_daily = sorted((docs / "daily").glob("*.html"))
+    latest_weekly = sorted((docs / "weekly").glob("*.html"))
+    daily_link = f'<p><a href="daily/{latest_daily[-1].name}">最新日报 HTML</a> · <a href="daily/{latest_daily[-1].stem}.png">PNG 长图</a></p>' if latest_daily else ""
+    weekly_link = f'<p><a href="weekly/{latest_weekly[-1].name}">最新个人侦察周报 HTML</a> · <a href="weekly/{latest_weekly[-1].stem}.png">PNG 长图</a></p>' if latest_weekly else ""
+    index = f"""<!doctype html><html lang=\"zh-CN\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>AI 工程与职业速报</title><style>body{{max-width:760px;margin:40px auto;padding:0 20px;font:16px/1.7 system-ui}}a{{color:#0b57d0}}</style></head><body><h1>AI 工程与职业速报</h1><p>面向 AI 工程学习、职业判断和个人工具发现的专属速报。</p><p><a href=\"feed.xml\">订阅日报 RSS</a></p><h2>最新归档</h2>{daily_link}{weekly_link}</body></html>"""
     (docs / "index.html").write_text(index, encoding="utf-8")
     return ReportBundle(
         markdown_path=markdown_path,
@@ -889,6 +950,8 @@ def run(mode: str) -> ReportBundle:
         projects = dedupe_github_projects(fetch_github_projects(now, token=github_token) + fetch_github_trending(token=github_token))
         cutoff = now.astimezone(timezone.utc) - timedelta(days=90)
         projects = [project for project in projects if project.pushed_at and parse_datetime(project.pushed_at) >= cutoff]
+        previous_urls = load_previous_project_urls(root)
+        projects = [project for project in projects if canonical_url(project.url) not in previous_urls]
         report = build_project_report(projects, base_url=base_url, api_key=api_key, model=model)
     else:
         articles = filter_articles(collect_articles(), now=now, hours=48, keywords=KEYWORDS)

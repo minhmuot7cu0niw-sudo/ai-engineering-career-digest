@@ -1,4 +1,4 @@
-name: Weekly GitHub Project Radar
+name: Personal Tools and Projects Scout
 
 on:
   schedule:
@@ -36,7 +36,7 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Generate weekly GitHub project radar
+      - name: Generate personal tools and projects scout
         run: python digest.py --mode weekly
         env:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
@@ -59,7 +59,7 @@ jobs:
             echo "No report changes to commit"
             exit 0
           fi
-          git commit -m "chore: publish weekly GitHub project radar"
+          git commit -m "chore: publish personal project scout"
           git push
 
       - name: Configure Pages

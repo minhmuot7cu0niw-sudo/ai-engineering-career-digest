@@ -12,6 +12,7 @@ from digest import (
     build_report,
     build_project_report,
     dedupe_github_projects,
+    load_previous_project_urls,
     dedupe_articles,
     extract_response_text,
     filter_articles,
@@ -36,6 +37,15 @@ class DigestTests(unittest.TestCase):
         report = build_project_report([project], base_url="https://example.com/v1", api_key="", model="test")
         self.assertTrue(report["degraded"])
         self.assertEqual(report["sections"][0]["items"][0]["url"], project.url)
+
+    def test_load_previous_project_urls_only_reads_scout_reports(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            data = root / "docs" / "data"
+            data.mkdir(parents=True)
+            (data / "daily.json").write_text(json.dumps({"sections": [{"items": [{"url": "https://github.com/daily/release"}]}]}), encoding="utf-8")
+            (data / "weekly.json").write_text(json.dumps({"sections": [{"items": [{"url": "https://github.com/scout/tool", "maturity": "active"}]}]}), encoding="utf-8")
+            self.assertEqual(load_previous_project_urls(root), {"https://github.com/scout/tool"})
 
     def test_dedupe_articles_normalizes_tracking_query(self):
         articles = [
@@ -293,6 +303,15 @@ class DigestTests(unittest.TestCase):
             self.assertIn("daily/2026-08-05.html", index_body)
             self.assertIn("daily/2026-08-05.png", index_body)
             ET.fromstring((Path(temp_dir) / "docs" / "feed.xml").read_text(encoding="utf-8"))
+
+    def test_weekly_report_uses_independent_archive(self):
+        report = {"overview": "Weekly", "sections": [], "degraded": False, "report_type": "project_scout"}
+        now = datetime(2026, 8, 10, 0, 0, tzinfo=timezone.utc)
+        with tempfile.TemporaryDirectory() as temp_dir:
+            bundle = write_report(report, root=Path(temp_dir), now=now, mode="weekly", pages_base_url="https://example.github.io/digest")
+            self.assertEqual(bundle.html_path.parent.name, "weekly")
+            self.assertEqual(bundle.json_path.parent.name, "weekly-data")
+            self.assertFalse((Path(temp_dir) / "docs" / "feed.xml").exists())
 
 
 if __name__ == "__main__":

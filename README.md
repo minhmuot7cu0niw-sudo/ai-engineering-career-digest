@@ -21,6 +21,10 @@
 | `LLM_API_KEY` | 你的中转 API Key |
 | `LLM_MODEL` | `gpt-5.6-sol` |
 | `GITHUB_TOKEN` | 可选；Actions 自动提供，用于提高 GitHub API 限额 |
+
+## 个人工具与项目侦察周报
+
+周日推送不做 GitHub 热门榜复刻，而是从 GitHub API 与 Trending 候选中挑选最多 3 个真正适合当前用户的项目：一个值得安装的工具、一个适合学习或作品集的项目、一个值得继续观察的新方向。没有合格候选时允许少推；已推荐项目会被排除，避免短期重复。
 | `FEISHU_WEBHOOK_URL` | 飞书自定义机器人 Webhook |
 | `FEISHU_SECRET` | 飞书机器人签名密钥 |
 | `FEISHU_APP_ID` | 飞书自建应用 App ID |
