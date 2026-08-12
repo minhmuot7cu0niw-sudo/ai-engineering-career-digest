@@ -1,0 +1,125 @@
+{
+  "overview": "今日信号集中在三个方向：AI 代理正在进入可观测、可管理的工程化阶段；AI 生成内容的真实性与审查机制面临挑战；工程师的竞争力越来越依赖系统判断、验证能力和复杂工具协作，而不只是编码速度。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Numbat：为 AI 代理提供端点活动可见性",
+          "url": "https://github.com/perplexityai/numbat",
+          "source": "Hacker News",
+          "summary": "Perplexity 发布 Numbat，用于查看 AI 代理在端点上的活动。",
+          "why": "代理能够执行更多真实操作后，活动记录、行为审计和安全排查会成为部署基础设施的一部分。",
+          "action": "评估现有代理系统是否能记录端点访问、工具调用和会话行为；对生产代理补充可追踪性需求。",
+          "importance": 5
+        },
+        {
+          "title": "声称“100% 人工撰写”的医学研究被发现完全由 AI 完成",
+          "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
+          "source": "Hacker News",
+          "summary": "一家提供“完全人工撰写、从不使用 AI”医学研究服务的公司，其同行评审流程被报道为完全使用 AI。",
+          "why": "这暴露了 AI 内容声明、同行评审和研究服务中的真实性与责任边界问题。",
+          "action": "对研究、合规和高风险内容建立作者身份声明、来源核验、人工复核与审计记录。",
+          "importance": 5
+        },
+        {
+          "title": "AI 编程工具与代理平台持续快速迭代",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.228",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "Claude Code v2.1.228 修复了交互会话停止重绘但进程仍运行的问题，并修复了 Windows 环境下 Git 查找问题；Qwen Code、LangChain 和 LangGraph 也发布了新版本。",
+          "why": "代理开发工具的稳定性、跨平台兼容性和框架版本变化会直接影响开发流程与生产维护。",
+          "action": "在升级前查看变更说明，固定关键依赖版本，并为交互会话、Windows 环境和代理框架增加回归验证。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "为 Vast.ai spot GPU 构建故障转移守护进程",
+          "url": "https://github.com/enplabs/spotwarp",
+          "source": "Hacker News",
+          "summary": "Spotwarp 用于 Vast.ai spot GPU 的故障转移，作者在测试中发现了 5 个真实 bug。",
+          "why": "低价、可抢占 GPU 的成本优势伴随实例中断和状态恢复风险，可靠性需要通过故障演练验证。",
+          "action": "对 GPU 任务设计中断处理、状态保存、重试和恢复流程，并用故障注入测试验证而不是只依赖正常路径。",
+          "importance": 5
+        },
+        {
+          "title": "闲置 GPU 正成为资源管理问题",
+          "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+          "source": "Hacker News",
+          "summary": "文章讨论 GPU 闲置造成的资源浪费，以及 GPU 管理的重要性。",
+          "why": "模型推理和训练成本不仅由硬件价格决定，利用率、调度和空闲时间也会显著影响整体成本。",
+          "action": "为 GPU 资源建立利用率、空闲时长、任务排队和成本指标，并据此调整调度策略。",
+          "importance": 4
+        },
+        {
+          "title": "AI 可能表现出更高级的迎合行为",
+          "url": "https://www.seangoedecke.com/advanced-ai-sycophancy/",
+          "source": "Hacker News",
+          "summary": "文章分析 AI sycophancy，即模型倾向于迎合用户或认同用户判断的行为。",
+          "why": "迎合会削弱代码审查、决策辅助和研究问答中的纠错能力，使“看起来合理”的结果更难被发现问题。",
+          "action": "在提示词和评测中加入反对意见、事实核验、边界条件及不确定性表达测试。",
+          "importance": 4
+        },
+        {
+          "title": "Qwen Code 增加可配置的推理强度",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.10",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "Qwen Code v0.21.10 增加 ACP 支持，可通过会话配置将推理强度从 Default 调整到 Max。",
+          "why": "不同任务对响应速度、成本和推理深度的要求不同，会话级配置有助于进行任务分级。",
+          "action": "将任务按简单修改、复杂分析和高风险变更分级，分别测试不同推理强度的质量、延迟和成本。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "学习 AI 代理的可观测性与端点安全",
+          "url": "https://github.com/perplexityai/numbat",
+          "source": "Hacker News",
+          "summary": "Numbat 聚焦 AI 代理活动的端点可见性。",
+          "why": "代理工程不只是提示词和模型调用，还包括权限、活动记录、异常分析和运维响应。",
+          "action": "优先掌握代理调用链、端点审计、工具权限、会话追踪和异常告警的基本设计。",
+          "importance": 5
+        },
+        {
+          "title": "理解 AI 迎合行为及其评测方法",
+          "url": "https://www.seangoedecke.com/advanced-ai-sycophancy/",
+          "source": "Hacker News",
+          "summary": "文章讨论 AI 系统更复杂的迎合行为。",
+          "why": "识别模型何时在迎合用户、何时提供独立判断，是使用 AI 做代码审查和决策支持的基础能力。",
+          "action": "设计一组要求模型质疑前提、指出风险和给出反例的测试题，并比较不同模型或提示策略的结果。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "AI 时代，工程师的突出特质受到重新关注",
+          "url": "https://www.businessinsider.com/coinbase-cto-shares-traits-standout-engineers-have-ai-era-2026-8",
+          "source": "Hacker News",
+          "summary": "Coinbase CTO 分享 AI 时代优秀工程师所具备的特质。",
+          "why": "当代码生成越来越普遍，能定义问题、判断取舍、验证结果并推动落地的能力更容易形成差异。",
+          "action": "在项目经历中量化问题定义、系统决策、质量验证和业务结果，避免只展示生成了多少代码。",
+          "importance": 4
+        },
+        {
+          "title": "AI 编程代理开始进入独立桌面应用场景",
+          "url": "https://xirp.spotify.com/",
+          "source": "Hacker News",
+          "summary": "Spotify 推出 Xirp，一款用于运行 AI 编程代理的 macOS 应用。",
+          "why": "编程代理正在从单一命令行工具扩展到更完整的工作环境，代理编排、权限控制和开发流程整合可能成为岗位能力的一部分。",
+          "action": "关注代理运行环境、任务分解、代码审查、权限边界和团队协作流程，准备一个可展示的代理辅助工程项目。",
+          "importance": 4
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}
