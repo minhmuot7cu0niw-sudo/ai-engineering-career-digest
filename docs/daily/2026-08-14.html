@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-08-14</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-08-14</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-08-14 10:09:33 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日最值得关注的是编码代理开始强化并行执行与上下文继承，本地推理工具继续调整默认行为和性能，AI 能力边界带来的生物安全与治理压力也在上升。个人 AI 工程师应优先验证代理升级对现有工作流的影响，并补齐评测、审计和安全边界设计能力。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 5</span></div>
+  <h3>Claude Code v2.1.232 默认启用子代理分叉</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>subagent_type 为 fork 的子代理会继承完整对话和提示缓存；交互会话中的非队友代理默认在后台运行。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这会直接改变多代理任务的上下文传递、并发行为和资源消耗，也可能影响依赖旧执行顺序的自动化流程。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>升级前后各运行一次现有代理任务，重点检查上下文继承是否泄露无关信息、后台任务是否可观测，以及并发成本和结果一致性。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">GitHub Release: ollama/ollama</span><span class="item-importance">重要度 4</span></div>
+  <h3>Ollama v0.32.10 调整重复惩罚默认值</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>未设置 repeat_penalty 的模型现在默认使用 1.0 而非 1.1，以匹配其他引擎并加快推测解码；该版本还改进了 NVFP4 MLX 模型的预填充性能。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>默认采样行为变化可能让相同提示产生不同输出；性能收益与文本重复风险都需要按模型验证。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>固定一组生成质量与延迟基准，对比升级前后的重复率、首 token 时间和吞吐量；需要旧行为的模型显式设置 repeat_penalty。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 5</span></div>
+  <h3>AI 设计功能性病毒引发生物安全关注</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>IEEE Spectrum 条目称 AI 已能够设计功能性病毒。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这表明高风险生命科学应用需要比普通生成式 AI 更严格的访问控制、审核和输出限制，相关团队的责任边界将受到更强审视。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>涉及生物序列或实验设计的项目应立即复核数据访问、模型权限、人工审批和日志留存机制，并避免把高风险操作交给无人监督代理。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>Agentrove：自托管编码代理编排工作区</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Agentrove 被描述为用于编排编码代理的自托管 AI 工作区。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>自托管可能提高代码、提示和执行日志的控制力，但同时把隔离、权限、升级和运维责任交给使用团队。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>先在非敏感仓库做小规模试用，验证代理隔离、密钥管理、任务追踪、失败恢复和审计日志，再决定是否接入生产代码。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>Muxxy：面向 AI 与 Tmux 的交互工具</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Muxxy 被介绍为类似 Slime、面向 AI 和 Tmux 的工具。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>终端会话与 AI 工具的结合可能减少多任务切换成本，适合长期运行编码代理或并行实验的工程工作流。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>用一个可回滚的开发任务评估其会话切换、命令可见性和异常恢复体验，并确认代理执行不会越过预期终端权限。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 3</span></div>
+  <h3>Qwen Code nightly 修复 Web Shell 会话目标保留问题</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该 nightly 版本修复了 Web Shell 中独立会话目标的保留问题。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>依赖独立会话目标的自动化可能因此减少错误路由，但 nightly 版本本身仍不适合未经验证直接用于生产。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在测试环境复现原会话场景并执行回归测试；只有目标保持、断线恢复和多会话隔离均通过后再考虑升级。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>事实与 AI 记忆之间的锚定层</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>GMR 被描述为连接事实与 AI 记忆的锚定层。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>长期运行的代理需要区分可验证事实、推断和过期记忆，否则错误信息可能在后续任务中被持续复用。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>评估该项目是否支持来源记录、更新策略和冲突处理，并用包含事实变更的测试集衡量记忆检索准确率。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>理解 AI 文本水印的工作方式</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该文章介绍 AI 文本水印的工作原理。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>水印涉及生成内容识别、平台治理和模型输出策略，是构建内容审核或溯源系统时需要理解的基础机制。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>重点学习水印的嵌入与检测流程，并整理误报、漏报、改写后鲁棒性和跨模型适用性等评估维度。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>通过模拟患者训练 AI 临床判断</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该条目讨论 AI 通过模拟患者练习临床判断。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>模拟环境展示了高风险领域如何在不直接作用于真实用户的情况下训练和评估代理决策，可迁移到金融、安全和运维等场景。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>学习如何设计情景任务、评分标准和失败案例，并为自己的代理项目建立一套模拟环境中的决策评测。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>数学研究人才进入 OpenAI 并关注 AI 安全</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>WSJ 条目称数学家 Jacob Tsimerman 在担忧 AI 的同时加入 OpenAI。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>单一案例不能证明整体招聘趋势，但它显示前沿 AI 机构仍在吸纳深厚理论研究背景，并把安全问题与核心研究人才联系起来。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>研究型求职者应强化数学推理、模型评测和安全研究作品；工程型求职者可补充把理论方法转化为可复现实验的能力。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>DeepMind 负责人曾提出 AI 监督机构方案</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>WSJ 条目称 DeepMind 的 Demis Hassabis 曾在组织调整前提出 AI 监督机构方案。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这释放出治理、监督和组织责任可能进一步进入企业 AI 落地流程的信号，相关岗位会更看重技术理解与风险治理的结合。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>准备求职或晋升材料时，除模型与系统能力外，加入权限控制、评测、审计、事件响应或合规协作的具体项目证据。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
