@@ -1,0 +1,125 @@
+{
+  "overview": "今日信号集中在 AI 编程工具的工作流扩展、安全边界与可观测性建设：文件协作、GitLab 集成和本地化运行能力持续增强；工程上应优先补齐默认拒绝、沙箱隔离、提示注入防护和端到端验证。职业准备则应从单纯调用模型转向可交付的 AI 自动化系统、工具链集成与安全工程能力。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Qwen Code v0.21.12 增加 Web Shell 工作区文件上传",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.12",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "Qwen Code v0.21.12 增加通过拖放或 @ 文件面板向 Web Shell composer 上传工作区文件的能力，并提供进度跟踪。",
+          "why": "AI 编程工具正在把文件管理和上下文准备直接纳入交互流程，降低了提交工作区内容时的操作成本。",
+          "action": "检查团队现有 Web Shell 或 AI 编程流程中的文件上传、权限和进度反馈体验，并为大文件、敏感文件和失败重试补充测试。",
+          "importance": 3
+        },
+        {
+          "title": "Claude Code v2.1.233 扩展 GitLab merge request 与身份转发能力",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "该版本为 --worktree 和 claude agents 视图增加 GitLab merge request URL 支持，MR 显示为 !N；同时增加可选的 forward_user_identity apps gateway 设置。",
+          "why": "AI 编程代理与代码托管平台及组织身份体系的连接进一步加深，工作流集成和权限设计的重要性上升。",
+          "action": "若团队使用 GitLab，验证 worktree、MR 展示和代理视图；启用身份转发前，先明确上游服务的身份映射、审计和最小权限规则。",
+          "importance": 3
+        },
+        {
+          "title": "本地 AI 运行与代理基础设施继续扩展",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.32.11",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "Ollama v0.32.11 增加通过 ollama launch dsh 启动 DeepSeek Harness，以及通过 ollama launch muse 启动 Meta Muse 的支持。相关条目还包括面向 AI 代理的安全系统 Talos 和本地运行 AI 的 Osaurus。",
+          "why": "模型运行工具开始聚合更多代理和应用入口，开发者需要同时理解模型调用、代理运行时和本地部署边界。",
+          "action": "选一个实际任务验证本地模型、代理 harness 和工具调用链的兼容性，并记录资源占用、权限边界和故障恢复方式。",
+          "importance": 2
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Qwen Code nightly 引入默认拒绝的 autofix footprint gate",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.11-nightly.20260815.c396fe3d12",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "该 nightly 版本的变更摘要提到 autofix 的 deny-by-default footprint gate，以及 positional window censuses。",
+          "why": "自动修复可能扩大修改范围；默认拒绝的 footprint gate 为变更范围控制提供了明确的安全边界。",
+          "action": "为自动修复增加修改范围门禁：默认拒绝超出允许范围的变更，并记录位置窗口和拒绝原因。",
+          "importance": 3
+        },
+        {
+          "title": "用标准库构建 AI 代理沙箱",
+          "url": "https://towardsdev.com/i-built-an-ai-agent-sandbox-from-the-go-standard-library-350ecac5d578?sk=f58cedafe6394788d87ecb3179f2ccbd",
+          "source": "Hacker News",
+          "summary": "该条目介绍了一个仅使用 Go 标准库实现的 AI agent sandbox。",
+          "why": "代理执行外部命令和访问资源时，隔离能力是控制风险的基础；标准库实现也便于审查依赖和运行边界。",
+          "action": "为代理任务设计最小权限沙箱，至少验证命令、文件系统和网络访问边界，并用恶意输入和越权操作做回归测试。",
+          "importance": 3
+        },
+        {
+          "title": "为 AI 代理建立原生可观测性",
+          "url": "https://weavescope.com/",
+          "source": "Hacker News",
+          "summary": "WeaveScope 是面向 AI agents 的 Elixir 原生 observability 工具。",
+          "why": "代理通常包含多步调用和工具执行，仅记录最终输出不足以定位失败、延迟和资源消耗。",
+          "action": "为代理链路记录每一步的输入输出摘要、工具调用、耗时、错误和成本指标；评估现有监控是否能重放一次失败任务。",
+          "importance": 3
+        },
+        {
+          "title": "把提示注入纳入安全测试",
+          "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+          "source": "Hacker News",
+          "summary": "条目报道了一起试图在法律文件中通过注入提示影响法院 AI 处理的事件，但未成功。",
+          "why": "外部提交内容可能被设计成影响模型行为，说明代理和文档处理系统需要把不可信文本与控制指令分离。",
+          "action": "对文档、工单和网页输入开展提示注入测试；限制模型根据外部文本执行高影响操作，并保留人工审批和审计记录。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "关注 AI 数据中心能源问题的系统性方法",
+          "url": "https://github.com/kikazamek999-eng/beyond-brute-force-scaling",
+          "source": "Hacker News",
+          "summary": "该项目提出了一个解决 AI 数据中心能源危机的框架。",
+          "why": "AI 系统的工程约束不仅是模型效果，还包括计算和能源消耗；理解这类框架有助于评估规模化部署的成本边界。",
+          "action": "阅读项目框架并把模型规模、推理频率、硬件利用率和能耗纳入一次实际系统的评估表。",
+          "importance": 2
+        },
+        {
+          "title": "研究 AI 生成文本的风格特征",
+          "url": "https://www.theatlantic.com/technology/2026/07/ai-chatbot-writing-tic-negative-parallelism/687892/",
+          "source": "Hacker News",
+          "summary": "文章讨论了 AI 写作中广为人知的一种写作习惯及其成因。",
+          "why": "生成文本的风格一致性会影响内容质量、编辑成本和读者对文本来源的判断。",
+          "action": "选取团队常用的 AI 输出样本，建立人工编辑检查项，重点观察重复句式、语气和结构是否影响交付质量。",
+          "importance": 1
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "可交付的 FastAPI AI 自动化套件具备产品化价值",
+          "url": "https://www.indiehackers.com/post/selling-my-production-ready-4-in-1-fastapi-ai-automation-suite-8-000-xUGCgKAjlrU9gcOIdp2Z",
+          "source": "Hacker News",
+          "summary": "条目展示了一个可生产使用的 4 合 1 FastAPI AI 自动化套件，并以 8000 美元出售。",
+          "why": "岗位和项目价值不只来自模型调用，还来自 API 服务、自动化流程和可交付产品的组合能力。",
+          "action": "准备一个包含 FastAPI 接口、认证、任务编排、日志、部署和文档的 AI 自动化项目，以可运行交付物证明能力。",
+          "importance": 2
+        },
+        {
+          "title": "AI 编程岗位需要覆盖完整工具链",
+          "url": "https://pub.towardsai.net/grok-4-6-x-cursor-elon-musk-just-bought-his-way-into-the-ai-coding-war-15a1292d4121",
+          "source": "Hacker News",
+          "summary": "文章讨论了围绕 Grok、Cursor 等产品构建的完整 AI coding 竞争策略，而非只比较模型基准。",
+          "why": "竞争焦点延伸到模型、编辑器、代理和开发流程的整体协同，工程岗位的技能组合也会随之扩大。",
+          "action": "把学习目标从单模型提示词扩展到代码代理评测、编辑器集成、工具调用、权限控制和端到端开发流程。",
+          "importance": 2
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}
