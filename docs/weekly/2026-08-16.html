@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>个人工具与项目侦察周报 · 2026-08-16</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>个人工具与项目侦察周报 · 2026-08-16</h1></div>
+      <div class="meta"><strong>周报版</strong>2026-08-16 10:21:27 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>本周优先把 AI 编码工作流的可复用规范与上下文成本控制落地；模型路由基础设施暂保持观察，等实际接入需求出现再评估。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>本周值得安装</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub API</span><span class="item-importance">重要度 5</span></div>
+  <h3>rtk</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>面向开发命令的 CLI 代理，项目称可将常见开发命令传入 LLM 的 token 消耗降低 60-90%；以单个 Rust 二进制形式提供，零依赖。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>适合高频让 Codex 阅读终端输出、测试日志和 Git 差异的工作流。相比直接把原始、冗长的命令输出交给模型，它针对上下文成本做了处理，有机会降低调用成本并让关键信息更集中。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>建议现在试用：在一个日常项目安装后，只挑测试失败或 Git diff 分析这类单一场景运行一周，并对照原始输出确认没有遗漏定位问题所需的信息。 成熟度与风险：近期有更新，单二进制和零依赖降低了试用门槛；但其 token 节省效果来自项目声明，应以你的真实命令、模型和排障准确率验证，避免因压缩丢失关键上下文。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>学习与作品集</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">GitHub Trending</span><span class="item-importance">重要度 5</span></div>
+  <h3>agent-skills</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>一组面向 AI 编码代理的生产级工程技能，明确覆盖 Codex、Claude Code 和 Cursor 等工具。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>可将当前依赖临场提示词的编码协作方式，转为可审阅、可版本管理、可迁移的工程约束与工作步骤。把其中适合自身项目的技能改造成仓库内规则，本身也是展示 AI 工程实践能力的作品集素材。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>建议本周开始：选一个正在维护的项目，先阅读并引入一个与代码审查、测试或调试最相关的技能；根据实际摩擦改写为项目专用版本，并用一次真实任务检验效果。 成熟度与风险：近期有更新，定位清晰且直接覆盖目标代理；风险在于通用技能未必匹配现有技术栈和团队约定，应该小范围采用并保留人工审查，而不是整包启用。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>值得观察</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">GitHub Trending</span><span class="item-importance">重要度 3</span></div>
+  <h3>Switchyard</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>为 LLM 应用在模型与提供商之间路由流量，同时保留 OpenAI 和 Anthropic 原生 API 兼容性，用于模型选择、基准测试及成本与性能优化。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>当 Codex 之外还需要把不同模型用于代码生成、评审、总结或批处理时，它可能提供统一的实验和切换层；相比在每个工具中手工改模型配置，更利于系统化比较质量、延迟和成本。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>暂不急于部署：本周记录现有 AI 编码任务中最耗费或最需要模型切换的一类任务，后续只有在确实需要多提供商路由或可重复基准测试时，再用一个非生产工作流验证兼容性。 成熟度与风险：近期有更新，但候选信息只表明其能力定位和 API 兼容目标，未足以证明生产可用性。路由层会引入鉴权、日志、隐私和故障链路，需要先在隔离环境评估。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
