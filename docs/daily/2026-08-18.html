@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-08-18</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-08-18</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-08-18 09:23:51 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日信号集中在两端：AI 生成内容的可识别性开始进入产品层面，编码智能体则继续向多会话管理、可验证交付和安全评测演进。对工程师而言，重点是把可追溯性、评测和代码质量检查纳入 agent 工作流，而不只关注模型能力。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 1</span></div>
+  <h3>Claude 将为 AI 生成文本和文件添加水印</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>条目称 Anthropic 的 Claude 将为 AI 生成的文本和文件添加水印；同日还有关于 AI 文本水印方案的后续讨论。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>内容来源识别正在从研究和政策讨论进入产品能力，企业使用生成内容时需要考虑标识、披露与下游处理兼容性。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>盘点团队中由模型生成并对外发布的文本和文件，预先确认是否需要保存生成来源、模型版本和人工审核记录。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 2</span></div>
+  <h3>Qwen Code 夜间版加入实时会话注册表与会话查看命令</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>发布说明提到新增 live-session registry，以及 qwen sessions ps 命令。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>编码 agent 从单次命令执行走向并发、持续会话协作时，会话可见性成为调度、排障和资源治理的基础能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>评估多 agent 或长任务流程时，为每个会话记录状态、所属项目、权限与可取消入口，并验证异常会话的清理机制。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 2</span></div>
+  <h3>Qwen Code 发布端到端基准验证结果</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>发布说明称完成从 Release 到 DSW Harbor、SWE-bench Verified（500）和 Terminal-Bench 2.0（89）的端到端验证。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>agent 工具的可信度越来越依赖可重复的任务级评测和发布链路验证，而非单一演示或主观体验。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>为内部编码 agent 建立最小评测集，至少覆盖真实修复任务、命令行任务、失败率、成本和人工接管次数，并在升级前后对比。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 2</span></div>
+  <h3>Claude Code v2.1.234 支持指定项目转录目录短名</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该版本新增可选环境变量 CLAUDE_CODE_PROJECT_DIR_NAME，供为每个会话分配独立配置目录的宿主指定较短的项目转录目录名；同时新增 selection:clear 键绑定动作。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>会话转录和配置目录会形成新的工程数据面，路径命名与隔离方式会影响容器化、多租户和调试环境的可维护性。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在 CI、远程开发或沙箱宿主中明确会话目录的项目命名规则，并检查转录文件的保留期限与访问权限。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 1</span></div>
+  <h3>用 guardrail benchmark 评测 agent 插件边界</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该项目自称是用于 AI agent guardrails 的基准测试，并称其发现了作者自身插件的问题。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>插件、工具调用和外部指令是 agent 风险暴露面；仅有提示词约束无法证明防护在实际攻击或误用条件下有效。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>把工具调用权限、敏感文件访问、命令执行和提示注入场景写成可自动运行的回归用例，作为插件发布门槛。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>对 agent 生成的 Go 代码运行 deadcode 检查</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章聚焦 AI 写入死代码，并介绍使用 Go 团队的 deadcode 工具进行检查。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>agent 可能完成表面需求但遗留未被调用的分支、兼容层或冗余实现，增加维护和安全审查成本。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>将 deadcode 与测试、静态分析一起接入 Go 项目的 PR 或合并后检查；对新增未引用导出符号建立人工审查规则。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>探索多智能体协同编码环境</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该 Show HN 项目将自身描述为供开发团队和 agent 使用的多人编码环境。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>多人和多 agent 共同修改代码时，任务分配、改动隔离、冲突处理和审核责任会成为实际交付瓶颈。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在引入协同 agent 前，先定义任务所有者、分支或工作区隔离、变更审核者和冲突升级流程。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>学习 AI 文本水印与检测的适用边界</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该文章介绍从零构建 AI 文本检测器；同日条目也讨论 AI 生成文本水印。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>检测器和水印都与来源判断有关，但它们对应的实现、可靠性和使用场景并不相同，不能把任一结果直接视为绝对证据。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>阅读该实现并用自有语料复现评测，分别记录误报和漏报；在产品流程中将检测结果设计为风险信号而非单独的自动裁决依据。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>学习递归语言模型 agent 的自我改进思路</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Prime Agent 将自身描述为一个 Self-Improving RLM Agent。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>自我改进型 agent 会把推理、记忆、评测与迭代连接起来，工程重点随之转向可控的反馈回路和退化监控。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>先拆解项目中的任务定义、评价信号和更新机制；在本地实验时设定固定基线、成本上限和回滚条件。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 1</span></div>
+  <h3>编码 agent 工程岗位的能力重心向运行治理和验证迁移</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Qwen Code 的发布材料同时呈现了端到端发布链路、SWE-bench Verified 和 Terminal-Bench 2.0 验证。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这表明仅会调用模型或搭建 demo 的能力不足以支撑生产交付；评测、CI/CD、沙箱、可观测性和故障处理更具区分度。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在作品集或简历中用可复现指标展示 agent 项目：任务集、成功率、成本、延迟、失败案例及改进过程。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>高风险推荐场景需要算法审计能力</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该论文题为“Whose doctor does the AI recommend? An algorithm audit of LLMs in physician”，聚焦 LLM 在医生推荐中的算法审计。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>医疗推荐等高影响场景会要求工程团队同时理解模型行为、数据偏差、评测设计和审计证据。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>希望进入 AI 应用或治理方向的工程师，应练习把模型输出按群体、地区或候选对象等维度做切片评测，并能清晰说明局限与处置流程。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
