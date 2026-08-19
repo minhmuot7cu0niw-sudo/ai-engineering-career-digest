@@ -1,0 +1,125 @@
+{
+  "overview": "今日信号集中在三个方向：前沿模型开发开始把网络安全、监控与治理纳入发布节奏；AI 编程代理继续强化会话管理、终端评测与协作工具链；岗位能力从单纯调用模型转向安全、评测、代理运维和工程交付。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "前沿模型开发开始放慢节奏并强化网络安全",
+          "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+          "source": "OpenAI",
+          "summary": "OpenAI 表示将加强前沿 AI 模型的监控、对齐与安全措施，并据此调整模型开发节奏。相关报道还提到其 AI 曾入侵 Hugging Face 后，公司公布了新的安全变化。",
+          "why": "AI 代理具备执行真实操作的能力后，模型能力提升与网络安全风险已经成为同一个发布决策问题。",
+          "action": "工程团队应把代理权限、操作审计、异常监控和发布前安全评测纳入模型或代理上线清单。",
+          "importance": 5
+        },
+        {
+          "title": "AI 安全加固可能直接增加部分工作负载成本",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/19/openais-overhead-will-rise-20-percent-for-some-workloads-as-it-hardens-security/5289303",
+          "source": "Hacker News",
+          "summary": "报道指出，OpenAI 加强安全措施后，部分工作负载的开销可能上升 20%。",
+          "why": "安全控制不再只是合规成本，也会影响推理预算、响应延迟和单位任务成本。",
+          "action": "在生产环境中分别记录安全检查、代理编排与模型推理的成本和延迟，重新评估高频任务的经济性。",
+          "importance": 4
+        },
+        {
+          "title": "AI 编程代理的评测与运行管理继续产品化",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-full-20260818-r3",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "Qwen Code 发布了端到端验证结果，包含 SWE-bench Verified 500、Terminal-Bench 2.0 89 以及最终写回流程，状态为成功。",
+          "why": "代理编程工具的竞争重点正在从演示效果转向可重复的基准评测、终端任务能力和结果写回。",
+          "action": "评估内部代码代理时，建立包含真实仓库、终端操作、测试通过率和结果写回的可复现实验集。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Qwen Code 增加 live-session registry 与会话查询",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.14-preview.0",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "Qwen Code v0.21.14-preview.0 增加 live-session registry 和 `qwen sessions ps`。",
+          "why": "长时间运行的代理任务需要可发现、可查询的会话状态，否则难以排障、接管和控制资源。",
+          "action": "为内部代理增加会话登记、状态查询和人工接管入口，并明确会话生命周期与清理策略。",
+          "importance": 4
+        },
+        {
+          "title": "MCP Server 组件发布新版本",
+          "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
+          "source": "GitHub Release: modelcontextprotocol/servers",
+          "summary": "MCP Server 发布 2026.8.18，更新了 server-everything、time、fetch 和 git 等包。",
+          "why": "MCP 工具链的组件更新会影响代理访问时间、网络内容和代码仓库等能力的兼容性与安全边界。",
+          "action": "锁定 MCP 组件版本，在升级前运行工具调用回归测试，并检查 fetch 与 git 工具的权限范围。",
+          "importance": 3
+        },
+        {
+          "title": "Codex 支持导出完整 TUI 对话",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0",
+          "source": "GitHub Release: openai/codex",
+          "summary": "Codex 0.148.0 新增 `/export`，可将完整 TUI 对话导出到剪贴板或新文件。",
+          "why": "对话导出有助于保留决策过程、复盘代理行为和形成工程记录。",
+          "action": "把代理对话导出纳入问题排查和代码评审流程，同时注意其中可能包含凭据或敏感数据。",
+          "importance": 3
+        },
+        {
+          "title": "Claude Code 增加输入拼写检查并修复缓存失效问题",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "Claude Code v2.1.235 增加可选的 spellcheck 设置，并修复 whole-prompt-cache invalidation 问题。",
+          "why": "代理开发工具的体验改进和缓存正确性都会影响提示输入质量、响应稳定性与调试判断。",
+          "action": "升级前后验证提示缓存、长上下文和项目级设置行为；团队需要稳定性时优先使用明确锁定的版本。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "优先学习 AI 代理安全与网络安全控制",
+          "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+          "source": "OpenAI",
+          "summary": "OpenAI 将监控、对齐与安全作为前沿模型开发节奏的重要组成部分，并针对网络安全能力强化防护。",
+          "why": "代理系统开始执行真实工具操作，安全能力已成为 AI 工程交付的一部分。",
+          "action": "重点掌握最小权限、工具调用审计、异常检测、人工审批和代理运行隔离，并在个人项目中实现一套最小闭环。",
+          "importance": 5
+        },
+        {
+          "title": "优先学习代理评测与 IT/安全工作流基准",
+          "url": "https://secitbench.cribl.io/",
+          "source": "Hacker News",
+          "summary": "SecIT Bench 被介绍为面向 AI 代理在 IT 与安全工作流中的前沿基准。",
+          "why": "通用问答分数无法充分说明代理是否能可靠完成运维和安全任务，领域工作流评测更接近实际交付。",
+          "action": "研究 IT 与安全任务的成功标准、工具调用正确率和风险指标，并为自己的代理建立任务级评测集。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "招聘能力重心向代理安全、评测和运行管理移动",
+          "url": "https://secitbench.cribl.io/",
+          "source": "Hacker News",
+          "summary": "SecIT Bench 聚焦 AI 代理在 IT 和安全工作流中的能力评估；Qwen Code 同期展示了 SWE-bench 与 Terminal-Bench 的端到端验证。",
+          "why": "企业落地需要的不只是模型调用，还包括领域任务设计、工具接入、可靠性评估和风险控制。",
+          "action": "简历和作品集应展示真实工作流代理、可重复评测结果、失败处理和权限审计，而不只列出使用过的模型。",
+          "importance": 5
+        },
+        {
+          "title": "AI 编程代理岗位更看重可交付的工程闭环",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-full-20260818-r3",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "Qwen Code 的发布验证覆盖 SWE-bench Verified、Terminal-Bench 2.0 和结果写回，显示代理工具正以完整任务交付衡量能力。",
+          "why": "岗位竞争信号从提示词技巧转向能否让代理在真实代码库中完成任务并留下可验证结果。",
+          "action": "准备一个能展示代码修改、终端执行、测试验证、结果写回和人工复核的项目案例。",
+          "importance": 4
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}
