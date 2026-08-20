@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "How to use AI for your next job interview",
+          "url": "https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview",
+          "source": "Hacker News",
+          "summary": "How to use AI for your next job interview",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Agentic AI has made CPUs the new performance bottleneck",
+          "url": "https://spectrum.ieee.org/ai-cpu-comeback",
+          "source": "Hacker News",
+          "summary": "Agentic AI has made CPUs the new performance bottleneck",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "v2.1.237",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "<h2>What's changed</h2> <ul> <li>Fixed prompt caching for sessions using an LLM gateway or custom base URL</li> <li>Added a built-in \"Concise\" output style: Claude leads with results and skips preamble and narration, while doing the work just as thoroughly. Select it under Output style in /config.</li> </ul>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "v0.32.15",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "<h2>What's Changed</h2> <ul> <li>Add a model metadata cache to reduce Ollama’s per-request overhead</li> </ul> <h2>New Contributors</h2> <ul> <li><a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/gaugarg-nv/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/gaugarg-nv\">@gaugarg-nv</a> made their first contribution in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5154639823\" data-permission-text=\"Title is private\" data-url=\"https://github.com/ollama/ollama/issues/17752\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ollama/ollama/pull/17752/hovercard\" href=\"https://github.com/ollama/ollama/pull/17752\">#17752</a></li> </ul> <p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/ollama/ollama/compare/v0.32.14...v0.32.15-rc1\"><tt>v0.32.14...v0.32.15-rc1</tt></a></p>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Round Hill Music Sues Suno and Anthropic for $1B over AI Training Data",
+          "url": "https://www.gadgetreview.com/round-hill-music-sues-suno-and-anthropic-for-1-billion-over-ai-training-data",
+          "source": "Hacker News",
+          "summary": "Round Hill Music Sues Suno and Anthropic for $1B over AI Training Data",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "US warns of AI-powered attacks on Siemens PLCs in critical infrastructure",
+          "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
+          "source": "Hacker News",
+          "summary": "US warns of AI-powered attacks on Siemens PLCs in critical infrastructure",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "If You're Not Studying for Retention, Just Use AI",
+          "url": "https://www.fjapm.com/posts/if-youre-not-studying-for-retention-just-use-ai",
+          "source": "Hacker News",
+          "summary": "If You're Not Studying for Retention, Just Use AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI-Powered Cyberattacks",
+          "url": "https://www.opswat.com/blog/ai-powered-cyberattacks",
+          "source": "Hacker News",
+          "summary": "AI-Powered Cyberattacks",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI Hurtles Ahead",
+          "url": "https://www.oaktreecapital.com/insights/memo/ai-hurtles-ahead",
+          "source": "Hacker News",
+          "summary": "AI Hurtles Ahead",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Technical leaders should have the largest AI exhaust",
+          "url": "https://schipper.ai/posts/technical-leaders-should-have-the-largest-ai-exhaust/",
+          "source": "Hacker News",
+          "summary": "Technical leaders should have the largest AI exhaust",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "\"Half-Day\": 0-Day in the Age of AI",
+          "url": "https://margin.re/2026/08/introducing-the-half-day-0-day-in-the-age-of-ai/",
+          "source": "Hacker News",
+          "summary": "\"Half-Day\": 0-Day in the Age of AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
