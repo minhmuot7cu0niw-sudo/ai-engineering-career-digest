@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-08-21</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-08-21</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-08-21 09:26:39 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日信号集中在 AI 编程代理的可观测性、交互式任务管理和端到端验证，以及本地模型服务的响应性能优化。工程团队应优先关注会话监控、代理工作流验证和首 token 延迟；职业上，能够把模型能力接入可靠开发流程的人更具优势。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 5</span></div>
+  <h3>Qwen Code 增加会话监控与实时状态 API</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Qwen Code v0.21.14 增加 qwen sessions ps 命令和 live-state API，可使用 JSON 输出列出并监控正在运行的交互式会话。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI 编程代理从一次性命令执行转向可持续运行、可被外部系统监控的任务进程。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在团队代理任务中接入会话列表和实时状态检查，先建立运行中任务、异常任务和已结束任务的基础观测。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">GitHub Release: openai/codex</span><span class="item-importance">重要度 5</span></div>
+  <h3>Codex CLI 增加交互式 agents 任务面板</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Codex 0.149.0 增加交互式 codex agents dashboard，支持搜索、启动、打开、重命名和停止任务，并支持配置快捷键。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>多代理任务管理开始成为 CLI 产品的核心工作流，开发者需要处理并行任务的发现、切换和终止。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>将代理任务按项目或目标命名，并在并行执行时定期清理已完成或无效任务，避免任务状态失控。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">GitHub Release: ollama/ollama</span><span class="item-importance">重要度 4</span></div>
+  <h3>Ollama 缓存模型元数据，首 token 延迟显著下降</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Ollama v0.32.15 在请求之间缓存已解析的模型元数据；发布说明中的基准显示 TTFT 从约 995 ms 降至约 524 ms，同时加入首次启动的桌面引导流程并修复中途卡死问题。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>本地模型应用的交互体验不仅取决于模型推理速度，也取决于请求准备阶段和异常恢复能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>升级测试环境后重新测量本地模型的 TTFT 和中途恢复情况，并将请求准备耗时纳入性能监控。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 4</span></div>
+  <h3>让代码审查循环解释为何无法收敛</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Qwen Code nightly 版本增加 review 功能：当审查循环未能收敛时，向作者说明原因。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理审查失败如果只有“未通过”结果，开发者无法判断是代码问题、规则冲突还是流程本身无法收敛。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在自动审查流程中保留未收敛原因，并将其作为后续提示、人工介入或停止循环的依据。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 5</span></div>
+  <h3>用端到端 smoke 测试验证代理环境修复</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Qwen Code 发布记录显示，在修复 Harbor adapter cache-gate 后执行端到端回归 smoke，依次运行 1 个 SWE-bench Verified case 和 1 个 Terminal-Bench 2.0 case，结果为 SUCCEEDED。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理基础设施的缓存、沙箱和适配器修复可能影响完整执行链路，单元测试不足以覆盖这类回归。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在环境或适配器修复后，至少串行执行代表性的代码修复任务和终端任务，并记录数据集、状态与运行环境。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 5</span></div>
+  <h3>在全新 Sandbox bootstrap 后重复验证执行链路</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Qwen Code 发布记录显示，在修复全新 Sandbox bootstrap 后执行 SWE-bench Verified 与 Terminal-Bench 2.0 各 1 个案例的端到端 smoke，SWE-bench Verified 状态为 SUCCEEDED。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>全新环境初始化是代理系统常见的脆弱环节，必须验证从启动、依赖准备到任务执行的完整路径。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>把 fresh bootstrap 场景加入发布前回归矩阵，不只验证已有缓存或已初始化环境。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">GitHub Release: ollama/ollama</span><span class="item-importance">重要度 4</span></div>
+  <h3>为本地推理服务建立首 token 延迟基线</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Ollama 发布说明给出了缓存模型元数据前后的 TTFT 基准，约从 995 ms 降至 524 ms。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>具体的 TTFT 基准可以帮助团队识别模型加载、元数据解析和实际生成之间的性能瓶颈。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>对常用模型分别记录冷启动和连续请求的 TTFT，升级后比较结果，并将基准固定到性能回归测试中。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">GitHub Release: openai/codex</span><span class="item-importance">重要度 5</span></div>
+  <h3>学习 AI 代理的任务编排与运行时观测</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Codex 新增 agents dashboard，用于搜索、启动、打开、重命名和停止任务；Qwen Code 同期增加会话列表和实时状态 API。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这些能力直接对应代理系统的任务生命周期管理和运行状态观测，是构建可靠代理工作流的基础技能。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>优先掌握任务状态建模、JSON 状态接口、并行任务管理和异常任务终止，并用一个小型代理任务面板进行练习。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 5</span></div>
+  <h3>学习代理系统的端到端评测与 Sandbox 验证</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Qwen Code 使用 SWE-bench Verified 和 Terminal-Bench 2.0 案例进行端到端 smoke 验证，并针对适配器缓存和 Sandbox bootstrap 修复进行回归。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理工程能力需要同时覆盖任务成功率、环境初始化和终端执行，而不只是模型调用或提示词设计。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>建立包含代码修复任务、终端任务和全新环境初始化的最小评测集，记录成功状态和失败环节。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">GitHub Release: openai/codex</span><span class="item-importance">重要度 4</span></div>
+  <h3>代理开发岗位的技能重心扩展到任务运营</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Codex 增加支持搜索、启动、打开、重命名和停止任务的交互式 agents dashboard；Qwen Code 也增加交互式会话监控能力。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>从这些产品迭代可以观察到，企业落地代理不仅需要调用模型，还需要管理并行任务、状态和生命周期。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>求职或内部转型时，准备一个展示任务编排、状态查询、失败处理和人工接管的代理项目，而不只展示问答 Demo。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">GitHub Release: Ollama</span><span class="item-importance">重要度 4</span></div>
+  <h3>可靠性与性能成为 AI 工程落地的可展示能力</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Ollama 同时改进模型元数据缓存、TTFT 基准和中途卡死问题；Qwen Code 的发布记录则使用 SWE-bench 与 Terminal-Bench 进行端到端 smoke 验证。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>企业评估 AI 工程方案时，需要看到可量化的响应性能、异常恢复和任务成功验证。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在项目经历中量化 TTFT、端到端成功率、环境初始化成功率和失败恢复方式，形成可复现的工程指标。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
