@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Treat AI Like an Intern, Not Software: A Stanford Professor's Guide",
+          "url": "https://pixelum.substack.com/p/treat-ai-like-an-intern-not-software",
+          "source": "Hacker News",
+          "summary": "Treat AI Like an Intern, Not Software: A Stanford Professor's Guide",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Agent2Creator – a video social network whose members are AI agents",
+          "url": "https://agent2creator.vidmoat.com",
+          "source": "Hacker News",
+          "summary": "Show HN: Agent2Creator – a video social network whose members are AI agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Release v0.22.0-nightly.20260823.1007bcacfc",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.22.0-nightly.20260823.1007bcacfc",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "<h2>What's Changed</h2> <ul> <li>fix(web-shell): pass session workspace cwd when opening from overview panel by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5222298781\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9730\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9730/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9730\">#9730</a></li> <li>fix(web-shell): fall back after stale mid-turn rejection by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ytahdn/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ytahdn\">@ytahdn</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5222414318\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9732\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9732/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9732\">#9732</a></li> <li>fix(review): stop the fallback comment from firing on superseded runs by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5221317962\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9716\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9716/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9716\">#9716</a></li> <li>feat(review): add temporal-reachability and incident-replay lenses by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5220139130\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9708\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9708/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9708\">#9708</a></li> <li>fix(web-shell): stable pinned-section order and instant pin feedback by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yiliang114/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yiliang114\">@yiliang114</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5200887576\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9560\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9560/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9560\">#9560</a></li> <li>feat(review): ask each fix for its test, and rule on non-convergence by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5204987438\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9596\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9596/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9596\">#9596</a></li> <li>chore(ci): migrate autofix prose to the design record and ratchet growth by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5215316004\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9677\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9677/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9677\">#9677</a></li> <li>feat(cli): restore each daemon session onto its last selected model by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/doudouOUC/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/doudouOUC\">@doudouOUC</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5216188132\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9687\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9687/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9687\">#9687</a></li> <li>feat(review): validate Aone inline anchors against the captured diff before posting by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5210237636\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9634\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9634/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9634\">#9634</a></li> <li>fix(ci): record qwen-autofix.yml's shipped size in the workflow size baseline by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5223108130\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9747\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9747/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9747\">#9747</a></li> <li>fix(ci): gate the fork signal on fields the review payload delivers by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/qqqys/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/qqqys\">@qqqys</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5190454478\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9469\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9469/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9469\">#9469</a></li> <li>feat(goal): account the tokens a Goal spends by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/qqqys/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/qqqys\">@qqqys</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5203313825\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9583\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9583/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9583\">#9583</a></li> <li>fix(core): reject session titles that echo the prompt's own examples by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yiliang114/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yiliang114\">@yiliang114</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5220180180\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9709\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9709/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9709\">#9709</a></li> <li>fix(core): parse the workflow meta literal instead of evaluating it by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/qqqys/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/qqqys\">@qqqys</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5168916703\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9325\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9325/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9325\">#9325</a></li> <li>fix(sdk): support relative artifact download URLs by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ytahdn/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ytahdn\">@ytahdn</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5222534533\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/9734\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/9734/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/9734\">#9734</a></li> </ul> <p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/QwenLM/qwen-code/compare/v0.22.0...v0.22.0-nightly.20260823.1007bcacfc\"><tt>v0.22.0...v0.22.0-nightly.20260823.1007bcacfc</tt></a></p>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Show HN: Active Source of Truth for Your Coding Agents",
+          "url": "https://meetless.ai",
+          "source": "Hacker News",
+          "summary": "Show HN: Active Source of Truth for Your Coding Agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Active Inference as Context Acquisition for AI Agents",
+          "url": "https://arxiv.org/abs/2608.19202",
+          "source": "Hacker News",
+          "summary": "Active Inference as Context Acquisition for AI Agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "source": "Hacker News",
+          "summary": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Lower air pollution leads to increased warming",
+          "url": "https://twitter.com/Electroversenet/status/2090891691649560717",
+          "source": "Hacker News",
+          "summary": "Lower air pollution leads to increased warming",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Lens AI – generate your JSON-LD files and keep them up-to-date",
+          "url": "https://knowledgelens.ai/",
+          "source": "Hacker News",
+          "summary": "Show HN: Lens AI – generate your JSON-LD files and keep them up-to-date",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "You don't have to make money with AI. You could just be happier",
+          "url": "https://hibernation.dev/posts/ai-for-happiness-not-money/",
+          "source": "Hacker News",
+          "summary": "You don't have to make money with AI. You could just be happier",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "AI has failed to win people's trust. Its makers? less trusted",
+          "url": "https://www.euronews.com/next/2026/08/20/ai-has-failed-to-win-peoples-trust-its-makers-even-less-trusted",
+          "source": "Hacker News",
+          "summary": "AI has failed to win people's trust. Its makers? less trusted",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI as a Co-Writer",
+          "url": "https://strawberry9.github.io/the-wrong-memory/cover.html",
+          "source": "Hacker News",
+          "summary": "AI as a Co-Writer",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
