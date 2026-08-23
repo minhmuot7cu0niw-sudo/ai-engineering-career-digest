@@ -1,0 +1,52 @@
+{
+  "overview": "模型不可用；以下仅列出已验证的候选，个性化适配度需要人工复核。",
+  "sections": [
+    {
+      "name": "本周值得安装",
+      "items": [
+        {
+          "title": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "source": "GitHub API",
+          "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "242,194 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习与作品集",
+      "items": [
+        {
+          "title": "ohmyzsh/ohmyzsh",
+          "url": "https://github.com/ohmyzsh/ohmyzsh",
+          "source": "GitHub API",
+          "summary": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "189,316 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "值得观察",
+      "items": [
+        {
+          "title": "microsoft/PowerToys",
+          "url": "https://github.com/microsoft/PowerToys",
+          "source": "GitHub API",
+          "summary": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "137,970 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true,
+  "report_type": "project_scout"
+}
