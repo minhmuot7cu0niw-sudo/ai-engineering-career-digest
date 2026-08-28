@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
+          "url": "https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms/",
+          "source": "Hacker News",
+          "summary": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "What our AI guiding principles mean",
+          "url": "https://wagtail.org/blog/what-our-ai-guiding-principles-actually-mean/",
+          "source": "Hacker News",
+          "summary": "What our AI guiding principles mean",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Terence Tao – How the top mathematician uses AI [video]",
+          "url": "https://www.youtube.com/watch?v=Q8Fkpi18QXU",
+          "source": "Hacker News",
+          "summary": "Terence Tao – How the top mathematician uses AI [video]",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Making My Terraform AI Friendly",
+          "url": "https://www.ivan.codes/blog/making-my-terraform-ai-friendly",
+          "source": "Hacker News",
+          "summary": "Making My Terraform AI Friendly",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Trana – an iOS wellbeing companion with safety-first AI tools",
+          "url": "https://trana.live",
+          "source": "Hacker News",
+          "summary": "Trana – an iOS wellbeing companion with safety-first AI tools",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "One LLM agent per trade over construction site photos",
+          "url": "https://trpevski.com/blog/ai-construction-inspection-contractors-cannot-argue-with/",
+          "source": "Hacker News",
+          "summary": "One LLM agent per trade over construction site photos",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Repo indexing was doing more harm than good, so we dropped it from our agent",
+          "url": "https://thegit.ai/blog/why-we-abandoned-repository-indexing",
+          "source": "Hacker News",
+          "summary": "Repo indexing was doing more harm than good, so we dropped it from our agent",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Agent loops stop re-reading your codebase on every turn",
+          "url": "https://runinfra.ai/inference-api",
+          "source": "Hacker News",
+          "summary": "Agent loops stop re-reading your codebase on every turn",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "IFA 2026 Preview: On-device AI PCs, DJI robotics, and Xiaomi's European debut",
+          "url": "https://forgeeks.net/ifa-2026-local-ai-robots-devices/",
+          "source": "Hacker News",
+          "summary": "IFA 2026 Preview: On-device AI PCs, DJI robotics, and Xiaomi's European debut",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Your AGENTS.md file doesn't do anything",
+          "url": "https://pivot-to-ai.com/2026/08/27/your-agents-md-file-doesnt-actually-do-anything/",
+          "source": "Hacker News",
+          "summary": "Your AGENTS.md file doesn't do anything",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Judge rules Trump administration illegally punished AI firm Anthropic",
+          "url": "https://www.cbsnews.com/news/judge-rules-trump-administration-illegally-punished-ai-firm-anthropic/",
+          "source": "Hacker News",
+          "summary": "Judge rules Trump administration illegally punished AI firm Anthropic",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
