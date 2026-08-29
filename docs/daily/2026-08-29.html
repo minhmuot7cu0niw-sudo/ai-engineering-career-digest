@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-08-29</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-08-29</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-08-29 14:17:26 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日信号集中在三条主线：AI 编程工具的供应商与组织边界正在变化，Agent 工程逐步转向可隔离、可持续运行和可治理的系统设计，企业使用 AI 时对责任划分与输出可信度的要求继续上升。个人应优先补齐 Agent 运行时治理、工具编排和结果验证能力，同时关注 AI 编程产品生态中的合作与招聘变化。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">OpenAI</span><span class="item-importance">重要度 5</span></div>
+  <h3>OpenAI 将结束与 Cursor 的模型供应协议</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>OpenAI 表示，因 Cursor 被 SpaceX 收购，将逐步结束向 Cursor 提供 OpenAI 模型的合同。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI 编程工具的模型供应、产品归属和企业合作关系可能直接影响开发者可用的模型与产品路线。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>检查团队是否依赖单一模型或单一编码工具；为关键开发流程准备第二模型供应商和可迁移的提示词、评测与权限配置。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 5</span></div>
+  <h3>AI Agent 的责任边界开始被正式框架化</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Microsoft 发布 AI Agent Shared Responsibility Model，用于说明 AI Agent 场景下不同参与方的安全责任。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>Agent 落地不再只是模型调用问题，身份、工具、数据、运行环境和业务方之间的责任划分会影响上线与审计。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>为现有 Agent 绘制责任矩阵，至少明确模型、Agent 框架、工具服务、数据持有方和业务团队各自负责的安全控制。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 4</span></div>
+  <h3>AI 编程产品继续向持久任务和更细粒度控制发展</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Claude Code 新增 PreModelSwitch 和 PostModelSwitch hook，可阻止、确认或标注模型切换；SessionStart 恢复 hook 可接收会话陈旧程度和预计重新缓存成本。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>Agent 编程工作流正在增加模型切换、会话恢复和成本控制等运行时控制点。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在编码 Agent 中为模型切换和会话恢复增加审批、日志与成本阈值，并验证恢复后的上下文是否仍然有效。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>LaneGate：用 Git worktree 编排 AI Agent</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>LaneGate 是面向 AI Agent 的 Git-native worktree orchestrator。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>多个 Agent 并行修改代码时，隔离工作目录和 Git 状态有助于降低分支互相覆盖与上下文污染的风险。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>为并行编码任务试运行 worktree 隔离；将任务、分支、测试结果和合并状态绑定记录。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>Agent Harness 应成为工程系统的一等对象</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章讨论围绕 AI Agent harness 的工程实践与关注点。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>Agent 的实际表现不仅取决于模型，也取决于工具、上下文、执行循环和失败恢复等外部控制结构。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>评估现有 Agent 时单独记录工具调用成功率、失败恢复、上下文管理和人工介入点，不要只看最终回答质量。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>AI 生成报告的引用需要独立验证</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该条目报告 AI-written reports 中存在引用并不存在的问题，并提供引用幻觉基准。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>研究、投研和决策报告如果包含虚构引用，会使格式完整但内容错误的输出进入业务流程。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在报告生成流程中增加引用存在性、来源可访问性和主张与原文对应关系检查；把引用验证纳入验收指标。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">GitHub Release: langchain-ai/langchain</span><span class="item-importance">重要度 3</span></div>
+  <h3>LangChain 预览 MCP 一方适配器</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>langchain==1.4.0a2 提供 langchain.mcp alpha preview，可将 MCP server 转换为可交给 create_agent 的 LangChain tools；连接处理使用 FastMCP client。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>MCP 工具接入 Agent 的路径正在被框架直接封装，但该版本仍是 alpha，连接和兼容性需要验证。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在隔离环境中验证 MCP server 的连接、认证、超时和工具 schema；生产项目暂时固定版本并保留回退方案。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 5</span></div>
+  <h3>优先学习 Agent 的共享责任与运行时治理</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Microsoft 的 AI Agent 责任模型提供了围绕参与方和安全边界组织问题的入口。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这是把 Agent 从演示推进到企业落地所需的基础能力，涉及权限、数据、工具和运行环境。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>本周完成一份 Agent 责任矩阵和威胁清单，并为每项控制指定负责人和验证方式。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">GitHub Release: langchain-ai/langchain</span><span class="item-importance">重要度 4</span></div>
+  <h3>掌握 MCP 工具编排与模型切换控制</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>LangChain 提供 MCP 到 Agent tools 的 alpha 适配；Claude Code 提供模型切换相关 hook。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>工具标准化接入与运行时模型控制是构建可维护 Agent 工作流的直接工程技能。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>做一个小型实验：接入一个 MCP server，记录工具调用失败处理，并为模型切换加入确认或阻断规则。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>AI 编程岗位的价值延伸到平台治理与工具链工程</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Git-native worktree 编排、Agent harness、持久任务和模型切换 hook 等条目显示，AI 编程工作正在形成独立的运行时与协作基础设施。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>岗位技能不再局限于调用模型或编写提示词，还包括 Git 隔离、任务调度、上下文恢复、权限控制和评测。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>将个人项目或简历成果改写为可量化的 Agent 工具链能力，例如并行任务隔离、失败恢复、成本控制和测试覆盖。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>模型供应关系变化提升多模型与迁移能力的招聘信号</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>路透报道 OpenAI 将结束与 Cursor 的协议；OpenAI 官方也说明将因 Cursor 被 SpaceX 收购而逐步结束相关合同。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>企业采用 AI 编程工具时，需要评估供应商稳定性、模型替换成本和业务连续性。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>关注招聘中与 AI 平台、模型路由、供应商评估和开发者工具可靠性相关的职责，并准备展示一次模型或工具迁移方案。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>

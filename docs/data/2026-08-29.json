@@ -1,0 +1,125 @@
+{
+  "overview": "今日信号集中在三条主线：AI 编程工具的供应商与组织边界正在变化，Agent 工程逐步转向可隔离、可持续运行和可治理的系统设计，企业使用 AI 时对责任划分与输出可信度的要求继续上升。个人应优先补齐 Agent 运行时治理、工具编排和结果验证能力，同时关注 AI 编程产品生态中的合作与招聘变化。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "OpenAI 将结束与 Cursor 的模型供应协议",
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+          "source": "OpenAI",
+          "summary": "OpenAI 表示，因 Cursor 被 SpaceX 收购，将逐步结束向 Cursor 提供 OpenAI 模型的合同。",
+          "why": "AI 编程工具的模型供应、产品归属和企业合作关系可能直接影响开发者可用的模型与产品路线。",
+          "action": "检查团队是否依赖单一模型或单一编码工具；为关键开发流程准备第二模型供应商和可迁移的提示词、评测与权限配置。",
+          "importance": 5
+        },
+        {
+          "title": "AI Agent 的责任边界开始被正式框架化",
+          "url": "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility-ai-agent",
+          "source": "Hacker News",
+          "summary": "Microsoft 发布 AI Agent Shared Responsibility Model，用于说明 AI Agent 场景下不同参与方的安全责任。",
+          "why": "Agent 落地不再只是模型调用问题，身份、工具、数据、运行环境和业务方之间的责任划分会影响上线与审计。",
+          "action": "为现有 Agent 绘制责任矩阵，至少明确模型、Agent 框架、工具服务、数据持有方和业务团队各自负责的安全控制。",
+          "importance": 5
+        },
+        {
+          "title": "AI 编程产品继续向持久任务和更细粒度控制发展",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "Claude Code 新增 PreModelSwitch 和 PostModelSwitch hook，可阻止、确认或标注模型切换；SessionStart 恢复 hook 可接收会话陈旧程度和预计重新缓存成本。",
+          "why": "Agent 编程工作流正在增加模型切换、会话恢复和成本控制等运行时控制点。",
+          "action": "在编码 Agent 中为模型切换和会话恢复增加审批、日志与成本阈值，并验证恢复后的上下文是否仍然有效。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "LaneGate：用 Git worktree 编排 AI Agent",
+          "url": "https://github.com/sudheerdvn/lanegate",
+          "source": "Hacker News",
+          "summary": "LaneGate 是面向 AI Agent 的 Git-native worktree orchestrator。",
+          "why": "多个 Agent 并行修改代码时，隔离工作目录和 Git 状态有助于降低分支互相覆盖与上下文污染的风险。",
+          "action": "为并行编码任务试运行 worktree 隔离；将任务、分支、测试结果和合并状态绑定记录。",
+          "importance": 4
+        },
+        {
+          "title": "Agent Harness 应成为工程系统的一等对象",
+          "url": "https://www.roderick.dev/writing/2026-08-28-obsessing-harnesses/",
+          "source": "Hacker News",
+          "summary": "文章讨论围绕 AI Agent harness 的工程实践与关注点。",
+          "why": "Agent 的实际表现不仅取决于模型，也取决于工具、上下文、执行循环和失败恢复等外部控制结构。",
+          "action": "评估现有 Agent 时单独记录工具调用成功率、失败恢复、上下文管理和人工介入点，不要只看最终回答质量。",
+          "importance": 4
+        },
+        {
+          "title": "AI 生成报告的引用需要独立验证",
+          "url": "https://www.stipple.sh/resources/ai-citation-hallucination-benchmark",
+          "source": "Hacker News",
+          "summary": "该条目报告 AI-written reports 中存在引用并不存在的问题，并提供引用幻觉基准。",
+          "why": "研究、投研和决策报告如果包含虚构引用，会使格式完整但内容错误的输出进入业务流程。",
+          "action": "在报告生成流程中增加引用存在性、来源可访问性和主张与原文对应关系检查；把引用验证纳入验收指标。",
+          "importance": 4
+        },
+        {
+          "title": "LangChain 预览 MCP 一方适配器",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a2",
+          "source": "GitHub Release: langchain-ai/langchain",
+          "summary": "langchain==1.4.0a2 提供 langchain.mcp alpha preview，可将 MCP server 转换为可交给 create_agent 的 LangChain tools；连接处理使用 FastMCP client。",
+          "why": "MCP 工具接入 Agent 的路径正在被框架直接封装，但该版本仍是 alpha，连接和兼容性需要验证。",
+          "action": "在隔离环境中验证 MCP server 的连接、认证、超时和工具 schema；生产项目暂时固定版本并保留回退方案。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "优先学习 Agent 的共享责任与运行时治理",
+          "url": "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility-ai-agent",
+          "source": "Hacker News",
+          "summary": "Microsoft 的 AI Agent 责任模型提供了围绕参与方和安全边界组织问题的入口。",
+          "why": "这是把 Agent 从演示推进到企业落地所需的基础能力，涉及权限、数据、工具和运行环境。",
+          "action": "本周完成一份 Agent 责任矩阵和威胁清单，并为每项控制指定负责人和验证方式。",
+          "importance": 5
+        },
+        {
+          "title": "掌握 MCP 工具编排与模型切换控制",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a2",
+          "source": "GitHub Release: langchain-ai/langchain",
+          "summary": "LangChain 提供 MCP 到 Agent tools 的 alpha 适配；Claude Code 提供模型切换相关 hook。",
+          "why": "工具标准化接入与运行时模型控制是构建可维护 Agent 工作流的直接工程技能。",
+          "action": "做一个小型实验：接入一个 MCP server，记录工具调用失败处理，并为模型切换加入确认或阻断规则。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "AI 编程岗位的价值延伸到平台治理与工具链工程",
+          "url": "https://github.com/sudheerdvn/lanegate",
+          "source": "Hacker News",
+          "summary": "Git-native worktree 编排、Agent harness、持久任务和模型切换 hook 等条目显示，AI 编程工作正在形成独立的运行时与协作基础设施。",
+          "why": "岗位技能不再局限于调用模型或编写提示词，还包括 Git 隔离、任务调度、上下文恢复、权限控制和评测。",
+          "action": "将个人项目或简历成果改写为可量化的 Agent 工具链能力，例如并行任务隔离、失败恢复、成本控制和测试覆盖。",
+          "importance": 4
+        },
+        {
+          "title": "模型供应关系变化提升多模型与迁移能力的招聘信号",
+          "url": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/",
+          "source": "Hacker News",
+          "summary": "路透报道 OpenAI 将结束与 Cursor 的协议；OpenAI 官方也说明将因 Cursor 被 SpaceX 收购而逐步结束相关合同。",
+          "why": "企业采用 AI 编程工具时，需要评估供应商稳定性、模型替换成本和业务连续性。",
+          "action": "关注招聘中与 AI 平台、模型路由、供应商评估和开发者工具可靠性相关的职责，并准备展示一次模型或工具迁移方案。",
+          "importance": 4
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}
