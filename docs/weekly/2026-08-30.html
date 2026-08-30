@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>个人工具与项目侦察周报 · 2026-08-30</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>个人工具与项目侦察周报 · 2026-08-30</h1></div>
+      <div class="meta"><strong>周报版</strong>2026-08-30 14:17:32 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>从候选中筛选出3个近期活跃且与编码代理、架构表达和AI工程实践直接相关的项目；未为通用工具或仅凭热度看起来有价值的项目填充名额。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>本周值得安装</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub Trending</span><span class="item-importance">重要度 5</span></div>
+  <h3>OpenAI Codex</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>运行在终端中的轻量级编码代理，目标是把代码理解、修改和开发任务执行集中到命令行工作流中，减少在编辑器、终端和对话工具之间来回切换。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>它与用户关注的Codex使用和AI辅助编程直接匹配。相比手动拆分任务、逐个执行命令再回到编辑器检查，终端代理更适合在真实仓库中连续完成调查、实现和验证。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>建议现在试用：先在一个非关键的小型仓库中运行，给它一个包含测试要求的实际小任务，并记录它的计划、改动范围和验证结果。 成熟度与风险：近期持续活跃，项目定位清晰且由OpenAI维护；轻量终端形态便于接入现有开发流程。实际风险主要在于代理输出仍需人工审查，尤其是权限、命令执行和大范围改动。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>学习与作品集</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">GitHub Trending</span><span class="item-importance">重要度 4</span></div>
+  <h3>Archify</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>面向编码代理的技能项目，用于生成可验证的架构、工作流、时序、数据流和生命周期图，并输出带动效和导出能力的HTML。它解决了架构说明容易停留在文字、难以审阅和展示的问题。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>项目同时覆盖Codex、架构即代码和系统设计，适合把一次真实项目的架构梳理沉淀为可展示的作品。相比手动画图或只写Markdown，结构化生成的图更容易随代码变更重新产出，也能展示用户对AI代理工作流的实际驾驭能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>建议本周试做一个小作品：选取一个已有项目，使用该技能生成一张数据流或生命周期图，再人工核对关键边界、依赖和异常路径，并把输入、输出和修订过程提交到作品集仓库。 成熟度与风险：近期活跃，主题聚焦且与当前编码代理生态结合紧密；适合作为实验和作品集项目。由于候选信息显示它来自Trending而非成熟发行渠道，生成结果的准确性、技能兼容性和长期维护状态需要通过实际运行确认。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>值得观察</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">GitHub Trending</span><span class="item-importance">重要度 3</span></div>
+  <h3>Apache Maka</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Apache孵化中的本地优先AI代理工作空间，将模型消息、工具调用、工具结果、权限决定和终止事件记录为追加日志，关注代理运行过程的可追踪性和可审计性。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>它对AI工程学习的价值高于直接替代日常工具：事件溯源、工具权限和代理运行记录都是构建可靠编码代理时需要理解的基础。相比只关注提示词效果的现有方法，研究这类运行时设计有助于形成更系统的代理评估和调试能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>暂不作为主力工具安装。先阅读项目文档和事件模型，重点观察一次代理任务如何记录工具调用与权限决策；若本周仍保持活跃，再在隔离环境中运行一个最小任务。 成熟度与风险：近期活动明显，但项目仍处于Apache Incubating阶段，成熟度、API稳定性和文档完整性存在实际风险。追加日志和本地优先设计值得跟踪，但现阶段更适合学习和技术观察，不宜直接承载关键工作流。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
