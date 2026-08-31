@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-08-31</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-08-31</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-08-31 12:31:04 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日可确认的信号集中在 AI Agent 的执行治理、增量运行和本地优先开发环境；同时，欧盟 AI Act 已出现面向模型提供商的信息请求，合规准备从原则讨论进入具体响应阶段。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 5</span></div>
+  <h3>欧盟开始执行 AI Act，首批面向模型提供商的信息请求已出现</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>条目称欧盟已开始执行 AI Act，并向模型提供商发出首批信息请求（RFI）。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>对提供、集成或采购模型能力的团队而言，监管关注点开始落到可提交的信息与证据，合规工作需要可追溯的工程和治理材料支撑。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>梳理当前模型供应商、使用场景、数据流和安全控制；为可能的信息请求准备责任人、文档索引与证据留存机制。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">GitHub Release: openai/codex</span><span class="item-importance">重要度 4</span></div>
+  <h3>Codex Rust 0.151.0 增加可配置的可选 MCP 服务器工具发现宽限期</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>发布说明显示，新版本加入了针对可选 MCP 服务器工具发现的可配置宽限期。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>依赖可选 MCP 服务的开发环境可降低服务启动与工具发现时序带来的失败风险，Agent 工具接入的稳定性成为可配置能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在测试环境升级并复现 MCP 服务延迟启动场景，评估宽限期配置是否能减少工具不可用或初始化失败。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>Steer：在执行前拒绝或改写 AI Agent 的工具调用</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该项目主张在 AI Agent 工具调用实际运行前，对调用进行拒绝或改写。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>Agent 的风险控制可以前移到工具调用边界，适合处理危险命令、越权参数、生产环境写操作和敏感数据外发等情形。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>为高风险工具定义预执行策略：默认拒绝的命令、允许的参数范围、需要人工确认的操作，以及可自动改写的安全参数。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>Glean：仅对自上次运行以来的变更执行 AI skill</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该项目用于让 AI skill 只处理自上次运行之后发生变化的内容。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>增量执行有机会减少重复上下文处理和不必要的模型调用，并使持续检查、知识更新和代码审阅更适合自动化运行。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>选择一个重复性 AI 工作流，例如变更摘要、文档同步或代码检查，记录上次处理位置并对比全量与增量运行的成本和遗漏率。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>HermOS：local-first AI agent IDE</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该条目介绍了一个 local-first 的 AI Agent IDE。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>本地优先的 Agent 开发环境反映出开发者对代码、上下文和执行过程本地掌控的需求，尤其适用于敏感仓库或受限网络环境。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>评估现有 AI 编码工具中哪些上下文、代码和工具调用必须留在本地，并据此制定本地与云端能力的使用边界。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>Clips Kitty：开源本地 AI 视频剪辑与编辑</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该项目定位为开源的本地 AI 视频剪辑和编辑工具。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>本地 AI 工作流正扩展到视频生产，团队可关注素材隐私、推理硬件要求和自动剪辑质量之间的取舍。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>若团队有内部培训或产品演示视频需求，用非敏感素材验证本地处理速度、输出质量和人工返工比例。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 5</span></div>
+  <h3>Agent 工具调用治理与策略执行</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Steer 提供了在工具调用执行前拒绝或改写调用的方向。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>能够把模型输出转化为受约束、可审计执行的工程能力，是 Agent 从演示走向生产的重要基础。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>学习并实现策略层的最小原型：工具白名单、参数校验、风险分级、人工审批与调用日志。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>增量式 AI 工作流设计</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Glean 聚焦仅处理自上次运行以来的变化。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>增量处理涉及状态管理、变更检测、幂等性和遗漏恢复，是控制持续运行 Agent 成本与可靠性的实用能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>为一个自动化任务设计 checkpoint、变更集合、失败重试和全量回补机制，并记录成本与正确性指标。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>AI Agent 工程能力正从模型调用转向可控执行</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>工具调用预执行拒绝或改写的项目，体现出 Agent 执行治理的工程需求。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>对 AI 工程岗位而言，工具集成、权限控制、策略引擎、审计与生产可靠性将比单纯提示词编写更具可迁移性。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在作品集或内部项目中展示一个带工具权限、参数校验、审计日志和人工接管机制的 Agent，而不只展示聊天界面。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>AI 合规与安全证据能力的重要性上升</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>条目称欧盟 AI Act 已开始执行，且出现针对模型提供商的信息请求。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>企业落地 AI 时，能够将技术控制转化为可审查文档、证据和运营流程的工程与治理人才价值会上升。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>补充模型风险评估、供应商管理、数据治理、日志留存和事件响应的实践经历，并将其明确写入项目说明。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
