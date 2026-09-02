@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-09-02</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-09-02</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-09-02 11:36:17 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日信号集中在三个方向：AI 编程正在提高代码审查、CI 与贡献治理的要求；本地 AI 和代理运行基础设施持续迭代；评测、检索与生命周期推理正成为工程落地的关键能力。职业上，市场同时释放出代理开发融资升温与企业对可靠性、治理能力要求提高的信号。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>AI Made Writing Code Free. It Made Reading Code Expensive</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章指出，AI 降低了编写代码的成本，却提高了阅读和理解代码的成本。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>当代码生成速度提升后，审查、理解和维护代码可能成为更主要的工程瓶颈。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>把代码阅读、变更说明和审查清单纳入 AI 编程流程，避免只追求生成速度。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>AI Broke the Assumptions Behind CI</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章讨论 AI 编程对持续集成既有假设的影响。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI 生成或修改代码的方式可能改变变更规模、提交节奏和测试需求，传统 CI 流程需要重新检视。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>检查现有 CI 是否覆盖 AI 生成代码的测试、审查和回滚需求，并优先补充高风险路径的自动化验证。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>One in three AI scribe notes carries a verified clinical error</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>研究标题称，三分之一的 AI 医疗记录中存在经过验证的临床错误。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这提示高风险领域的 AI 输出不能仅凭自动生成完成交付，人工核验仍是必要环节。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在医疗等高风险场景使用 AI 记录工具时，明确人工复核责任和错误升级流程。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>Crossplane AI Contribution Policy</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Crossplane 发布 AI 贡献政策。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>开源项目开始明确 AI 参与贡献时的规则，说明代码来源、审查责任和项目治理正在成为 AI 开发流程的一部分。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>参考该政策，为团队或项目补充 AI 辅助贡献的披露、审查和责任边界。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">GitHub Release: vllm-project/vllm</span><span class="item-importance">重要度 2</span></div>
+  <h3>v0.29.0rc1: [Bugfix] Handle padded routes in CUTLASS MoE permutations (#54747)</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>vLLM 发布 v0.29.0rc1，修复 CUTLASS MoE permutations 中的 padded routes 处理问题。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>MoE 推理中的路由和填充处理会影响模型执行的正确性与稳定性。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>使用 CUTLASS MoE permutations 的环境应评估该候选版本，并针对路由、填充和推理结果增加回归测试。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">GitHub Release: ollama/ollama</span><span class="item-importance">重要度 2</span></div>
+  <h3>v0.33.3</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Ollama v0.33.3-rc0 支持遵循 GGUF 模型定义的默认参数，并更新 MLX、MLX-C 和 llama.cpp。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>模型默认参数和底层推理组件的变化可能影响本地运行结果、性能和兼容性。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>升级前记录当前模型参数与基准结果，升级后重新验证输出一致性和本地推理性能。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">GitHub Release: openai/codex</span><span class="item-importance">重要度 2</span></div>
+  <h3>0.152.1</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Codex 0.152.1 修复 Guardian approval review 未遵循模型元数据中 Node REPL policy 的问题。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理工具的审批逻辑与模型元数据策略不一致，会造成执行权限和治理行为偏差。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>升级后检查 Node REPL 等工具的审批策略，确认模型元数据提供的限制确实被执行。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">ArXiv</span><span class="item-importance">重要度 2</span></div>
+  <h3>Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>论文研究使用轨迹感知评估提高软件工程代理基准测试效率的方法。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>只看最终结果可能无法充分反映代理在代码探索、修改和测试执行过程中的表现。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>学习如何记录并分析代理轨迹，将探索步骤、工具调用和测试过程纳入评估设计。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">ArXiv</span><span class="item-importance">重要度 2</span></div>
+  <h3>Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>论文研究面向大型代码仓库的自适应关键 token 感知检索，以改善仓库级代码生成。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>仓库超出模型上下文限制时，检索质量会直接影响生成代码是否符合项目上下文。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>优先掌握仓库级代码检索、上下文裁剪和关键文件选择方法，并用真实仓库任务验证效果。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>Cognition Set to Raise Around $1B at a $47B Valuation</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>报道标题称 Cognition 计划融资约 10 亿美元，估值约 470 亿美元。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理开发公司的大额融资反映出市场对 AI 软件工程方向的高关注度。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>求职或规划项目时，补强代理编排、软件工程自动化和可验证交付能力，并准备可量化的实际案例。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>State of Local AI Report</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该条目提供一份本地 AI 状态报告。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>本地 AI 相关能力持续受到关注，岗位和项目可能更加重视部署、资源约束和隐私场景下的模型运行能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>将本地模型部署、推理优化和 Ollama、MLX 或 llama.cpp 等运行时实践纳入技能储备，并用一个可复现项目展示结果。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>

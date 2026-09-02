@@ -1,0 +1,125 @@
+{
+  "overview": "今日信号集中在三个方向：AI 编程正在提高代码审查、CI 与贡献治理的要求；本地 AI 和代理运行基础设施持续迭代；评测、检索与生命周期推理正成为工程落地的关键能力。职业上，市场同时释放出代理开发融资升温与企业对可靠性、治理能力要求提高的信号。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "AI Made Writing Code Free. It Made Reading Code Expensive",
+          "url": "https://medium.com/c-sharp-programming/ai-made-writing-code-free-it-made-reading-code-expensive-ea14b3ec5c52",
+          "source": "Hacker News",
+          "summary": "文章指出，AI 降低了编写代码的成本，却提高了阅读和理解代码的成本。",
+          "why": "当代码生成速度提升后，审查、理解和维护代码可能成为更主要的工程瓶颈。",
+          "action": "把代码阅读、变更说明和审查清单纳入 AI 编程流程，避免只追求生成速度。",
+          "importance": 3
+        },
+        {
+          "title": "AI Broke the Assumptions Behind CI",
+          "url": "https://stack72.dev/ai-broke-the-assumptions-behind-ci/",
+          "source": "Hacker News",
+          "summary": "文章讨论 AI 编程对持续集成既有假设的影响。",
+          "why": "AI 生成或修改代码的方式可能改变变更规模、提交节奏和测试需求，传统 CI 流程需要重新检视。",
+          "action": "检查现有 CI 是否覆盖 AI 生成代码的测试、审查和回滚需求，并优先补充高风险路径的自动化验证。",
+          "importance": 3
+        },
+        {
+          "title": "One in three AI scribe notes carries a verified clinical error",
+          "url": "https://arxiv.org/abs/2608.31017",
+          "source": "Hacker News",
+          "summary": "研究标题称，三分之一的 AI 医疗记录中存在经过验证的临床错误。",
+          "why": "这提示高风险领域的 AI 输出不能仅凭自动生成完成交付，人工核验仍是必要环节。",
+          "action": "在医疗等高风险场景使用 AI 记录工具时，明确人工复核责任和错误升级流程。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Crossplane AI Contribution Policy",
+          "url": "https://github.com/crossplane/crossplane/blob/main/AI_POLICY.md",
+          "source": "Hacker News",
+          "summary": "Crossplane 发布 AI 贡献政策。",
+          "why": "开源项目开始明确 AI 参与贡献时的规则，说明代码来源、审查责任和项目治理正在成为 AI 开发流程的一部分。",
+          "action": "参考该政策，为团队或项目补充 AI 辅助贡献的披露、审查和责任边界。",
+          "importance": 2
+        },
+        {
+          "title": "v0.29.0rc1: [Bugfix] Handle padded routes in CUTLASS MoE permutations (#54747)",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc1",
+          "source": "GitHub Release: vllm-project/vllm",
+          "summary": "vLLM 发布 v0.29.0rc1，修复 CUTLASS MoE permutations 中的 padded routes 处理问题。",
+          "why": "MoE 推理中的路由和填充处理会影响模型执行的正确性与稳定性。",
+          "action": "使用 CUTLASS MoE permutations 的环境应评估该候选版本，并针对路由、填充和推理结果增加回归测试。",
+          "importance": 2
+        },
+        {
+          "title": "v0.33.3",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "Ollama v0.33.3-rc0 支持遵循 GGUF 模型定义的默认参数，并更新 MLX、MLX-C 和 llama.cpp。",
+          "why": "模型默认参数和底层推理组件的变化可能影响本地运行结果、性能和兼容性。",
+          "action": "升级前记录当前模型参数与基准结果，升级后重新验证输出一致性和本地推理性能。",
+          "importance": 2
+        },
+        {
+          "title": "0.152.1",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.152.1",
+          "source": "GitHub Release: openai/codex",
+          "summary": "Codex 0.152.1 修复 Guardian approval review 未遵循模型元数据中 Node REPL policy 的问题。",
+          "why": "代理工具的审批逻辑与模型元数据策略不一致，会造成执行权限和治理行为偏差。",
+          "action": "升级后检查 Node REPL 等工具的审批策略，确认模型元数据提供的限制确实被执行。",
+          "importance": 2
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+          "url": "https://arxiv.org/abs/2609.01603v1",
+          "source": "ArXiv",
+          "summary": "论文研究使用轨迹感知评估提高软件工程代理基准测试效率的方法。",
+          "why": "只看最终结果可能无法充分反映代理在代码探索、修改和测试执行过程中的表现。",
+          "action": "学习如何记录并分析代理轨迹，将探索步骤、工具调用和测试过程纳入评估设计。",
+          "importance": 2
+        },
+        {
+          "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
+          "url": "https://arxiv.org/abs/2609.01601v1",
+          "source": "ArXiv",
+          "summary": "论文研究面向大型代码仓库的自适应关键 token 感知检索，以改善仓库级代码生成。",
+          "why": "仓库超出模型上下文限制时，检索质量会直接影响生成代码是否符合项目上下文。",
+          "action": "优先掌握仓库级代码检索、上下文裁剪和关键文件选择方法，并用真实仓库任务验证效果。",
+          "importance": 2
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Cognition Set to Raise Around $1B at a $47B Valuation",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-02/ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-billion-value",
+          "source": "Hacker News",
+          "summary": "报道标题称 Cognition 计划融资约 10 亿美元，估值约 470 亿美元。",
+          "why": "代理开发公司的大额融资反映出市场对 AI 软件工程方向的高关注度。",
+          "action": "求职或规划项目时，补强代理编排、软件工程自动化和可验证交付能力，并准备可量化的实际案例。",
+          "importance": 2
+        },
+        {
+          "title": "State of Local AI Report",
+          "url": "https://www.basecompute.co/stateoflocalai",
+          "source": "Hacker News",
+          "summary": "该条目提供一份本地 AI 状态报告。",
+          "why": "本地 AI 相关能力持续受到关注，岗位和项目可能更加重视部署、资源约束和隐私场景下的模型运行能力。",
+          "action": "将本地模型部署、推理优化和 Ollama、MLX 或 llama.cpp 等运行时实践纳入技能储备，并用一个可复现项目展示结果。",
+          "importance": 2
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}
