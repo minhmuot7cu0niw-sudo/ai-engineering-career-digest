@@ -1,0 +1,125 @@
+{
+  "overview": "今日重点集中在 AI 编程代理的组织级治理、工具调用成本控制与本地推理基础设施演进。工程团队应优先关注 MCP 管理、权限策略、上下文输出成本和推理服务超时配置；职业上，AI 安全、代理工程与企业落地能力的信号更强。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Claude Code 支持组织级 managedMcpServers 与权限提示控制",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "Claude Code 新增 managedMcpServers 管理设置，组织可以向所有用户提供 HTTP/SSE MCP 服务器；同时新增 --permission-prompts none 参数。",
+          "why": "MCP 能力开始从个人配置走向组织级分发，权限提示也出现更细粒度的企业控制入口。",
+          "action": "检查现有 MCP 服务是否需要统一托管，并为组织级服务器补充来源、权限和变更审计策略。",
+          "importance": 5
+        },
+        {
+          "title": "OpenAI Codex 0.153.0 改进 Vim 模式草稿撤销与重做",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.0",
+          "source": "GitHub Release: openai/codex",
+          "summary": "Vim 模式支持使用 u 撤销和 Ctrl+R 重做，并保留包括粘贴内容和附件在内的完整草稿。",
+          "why": "代理式编码工具的交互状态管理继续增强，长输入和复杂编辑场景的恢复能力得到改善。",
+          "action": "若团队使用 Codex Vim 模式，升级后验证撤销、重做、粘贴内容和附件恢复流程。",
+          "importance": 4
+        },
+        {
+          "title": "美国国会出现 Frontier Act 前沿 AI 联邦监管文本",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/9925/text",
+          "source": "Hacker News",
+          "summary": "该条目指向 Frontier Act，主题为对前沿 AI 开发实施联邦监督。",
+          "why": "前沿模型开发可能面临更明确的监管与监督要求，企业的模型治理和合规准备重要性上升。",
+          "action": "持续跟踪法案文本和后续进展，并盘点模型评测、风险记录和责任归属材料。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "更短的工具输出未必降低编码代理成本",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+          "source": "Hacker News",
+          "summary": "GitHub 讨论了在不牺牲任务质量的情况下优化编码代理成本，并指出更短的工具输出可能使编码代理更昂贵。",
+          "why": "仅按输出长度优化上下文可能无法代表真实成本，工具调用次数、任务质量和整体执行路径也需要纳入评估。",
+          "action": "建立按任务完成率、总 token、工具调用次数和端到端耗时统计的代理成本基线。",
+          "importance": 5
+        },
+        {
+          "title": "AI 安全设计开始假设攻击者拥有 root 权限",
+          "url": "https://thenewstack.io/tide-raziel-emergent-authority/",
+          "source": "Hacker News",
+          "summary": "文章讨论一种假设攻击者拥有 root 权限的 AI 安全思路。",
+          "why": "这会把安全边界从单纯的操作系统权限扩展到代理权限、凭据暴露和高权限行为控制。",
+          "action": "对代理运行环境进行高权限失陷演练，重点检查凭据隔离、网络访问、工具白名单和审计能力。",
+          "importance": 5
+        },
+        {
+          "title": "AI-DLC 提出一个核心流程、多种 harness 的工作方式",
+          "url": "https://github.com/awslabs/aidlc-workflows/tree/main",
+          "source": "Hacker News",
+          "summary": "AI-DLC 项目以一个核心流程配合多种 harness，提供面向 AI 开发流程的工作流实现。",
+          "why": "将任务流程与具体代理或运行载体分离，有助于降低工具替换成本并保持开发规范一致。",
+          "action": "评估现有 AI 编码流程中哪些规则应沉淀为与具体工具无关的核心工作流。",
+          "importance": 4
+        },
+        {
+          "title": "Ollama v0.33.3 更新本地推理能力与缓存 token 统计",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc2",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "Ollama v0.33.3-rc2 支持报告缓存 prompt tokens，遵循 GGUF 模型定义的默认参数，并更新 MLX、MLX-C 与 llama.cpp。",
+          "why": "本地模型服务的成本观测、默认参数一致性和底层推理组件同步继续完善。",
+          "action": "在升级前后比较缓存 token 统计和模型默认参数行为，确认本地部署的性能与结果没有异常变化。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "优先学习组织级 MCP 管理与代理权限控制",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "Claude Code 将 MCP 服务器配置扩展到组织级 managedMcpServers，并提供权限提示控制参数。",
+          "why": "企业代理落地需要同时解决能力分发和权限边界，这比单个提示词技巧更接近生产问题。",
+          "action": "掌握 MCP HTTP/SSE 配置、组织级分发、命令执行限制和权限审计的基本设计。",
+          "importance": 5
+        },
+        {
+          "title": "优先学习代理成本与任务质量的联合评估",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+          "source": "Hacker News",
+          "summary": "GitHub 的条目聚焦编码代理工具输出、任务质量与成本之间的关系。",
+          "why": "代理系统优化不能只看 token 或单次响应长度，需要建立可比较的端到端指标体系。",
+          "action": "为一个真实编码任务记录成功率、总 token、工具调用、耗时和人工返工量，形成第一版评测表。",
+          "importance": 5
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "AI 安全岗位更重视高权限失陷假设与系统防护",
+          "url": "https://thenewstack.io/tide-raziel-emergent-authority/",
+          "source": "Hacker News",
+          "summary": "条目聚焦在攻击者拥有 root 权限这一前提下设计 AI 安全。",
+          "why": "这类议题对应代理安全、基础设施安全、凭据隔离和攻防评估等复合技能，企业落地时具有直接相关性。",
+          "action": "补强 Linux 权限模型、云安全、代理工具隔离和安全评测能力，并准备高权限攻击场景案例。",
+          "importance": 5
+        },
+        {
+          "title": "企业 AI 应用岗位需要连接真实业务流程",
+          "url": "https://openai.com/index/atv-big-air-tour",
+          "source": "OpenAI",
+          "summary": "ATV Big Air Tour 使用 ChatGPT Work 加速营销、商品管理等工作，并将商品照片转成库存网站。",
+          "why": "案例显示企业采用 AI 的价值不仅在模型能力，也在于把内容、商品和运营流程连接起来。",
+          "action": "求职或内部转型时准备一个可量化的业务自动化案例，说明输入、代理流程、产出和节省的时间。",
+          "importance": 4
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}

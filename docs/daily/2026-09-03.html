@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-09-03</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-09-03</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-09-03 11:35:44 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日重点集中在 AI 编程代理的组织级治理、工具调用成本控制与本地推理基础设施演进。工程团队应优先关注 MCP 管理、权限策略、上下文输出成本和推理服务超时配置；职业上，AI 安全、代理工程与企业落地能力的信号更强。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 5</span></div>
+  <h3>Claude Code 支持组织级 managedMcpServers 与权限提示控制</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Claude Code 新增 managedMcpServers 管理设置，组织可以向所有用户提供 HTTP/SSE MCP 服务器；同时新增 --permission-prompts none 参数。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>MCP 能力开始从个人配置走向组织级分发，权限提示也出现更细粒度的企业控制入口。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>检查现有 MCP 服务是否需要统一托管，并为组织级服务器补充来源、权限和变更审计策略。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">GitHub Release: openai/codex</span><span class="item-importance">重要度 4</span></div>
+  <h3>OpenAI Codex 0.153.0 改进 Vim 模式草稿撤销与重做</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Vim 模式支持使用 u 撤销和 Ctrl+R 重做，并保留包括粘贴内容和附件在内的完整草稿。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理式编码工具的交互状态管理继续增强，长输入和复杂编辑场景的恢复能力得到改善。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>若团队使用 Codex Vim 模式，升级后验证撤销、重做、粘贴内容和附件恢复流程。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>美国国会出现 Frontier Act 前沿 AI 联邦监管文本</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该条目指向 Frontier Act，主题为对前沿 AI 开发实施联邦监督。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>前沿模型开发可能面临更明确的监管与监督要求，企业的模型治理和合规准备重要性上升。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>持续跟踪法案文本和后续进展，并盘点模型评测、风险记录和责任归属材料。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 5</span></div>
+  <h3>更短的工具输出未必降低编码代理成本</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>GitHub 讨论了在不牺牲任务质量的情况下优化编码代理成本，并指出更短的工具输出可能使编码代理更昂贵。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>仅按输出长度优化上下文可能无法代表真实成本，工具调用次数、任务质量和整体执行路径也需要纳入评估。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>建立按任务完成率、总 token、工具调用次数和端到端耗时统计的代理成本基线。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 5</span></div>
+  <h3>AI 安全设计开始假设攻击者拥有 root 权限</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章讨论一种假设攻击者拥有 root 权限的 AI 安全思路。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这会把安全边界从单纯的操作系统权限扩展到代理权限、凭据暴露和高权限行为控制。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>对代理运行环境进行高权限失陷演练，重点检查凭据隔离、网络访问、工具白名单和审计能力。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>AI-DLC 提出一个核心流程、多种 harness 的工作方式</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>AI-DLC 项目以一个核心流程配合多种 harness，提供面向 AI 开发流程的工作流实现。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>将任务流程与具体代理或运行载体分离，有助于降低工具替换成本并保持开发规范一致。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>评估现有 AI 编码流程中哪些规则应沉淀为与具体工具无关的核心工作流。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">GitHub Release: ollama/ollama</span><span class="item-importance">重要度 4</span></div>
+  <h3>Ollama v0.33.3 更新本地推理能力与缓存 token 统计</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Ollama v0.33.3-rc2 支持报告缓存 prompt tokens，遵循 GGUF 模型定义的默认参数，并更新 MLX、MLX-C 与 llama.cpp。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>本地模型服务的成本观测、默认参数一致性和底层推理组件同步继续完善。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在升级前后比较缓存 token 统计和模型默认参数行为，确认本地部署的性能与结果没有异常变化。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 5</span></div>
+  <h3>优先学习组织级 MCP 管理与代理权限控制</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Claude Code 将 MCP 服务器配置扩展到组织级 managedMcpServers，并提供权限提示控制参数。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>企业代理落地需要同时解决能力分发和权限边界，这比单个提示词技巧更接近生产问题。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>掌握 MCP HTTP/SSE 配置、组织级分发、命令执行限制和权限审计的基本设计。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 5</span></div>
+  <h3>优先学习代理成本与任务质量的联合评估</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>GitHub 的条目聚焦编码代理工具输出、任务质量与成本之间的关系。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理系统优化不能只看 token 或单次响应长度，需要建立可比较的端到端指标体系。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>为一个真实编码任务记录成功率、总 token、工具调用、耗时和人工返工量，形成第一版评测表。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 5</span></div>
+  <h3>AI 安全岗位更重视高权限失陷假设与系统防护</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>条目聚焦在攻击者拥有 root 权限这一前提下设计 AI 安全。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这类议题对应代理安全、基础设施安全、凭据隔离和攻防评估等复合技能，企业落地时具有直接相关性。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>补强 Linux 权限模型、云安全、代理工具隔离和安全评测能力，并准备高权限攻击场景案例。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">OpenAI</span><span class="item-importance">重要度 4</span></div>
+  <h3>企业 AI 应用岗位需要连接真实业务流程</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>ATV Big Air Tour 使用 ChatGPT Work 加速营销、商品管理等工作，并将商品照片转成库存网站。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>案例显示企业采用 AI 的价值不仅在模型能力，也在于把内容、商品和运营流程连接起来。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>求职或内部转型时准备一个可量化的业务自动化案例，说明输入、代理流程、产出和节省的时间。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
