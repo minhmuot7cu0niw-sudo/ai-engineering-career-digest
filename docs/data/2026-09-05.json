@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Show HN: Rubato – Retro-Mac desk device mirrors AI coding state-ESP8266",
+          "url": "https://github.com/lovaxi/Rubato_Device",
+          "source": "Hacker News",
+          "summary": "Show HN: Rubato – Retro-Mac desk device mirrors AI coding state-ESP8266",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Lenexus – dependency graph with deterministic risk engine and AI layer",
+          "url": "https://lenexux.com/welcome",
+          "source": "Hacker News",
+          "summary": "Lenexus – dependency graph with deterministic risk engine and AI layer",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "GitSpawn: Untrusted repos can execute code via AI coding agents",
+          "url": "https://www.manifold.security/blog/ai-coding-agents-git-hijack",
+          "source": "Hacker News",
+          "summary": "GitSpawn: Untrusted repos can execute code via AI coding agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Tracking Public Predictions with AI",
+          "url": "https://mob.so/prescience",
+          "source": "Hacker News",
+          "summary": "Tracking Public Predictions with AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Personal AI Router for Local Inference",
+          "url": "https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/",
+          "source": "Hacker News",
+          "summary": "Personal AI Router for Local Inference",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI-assisted writing is common because writing is hard",
+          "url": "https://greyenlightenment.com/2026/08/24/ai-assisted-writing-is-common-because-writing-is-hard/",
+          "source": "Hacker News",
+          "summary": "AI-assisted writing is common because writing is hard",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "The jobs apocalypse is postponed. An AI jobs boom is here",
+          "url": "https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
+          "source": "Hacker News",
+          "summary": "The jobs apocalypse is postponed. An AI jobs boom is here",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "v0.34.0-rc1",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc1",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "<p>app: harden Codex desktop proxy handling (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5353863911\" data-permission-text=\"Title is private\" data-url=\"https://github.com/ollama/ollama/issues/18244\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ollama/ollama/pull/18244/hovercard\" href=\"https://github.com/ollama/ollama/pull/18244\">#18244</a>)</p>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "GPT-6 Astra on Vercel AI Gateway",
+          "url": "https://vercel.com/ai-gateway/models/gpt-6-astra",
+          "source": "Hacker News",
+          "summary": "GPT-6 Astra on Vercel AI Gateway",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "v1.18.29",
+          "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.29",
+          "source": "GitHub Release: anomalyco/opencode",
+          "summary": "<h2>Core</h2> <h3>Bugfixes</h3> <ul> <li>Allow Codex OAuth model filtering to recognize integer GPT versions like <code>gpt-6</code></li> <li>Fixes issue of gpt-6-astra not showing up for openai subscription users</li> </ul> <p><strong>Thank you to 2 community contributors:</strong></p> <ul> <li><a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Peter267/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Peter267\">@Peter267</a>: <ul> <li>docs(zh): fix bold rendering by adding spaces around asterisks (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5290886874\" data-permission-text=\"Title is private\" data-url=\"https://github.com/anomalyco/opencode/issues/46231\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/anomalyco/opencode/pull/46231/hovercard\" href=\"https://github.com/anomalyco/opencode/pull/46231\">#46231</a>)</li> </ul> </li> <li><a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/heimoshuiyu/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/heimoshuiyu\">@heimoshuiyu</a>: <ul> <li>feat(console): add quota reset support action (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5349751331\" data-permission-text=\"Title is private\" data-url=\"https://github.com/anomalyco/opencode/issues/47313\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/anomalyco/opencode/pull/47313/hovercard\" href=\"https://github.com/anomalyco/opencode/pull/47313\">#47313</a>)</li> </ul> </li> </ul>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "0.153.4",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.4",
+          "source": "GitHub Release: openai/codex",
+          "summary": "<h2>Bug Fixes</h2> <ul> <li>Fixed Astra’s visibility in the bundled model picker and made it the bundled default when no model is explicitly configured. (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5353618742\" data-permission-text=\"Title is private\" data-url=\"https://github.com/openai/codex/issues/42874\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/openai/codex/pull/42874/hovercard\" href=\"https://github.com/openai/codex/pull/42874\">#42874</a>)</li> <li>Updated Astra’s guidance to use asynchronous questions only when the tool is available in the session. (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5353787347\" data-permission-text=\"Title is private\" data-url=\"https://github.com/openai/codex/issues/42878\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/openai/codex/pull/42878/hovercard\" href=\"https://github.com/openai/codex/pull/42878\">#42878</a>)</li> </ul> <h2>Changelog</h2> <p>Full Changelog: <a class=\"commit-link\" href=\"https://github.com/openai/codex/compare/rust-v0.153.3...rust-v0.153.4\"><tt>rust-v0.153.3...rust-v0.153.4</tt></a></p> <ul> <li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5353618742\" data-permission-text=\"Title is private\" data-url=\"https://github.com/openai/codex/issues/42874\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/openai/codex/pull/42874/hovercard\" href=\"https://github.com/openai/codex/pull/42874\">#42874</a> [0.153 hotfix] Show Astra in bundled model picker <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rhan-oai/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rhan-oai\">@rhan-oai</a></li> <li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5353787347\" data-permission-text=\"Title is private\" data-url=\"https://github.com/openai/codex/issues/42878\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/openai/codex/pull/42878/hovercard\" href=\"https://github.com/openai/codex/pull/42878\">#42878</a> [0.153 hotfix] Qualify Astra async-question guidance by tool availability <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rhan-oai/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rhan-oai\">@rhan-oai</a></li> </ul>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
