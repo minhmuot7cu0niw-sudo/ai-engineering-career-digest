@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>个人工具与项目侦察周报 · 2026-09-06</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>个人工具与项目侦察周报 · 2026-09-06</h1></div>
+      <div class="meta"><strong>周报版</strong>2026-09-06 13:34:41 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>本周优先补齐 Codex 的浏览器调试闭环；再用一个可跑通的教学项目理解模型训练。其余候选虽热门，但对当前个人开发工作流的增量不足以构成推荐。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>本周值得安装</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub Trending</span><span class="item-importance">重要度 5</span></div>
+  <h3>Chrome DevTools MCP</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>把 Chrome DevTools 能力以 MCP 形式提供给编码代理，用于浏览器调试、页面检查与自动化排障，解决“代理改了前端代码但无法可靠验证真实浏览器行为”的断点。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>对 Codex 的直接价值高：相比在终端里反复描述报错、粘贴控制台输出或手工截图，可让代理围绕浏览器状态定位问题并验证修复，尤其适合前端联调、性能排查和 UI 回归检查。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>现在试用。本周先按仓库文档接入到你的 Codex/MCP 配置，用一个已有 Web 项目完成一次“复现控制台错误、定位、修复、浏览器验证”的闭环。 成熟度与风险：近期有活动，来自 Chrome DevTools 组织，定位清晰且可直接嵌入现有代理工作流；实际风险主要是 MCP 配置、浏览器权限及自动化范围需要按项目控制。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>学习与作品集</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">GitHub Trending</span><span class="item-importance">重要度 4</span></div>
+  <h3>MiniMind</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>一个从零训练小型语言模型的 Python 项目，目标是用较低资源跑通数据、训练和模型理解流程，解决大模型原理学习停留在概念层、难以形成可展示实践的问题。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>相比只调用模型 API 或阅读论文，亲手完成一次小模型训练能建立对 token、训练循环、参数规模和推理效果边界的具体判断；还可整理成一篇带实验记录的技术作品，展示 AI 工程基础而非仅会使用工具。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>本周试跑。先严格按仓库说明完成最小训练或推理示例，记录环境、耗时、显存/内存占用和一个可复现实验结果，再决定是否扩展为作品集文章。 成熟度与风险：近期有活动，项目目标单一、学习路径明确；适合作为实验项目，不应将其训练结果或脚本直接视为生产级模型方案，硬件和训练成本需先评估。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>值得观察</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">GitHub Trending</span><span class="item-importance">重要度 3</span></div>
+  <h3>Magnitude</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>一个开源本地模型推理服务器，宣称可按硬件运行本地模型，并接入 Codex、Claude Code 等既有编码代理，解决本地模型与多种代理之间的接入摩擦。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>若你需要控制推理成本、保护代码数据或测试本地模型能力，它可能比为每个代理分别搭建模型接口更省事；但是否能稳定提升日常 Codex 工作流，仍取决于你的硬件、模型质量和实际配置体验。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>暂不投入主力工作流。本周只阅读安装与兼容性文档，核对操作系统、GPU/内存要求及 Codex 接入方式；确认能以小成本跑通后再做隔离测试。 成熟度与风险：近期有活动，但候选信息显示其 star 数相对较低，且覆盖多代理与本地推理的承诺需要在真实硬件上验证；适合观察和试验，不宜立刻替换稳定的云端配置。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>

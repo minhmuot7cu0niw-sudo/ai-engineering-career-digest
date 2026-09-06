@@ -1,0 +1,52 @@
+{
+  "overview": "本周优先补齐 Codex 的浏览器调试闭环；再用一个可跑通的教学项目理解模型训练。其余候选虽热门，但对当前个人开发工作流的增量不足以构成推荐。",
+  "sections": [
+    {
+      "name": "本周值得安装",
+      "items": [
+        {
+          "title": "Chrome DevTools MCP",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "source": "GitHub Trending",
+          "summary": "把 Chrome DevTools 能力以 MCP 形式提供给编码代理，用于浏览器调试、页面检查与自动化排障，解决“代理改了前端代码但无法可靠验证真实浏览器行为”的断点。",
+          "why": "对 Codex 的直接价值高：相比在终端里反复描述报错、粘贴控制台输出或手工截图，可让代理围绕浏览器状态定位问题并验证修复，尤其适合前端联调、性能排查和 UI 回归检查。",
+          "action": "现在试用。本周先按仓库文档接入到你的 Codex/MCP 配置，用一个已有 Web 项目完成一次“复现控制台错误、定位、修复、浏览器验证”的闭环。",
+          "maturity": "近期有活动，来自 Chrome DevTools 组织，定位清晰且可直接嵌入现有代理工作流；实际风险主要是 MCP 配置、浏览器权限及自动化范围需要按项目控制。",
+          "importance": 5
+        }
+      ]
+    },
+    {
+      "name": "学习与作品集",
+      "items": [
+        {
+          "title": "MiniMind",
+          "url": "https://github.com/jingyaogong/minimind",
+          "source": "GitHub Trending",
+          "summary": "一个从零训练小型语言模型的 Python 项目，目标是用较低资源跑通数据、训练和模型理解流程，解决大模型原理学习停留在概念层、难以形成可展示实践的问题。",
+          "why": "相比只调用模型 API 或阅读论文，亲手完成一次小模型训练能建立对 token、训练循环、参数规模和推理效果边界的具体判断；还可整理成一篇带实验记录的技术作品，展示 AI 工程基础而非仅会使用工具。",
+          "action": "本周试跑。先严格按仓库说明完成最小训练或推理示例，记录环境、耗时、显存/内存占用和一个可复现实验结果，再决定是否扩展为作品集文章。",
+          "maturity": "近期有活动，项目目标单一、学习路径明确；适合作为实验项目，不应将其训练结果或脚本直接视为生产级模型方案，硬件和训练成本需先评估。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "值得观察",
+      "items": [
+        {
+          "title": "Magnitude",
+          "url": "https://github.com/magnitudedev/magnitude",
+          "source": "GitHub Trending",
+          "summary": "一个开源本地模型推理服务器，宣称可按硬件运行本地模型，并接入 Codex、Claude Code 等既有编码代理，解决本地模型与多种代理之间的接入摩擦。",
+          "why": "若你需要控制推理成本、保护代码数据或测试本地模型能力，它可能比为每个代理分别搭建模型接口更省事；但是否能稳定提升日常 Codex 工作流，仍取决于你的硬件、模型质量和实际配置体验。",
+          "action": "暂不投入主力工作流。本周只阅读安装与兼容性文档，核对操作系统、GPU/内存要求及 Codex 接入方式；确认能以小成本跑通后再做隔离测试。",
+          "maturity": "近期有活动，但候选信息显示其 star 数相对较低，且覆盖多代理与本地推理的承诺需要在真实硬件上验证；适合观察和试验，不宜立刻替换稳定的云端配置。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": false,
+  "report_type": "project_scout"
+}
