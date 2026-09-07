@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "PL Education in the Age of AI: Interview with Shriram Krishnamurthi",
+          "url": "https://www.typetheoryforall.com/episodes/pl-education-in-the-age-of-ai",
+          "source": "Hacker News",
+          "summary": "PL Education in the Age of AI: Interview with Shriram Krishnamurthi",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "ripwire: ripgrep of AI context (CLI+MCP) giving coding agents a map of any repo",
+          "url": "https://github.com/redhat-et/ripwire",
+          "source": "Hacker News",
+          "summary": "ripwire: ripgrep of AI context (CLI+MCP) giving coding agents a map of any repo",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "A Rogue AI Swarm Could Hide Inside an AI Company [video]",
+          "url": "https://www.youtube.com/watch?v=xRKOpMeEQgQ",
+          "source": "Hacker News",
+          "summary": "A Rogue AI Swarm Could Hide Inside an AI Company [video]",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Fauxnix – bash for AI agents on Windows, no WSL (we measured the PS tax)",
+          "url": "https://github.com/20000419/fauxnix",
+          "source": "Hacker News",
+          "summary": "Fauxnix – bash for AI agents on Windows, no WSL (we measured the PS tax)",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Everyone is right about AI",
+          "url": "https://formasimplex.com/blog/2026-09-06-Everyone-is-right-about-AI.html",
+          "source": "Hacker News",
+          "summary": "Everyone is right about AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Abliteration.ai is making a business out of removing AI guardrails",
+          "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+          "source": "Hacker News",
+          "summary": "Abliteration.ai is making a business out of removing AI guardrails",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Don't build your organization around a model provider",
+          "url": "https://juanreyero.com/article/ai/model-provider-independence",
+          "source": "Hacker News",
+          "summary": "Don't build your organization around a model provider",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "ROCm 10.0: A Decade of Open Compute, Built for the Age of Agentic AI",
+          "url": "https://rocm.blogs.amd.com/ecosystems-and-partners/rocm-x-blog/README.html",
+          "source": "Hacker News",
+          "summary": "ROCm 10.0: A Decade of Open Compute, Built for the Age of Agentic AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI Is Already Making Us Less Human",
+          "url": "https://www.theatlantic.com/ideas/2026/09/open-ai-consciousness-morality/688535/",
+          "source": "Hacker News",
+          "summary": "AI Is Already Making Us Less Human",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Airbnb cut authentication code by 60% with server-driven flows",
+          "url": "https://medium.com/airbnb-engineering/flexible-authentication-reimagining-authentication-for-millions-of-users-at-airbnb-3a8a4c917137",
+          "source": "Hacker News",
+          "summary": "Airbnb cut authentication code by 60% with server-driven flows",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Prediction of maternal and infant outcomes with a Mother-Child AI agent",
+          "url": "https://doi.org/10.1038/s41591-026-04694-y",
+          "source": "Hacker News",
+          "summary": "Prediction of maternal and infant outcomes with a Mother-Child AI agent",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
