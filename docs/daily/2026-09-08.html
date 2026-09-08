@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-09-08</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-09-08</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-09-08 11:42:51 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日信号集中在两条主线：AI 代理正在进入可观测、可控和安全治理阶段，同时其在科研与专业任务中的生产力影响继续扩大。工程团队应优先补齐代理运行管理、外部访问防护与交付质量控制，而非单纯扩大生成规模。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">OpenAI</span><span class="item-importance">重要度 1</span></div>
+  <h3>OpenAI：编码代理正在重塑 AI 研究工作流</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>OpenAI 分享其内部早期数据，称编码代理正在影响 AI 研究中的代理使用方式、实验速度、任务复杂度与研究加速。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这表明代理价值正从辅助编程延伸到研究执行链路；团队竞争点将包括任务拆解、实验编排、结果验证和人机协作，而不只是模型调用。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>盘点研发流程中可重复的实验、评测、数据处理和代码维护环节，为每类任务定义可委派边界、验收标准与人工复核点。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 1</span></div>
+  <h3>Anthropic AI 在 11 天内完成费马大定理形式化</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Nature 报道称，Anthropic 的 AI 在 11 天内完成了费马大定理的形式化工作。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>形式化证明场景强调可机器验证的正确性，说明 AI 在高约束、可验证的专业任务中更具落地潜力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>对高风险自动化任务优先采用可验证产物，例如测试、类型检查、证明检查、规则校验或可复现实验记录，而非只依赖自然语言输出。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 2</span></div>
+  <h3>Qwen Code 预览版加入动态工作流运行可视化与管理</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Qwen Code v0.23.1-preview.2 的变更说明包含 web-shell 中对动态工作流运行的可视化与管理功能。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理从单次命令走向多步骤工作流后，运行状态、干预入口和执行记录会成为可靠性交付的基础能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>评估现有代理工具是否能提供任务状态、步骤日志、失败重试、取消能力和运行审计；缺失时先在关键流程补上。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 1</span></div>
+  <h3>ASCII smuggling 已从提示注入扩展至钓鱼规避</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Microsoft 指出，ASCII smuggling 技术已从 AI 提示注入相关场景扩展到用于规避钓鱼检测。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>依赖文本展示或简单字符串匹配的安全检查可能被不可见或特殊字符绕过；AI 输入、邮件和工单等入口都可能受影响。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在进入 LLM、邮件解析和安全检测链路前执行 Unicode/ASCII 规范化与不可见字符检测，并将原始输入和规范化结果同时留存审计。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 1</span></div>
+  <h3>Meta AI 爬虫导致数据库压力的实践案例</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该案例描述 Meta 的 AI 爬虫对网站数据库造成冲击，以及作者采取的应对措施。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI 爬虫流量可能直接穿透动态页面并放大数据库负载，robots.txt 本身也不足以替代容量保护和访问控制。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>检查高成本页面的机器人访问日志；为爬虫设置速率限制、缓存、查询预算和数据库连接保护，并对异常 User-Agent 建立告警。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>robots.txt 中的 User-Agent 标识可能与表面名称不一致</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章讨论 robots.txt 的 User-Agent 行中，部分令牌并不按其表面名称对应实际对象。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>仅按名称猜测或阻断爬虫身份可能产生误配，影响内容抓取策略与访问治理。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>将 robots.txt 规则、实际请求头、IP/ASN、访问频率和公开文档交叉验证；对重要爬虫策略使用可回滚的观察模式后再强制执行。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>面向代理与人类的临时安全文件共享工具</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>aispace-client 提供面向 AI 代理和人类的安全临时文件共享能力。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理参与开发和运营后，文件交换成为数据外泄、权限扩张和凭据误传的高频风险面。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>为代理文件交换设定短时有效链接、最小权限、内容扫描、访问日志和自动过期规则；禁止在共享文件中长期存放密钥。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 1</span></div>
+  <h3>学习代理工作流的可观测性与人工接管设计</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Qwen Code 的预览版将动态工作流运行的可视化和管理列为新增能力。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>多步骤代理的工程难点在运行控制和失败定位，掌握工作流状态建模、追踪和恢复机制比单纯提示词调优更具迁移性。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>用一个真实自动化任务练习实现步骤状态、结构化日志、超时、重试、取消与人工批准节点，并为失败路径写测试。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 1</span></div>
+  <h3>学习可验证 AI 输出在专业任务中的应用</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>AI 完成费马大定理形式化的报道突出机器可验证的专业产物。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>可验证性能够降低 AI 用于严肃工程、科学计算和合规任务时的复核成本与风险。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>选择一个现有任务，将验收从“回答看起来合理”改为可执行测试、静态分析、约束求解或可复现实验，并量化通过率。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">OpenAI</span><span class="item-importance">重要度 1</span></div>
+  <h3>AI 研发岗位的能力要求正向代理协作与实验系统化延伸</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>OpenAI 的内部观察聚焦编码代理对研究任务复杂度、实验速度和研究流程的影响。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>对 AI 工程师和研究工程师而言，能够把代理接入评测、实验和代码流程，并保证结果可信，将成为更有区分度的能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在作品集或简历中展示一个端到端案例：代理执行任务、自动评测、失败分析、人工复核和可复现运行记录。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 1</span></div>
+  <h3>安全与治理能力成为代理落地的必要配套</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Microsoft 报告显示，与提示注入相关的规避技术已跨入钓鱼规避场景。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>企业部署代理时会更重视输入安全、权限控制、审计与数据防护；只会调用模型的候选人难以覆盖生产环境要求。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>补强提示注入防护、文本规范化、工具最小权限、密钥管理和审计日志知识，并在项目中明确展示威胁模型与防护措施。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>

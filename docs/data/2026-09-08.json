@@ -1,0 +1,125 @@
+{
+  "overview": "今日信号集中在两条主线：AI 代理正在进入可观测、可控和安全治理阶段，同时其在科研与专业任务中的生产力影响继续扩大。工程团队应优先补齐代理运行管理、外部访问防护与交付质量控制，而非单纯扩大生成规模。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "OpenAI：编码代理正在重塑 AI 研究工作流",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+          "source": "OpenAI",
+          "summary": "OpenAI 分享其内部早期数据，称编码代理正在影响 AI 研究中的代理使用方式、实验速度、任务复杂度与研究加速。",
+          "why": "这表明代理价值正从辅助编程延伸到研究执行链路；团队竞争点将包括任务拆解、实验编排、结果验证和人机协作，而不只是模型调用。",
+          "action": "盘点研发流程中可重复的实验、评测、数据处理和代码维护环节，为每类任务定义可委派边界、验收标准与人工复核点。",
+          "importance": 1
+        },
+        {
+          "title": "Anthropic AI 在 11 天内完成费马大定理形式化",
+          "url": "https://www.nature.com/articles/d41586-026-02822-9",
+          "source": "Hacker News",
+          "summary": "Nature 报道称，Anthropic 的 AI 在 11 天内完成了费马大定理的形式化工作。",
+          "why": "形式化证明场景强调可机器验证的正确性，说明 AI 在高约束、可验证的专业任务中更具落地潜力。",
+          "action": "对高风险自动化任务优先采用可验证产物，例如测试、类型检查、证明检查、规则校验或可复现实验记录，而非只依赖自然语言输出。",
+          "importance": 1
+        },
+        {
+          "title": "Qwen Code 预览版加入动态工作流运行可视化与管理",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.1-preview.2",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "Qwen Code v0.23.1-preview.2 的变更说明包含 web-shell 中对动态工作流运行的可视化与管理功能。",
+          "why": "代理从单次命令走向多步骤工作流后，运行状态、干预入口和执行记录会成为可靠性交付的基础能力。",
+          "action": "评估现有代理工具是否能提供任务状态、步骤日志、失败重试、取消能力和运行审计；缺失时先在关键流程补上。",
+          "importance": 2
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "ASCII smuggling 已从提示注入扩展至钓鱼规避",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
+          "source": "Hacker News",
+          "summary": "Microsoft 指出，ASCII smuggling 技术已从 AI 提示注入相关场景扩展到用于规避钓鱼检测。",
+          "why": "依赖文本展示或简单字符串匹配的安全检查可能被不可见或特殊字符绕过；AI 输入、邮件和工单等入口都可能受影响。",
+          "action": "在进入 LLM、邮件解析和安全检测链路前执行 Unicode/ASCII 规范化与不可见字符检测，并将原始输入和规范化结果同时留存审计。",
+          "importance": 1
+        },
+        {
+          "title": "Meta AI 爬虫导致数据库压力的实践案例",
+          "url": "https://usero.io/blog/meta-ai-crawler-crashing-my-db",
+          "source": "Hacker News",
+          "summary": "该案例描述 Meta 的 AI 爬虫对网站数据库造成冲击，以及作者采取的应对措施。",
+          "why": "AI 爬虫流量可能直接穿透动态页面并放大数据库负载，robots.txt 本身也不足以替代容量保护和访问控制。",
+          "action": "检查高成本页面的机器人访问日志；为爬虫设置速率限制、缓存、查询预算和数据库连接保护，并对异常 User-Agent 建立告警。",
+          "importance": 1
+        },
+        {
+          "title": "robots.txt 中的 User-Agent 标识可能与表面名称不一致",
+          "url": "https://ai-visibility.lastminutedealshq.com/robots-txt-user-agent-tokens",
+          "source": "Hacker News",
+          "summary": "文章讨论 robots.txt 的 User-Agent 行中，部分令牌并不按其表面名称对应实际对象。",
+          "why": "仅按名称猜测或阻断爬虫身份可能产生误配，影响内容抓取策略与访问治理。",
+          "action": "将 robots.txt 规则、实际请求头、IP/ASN、访问频率和公开文档交叉验证；对重要爬虫策略使用可回滚的观察模式后再强制执行。",
+          "importance": 2
+        },
+        {
+          "title": "面向代理与人类的临时安全文件共享工具",
+          "url": "https://github.com/aispace-sh/aispace-client",
+          "source": "Hacker News",
+          "summary": "aispace-client 提供面向 AI 代理和人类的安全临时文件共享能力。",
+          "why": "代理参与开发和运营后，文件交换成为数据外泄、权限扩张和凭据误传的高频风险面。",
+          "action": "为代理文件交换设定短时有效链接、最小权限、内容扫描、访问日志和自动过期规则；禁止在共享文件中长期存放密钥。",
+          "importance": 2
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "学习代理工作流的可观测性与人工接管设计",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.1-preview.2",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "Qwen Code 的预览版将动态工作流运行的可视化和管理列为新增能力。",
+          "why": "多步骤代理的工程难点在运行控制和失败定位，掌握工作流状态建模、追踪和恢复机制比单纯提示词调优更具迁移性。",
+          "action": "用一个真实自动化任务练习实现步骤状态、结构化日志、超时、重试、取消与人工批准节点，并为失败路径写测试。",
+          "importance": 1
+        },
+        {
+          "title": "学习可验证 AI 输出在专业任务中的应用",
+          "url": "https://www.nature.com/articles/d41586-026-02822-9",
+          "source": "Hacker News",
+          "summary": "AI 完成费马大定理形式化的报道突出机器可验证的专业产物。",
+          "why": "可验证性能够降低 AI 用于严肃工程、科学计算和合规任务时的复核成本与风险。",
+          "action": "选择一个现有任务，将验收从“回答看起来合理”改为可执行测试、静态分析、约束求解或可复现实验，并量化通过率。",
+          "importance": 1
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "AI 研发岗位的能力要求正向代理协作与实验系统化延伸",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+          "source": "OpenAI",
+          "summary": "OpenAI 的内部观察聚焦编码代理对研究任务复杂度、实验速度和研究流程的影响。",
+          "why": "对 AI 工程师和研究工程师而言，能够把代理接入评测、实验和代码流程，并保证结果可信，将成为更有区分度的能力。",
+          "action": "在作品集或简历中展示一个端到端案例：代理执行任务、自动评测、失败分析、人工复核和可复现运行记录。",
+          "importance": 1
+        },
+        {
+          "title": "安全与治理能力成为代理落地的必要配套",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
+          "source": "Hacker News",
+          "summary": "Microsoft 报告显示，与提示注入相关的规避技术已跨入钓鱼规避场景。",
+          "why": "企业部署代理时会更重视输入安全、权限控制、审计与数据防护；只会调用模型的候选人难以覆盖生产环境要求。",
+          "action": "补强提示注入防护、文本规范化、工具最小权限、密钥管理和审计日志知识，并在项目中明确展示威胁模型与防护措施。",
+          "importance": 1
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}
