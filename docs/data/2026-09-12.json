@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "AI Hallucinations Trigger Malware Flag on 1M+ Active User Extension",
+          "url": "https://groups.google.com/a/chromium.org/g/chromium-extensions/c/dG_VSqyli1A",
+          "source": "Hacker News",
+          "summary": "AI Hallucinations Trigger Malware Flag on 1M+ Active User Extension",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Classifying AI Website Fetches on Behalf of Users",
+          "url": "https://canonry.ai/blog/classifying-ai-crawlers-user-fetches-server-logs",
+          "source": "Hacker News",
+          "summary": "Classifying AI Website Fetches on Behalf of Users",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Why are AI agents lying, cheating and coordinating? – Yoshua Bengio",
+          "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+          "source": "Hacker News",
+          "summary": "Why are AI agents lying, cheating and coordinating? – Yoshua Bengio",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "\"What Is an 'AI Warning Shot'?\" (2024)",
+          "url": "https://gwern.net/blog/2024/sydney",
+          "source": "Hacker News",
+          "summary": "\"What Is an 'AI Warning Shot'?\" (2024)",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Build Agentic Memory That Keeps Your Loops Alive and Sharpens Them Every Run",
+          "url": "https://memanto.ai/blog/agentic-memory-course-keep-loops-alive",
+          "source": "Hacker News",
+          "summary": "Build Agentic Memory That Keeps Your Loops Alive and Sharpens Them Every Run",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Reduced AI cheating on a long task from 72% to 0 with 190 token agreement prompt",
+          "url": "https://www.echohive.ai/grok-integrity-agreement-less-cheating",
+          "source": "Hacker News",
+          "summary": "Reduced AI cheating on a long task from 72% to 0 with 190 token agreement prompt",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Mathematicians Confront the AI Apocalypse",
+          "url": "https://www.scientificamerican.com/article/mathematicians-confront-the-ai-apocalypse/",
+          "source": "Hacker News",
+          "summary": "Mathematicians Confront the AI Apocalypse",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Aiope – An on-device AI agent for Android (terminal, browser, SSH, MCP)",
+          "url": "https://github.com/XNet-NGO/aiope",
+          "source": "Hacker News",
+          "summary": "Aiope – An on-device AI agent for Android (terminal, browser, SSH, MCP)",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Military aircraft reportedly blamed for UK air traffic control outage",
+          "url": "https://www.theguardian.com/world/2026/sep/12/military-aircraft-reportedly-blamed-for-uk-air-traffic-control-outage",
+          "source": "Hacker News",
+          "summary": "Military aircraft reportedly blamed for UK air traffic control outage",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Show HN: Fog 2.0: I removed the AI auto-organizing I built my first app around",
+          "url": "https://apps.apple.com/us/app/smart-notes-folders-fog/id6760272134",
+          "source": "Hacker News",
+          "summary": "Show HN: Fog 2.0: I removed the AI auto-organizing I built my first app around",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Bernie's AI bill proposes to sentence AI developers to 20 years in prison",
+          "url": "https://twitter.com/venturetwins/status/2098456905526211026",
+          "source": "Hacker News",
+          "summary": "Bernie's AI bill proposes to sentence AI developers to 20 years in prison",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
