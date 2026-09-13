@@ -1,0 +1,52 @@
+{
+  "overview": "模型不可用；以下仅列出已验证的候选，个性化适配度需要人工复核。",
+  "sections": [
+    {
+      "name": "本周值得安装",
+      "items": [
+        {
+          "title": "excalidraw/excalidraw",
+          "url": "https://github.com/excalidraw/excalidraw",
+          "source": "GitHub API",
+          "summary": "Virtual whiteboard for sketching hand-drawn like diagrams",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "131,698 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习与作品集",
+      "items": [
+        {
+          "title": "CherryHQ/cherry-studio",
+          "url": "https://github.com/CherryHQ/cherry-studio",
+          "source": "GitHub API",
+          "summary": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "51,735 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "值得观察",
+      "items": [
+        {
+          "title": "files-community/Files",
+          "url": "https://github.com/files-community/Files",
+          "source": "GitHub API",
+          "summary": "A modern file manager that helps users organize their files and folders.",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "45,321 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true,
+  "report_type": "project_scout"
+}
