@@ -1,0 +1,125 @@
+{
+  "overview": "今日信号集中在 AI 从“辅助生成”走向“可执行、可测试、可审计的生产系统”：端到端系统委托、真实设备操作与 Agent 成本/缓存可观测性成为工程重点。职业上，能把 AI 接入既有工作流并建立测试、监控和人工治理机制的工程能力更具实际价值。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Perplexity 将 GPT-6 Astra 用于端到端系统操作与生产监控",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "source": "OpenAI",
+          "summary": "OpenAI 报告称，Perplexity 使用 Astra 撰写沟通内容、修改软件并监控生产系统；相较早期模型，人类检查频率显著降低。",
+          "why": "这表明 AI 应用的关注点正从单次回答质量扩展到可承担连续任务的系统执行能力，同时也提高了权限、监控、回滚和责任边界的重要性。",
+          "action": "盘点当前可交给 Agent 的低风险连续任务，为每项任务定义权限范围、人工审批点、日志、告警和回滚方案，再进行小范围试运行。",
+          "importance": 5
+        },
+        {
+          "title": "Google Artemis 让 AI 助手与测试套件像人一样操作真实手机",
+          "url": "https://github.com/google/artemis",
+          "source": "Hacker News",
+          "summary": "Google Artemis 面向 AI 助手和测试套件，支持其使用真实手机进行交互。",
+          "why": "移动端 Agent 和自动化测试不再只依赖模拟器或网页环境，真实设备操作能力可能成为端到端质量保障和移动任务自动化的关键基础设施。",
+          "action": "评估团队移动端测试中必须依赖真机的关键路径，并验证 Artemis 是否覆盖设备接入、测试隔离、失败截图/日志和 CI 集成需求。",
+          "importance": 4
+        },
+        {
+          "title": "Replay 聚焦审计 AI Agent 转录中的静默 Prompt Cache Miss",
+          "url": "https://replay.doctor/",
+          "source": "Hacker News",
+          "summary": "Replay 是一个用于审计 AI Agent 转录记录中静默提示词缓存未命中的工具。",
+          "why": "缓存未命中会直接影响 Agent 延迟与调用成本，而“静默”问题尤其容易在缺少链路观测时被忽略。",
+          "action": "为 Agent 调用补充 prompt、模型、缓存命中状态、token 用量、延迟和成本的追踪字段；优先排查高频工作流中的缓存未命中。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "先建立 AI 工作流清单，再讨论规模化部署",
+          "url": "https://age-of-product.com/ai-workflow-inventory/",
+          "source": "Hacker News",
+          "summary": "文章提出团队应能够明确识别自己正在由 AI 运行或参与的工作。",
+          "why": "如果团队无法说明 AI 参与了哪些工作、输入输出是什么、谁负责审批，就无法有效评估收益、风险、成本或故障影响。",
+          "action": "建立 AI 工作流台账，至少记录业务目标、负责人、模型/工具、数据输入、权限、人工检查点、失败处理方式和成本指标。",
+          "importance": 4
+        },
+        {
+          "title": "将吞吐量而非“是否使用 AI”作为工程评估对象",
+          "url": "https://www.michaelnygard.com/blog/2026/05/ai-versus-throughput/",
+          "source": "Hacker News",
+          "summary": "文章讨论 AI 与吞吐量之间的关系。",
+          "why": "AI 生成更多代码或内容不必然提升端到端交付；评估应覆盖需求澄清、评审、测试、部署、返工和事故处理等完整流动效率。",
+          "action": "在 AI 试点中同时跟踪交付周期、PR 审查等待、缺陷率、返工率和生产事故，而不要仅统计生成量或节省的编写时间。",
+          "importance": 4
+        },
+        {
+          "title": "把真实手机交互纳入 Agent 与测试基础设施评估",
+          "url": "https://github.com/google/artemis",
+          "source": "Hacker News",
+          "summary": "Artemis 支持 AI 助手和测试套件以类似人工方式使用真实手机。",
+          "why": "对于依赖系统权限、推送、支付、摄像头、网络切换或厂商差异的移动流程，模拟器覆盖不足会限制 AI 自动化的可靠性。",
+          "action": "挑选一个真机依赖最强的回归场景，比较人工执行、现有自动化和基于真实设备 Agent 的成功率、运行时间及可诊断性。",
+          "importance": 3
+        },
+        {
+          "title": "关注 Qwen Code 的 CUA Driver 跨平台预构建发布",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.6",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "Qwen CUA Driver 发布预构建二进制：macOS 提供已签名和公证的通用二进制及应用，Linux 提供 x86_64 与 arm64 版本，Windows 亦在发布说明覆盖范围内。",
+          "why": "计算机操作型 Agent 的本地驱动与跨平台分发正在成为实际部署环节，安装可信度、操作系统兼容性和驱动维护会影响落地速度。",
+          "action": "若计划评估计算机操作 Agent，先在隔离环境验证驱动安装、签名校验、最小权限运行及不同操作系统上的兼容性。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "学习 AI Agent 的可观测性与成本诊断",
+          "url": "https://replay.doctor/",
+          "source": "Hacker News",
+          "summary": "Replay 专注于发现 Agent 转录记录中的静默 Prompt Cache Miss。",
+          "why": "随着 Agent 进入多步骤任务，工程师需要能从转录、缓存、token、延迟和工具调用中定位性能与成本问题，而不仅是调提示词。",
+          "action": "优先补齐 tracing、prompt/version 管理、缓存指标、token 计量和失败重放能力，并用一个现有 Agent 任务完成端到端埋点。",
+          "importance": 5
+        },
+        {
+          "title": "系统阅读开源 AI 与开放模型生态",
+          "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+          "source": "Hacker News",
+          "summary": "该条目提供关于开源 AI 和开放模型的阅读列表。",
+          "why": "模型选择、部署方式、权重开放程度及社区工具链会影响企业的成本、可控性、数据边界和供应商依赖。",
+          "action": "从阅读列表中选取与自身场景相关的模型、推理部署和开源生态材料，形成一页模型选型对比：能力、许可、部署成本、数据要求和维护风险。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "AI 工程岗位价值向“生产系统委托与治理”延伸",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "source": "OpenAI",
+          "summary": "Perplexity 被描述为使用 Astra 进行软件变更和生产系统监控，并降低了人工检查频率。",
+          "why": "这类落地需要的不只是模型调用能力，还包括系统集成、权限设计、发布控制、监控告警、审计和事故响应能力；这些能力更贴近企业可采购的 AI 工程价值。",
+          "action": "在简历或作品集中展示一个带有审批、日志、评估、回滚和监控的 Agent 项目，明确说明其自动化边界与人工接管机制。",
+          "importance": 5
+        },
+        {
+          "title": "移动端自动化与计算机操作型 Agent 形成新的工程交叉点",
+          "url": "https://github.com/google/artemis",
+          "source": "Hacker News",
+          "summary": "Artemis 让 AI 助手和测试套件能够操作真实手机；Qwen Code 同日也发布了 CUA Driver 的预构建版本。",
+          "why": "真实设备控制、移动测试、Agent 执行安全和跨平台驱动集成正在汇合，具备移动质量工程与 AI 自动化双重能力的开发者更容易参与此类落地。",
+          "action": "为移动端技能栈增加一项可验证成果：用真实设备完成一个受控的自动化测试或 Agent 操作流程，并输出可复现的日志和失败诊断。",
+          "importance": 4
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}
