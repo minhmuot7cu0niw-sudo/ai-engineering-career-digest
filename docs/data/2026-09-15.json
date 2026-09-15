@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Europe must build own AI, says ECB's Lagarde",
+          "url": "https://www.theguardian.com/technology/2026/sep/14/europe-ai-datacentres-growth-us-china-ecb-christine-lagarde",
+          "source": "Hacker News",
+          "summary": "Europe must build own AI, says ECB's Lagarde",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "KelvinAI",
+          "url": "https://kelvinai.ai/",
+          "source": "Hacker News",
+          "summary": "KelvinAI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "China hit back at Anthropic CEO's call to curb China's AI development",
+          "url": "https://www.youtube.com/watch?v=BIM5G5kFYAg",
+          "source": "Hacker News",
+          "summary": "China hit back at Anthropic CEO's call to curb China's AI development",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Crof.ai Was Caught Misrepresenting Models, Shut Down",
+          "url": "https://reddit.com/r/SillyTavernAI/comments/1wgkagq/crofai_model_provider_just_shut_down_fraudulently/",
+          "source": "Hacker News",
+          "summary": "Crof.ai Was Caught Misrepresenting Models, Shut Down",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Why the best AI startups write bad prompts (& how to fix this)",
+          "url": "https://twitter.com/wulfie_bain_/status/2098060386813566990",
+          "source": "Hacker News",
+          "summary": "Why the best AI startups write bad prompts (& how to fix this)",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Is Shipd.ai (Datacurve) Legit?",
+          "url": "https://shipd.ai",
+          "source": "Hacker News",
+          "summary": "Is Shipd.ai (Datacurve) Legit?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Microsoft AI Publishes Its Humanist AI Code of Conduct",
+          "url": "https://microsoft.ai/code-of-conduct/",
+          "source": "Hacker News",
+          "summary": "Microsoft AI Publishes Its Humanist AI Code of Conduct",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Does Scaling Web-Video Pre-Training Help Real Robots Do Real Work?",
+          "url": "https://www.rhoda.ai/research/scaling-web-video-pretraining",
+          "source": "Hacker News",
+          "summary": "Does Scaling Web-Video Pre-Training Help Real Robots Do Real Work?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Air Force secretary acknowledges the US has weapons in space",
+          "url": "https://abcnews.com/Politics/air-force-secretary-acknowledges-us-weapons-space/story?id=136437923",
+          "source": "Hacker News",
+          "summary": "Air Force secretary acknowledges the US has weapons in space",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "World AI Cooperation Organization",
+          "url": "https://en.wikipedia.org/wiki/World_Artificial_Intelligence_Cooperation_Organization",
+          "source": "Hacker News",
+          "summary": "World AI Cooperation Organization",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "US-China AI strategic planning",
+          "url": "https://sinocism.com/p/us-china-strategic-ai-dialogue-said",
+          "source": "Hacker News",
+          "summary": "US-China AI strategic planning",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
