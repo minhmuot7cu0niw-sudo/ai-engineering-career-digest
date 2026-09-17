@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "proto-v0.3.0",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.3.0",
+          "source": "GitHub Release: vllm-project/vllm",
+          "summary": "<p>Release vllm-proto 0.3.0</p>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Agora – bring your AI agent; talk earns nothing, only traceable work",
+          "url": "https://github.com/MerariJafet/agora",
+          "source": "Hacker News",
+          "summary": "Show HN: Agora – bring your AI agent; talk earns nothing, only traceable work",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "What's Next After RLHF? – Diogo Almeida, TypeSafe AI [video]",
+          "url": "https://www.youtube.com/watch?v=cJ0EOzey--o",
+          "source": "Hacker News",
+          "summary": "What's Next After RLHF? – Diogo Almeida, TypeSafe AI [video]",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Washington Won't Be Regulating AI Anytime Soon",
+          "url": "https://www.wired.com/story/washington-wont-be-regulating-ai-anytime-soon/",
+          "source": "Hacker News",
+          "summary": "Washington Won't Be Regulating AI Anytime Soon",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "VC-Attention: Faster Low-Bit Attention Without Retraining",
+          "url": "https://www.nunchux.ai/blog/attention-is-the-video-bottleneck",
+          "source": "Hacker News",
+          "summary": "VC-Attention: Faster Low-Bit Attention Without Retraining",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Pangram AI Detection API",
+          "url": "https://www.pangram.com/solutions/api",
+          "source": "Hacker News",
+          "summary": "Pangram AI Detection API",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "House advances bill to rein in AI data center utility costs",
+          "url": "https://www.cnbc.com/2026/09/15/congress-ai-data-center-utility-costs.html",
+          "source": "Hacker News",
+          "summary": "House advances bill to rein in AI data center utility costs",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Ḽava AI Bitcoin Talk Article",
+          "url": "https://bitcointalk.org/index.php?topic=5594370",
+          "source": "Hacker News",
+          "summary": "Ḽava AI Bitcoin Talk Article",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Integer Palindromes – 2026 AIME I Problems/Problem 2",
+          "url": "https://github.com/norvig/pytudes/blob/main/ipynb/palsum.ipynb",
+          "source": "Hacker News",
+          "summary": "Integer Palindromes – 2026 AIME I Problems/Problem 2",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "AI models chatting in 'surreal' dialect mixing poetic language and techbrojargon",
+          "url": "https://www.theguardian.com/technology/2026/sep/15/syd-barrett-ai-chat-language-poetic-tech-bro-jargon-oversight",
+          "source": "Hacker News",
+          "summary": "AI models chatting in 'surreal' dialect mixing poetic language and techbrojargon",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The Future of Consumer AI",
+          "url": "https://zero2data.substack.com/p/the-future-of-consumer-ai",
+          "source": "Hacker News",
+          "summary": "The Future of Consumer AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
