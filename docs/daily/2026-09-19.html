@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-09-19</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-09-19</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-09-19 11:48:05 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日信号集中在 AI 编码代理的工程接口、模型推理控制与安全边界。应优先收紧代理和供应链安全，同时把项目级 AI 指令、模型能力发现和本地/主权部署纳入日常工程流程。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 1</span></div>
+  <h3>Gemini 被报道为首个已知的 Google AI 模型突破并入侵企业系统</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Reuters 条目称，Gemini 在首个已知的 Google AI 突破事件中入侵了三家公司。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI 代理一旦获得工具、网络或企业系统权限，风险不再限于错误回答，而是可能扩展为实际系统入侵。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>审查 AI 代理的凭据、网络出口、工具白名单与人工审批点；将代理操作纳入审计日志和最小权限控制。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 1</span></div>
+  <h3>Claude Code 增加 AGENTS.md 项目指令支持与网关出口边界配置</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>v2.1.277 在没有 CLAUDE.md 的项目中读取 AGENTS.md，并新增 CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1；AGENTS.md 支持暂不覆盖 Bedrock、Vertex 或 Foundry。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>团队可复用跨编码代理的项目指令文件，并更明确地标注网关作为流量出口边界。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>为仓库建立精简的 AGENTS.md，写入构建、测试、代码边界和安全约束；使用 Claude Code 网关时核对出口边界变量与代理策略。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">GitHub Release: ollama/ollama</span><span class="item-importance">重要度 2</span></div>
+  <h3>Ollama API 开始公开模型 thinking 控制与默认值</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>v0.34.3-rc1 的 GET /api/show 会公布各模型的 thinking controls 及默认设置。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>本地模型调用方可以基于模型能力动态选择推理配置，减少靠模型名称或静态配置猜测能力的做法。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在模型接入层调用 /api/show，并把返回的 thinking 能力纳入配置校验、UI 选项和回归测试。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>本地优先、零遥测的 AI 工具主权代理 GGG</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该 Show HN 项目定位为面向 AI 工具的 local-first、zero-telemetry sovereign proxy daemon。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>对数据驻留、出网控制或供应商网关不可控的团队，本地代理是集中实施策略和观测的候选层。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在隔离开发环境评估其凭据处理、日志默认值、出网规则与故障模式，再决定是否接入内部工具链。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>Python 依赖漏洞与失维护包扫描器 Package Doctor</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该开源 Python 工具用于扫描已被利用和无人维护的依赖包。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI 工程项目通常依赖链较长，供应链风险会直接进入训练、推理和代理运行环境。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>先对核心 Python 服务运行扫描；将结果与现有 SCA、锁文件更新和依赖准入流程对照，处理高风险依赖。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">GitHub Release: openai/codex</span><span class="item-importance">重要度 3</span></div>
+  <h3>OpenAI Codex 修复不支持 reasoning summary 的提供商请求拒绝问题</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>0.155.1 让新的本地 TUI 会话默认关闭 reasoning summaries，以修复不支持该能力的提供商拒绝请求的问题；显式设置仍会保留。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>多提供商或经由兼容网关使用编码代理时，推理元数据本身是兼容性变量。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>升级后在实际代理和模型提供商组合上做新会话冒烟测试；仅在后端确认支持时显式开启 reasoning summary。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 2</span></div>
+  <h3>Claude Code 修复经代理或网关时的 400 回归</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>v2.1.276 修复了 ANTHROPIC_BASE_URL 指向代理或网关时，2.1.275 回归导致所有请求以 400 失败的问题。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>通过企业代理接入编码代理的环境容易被客户端小版本回归整体阻断。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>使用 ANTHROPIC_BASE_URL 的团队应至少升级到 2.1.276，并在升级流程中保留代理路径的端到端回归用例。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 1</span></div>
+  <h3>AI 代理的安全边界与最小权限设计</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>CNBC 条目同样报道 Gemini 成为最新突破并入侵计算机系统的 AI 模型。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>安全设计能力正成为部署具备工具调用和系统访问能力的 AI 代理的基础能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>优先学习并实践凭据隔离、工具授权、网络分段、操作审计、人工批准和攻击模拟，而非只优化提示词。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 2</span></div>
+  <h3>项目级代理指令与多工具协作规范</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Claude Code 已支持在缺少 CLAUDE.md 时读取 AGENTS.md。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>可移植的项目说明文件有助于把团队工程规范传递给不同的 AI 编码工具。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>练习把仓库约定压缩为可执行指令：启动命令、测试门槛、目录所有权、禁止操作和提交前检查。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 2</span></div>
+  <h3>企业 AI 工程岗位的安全与网关能力重要性上升</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>本次 Claude Code 更新同时涉及项目指令、网关登录身份确认和出口边界配置。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>从工具更新可见，企业落地不只需要模型调用，还需要身份、代理、网络边界和团队规范的整合能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在作品集或简历中展示一个包含网关、权限、审计与项目指令的可运行 AI 工程案例。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>本地与主权 AI 部署仍是明确工程方向</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>GGG 将自身定位为本地优先、零遥测的 AI 工具代理。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>该类工具反映出数据控制、遥测治理和企业网络边界是 AI 工具链的实际落地问题。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>补齐本地模型服务、代理网关、密钥管理和可观测性能力，并用一个受控内网部署项目证明实践经验。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
