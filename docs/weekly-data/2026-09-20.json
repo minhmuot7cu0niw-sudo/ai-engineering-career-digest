@@ -1,0 +1,52 @@
+{
+  "overview": "本周优先改善 Codex 并行开发的工作区管理，其次用文档转换做一个可展示的 AI 数据管道小项目；多智能体开发环境潜力较大，但适合先观察。以下项目按所给 pushed_at 均满足 90 天内活跃要求。",
+  "sections": [
+    {
+      "name": "本周值得安装",
+      "items": [
+        {
+          "title": "max-sixty/worktrunk",
+          "url": "https://github.com/max-sixty/worktrunk",
+          "source": "GitHub Trending",
+          "summary": "面向并行 AI 编码流程的 Git worktree 管理 CLI，用于快速创建和管理彼此隔离的工作目录，减少多个 Codex 或其他编码智能体同时修改同一仓库时的冲突与上下文混乱。",
+          "why": "如果当前主要靠手动执行 git worktree 命令、复制仓库或频繁切换分支，Worktrunk 能把隔离任务的操作收束成更稳定的流程；它明确支持 Codex，和个人多任务、并行代理开发的契合度很高。",
+          "action": "建议本周试用。先在一个非关键仓库中，为两个独立小任务各创建一个 worktree，分别交给 Codex处理，再验证切换、合并和清理流程是否顺手。",
+          "maturity": "最近仍有提交，Rust CLI 定位明确，且已有一定用户基础；实用性较高，但首次使用应在非关键仓库验证其 worktree 命名、合并与清理行为，避免误操作工作目录。",
+          "importance": 5
+        }
+      ]
+    },
+    {
+      "name": "学习与作品集",
+      "items": [
+        {
+          "title": "microsoft/markitdown",
+          "url": "https://github.com/microsoft/markitdown",
+          "source": "GitHub Trending",
+          "summary": "微软维护的 Python 文件转换工具，可将 PDF、Office 等文档转成 Markdown，为 LLM 提供更容易处理的文本输入，解决知识库、检索和文档分析项目前置清洗繁琐的问题。",
+          "why": "相比为每种文件格式单独拼接解析库，它提供了更统一的文档入口。可围绕它制作一个小而完整的作品：批量导入个人资料，转换、保留来源元数据，再接入检索或摘要，并展示失败处理与质量评估。",
+          "action": "建议本周动手做最小项目。先选 10 份不同格式的真实文档，完成批量转换脚本，记录成功率、输出质量和异常案例；之后再决定是否加入分块、搜索或 RAG，避免一开始堆叠框架。",
+          "maturity": "近期活跃、维护方明确且用户基础很大，作为文档预处理组件具有较强可用性；实际风险主要是复杂 PDF、表格和排版转换可能失真，因此作品中应保留原文件引用并展示质量检查。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "值得观察",
+      "items": [
+        {
+          "title": "stablyai/orca",
+          "url": "https://github.com/stablyai/orca",
+          "source": "GitHub Trending",
+          "summary": "用于管理并行编码智能体的开发环境，支持 Codex 等代理，并把桌面、移动端和远程运行时纳入同一类工作流，目标是协调一组同时工作的编码代理。",
+          "why": "它可能把目前手动开多个终端、维护 worktree、追踪代理状态的方式提升为统一界面，尤其适合未来更复杂的并行 Codex 工作流；但其覆盖面比单一 CLI 大，是否真正节省时间取决于稳定性、资源占用和对现有 Git 流程的兼容程度。",
+          "action": "暂不建议立即迁移主力环境。先关注版本更新、安装文档、数据与凭据处理方式以及 Codex/worktree 的实际演示；若这些信息清晰，再用一个可丢弃仓库测试两名代理并行完成独立任务。",
+          "maturity": "近期提交活跃且关注度高，但产品范围包含多代理编排、远程运行和多端使用，集成面广，实际风险高于轻量 CLI；在工作区隔离、失败恢复和凭据边界得到验证前，更适合作为观察项。",
+          "importance": 4
+        }
+      ]
+    }
+  ],
+  "degraded": false,
+  "report_type": "project_scout"
+}

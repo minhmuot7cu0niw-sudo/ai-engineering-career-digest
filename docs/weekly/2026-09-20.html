@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>个人工具与项目侦察周报 · 2026-09-20</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>个人工具与项目侦察周报 · 2026-09-20</h1></div>
+      <div class="meta"><strong>周报版</strong>2026-09-20 13:47:41 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>本周优先改善 Codex 并行开发的工作区管理，其次用文档转换做一个可展示的 AI 数据管道小项目；多智能体开发环境潜力较大，但适合先观察。以下项目按所给 pushed_at 均满足 90 天内活跃要求。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>本周值得安装</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub Trending</span><span class="item-importance">重要度 5</span></div>
+  <h3>max-sixty/worktrunk</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>面向并行 AI 编码流程的 Git worktree 管理 CLI，用于快速创建和管理彼此隔离的工作目录，减少多个 Codex 或其他编码智能体同时修改同一仓库时的冲突与上下文混乱。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>如果当前主要靠手动执行 git worktree 命令、复制仓库或频繁切换分支，Worktrunk 能把隔离任务的操作收束成更稳定的流程；它明确支持 Codex，和个人多任务、并行代理开发的契合度很高。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>建议本周试用。先在一个非关键仓库中，为两个独立小任务各创建一个 worktree，分别交给 Codex处理，再验证切换、合并和清理流程是否顺手。 成熟度与风险：最近仍有提交，Rust CLI 定位明确，且已有一定用户基础；实用性较高，但首次使用应在非关键仓库验证其 worktree 命名、合并与清理行为，避免误操作工作目录。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>学习与作品集</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">GitHub Trending</span><span class="item-importance">重要度 4</span></div>
+  <h3>microsoft/markitdown</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>微软维护的 Python 文件转换工具，可将 PDF、Office 等文档转成 Markdown，为 LLM 提供更容易处理的文本输入，解决知识库、检索和文档分析项目前置清洗繁琐的问题。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>相比为每种文件格式单独拼接解析库，它提供了更统一的文档入口。可围绕它制作一个小而完整的作品：批量导入个人资料，转换、保留来源元数据，再接入检索或摘要，并展示失败处理与质量评估。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>建议本周动手做最小项目。先选 10 份不同格式的真实文档，完成批量转换脚本，记录成功率、输出质量和异常案例；之后再决定是否加入分块、搜索或 RAG，避免一开始堆叠框架。 成熟度与风险：近期活跃、维护方明确且用户基础很大，作为文档预处理组件具有较强可用性；实际风险主要是复杂 PDF、表格和排版转换可能失真，因此作品中应保留原文件引用并展示质量检查。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>值得观察</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">GitHub Trending</span><span class="item-importance">重要度 4</span></div>
+  <h3>stablyai/orca</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>用于管理并行编码智能体的开发环境，支持 Codex 等代理，并把桌面、移动端和远程运行时纳入同一类工作流，目标是协调一组同时工作的编码代理。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>它可能把目前手动开多个终端、维护 worktree、追踪代理状态的方式提升为统一界面，尤其适合未来更复杂的并行 Codex 工作流；但其覆盖面比单一 CLI 大，是否真正节省时间取决于稳定性、资源占用和对现有 Git 流程的兼容程度。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>暂不建议立即迁移主力环境。先关注版本更新、安装文档、数据与凭据处理方式以及 Codex/worktree 的实际演示；若这些信息清晰，再用一个可丢弃仓库测试两名代理并行完成独立任务。 成熟度与风险：近期提交活跃且关注度高，但产品范围包含多代理编排、远程运行和多端使用，集成面广，实际风险高于轻量 CLI；在工作区隔离、失败恢复和凭据边界得到验证前，更适合作为观察项。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
