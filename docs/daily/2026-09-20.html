@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-09-20</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-09-20</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-09-20 12:04:17 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日信号集中在三点：AI 辅助开发正在从“提高生成速度”转向同时治理质量与工作流；本地化、终端化和高吞吐数据管道仍是重要工程落地方向；Qwen Code 与 Ollama 的更新显示开发者工具正持续完善会话权限、模型思考控制和 API 能力。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>Spotify：AI 提升开发速度后，质量治理成为重点</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Spotify 分享 AI 改变其软件构建方式，以及在更高开发速度下关于质量的经验与修正。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI 编码带来的主要工程挑战不只是生成效率，也包括质量控制和交付流程适配。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>阅读案例并检查团队现有的代码评审、测试和发布门禁是否能承受更高提交速度。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 3</span></div>
+  <h3>Qwen Code v0.24.1 发布并包含破坏性变更</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该版本包含完整变更列表，并将停止发出 active_goal stream event。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>依赖 Qwen Code 流式事件的插件、脚本或观测逻辑可能受到兼容性影响。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>升级前检查对 active_goal stream event 的依赖，先在测试环境验证客户端和自动化流程。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>本地 AI 工具继续向终端和完整平台形态扩展</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>aty 被介绍为一个 shell native 的终端或 shell AI 助手；另有开源、可本地使用的完整 AI 平台项目 ENZO。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>开发者使用 AI 的入口正在从独立聊天界面延伸到终端和本地运行环境。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>根据数据敏感性和工作流需求，分别评估终端助手与本地平台是否适合用于低风险开发任务。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>在高吞吐数据管道中使用 system-one 模型</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章介绍在高吞吐数据管道中使用 system-one 模型，场景涉及实体解析。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这类案例直接关联模型在数据工程流程中的吞吐、集成方式和生产化边界。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>重点查看其实体解析流程、吞吐约束和失败处理方式，并对照自己的批处理或流处理架构。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">GitHub Release: ollama/ollama</span><span class="item-importance">重要度 3</span></div>
+  <h3>Ollama API 展示模型思考控制信息</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>v0.34.3-rc1 的 GET /api/show 会展示模型的 thinking controls 及其默认设置。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>模型能力和默认思考设置变得更容易通过 API 获取，有助于构建更明确的模型配置与调用逻辑。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>若使用 Ollama API，检查客户端是否读取并展示这些字段，并在调用侧显式记录思考设置。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 3</span></div>
+  <h3>Qwen Code Desktop 修复会话级 ACP 权限队列问题</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该桌面版本包含将 ACP permission queue 限定到 session 的修复。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>权限队列的会话隔离关系到多会话开发场景中的操作边界和授权体验。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>升级后测试并行会话下的权限请求，确认一个会话的授权不会影响其他会话。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 2</span></div>
+  <h3>Qwen Code SDK TypeScript v0.1.13 更新绑定 CLI 版本</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该 SDK 版本绑定 CLI 0.24.1；发布说明还列出此前绑定 CLI 0.23.3 的信息。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>SDK 与 CLI 的绑定版本会影响构建可复现性和集成兼容性。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>锁定 SDK 与 CLI 版本，并在 CI 中增加版本核对和回归测试。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>Pure Code：AI 写代码后开发者还剩什么</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章讨论当 AI 编写代码后，开发者仍然保留和承担的工作。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>理解职责变化有助于把学习重点从单纯编码扩展到问题定义、验证和系统判断。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>阅读后列出自己项目中仍需人工负责的设计、验证、调试和交付环节，并形成能力缺口清单。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>AI 辅助创作的伦理问题</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章讨论 AI-assisted creation 的伦理问题。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>在引入生成式工具时，创作归属、披露和使用边界会影响团队流程与交付风险。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>为个人或团队建立 AI 使用记录、产物审核和必要披露的基本规则。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>AI 工程岗位的能力组合更偏向速度与质量并重</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Spotify 分享了 AI 提升构建速度后，在质量方面学到的经验及采取的修正。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>相关工程岗位不仅需要使用 AI 工具，还需要建立测试、评审和质量控制机制。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>简历或作品集同时展示 AI 辅助开发效率与质量保障结果，例如测试覆盖、缺陷控制或发布流程改进。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 2</span></div>
+  <h3>本地化与工具链集成能力具有持续实践价值</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>ENZO 被介绍为一个开源、可本地使用的完整 AI 平台。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>本地部署和开发工具链集成可作为 AI 工程实践的具体项目方向。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>准备一个可运行的本地 AI 项目，明确模型调用、数据边界和开发者使用入口，并在作品集中说明取舍。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>

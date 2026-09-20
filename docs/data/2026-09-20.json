@@ -1,0 +1,125 @@
+{
+  "overview": "今日信号集中在三点：AI 辅助开发正在从“提高生成速度”转向同时治理质量与工作流；本地化、终端化和高吞吐数据管道仍是重要工程落地方向；Qwen Code 与 Ollama 的更新显示开发者工具正持续完善会话权限、模型思考控制和 API 能力。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Spotify：AI 提升开发速度后，质量治理成为重点",
+          "url": "https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity",
+          "source": "Hacker News",
+          "summary": "Spotify 分享 AI 改变其软件构建方式，以及在更高开发速度下关于质量的经验与修正。",
+          "why": "AI 编码带来的主要工程挑战不只是生成效率，也包括质量控制和交付流程适配。",
+          "action": "阅读案例并检查团队现有的代码评审、测试和发布门禁是否能承受更高提交速度。",
+          "importance": 3
+        },
+        {
+          "title": "Qwen Code v0.24.1 发布并包含破坏性变更",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.24.1",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "该版本包含完整变更列表，并将停止发出 active_goal stream event。",
+          "why": "依赖 Qwen Code 流式事件的插件、脚本或观测逻辑可能受到兼容性影响。",
+          "action": "升级前检查对 active_goal stream event 的依赖，先在测试环境验证客户端和自动化流程。",
+          "importance": 3
+        },
+        {
+          "title": "本地 AI 工具继续向终端和完整平台形态扩展",
+          "url": "https://github.com/TheR1D/aty",
+          "source": "Hacker News",
+          "summary": "aty 被介绍为一个 shell native 的终端或 shell AI 助手；另有开源、可本地使用的完整 AI 平台项目 ENZO。",
+          "why": "开发者使用 AI 的入口正在从独立聊天界面延伸到终端和本地运行环境。",
+          "action": "根据数据敏感性和工作流需求，分别评估终端助手与本地平台是否适合用于低风险开发任务。",
+          "importance": 2
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "在高吞吐数据管道中使用 system-one 模型",
+          "url": "https://www.southbridge.ai/blog/jev-entity-resolution",
+          "source": "Hacker News",
+          "summary": "文章介绍在高吞吐数据管道中使用 system-one 模型，场景涉及实体解析。",
+          "why": "这类案例直接关联模型在数据工程流程中的吞吐、集成方式和生产化边界。",
+          "action": "重点查看其实体解析流程、吞吐约束和失败处理方式，并对照自己的批处理或流处理架构。",
+          "importance": 3
+        },
+        {
+          "title": "Ollama API 展示模型思考控制信息",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "v0.34.3-rc1 的 GET /api/show 会展示模型的 thinking controls 及其默认设置。",
+          "why": "模型能力和默认思考设置变得更容易通过 API 获取，有助于构建更明确的模型配置与调用逻辑。",
+          "action": "若使用 Ollama API，检查客户端是否读取并展示这些字段，并在调用侧显式记录思考设置。",
+          "importance": 3
+        },
+        {
+          "title": "Qwen Code Desktop 修复会话级 ACP 权限队列问题",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.24.1",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "该桌面版本包含将 ACP permission queue 限定到 session 的修复。",
+          "why": "权限队列的会话隔离关系到多会话开发场景中的操作边界和授权体验。",
+          "action": "升级后测试并行会话下的权限请求，确认一个会话的授权不会影响其他会话。",
+          "importance": 3
+        },
+        {
+          "title": "Qwen Code SDK TypeScript v0.1.13 更新绑定 CLI 版本",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.13",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "该 SDK 版本绑定 CLI 0.24.1；发布说明还列出此前绑定 CLI 0.23.3 的信息。",
+          "why": "SDK 与 CLI 的绑定版本会影响构建可复现性和集成兼容性。",
+          "action": "锁定 SDK 与 CLI 版本，并在 CI 中增加版本核对和回归测试。",
+          "importance": 2
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Pure Code：AI 写代码后开发者还剩什么",
+          "url": "https://pure-code-essay.vercel.app/",
+          "source": "Hacker News",
+          "summary": "文章讨论当 AI 编写代码后，开发者仍然保留和承担的工作。",
+          "why": "理解职责变化有助于把学习重点从单纯编码扩展到问题定义、验证和系统判断。",
+          "action": "阅读后列出自己项目中仍需人工负责的设计、验证、调试和交付环节，并形成能力缺口清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI 辅助创作的伦理问题",
+          "url": "https://im.not.ci/ai-creator-ethic/",
+          "source": "Hacker News",
+          "summary": "文章讨论 AI-assisted creation 的伦理问题。",
+          "why": "在引入生成式工具时，创作归属、披露和使用边界会影响团队流程与交付风险。",
+          "action": "为个人或团队建立 AI 使用记录、产物审核和必要披露的基本规则。",
+          "importance": 2
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "AI 工程岗位的能力组合更偏向速度与质量并重",
+          "url": "https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity",
+          "source": "Hacker News",
+          "summary": "Spotify 分享了 AI 提升构建速度后，在质量方面学到的经验及采取的修正。",
+          "why": "相关工程岗位不仅需要使用 AI 工具，还需要建立测试、评审和质量控制机制。",
+          "action": "简历或作品集同时展示 AI 辅助开发效率与质量保障结果，例如测试覆盖、缺陷控制或发布流程改进。",
+          "importance": 3
+        },
+        {
+          "title": "本地化与工具链集成能力具有持续实践价值",
+          "url": "https://github.com/theguysudo/ENZO",
+          "source": "Hacker News",
+          "summary": "ENZO 被介绍为一个开源、可本地使用的完整 AI 平台。",
+          "why": "本地部署和开发工具链集成可作为 AI 工程实践的具体项目方向。",
+          "action": "准备一个可运行的本地 AI 项目，明确模型调用、数据边界和开发者使用入口，并在作品集中说明取舍。",
+          "importance": 2
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}
