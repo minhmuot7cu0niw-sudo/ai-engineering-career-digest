@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "A Silicon Valley radical: Trump's AI whisperer pushing for limited regulation",
+          "url": "https://www.theguardian.com/us-news/2026/sep/20/david-sacks-trump-ai-czar",
+          "source": "Hacker News",
+          "summary": "A Silicon Valley radical: Trump's AI whisperer pushing for limited regulation",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI Weekly Warns Firms on Google AI Studio Data Retention Fraud",
+          "url": "https://bitu79.substack.com/p/ai-weekly-issues-warning-on-google",
+          "source": "Hacker News",
+          "summary": "AI Weekly Warns Firms on Google AI Studio Data Retention Fraud",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Art of the Problem Launches $99 AI bot",
+          "url": "https://artoftheproblem.com/pages/growbot-preview",
+          "source": "Hacker News",
+          "summary": "Art of the Problem Launches $99 AI bot",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "AI is breaking the academic sorting machine",
+          "url": "https://lemire.me/blog/2026/09/20/ai-is-breaking-the-academic-sorting-machine/",
+          "source": "Hacker News",
+          "summary": "AI is breaking the academic sorting machine",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Can I Let My AI Agent Run on Shabbat?",
+          "url": "https://www.chabad.org/library/article_cdo/aid/7288064/jewish/Can-I-Let-My-AI-Agent-Run-on-Shabbat.htm",
+          "source": "Hacker News",
+          "summary": "Can I Let My AI Agent Run on Shabbat?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Why Bother with Lint Rules If AI Writes the Code?",
+          "url": "https://allstead.dev/blog/why-lint-when-ai-writes-the-code",
+          "source": "Hacker News",
+          "summary": "Why Bother with Lint Rules If AI Writes the Code?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "ZCode: Z.ai's coding agent harness. Powerful, intelligent, extensible",
+          "url": "https://github.com/zai-org/ZCode",
+          "source": "Hacker News",
+          "summary": "ZCode: Z.ai's coding agent harness. Powerful, intelligent, extensible",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Flock Partnered with Nonprofit That Uses AI to Rally Public Support",
+          "url": "https://theintercept.com/2026/09/17/flock-cameras-ai-astroturf-support/",
+          "source": "Hacker News",
+          "summary": "Flock Partnered with Nonprofit That Uses AI to Rally Public Support",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "How Google is drafting AI chatbot laws around the country",
+          "url": "https://www.npr.org/2026/09/18/nx-s1-5968878/ai-chatbots-safety-regulation-google",
+          "source": "Hacker News",
+          "summary": "How Google is drafting AI chatbot laws around the country",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Nvidia's Jensen Huang rejects AI extinction warnings as \"doomsday narratives\"",
+          "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-rejects-ai-extinction-warnings/",
+          "source": "Hacker News",
+          "summary": "Nvidia's Jensen Huang rejects AI extinction warnings as \"doomsday narratives\"",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "OpenPrompt – one workspace for developers using multiple AI coding tools",
+          "url": "https://openprompt.tech",
+          "source": "Hacker News",
+          "summary": "OpenPrompt – one workspace for developers using multiple AI coding tools",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
