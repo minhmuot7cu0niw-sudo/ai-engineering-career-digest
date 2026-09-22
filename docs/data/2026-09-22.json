@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "I Built an AI Dating Assistant Because Swiping Is Statistically Inefficient",
+          "url": "https://medium.com/@mgcblee/i-built-an-ai-dating-assistant-because-swiping-is-statistically-inefficient-bdafd31c0738",
+          "source": "Hacker News",
+          "summary": "I Built an AI Dating Assistant Because Swiping Is Statistically Inefficient",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "ArtifactBench: Evaluating AI Music Detectors Under Distribution Shift",
+          "url": "https://arxiv.org/abs/2609.23550",
+          "source": "Hacker News",
+          "summary": "ArtifactBench: Evaluating AI Music Detectors Under Distribution Shift",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Amazon blocks Meta's Muse AI assistant",
+          "url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+          "source": "Hacker News",
+          "summary": "Amazon blocks Meta's Muse AI assistant",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "China's AI Realism Is Not Conspiracy",
+          "url": "https://www.fredgao.com/p/chinas-ai-realism-is-not-conspiracy",
+          "source": "Hacker News",
+          "summary": "China's AI Realism Is Not Conspiracy",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Francis Fukuyama: Why I Changed My Mind About AI Risk",
+          "url": "https://www.persuasion.community/p/why-i-changed-my-mind-about-ai-risk",
+          "source": "Hacker News",
+          "summary": "Francis Fukuyama: Why I Changed My Mind About AI Risk",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Ottawa to build sovereign AI ecosystem for Canadian defence operations",
+          "url": "https://www.theglobeandmail.com/business/economy/article-ottawa-building-sovereign-ai-ecosystem-for-canadian-defence-operations/",
+          "source": "Hacker News",
+          "summary": "Ottawa to build sovereign AI ecosystem for Canadian defence operations",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Turn ad-hoc subagents into durable, accountable AI teams",
+          "url": "https://github.com/ringlochid/oh-my-subagents",
+          "source": "Hacker News",
+          "summary": "Turn ad-hoc subagents into durable, accountable AI teams",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Vibes vs. Evidence: What delivers AI code review quality",
+          "url": "https://dsifry.github.io/harnesseval/",
+          "source": "Hacker News",
+          "summary": "Vibes vs. Evidence: What delivers AI code review quality",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Something bugs me about AGI AI LLM, what if we back paddled 1000 year",
+          "url": "https://shatteringtheabyss.substack.com/p/llm-agi-god-congratulations-humanity",
+          "source": "Hacker News",
+          "summary": "Something bugs me about AGI AI LLM, what if we back paddled 1000 year",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Major air traffic controller outage triggers flight chaos [video]",
+          "url": "https://www.youtube.com/watch?v=gHUZ9W025lA",
+          "source": "Hacker News",
+          "summary": "Major air traffic controller outage triggers flight chaos [video]",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "I built an autonomous accounting tool to let AI do my taxes",
+          "url": "https://github.com/CodeGameDev29/KFAutonomousAccounting",
+          "source": "Hacker News",
+          "summary": "I built an autonomous accounting tool to let AI do my taxes",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
