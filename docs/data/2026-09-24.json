@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Show HN: Built-in APM for vibe-coded apps so your AI can fix them",
+          "url": "https://oncroft.net/blog/monitoring-built-in-for-every-croft-app/",
+          "source": "Hacker News",
+          "summary": "Show HN: Built-in APM for vibe-coded apps so your AI can fix them",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History",
+          "url": "https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd",
+          "source": "Hacker News",
+          "summary": "The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "We Run Kaizen on AI",
+          "url": "https://kznconsulting.com/work/how-we-run-kaizen",
+          "source": "Hacker News",
+          "summary": "We Run Kaizen on AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "OpenAI’s A.I. Tried Breaching 4 Other Targets, Without Prompting",
+          "url": "https://www.nytimes.com/2026/09/23/technology/openai-ai-breach-australia.html",
+          "source": "Hacker News",
+          "summary": "OpenAI’s A.I. Tried Breaching 4 Other Targets, Without Prompting",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Automatically detecting AI text in my browser",
+          "url": "https://www.seangoedecke.com/deckard/",
+          "source": "Hacker News",
+          "summary": "Automatically detecting AI text in my browser",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Chatlo – an iOS-native AI agent, now with Jev",
+          "url": "https://apps.apple.com/us/app/chatlo-ai-chat-agent/id6771188943",
+          "source": "Hacker News",
+          "summary": "Show HN: Chatlo – an iOS-native AI agent, now with Jev",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "AI Isn't Going to Destroy Humanity–But the People Building It Might",
+          "url": "https://www.theatlantic.com/technology/2026/09/kara-swisher-ai-destroy-humanity-atlantic-festival/688721/",
+          "source": "Hacker News",
+          "summary": "AI Isn't Going to Destroy Humanity–But the People Building It Might",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The Misalignment Is Within: Why Mathematics Must Embrace the AI Paradigm",
+          "url": "https://medium.com/@b1nj0y/the-misalignment-is-within-why-mathematics-must-embrace-the-ai-paradigm-8ba75c4bafda",
+          "source": "Hacker News",
+          "summary": "The Misalignment Is Within: Why Mathematics Must Embrace the AI Paradigm",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AP: Avoid language that gives [AI] human characteristics",
+          "url": "https://twitter.com/APStylebook/status/2102807962364383502",
+          "source": "Hacker News",
+          "summary": "AP: Avoid language that gives [AI] human characteristics",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "We used an AI agent to fix an open-source bug. Someone asked to ban us",
+          "url": "https://github.com/saulpw/visidata/pull/3229",
+          "source": "Hacker News",
+          "summary": "We used an AI agent to fix an open-source bug. Someone asked to ban us",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI Has Cracked the Most Diabolical Problems in Math. Why Can't It Solve Chess?",
+          "url": "https://www.wsj.com/tech/ai/chess-artificial-intelligence-ai-e969a830",
+          "source": "Hacker News",
+          "summary": "AI Has Cracked the Most Diabolical Problems in Math. Why Can't It Solve Chess?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
