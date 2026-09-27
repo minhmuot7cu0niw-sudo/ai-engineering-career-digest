@@ -1,0 +1,116 @@
+{
+  "overview": "今天值得关注的是 AI 工具的运行环境、请求可观测性和安全治理。职业信号主要来自企业应用案例，但给定条目不足以判断整体招聘趋势。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "头部 AI 公司调查安全事件",
+          "url": "https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents",
+          "source": "Hacker News",
+          "summary": "条目称头部 AI 公司正在调查安全事件；给定摘要未提供事件细节。",
+          "why": "依赖外部模型或代理服务的团队需要关注供应商安全信息。",
+          "action": "核对所用供应商的正式通报，并检查现有访问权限和事件响应流程。",
+          "importance": 1
+        },
+        {
+          "title": "Ollama v0.40.0 候选版调整 Apple Silicon 默认运行时",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "在 Apple Silicon 上，受 MLX 支持的模型架构将默认通过 MLX 运行。",
+          "why": "默认运行时变化可能影响本地模型部署的性能与兼容性。",
+          "action": "若使用 Apple Silicon，在测试环境比较升级前后的模型加载、输出和性能。",
+          "importance": 2
+        },
+        {
+          "title": "Qwen Code 发布 v0.24.6",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.24.6",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "正式版发布说明标注无已知破坏性变更，并列出包括 Java SDK Hosted Harness 私有客户端在内的改动。",
+          "why": "使用 Qwen Code 或其 SDK 的团队有了明确的版本核对点。",
+          "action": "按实际使用的 CLI 或 SDK 组件阅读完整变更清单，再决定是否升级。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Claude Code 增加网关请求分组提示头",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "v2.1.283 增加 x-claude-code-prompt-id；设置 CLAUDE_CODE_GATEWAY_HINT_HEADERS=1 后，网关可按一次用户提示分组相关请求。",
+          "why": "这为经由网关排查一次提示涉及的多次请求提供了关联依据。",
+          "action": "使用 LLM 网关的团队可先在测试环境启用该设置，检查日志是否正确分组。",
+          "importance": 1
+        },
+        {
+          "title": "Solus Linux 制定 AI 与 LLM 贡献政策",
+          "url": "https://linuxiac.com/solus-linux-adopts-formal-ai-and-llm-contribution-policy/",
+          "source": "Hacker News",
+          "summary": "条目报道 Solus Linux 采用了正式的 AI 与 LLM 贡献政策；给定摘要未说明具体条款。",
+          "why": "AI 辅助代码进入开源项目时，需要遵守项目自己的贡献要求。",
+          "action": "向开源项目提交 AI 辅助改动前，先阅读其现行贡献政策。",
+          "importance": 2
+        },
+        {
+          "title": "Qwen Code Desktop 修复会话创建失败的诊断信息",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.24.6",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "v0.24.6 的给定发布摘要提到保留会话创建失败时的诊断信息。",
+          "why": "明确的失败诊断有助于定位桌面端会话启动问题。",
+          "action": "若团队遇到此类失败，升级测试后确认错误信息是否足以支持排障。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "梳理代理记忆的设计选择",
+          "url": "https://www.cognee.ai/agent-memory",
+          "source": "Hacker News",
+          "summary": "条目提供一份代理记忆的详细指南。",
+          "why": "代理记忆直接关系到长期任务如何保存和使用上下文。",
+          "action": "阅读指南时，结合自己的项目列出需要验证的记忆写入、检索和更新问题。",
+          "importance": 1
+        },
+        {
+          "title": "了解代理间通信的实际边界",
+          "url": "https://peertalk.ai",
+          "source": "Hacker News",
+          "summary": "PeerTalk.ai 展示让自己的代理与朋友的代理对话的产品方向。",
+          "why": "跨代理交互会带来身份、权限和信息共享问题；条目本身未说明其解决方式。",
+          "action": "评估类似方案时，优先核实身份验证、授权范围和对话记录处理方式。",
+          "importance": 2
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "车队管理企业披露 Codex 应用成果",
+          "url": "https://openai.com/index/proaction",
+          "source": "OpenAI",
+          "summary": "OpenAI 称 Proaction 使用 Codex、GPT-Live-1 和 GPT-6 Astra，并报告销售增长 60%、节省超过 75 小时。",
+          "why": "案例显示企业会用业务结果描述 AI 落地价值，但这些数字来自供应商案例，不能据此推断普遍成效或招聘趋势。",
+          "action": "准备项目经历时，记录可核验的交付时间、运营效率或业务指标，并说明衡量方法。",
+          "importance": 1
+        },
+        {
+          "title": "吉利披露 AI 快充电池应用",
+          "url": "https://electrek.co/2026/09/25/geely-ai-fast-charging-heals-ev-batteries-pulse-restoration/",
+          "source": "Hacker News",
+          "summary": "条目称吉利的 AI 快充方案可使电池循环寿命提高 20%；给定材料没有提供验证细节。",
+          "why": "这提示 AI 应用也出现在汽车与电池场景，但单一案例不足以判断相关岗位需求。",
+          "action": "关注汽车领域岗位时，核对职位描述中的领域知识和效果验证要求，不把报道数字当作已普遍实现的水平。",
+          "importance": 2
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}
