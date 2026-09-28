@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "v1.18.33",
+          "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.33",
+          "source": "GitHub Release: anomalyco/opencode",
+          "summary": "<h2>Core</h2> <h3>Bugfixes</h3> <ul> <li>Cloudflare AI Gateway models now honor provider response and stream timeouts. (<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/danlapid/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/danlapid\">@danlapid</a>)</li> <li>MCP browser launch failures are now reported when the launcher exits immediately.</li> <li>Debug configuration output now redacts credentials and sensitive headers.</li> <li>Gemini thinking defaults and effort options now match the supported controls across model generations. (<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/markmcd/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/markmcd\">@markmcd</a>)</li> </ul> <p><strong>Thank you to 5 community contributors:</strong></p> <ul> <li><a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dc85/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dc85\">@dc85</a>: <ul> <li>docs(web): add Claude Opus 5.5, GPT 6 Sol, and GPT 6 Luna to Zen (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5543578085\" data-permission-text=\"Title is private\" data-url=\"https://github.com/anomalyco/opencode/issues/50708\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/anomalyco/opencode/pull/50708/hovercard\" href=\"https://github.com/anomalyco/opencode/pull/50708\">#50708</a>)</li> </ul> </li> <li><a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/vglafirov/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/vglafirov\">@vglafirov</a>: <ul> <li>maint(gitlab): bump gitlab-ai-provider to 6.16.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5545259986\" data-permission-text=\"Title is private\" data-url=\"https://github.com/anomalyco/opencode/issues/50742\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/anomalyco/opencode/pull/50742/hovercard\" href=\"https://github.com/anomalyco/opencode/pull/50742\">#50742</a>)</li> </ul> </li> <li><a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/markmcd/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/markmcd\">@markmcd</a>: <ul> <li>fix(gemini): switch thinking default logic (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5549284751\" data-permission-text=\"Title is private\" data-url=\"https://github.com/anomalyco/opencode/issues/50841\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/anomalyco/opencode/pull/50841/hovercard\" href=\"https://github.com/anomalyco/opencode/pull/50841\">#50841</a>)</li> </ul> </li> <li><a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/remorses/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/remorses\">@remorses</a>: <ul> <li>docs(web): link kimaki to product website (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5498602607\" data-permission-text=\"Title is private\" data-url=\"https://github.com/anomalyco/opencode/issues/49735\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/anomalyco/opencode/pull/49735/hovercard\" href=\"https://github.com/anomalyco/opencode/pull/49735\">#49735</a>)</li> </ul> </li> <li><a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/danlapid/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/danlapid\">@danlapid</a>: <ul> <li>fix(opencode): apply provider timeouts to Cloudflare AI Gateway models (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5597218723\" data-permission-text=\"Title is private\" data-url=\"https://github.com/anomalyco/opencode/issues/51549\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/anomalyco/opencode/pull/51549/hovercard\" href=\"https://github.com/anomalyco/opencode/pull/51549\">#51549</a>)</li> </ul> </li> </ul>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Ukraine's new military AI does more than watch the battlefield–it helps commande",
+          "url": "https://euromaidanpress.com/2026/09/25/ukraines-new-military-ai-does-more-than-watch-the-battlefield-it-helps-commanders-plan-what-comes-next/",
+          "source": "Hacker News",
+          "summary": "Ukraine's new military AI does more than watch the battlefield–it helps commande",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "How the stories about all-powerful AI are swallowing the world",
+          "url": "https://www.bloodinthemachine.com/p/how-the-stories-about-all-powerful",
+          "source": "Hacker News",
+          "summary": "How the stories about all-powerful AI are swallowing the world",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Australia Senate Requests OpenAI, Anthropic CEOs Face AI Inquiry",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-27/australia-senate-requests-openai-anthropic-ceos-face-ai-inquiry",
+          "source": "Hacker News",
+          "summary": "Australia Senate Requests OpenAI, Anthropic CEOs Face AI Inquiry",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Thinking Fast and Slow in AI: The Role of Metacognition",
+          "url": "https://arxiv.org/abs/2110.01834",
+          "source": "Hacker News",
+          "summary": "Thinking Fast and Slow in AI: The Role of Metacognition",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Night of Ten Thousand Lanterns – interactive dynamic painting",
+          "url": "https://www.echohive.ai/experiments/lanterns",
+          "source": "Hacker News",
+          "summary": "Night of Ten Thousand Lanterns – interactive dynamic painting",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "The next AI breakout will come from a services firm",
+          "url": "https://www.introspection.dev/manifesto",
+          "source": "Hacker News",
+          "summary": "The next AI breakout will come from a services firm",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "OpenAI pauses top-model work after AI bypasses internet safeguards [video]",
+          "url": "https://www.youtube.com/watch?v=a1qnCu1t9hI",
+          "source": "Hacker News",
+          "summary": "OpenAI pauses top-model work after AI bypasses internet safeguards [video]",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Panda, the world's first personal AI computer",
+          "url": "https://pandax1.com",
+          "source": "Hacker News",
+          "summary": "Show HN: Panda, the world's first personal AI computer",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "I killed every subscription business model in the market",
+          "url": "https://vosu.ai/pricing",
+          "source": "Hacker News",
+          "summary": "I killed every subscription business model in the market",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "\"The refrigerator is dead\": Samsung's AI fridges shut down after update",
+          "url": "https://www.notebookcheck.net/The-refrigerator-is-dead-Samsung-s-AI-fridges-shut-down-after-update-causes-outrage.1406447.0.html",
+          "source": "Hacker News",
+          "summary": "\"The refrigerator is dead\": Samsung's AI fridges shut down after update",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
