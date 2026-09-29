@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Anthropic warns AI may pose 'existential risks to humanity' in IPO filing",
+          "url": "https://www.cnbc.com/2026/09/29/anthropic-warns-ai-existential-risks-ipo-filing-reuters.html",
+          "source": "Hacker News",
+          "summary": "Anthropic warns AI may pose 'existential risks to humanity' in IPO filing",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Can AI self-improvement overcome diminishing returns?",
+          "url": "https://www.rameznaam.com/p/ai-rsi-isnt-leading-to-super-intelligence",
+          "source": "Hacker News",
+          "summary": "Can AI self-improvement overcome diminishing returns?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI risk is not sentience by computers, it is negligence by humans",
+          "url": "https://www.seattletimes.com/opinion/wa-needs-to-do-these-3-things-to-protect-us-from-ai-harm/",
+          "source": "Hacker News",
+          "summary": "AI risk is not sentience by computers, it is negligence by humans",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Anthropic warns AI may pose 'existential risks to humanity' in IPO filing",
+          "url": "https://www.reuters.com/business/finance/anthropic-warns-ai-may-pose-existential-risks-humanity-ipo-filing-2026-09-29/",
+          "source": "Hacker News",
+          "summary": "Anthropic warns AI may pose 'existential risks to humanity' in IPO filing",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI Realist vs. 20 AI Optimists (Ft. Andrew Yang) [video]",
+          "url": "https://www.youtube.com/watch?v=020ZvO0FbMM",
+          "source": "Hacker News",
+          "summary": "AI Realist vs. 20 AI Optimists (Ft. Andrew Yang) [video]",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Free AI slop checker: find the signs of AI writing",
+          "url": "https://seodraft.app/tools/ai-slop",
+          "source": "Hacker News",
+          "summary": "Free AI slop checker: find the signs of AI writing",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "OpenAI scraps release of new AI model over safety concerns",
+          "url": "https://www.cbc.ca/news/world/openai-scraps-planned-release-gpt-6-1-astra-9.7361910",
+          "source": "Hacker News",
+          "summary": "OpenAI scraps release of new AI model over safety concerns",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "v0.31.0rc1: [CI/Build] Skip the snapshot runtime on CUDA 12.x images (#59118)",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1",
+          "source": "GitHub Release: vllm-project/vllm",
+          "summary": "<p>Signed-off-by: khluu <a href=\"mailto:khluu000@gmail.com\">khluu000@gmail.com</a><br> Co-authored-by: Claude Opus 5.5 <a href=\"mailto:noreply@anthropic.com\">noreply@anthropic.com</a><br> (cherry picked from commit <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/vllm-project/vllm/commit/aedaba8664f67d8ae1538e5e5cec2b1ce3f258dd/hovercard\" href=\"https://github.com/vllm-project/vllm/commit/aedaba8664f67d8ae1538e5e5cec2b1ce3f258dd\"><tt>aedaba8</tt></a>)</p>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Run Decision Models on vLLM and Red Hat AI Using DiffusionGemma",
+          "url": "https://developers.redhat.com/articles/2026/09/28/run-decision-model-vllm-and-red-hat-ai",
+          "source": "Hacker News",
+          "summary": "Run Decision Models on vLLM and Red Hat AI Using DiffusionGemma",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "GodsView AI – Live flights, ships, weather and world events on one map",
+          "url": "https://godsviewai.com/",
+          "source": "Hacker News",
+          "summary": "GodsView AI – Live flights, ships, weather and world events on one map",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Sprite Creator – AI Powered Sprite Sheet Maker – SpriteGen",
+          "url": "https://spritegen.ai/",
+          "source": "Hacker News",
+          "summary": "Sprite Creator – AI Powered Sprite Sheet Maker – SpriteGen",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
