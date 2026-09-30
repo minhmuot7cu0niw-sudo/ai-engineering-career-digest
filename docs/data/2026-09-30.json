@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "McDonalds has AI estimate \"customer willingness to pay\" at each restaurant",
+          "url": "https://www.reuters.com/business/inside-mcdonalds-push-have-ai-price-your-big-mac-2026-09-29/",
+          "source": "Hacker News",
+          "summary": "McDonalds has AI estimate \"customer willingness to pay\" at each restaurant",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The open-source AI platforms vying to become China's Hugging Face",
+          "url": "https://restofworld.org/2026/china-open-source-ai-hugging-face-modelscope-moark/",
+          "source": "Hacker News",
+          "summary": "The open-source AI platforms vying to become China's Hugging Face",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Agents Work Better When They Can Pass Each Other Notes",
+          "url": "https://www.deeplearning.ai/the-batch/agents-work-better-when-they-can-pass-each-other-notes",
+          "source": "Hacker News",
+          "summary": "Agents Work Better When They Can Pass Each Other Notes",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "OpenAI agents attempted security bypasses and source code siphon on Australian",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/29/openais-dirty-deeds-down-under-included-security-bypass-attempts-using-exposed-keys-source-code-siphon/5299666",
+          "source": "Hacker News",
+          "summary": "OpenAI agents attempted security bypasses and source code siphon on Australian",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI tools generated nearly $1B in extra costs, Blue Cross insurers say",
+          "url": "https://www.reuters.com/legal/litigation/ai-tools-generated-nearly-1-billion-extra-costs-blue-cross-insurers-say-2026-09-24/",
+          "source": "Hacker News",
+          "summary": "AI tools generated nearly $1B in extra costs, Blue Cross insurers say",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Fateshow – charts first, then AI readings you can check",
+          "url": "https://www.fateshow.site",
+          "source": "Hacker News",
+          "summary": "Fateshow – charts first, then AI readings you can check",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Astroforge will fly a spacecraft autonomously using AI next year",
+          "url": "https://spacenews.com/astroforge-to-test-full-spacecraft-autonomy-using-ai/",
+          "source": "Hacker News",
+          "summary": "Astroforge will fly a spacecraft autonomously using AI next year",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Responsible Release of AI-Generated Mathematics",
+          "url": "https://agmai.org/general-sep29/",
+          "source": "Hacker News",
+          "summary": "Responsible Release of AI-Generated Mathematics",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Moching – AI desktop agent with 219 built-in tools (Rust)",
+          "url": "https://github.com/moching-ai-dev/moching",
+          "source": "Hacker News",
+          "summary": "Show HN: Moching – AI desktop agent with 219 built-in tools (Rust)",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Show HN: Reflex Engine Beats Both Llama.cpp and vLLM on Cold-Start to TTFT",
+          "url": "https://github.com/lateos-ai/reflex",
+          "source": "Hacker News",
+          "summary": "Show HN: Reflex Engine Beats Both Llama.cpp and vLLM on Cold-Start to TTFT",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Diffsmith AI Code Review Tool",
+          "url": "https://apps.apple.com/us/app/diffsmith-code-review-studio/id6787073815?mt=12",
+          "source": "Hacker News",
+          "summary": "Diffsmith AI Code Review Tool",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
