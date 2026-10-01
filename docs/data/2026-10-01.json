@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Show HN: Vietnam Tender Intelligence – gov procurement data, AI-agent ready",
+          "url": "https://apify.com/donerightlabs/tender-intelligence",
+          "source": "Hacker News",
+          "summary": "Show HN: Vietnam Tender Intelligence – gov procurement data, AI-agent ready",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI research is dead, long live AI",
+          "url": "https://kylrth.com/post/ai-research-is-dead/",
+          "source": "Hacker News",
+          "summary": "AI research is dead, long live AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "PSSA: A non-transformer language model written from scratch in Rust",
+          "url": "https://ai-news-site-cyan.vercel.app/articles/2026-09-30-pssa-a-non-transformer-language-model-written-from-scratch-i",
+          "source": "Hacker News",
+          "summary": "PSSA: A non-transformer language model written from scratch in Rust",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Thoughts on AI",
+          "url": "https://medium.com/@dhillonravi1983/thoughts-on-ai-1e1400f9fe4f",
+          "source": "Hacker News",
+          "summary": "Thoughts on AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Google Grapples with Employee Skepticism About New Gemini Model",
+          "url": "https://finance.yahoo.com/technology/ai/articles/google-grapples-employee-skepticism-gemini-195242680.html",
+          "source": "Hacker News",
+          "summary": "Google Grapples with Employee Skepticism About New Gemini Model",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "A local Workday job agent – rule-based resume tailoring, no AI",
+          "url": "https://github.com/daliparthi/personal-job-agent",
+          "source": "Hacker News",
+          "summary": "A local Workday job agent – rule-based resume tailoring, no AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Polytoken is a local-first AI coding agent daemon",
+          "url": "https://docs.polytoken.dev/introduction/",
+          "source": "Hacker News",
+          "summary": "Polytoken is a local-first AI coding agent daemon",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Universal Modder: Let Any AI Coding Agent Mod Almost Any PC Game",
+          "url": "https://github.com/rehan-remade/universal-modder",
+          "source": "Hacker News",
+          "summary": "Universal Modder: Let Any AI Coding Agent Mod Almost Any PC Game",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI and TCS: The Next Six Months Working Group Report",
+          "url": "https://simons.berkeley.edu/AITCSreport?inline=",
+          "source": "Hacker News",
+          "summary": "AI and TCS: The Next Six Months Working Group Report",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "8 Questions about Minds and AI",
+          "url": "https://www.echohive.ai/eight-questions-about-minds-and-ai",
+          "source": "Hacker News",
+          "summary": "8 Questions about Minds and AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Aw1-breaker: Sub-0.02ms AST circuit breaker for Python AI agent tools",
+          "url": "https://github.com/MvikManners/aw1-circuit-breaker",
+          "source": "Hacker News",
+          "summary": "Aw1-breaker: Sub-0.02ms AST circuit breaker for Python AI agent tools",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
