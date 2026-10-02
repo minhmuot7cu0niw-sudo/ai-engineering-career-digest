@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-10-02</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-10-02</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-10-02 12:44:39 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日信号集中在 AI 工程工具链、代理安全评估和基础设施约束：本地模型工具持续迭代，代理系统的可观测性与安全验证重要性上升，同时企业级 AI 落地受到能源和主权部署议题影响。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 5</span></div>
+  <h3>AI 数据中心对全球电力系统构成日益增长的威胁</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>条目指出，AI 数据中心正在对全球电力系统形成日益增长的威胁。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI 系统的规模化部署不仅是模型和软件问题，也受到电力基础设施约束。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>评估 AI 项目时，将推理规模、部署地点和能源可用性纳入基础设施方案，而不是只比较模型效果。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 5</span></div>
+  <h3>Autonomous AI Agent Security Incidents of 2026: Dataset and Monograph</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该条目提供 2026 年自主 AI 代理安全事件的数据集和专题研究。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>自主代理安全事件已经可以被系统化收集和研究，为风险评估与测试提供了参考材料。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>将该数据集作为代理安全评审的阅读材料，整理与自身工具调用、权限控制和人工审批流程相关的风险案例。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">GitHub Release: ollama/ollama</span><span class="item-importance">重要度 4</span></div>
+  <h3>Ollama v0.35.1-rc2</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该候选版本的变更摘要显示，Ollama 支持每次响应进行十次网页搜索。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>本地模型工具开始增强联网检索能力，模型运行环境与工具调用之间的边界进一步扩大。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在升级前阅读完整变更记录，并在隔离环境中验证网页搜索权限、结果质量和调用次数对现有工作流的影响。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>Agent-term：面向 AI CLI 的扩展终端</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>这是一个面向 AI CLI 的扩展终端项目。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI CLI 已成为独立的工程工作界面，终端层的交互和编排能力会影响代理工具的实际使用效率。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>用一个真实的 CLI 开发任务试用该项目，重点记录命令执行、上下文管理和人工接管环节是否改善。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>Agent-harness：用于构建 AI Agent Harness 的最小可组合 Go 库</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>这是一个用于构建 AI Agent Harness 的最小可组合 Go 库。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>将代理运行时能力拆分为可组合组件，有助于控制代理系统的集成复杂度。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>阅读其接口和组合方式，并与现有代理项目的工具调用、状态管理和执行循环逐项对照。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 4</span></div>
+  <h3>Claude Code v2.1.287</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该版本新增 Claude Mods，插件可以修改更深层的行为；同时加入一个可由侧边代理监看并提示遗漏的内置 mod。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>编码代理的扩展点正在从外围插件进入更深层行为，带来更强定制能力，也提高了行为审查需求。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>升级前确认插件的权限和行为边界；在团队环境中先为 mod 建立启用清单与回滚方式。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>Braxis：自动生成并跟踪 AI Agent readiness 评分</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该项目用于自动生成并跟踪 AI agent readiness 的 0 至 100 分评分及历史记录。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理上线准备度被转化为评分和历史变化后，团队可以持续观察成熟度，而不只依赖一次性判断。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>将其评分维度与现有质量门禁对照，确认评分是否覆盖可靠性、安全性和运维要求后再用于项目评审。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">ArXiv</span><span class="item-importance">重要度 5</span></div>
+  <h3>KaliBench：面向 Kali Linux 网络安全工具调用的细粒度基准</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该研究提出面向网络安全工具调用的细粒度评测，关注模型生成可执行工具调用的能力，并使用运行时无关的可验证奖励。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>代理评测需要区分知识问答与真实工具调用能力，安全领域尤其需要可验证结果。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>优先阅读其任务设计和奖励定义，并把“意图到可执行工具调用”的评测思路迁移到自己的代理测试集。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">ArXiv</span><span class="item-importance">重要度 3</span></div>
+  <h3>Embedding Prediction Helps Image Generation</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该研究探讨在扩散 Transformer 中预测后续嵌入，并将预测嵌入作为去噪过程条件的方法。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>它直接涉及图像生成模型中条件信息的使用方式，适合关注生成模型架构优化的读者。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>先阅读摘要和方法，明确该方法改变的是条件嵌入还是去噪流程，再决定是否安排复现实验。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>加拿大-德国 AI 实验室瞄准欧洲主权 AI 建设</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>条目显示，一个加拿大-德国 AI 实验室正在关注为欧洲建设高效且主权化的 AI。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>主权 AI 议题提高了本地部署、基础设施、模型工程和区域合规相关能力的职业价值。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>关注具备本地模型部署、推理基础设施和跨区域交付经验的岗位，并补充一个可展示的本地或主权部署项目。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>工作中强制使用 AI，下班后却被禁止</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章标题描述了工作场景要求使用 AI、非工作时间却禁止使用 AI 的矛盾。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>企业 AI 政策正在影响员工的工具使用边界，岗位竞争力不仅取决于会不会用 AI，也取决于能否理解并遵守组织政策。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>面试和日常工作中准备说明 AI 使用范围、数据边界和人工复核方式，避免只展示工具熟练度。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
