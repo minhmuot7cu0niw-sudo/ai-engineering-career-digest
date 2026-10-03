@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "What if AI worked at 1.000.000 tokens per seconds?",
+          "url": "https://www.echohive.ai/one-million-tokens-per-second",
+          "source": "Hacker News",
+          "summary": "What if AI worked at 1.000.000 tokens per seconds?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Backend programming languages ranked by LLM recommendations",
+          "url": "https://preseason.ai/rankings/devtools/backend-language",
+          "source": "Hacker News",
+          "summary": "Backend programming languages ranked by LLM recommendations",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "SWC stops accepting external PRs due to AI-generated content",
+          "url": "https://twitter.com/swc_rs/status/2105505428893544847",
+          "source": "Hacker News",
+          "summary": "SWC stops accepting external PRs due to AI-generated content",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Delta Is the Only Big Four Airline That Won't Use Starlink–Elon Musk Is Furious",
+          "url": "https://www.wsj.com/business/airlines/delta-is-the-only-big-four-airline-that-wont-use-starlinkand-elon-musk-is-furious-3438591e",
+          "source": "Hacker News",
+          "summary": "Delta Is the Only Big Four Airline That Won't Use Starlink–Elon Musk Is Furious",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "How to stay smart in the age of AI: the science of critical thinking",
+          "url": "https://www.nature.com/articles/d41586-026-02930-6",
+          "source": "Hacker News",
+          "summary": "How to stay smart in the age of AI: the science of critical thinking",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "ArXiv imposes rate limit on paper submissions to stem the AI slop tide",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
+          "source": "Hacker News",
+          "summary": "ArXiv imposes rate limit on paper submissions to stem the AI slop tide",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Show HN: Google Maps Scraper MCP",
+          "url": "https://gmapscrawl.com/google-maps-scraper-mcp",
+          "source": "Hacker News",
+          "summary": "Show HN: Google Maps Scraper MCP",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI bots are flooding researchers with requests for money and time",
+          "url": "https://www.nature.com/articles/d41586-026-03005-2",
+          "source": "Hacker News",
+          "summary": "AI bots are flooding researchers with requests for money and time",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The Mulleted, Meme-Loving Billionaire Behind Meta's Hit AI App",
+          "url": "https://www.wsj.com/tech/ai/alexandr-wang-muse-meta-efae7659",
+          "source": "Hacker News",
+          "summary": "The Mulleted, Meme-Loving Billionaire Behind Meta's Hit AI App",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]",
+          "url": "https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf",
+          "source": "Hacker News",
+          "summary": "NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Underdog private personal on-device local AI for privacy and security",
+          "url": "https://underdog.ai/",
+          "source": "Hacker News",
+          "summary": "Underdog private personal on-device local AI for privacy and security",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
