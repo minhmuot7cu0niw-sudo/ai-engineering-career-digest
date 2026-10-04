@@ -1,0 +1,125 @@
+{
+  "overview": "今日信号集中在三个方向：AI 编码与代理工具持续迭代，生产落地仍需关注组织级吞吐和安全治理；模型与工具链选择应结合实际工作流验证。给定条目没有招聘岗位或招聘数据，职业信号只能从产品和工程需求侧谨慎推断。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "OpenAI 发布 GPT-6 系列实用指南",
+          "url": "https://openai.com/index/practical-guide-building-gpt-6",
+          "source": "OpenAI",
+          "summary": "指南讨论模型选择、推理强度、提示与技能、工具协作，以及生产工作流准备。",
+          "why": "模型效果之外，推理成本、工具编排和上线准备会共同影响应用的可靠性与单位任务成本。",
+          "action": "选一个现有工作流，记录模型、推理强度、工具调用、延迟和成本基线，再按指南逐项评估。",
+          "importance": 5
+        },
+        {
+          "title": "Claude Code v2.1.289 修复托管机器上的命令审批规则问题",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "修复复合 shell 命令嵌套部分的 deny 或 ask 规则未能持续约束用户安装 mod 审批的问题；另修复特定代码块导致终端冻结的问题。",
+          "why": "命令审批属于代理执行的安全边界，规则未持续生效可能扩大不受控操作风险。",
+          "action": "托管环境中使用 Claude Code 的团队应升级，并复查 shell 命令审批策略及相关测试。",
+          "importance": 5
+        },
+        {
+          "title": "Ollama v0.35.1 增加 Clef 决策模型支持",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "Ollama 支持通过 /v1/systemone 使用 Cloudflare 的 Clef 与 Clef Flash 决策模型。",
+          "why": "本地模型运行环境新增决策模型选项，为需要本地部署或评估不同推理配置的工程团队提供了新候选。",
+          "action": "先核对模型规格与项目兼容性，再用代表性任务比较质量、资源占用和延迟。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "AI 单任务提效不必然带来组织吞吐提升",
+          "url": "https://pub.towardsai.net/the-hamster-paradox-36dd0d950568",
+          "source": "Hacker News",
+          "summary": "条目提出，个体任务层面的 AI 生产力提升未必会转化为组织整体吞吐提升。",
+          "why": "瓶颈可能在评审、交接、需求澄清或发布流程，而非代码生成速度。",
+          "action": "试点时同时测量任务周期、返工率、评审等待和交付量，不要只统计生成速度或个人主观节省时间。",
+          "importance": 5
+        },
+        {
+          "title": "测试用 LLM 根据变更日志更新 README 的策略",
+          "url": "https://codecut.ai/readme-update-from-release-notes/",
+          "source": "Hacker News",
+          "summary": "条目讨论从发布说明更新 README 的 LLM 策略。",
+          "why": "文档自动化的主要风险是生成内容与实际行为不一致，更新策略和验证方式决定维护收益。",
+          "action": "把文档生成限制在明确的变更范围内，并通过差异审阅和文档测试核实每项修改。",
+          "importance": 4
+        },
+        {
+          "title": "SuperLocalMemory 4.0：面向 AI 代理的治理型记忆系统",
+          "url": "https://arxiv.org/abs/2608.08253",
+          "source": "Hacker News",
+          "summary": "条目介绍一个称为“治理型记忆操作系统”的 AI 代理记忆项目。",
+          "why": "代理记忆会影响上下文持久化与信息治理，值得评估其数据控制和适用边界。",
+          "action": "阅读论文并检查记忆写入、检索、删除和权限机制，再决定是否用于含敏感数据的场景。",
+          "importance": 3
+        },
+        {
+          "title": "vLLM v0.31.0 为 Transformers 依赖添加版本上界",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+          "source": "GitHub Release: vllm-project/vllm",
+          "summary": "发布条目指出为 Transformers 依赖添加版本上界。",
+          "why": "推理服务依赖版本变化可能影响安装和运行兼容性，固定兼容范围有助于降低环境漂移。",
+          "action": "升级或重建环境前核对 Transformers 版本约束，并在锁定依赖的环境中跑推理回归测试。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "生产级模型选择与工具编排",
+          "url": "https://openai.com/index/practical-guide-building-gpt-6",
+          "source": "OpenAI",
+          "summary": "指南覆盖模型选择、推理强度、提示、技能、工具协调和生产准备。",
+          "why": "这些能力直接关系到 AI 工作流的质量、成本与可运维性。",
+          "action": "优先做小型对照实验，建立任务质量、延迟、成本和失败率指标。",
+          "importance": 5
+        },
+        {
+          "title": "代理执行安全与记忆治理",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "Claude Code 修复命令审批规则问题；另有条目介绍代理记忆治理系统。",
+          "why": "代理能执行命令并保留上下文后，权限边界和数据生命周期是上线前必须理解的工程问题。",
+          "action": "检查命令审批策略，并梳理代理记忆的写入、保留、访问和删除规则。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "落地能力的重心从写代码扩展到端到端交付",
+          "url": "https://pub.towardsai.net/the-hamster-paradox-36dd0d950568",
+          "source": "Hacker News",
+          "summary": "条目指出任务级生产力不一定带来组织吞吐提升，提示流程约束仍会影响 AI 投入产出。",
+          "why": "这可能提升企业对能识别瓶颈、设计指标并推动跨流程改进的工程人才的需求；条目本身并未提供招聘数据。",
+          "action": "在项目经历中量化交付周期、返工或质量变化，并说明 AI 如何嵌入评审和发布流程。",
+          "importance": 4
+        },
+        {
+          "title": "企业 AI 工程更看重模型与工具链的评估能力",
+          "url": "https://openai.com/index/practical-guide-building-gpt-6",
+          "source": "OpenAI",
+          "summary": "生产指南强调模型选择、推理配置、工具协作和工作流准备。",
+          "why": "团队需要的不只是调用模型，还包括针对任务选择方案并验证生产表现的能力；这属于技能信号，不代表已确认的招聘趋势。",
+          "action": "准备一个可复现的模型或工具链评测案例，展示质量、成本、延迟与可靠性取舍。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}
