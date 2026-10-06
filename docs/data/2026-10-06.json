@@ -1,0 +1,125 @@
+{
+  "overview": "今日信号集中在三个方向：AI 正从通用聊天转向可执行的垂直业务代理，代理系统开始重视失败模式与数据约束，本地模型运行时也在持续优化；工程师应优先补齐代理可观测性、工具安全和本地推理能力。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "AI 接待员开始直接承担小企业电话业务",
+          "url": "https://heywattle.com",
+          "source": "Hacker News",
+          "summary": "Wattle AI 提供能够接听电话并为小企业预约的 AI receptionist。",
+          "why": "这表明 AI 产品正在从辅助问答进一步进入接听、判断和预约等明确业务流程，垂直场景的落地价值比泛化聊天更容易衡量。",
+          "action": "选择一个高频、规则较清晰的业务流程，梳理其中可由语音或文本代理完成的接待、筛选和预约环节。",
+          "importance": 3
+        },
+        {
+          "title": "AI 基础设施扩张正在挤压低价智能手机供给",
+          "url": "https://restofworld.org/2026/ai-data-center-memory-chip-shortage-cheap-smartphones-digital-divide/",
+          "source": "Hacker News",
+          "summary": "文章讨论 AI 热潮、数据中心建设、内存芯片短缺与低价智能手机减少之间的关系。",
+          "why": "AI 工程的成本和可用性不仅取决于模型，也会受到芯片供应与终端设备价格的影响，面向大众市场的产品需要重新评估硬件假设。",
+          "action": "为移动端 AI 产品记录设备成本、内存需求和离线能力等约束，准备低规格设备上的降级方案。",
+          "importance": 3
+        },
+        {
+          "title": "Apple Silicon 上的 Ollama 默认使用 MLX 运行支持的模型架构",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "Ollama v0.40.0-rc5 表示，在 Apple Silicon 设备上，MLX 支持的模型架构将自动使用 MLX 运行。",
+          "why": "本地推理运行时的默认策略变化会直接影响开发者的安装后性能和测试结果，本地模型开发环境正在变得更重要。",
+          "action": "在 Apple Silicon 开发机上重新测量常用模型的启动、推理速度和资源占用，并固定运行时版本以保证结果可复现。",
+          "importance": 2
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "用 LiteLLM Lens 从大量代理轨迹中识别重复失败",
+          "url": "https://docs.litellm.ai/blog/lens-failure-patterns",
+          "source": "Hacker News",
+          "summary": "LiteLLM Lens 介绍如何从数千条 agent traces 中发现重复的失败模式。",
+          "why": "代理问题往往不是单次错误，而是工具调用、提示或流程在不同任务中反复失败；批量轨迹分析可以把调试从个案排查推进到系统性改进。",
+          "action": "为代理记录任务、工具调用、错误和最终结果，按失败类型聚合并优先修复重复率最高的问题。",
+          "importance": 3
+        },
+        {
+          "title": "Schema-guard 用于阻止 AI 代理编造 SQL 列名",
+          "url": "https://github.com/idk-arsh/schema-guard",
+          "source": "Hacker News",
+          "summary": "Schema-guard 面向 AI 代理生成 SQL 时的列名幻觉问题，提供 schema 约束方向。",
+          "why": "自然语言到 SQL 的错误可能直接导致查询失败或产生错误结果，数据库 schema 校验应成为代理执行前的边界检查。",
+          "action": "在 SQL 执行前加入表名、列名和查询结构校验；校验失败时返回可修正的错误信息，而不是直接执行。",
+          "importance": 3
+        },
+        {
+          "title": "Claude Code 增加代理工具调用和 agentId 相关事件信息",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "该版本在 turn.step hook 结果中加入 serverToolUses，并在 tool.check 事件中加入 agentId 等信息。",
+          "why": "更细粒度的工具调用和代理身份信息有助于审计、调试和区分不同代理在复杂工作流中的行为。",
+          "action": "检查现有插件或 hook 是否能利用这些事件记录工具调用的名称、输入、起止时间和所属代理。",
+          "importance": 2
+        },
+        {
+          "title": "Moching 提供带有 219 个内置工具的 Rust AI 桌面代理",
+          "url": "https://github.com/moching-ai-dev/moching",
+          "source": "Hacker News",
+          "summary": "Moching 是一个使用 Rust 构建的 AI 桌面代理，包含 219 个内置工具。",
+          "why": "桌面代理的能力边界取决于工具数量、权限和调用可靠性；大量工具也会增加选择错误、权限控制和测试的复杂度。",
+          "action": "设计桌面代理时建立工具目录、权限分级和逐工具测试集，避免仅通过增加工具数量扩展能力。",
+          "importance": 2
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "从纯 Python 学习 AI Agents",
+          "url": "https://github.com/tradertanmay/ai-agents-zero-to-hero",
+          "source": "Hacker News",
+          "summary": "该项目以纯 Python 介绍从零开始学习 AI Agents。",
+          "why": "代理开发需要同时理解模型调用、工具编排和状态管理；从较小的实现开始有助于建立可调试的基础心智模型。",
+          "action": "按项目内容实现一个最小代理，并为工具调用失败、重试和最终结果分别添加日志与测试。",
+          "importance": 2
+        },
+        {
+          "title": "MemPilot 讨论按需进行多模态记忆整理",
+          "url": "https://arxiv.org/abs/2610.06830v1",
+          "source": "ArXiv",
+          "summary": "MemPilot 研究为 LLM agents 按需编排多模态记忆整理，以降低不必要的预处理并保留后续有用的信息。",
+          "why": "代理记忆不仅是存储更多内容，还涉及何时整理、保留什么以及如何控制成本；这是长期运行代理的关键设计问题。",
+          "action": "为一个代理比较全量记忆整理与按任务触发整理的成本、延迟和任务效果，记录丢失信息的案例。",
+          "importance": 2
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "岗位技能重心向可观测、可约束的代理工程移动",
+          "url": "https://docs.litellm.ai/blog/lens-failure-patterns",
+          "source": "Hacker News",
+          "summary": "LiteLLM Lens 聚焦从大规模代理轨迹中发现重复失败，相关工程关注点包括轨迹记录、失败聚类和系统改进。",
+          "why": "企业落地代理时，能否解释失败、定位工具问题并持续迭代，比单次演示效果更接近生产要求。",
+          "action": "在作品集或项目经历中展示代理轨迹 schema、失败分析方法和修复前后的指标，而不只展示对话截图。",
+          "importance": 3
+        },
+        {
+          "title": "企业落地更偏向可量化的垂直工作流代理",
+          "url": "https://heywattle.com",
+          "source": "Hacker News",
+          "summary": "Wattle AI 将 AI 用于小企业电话接听和预约这一具体工作流。",
+          "why": "招聘与项目评估可能更看重把模型能力接入真实业务流程的能力，包括流程建模、工具集成、异常处理和结果衡量。",
+          "action": "准备一个端到端垂直代理案例，明确输入、工具调用、人工接管条件、成功指标和运营成本。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}
