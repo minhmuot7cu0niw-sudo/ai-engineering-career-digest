@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Toketer – See what every AI prompt costs you, live in your editor",
+          "url": "https://marketplace.visualstudio.com/items?itemName=toketer.toketer",
+          "source": "Hacker News",
+          "summary": "Toketer – See what every AI prompt costs you, live in your editor",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Crunchbase Data Shows AI's Most Active Startups Are Becoming Serial Acquirers",
+          "url": "https://news.crunchbase.com/ma/ai-startup-acquisitions-legal-healthcare-openai/",
+          "source": "Hacker News",
+          "summary": "Crunchbase Data Shows AI's Most Active Startups Are Becoming Serial Acquirers",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI-powered time tracking for freelancers and agencies",
+          "url": "https://www.tracktimer.app",
+          "source": "Hacker News",
+          "summary": "AI-powered time tracking for freelancers and agencies",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Research;Open Sourcing Health Research with AI – Accelerating Evidence Synthesis",
+          "url": "https://zenodo.org/records/23199360",
+          "source": "Hacker News",
+          "summary": "Research;Open Sourcing Health Research with AI – Accelerating Evidence Synthesis",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Guide to Using Generative AI in Programming – Textbook by Antti Laaksonen",
+          "url": "https://link.springer.com/book/10.1007/978-3-032-07453-9",
+          "source": "Hacker News",
+          "summary": "Guide to Using Generative AI in Programming – Textbook by Antti Laaksonen",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Claude subscription plan provides more value than OpenAI's, study says",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/06/anthropic-claude-subscription-plan-provides-more-value-than-openais-study-says/5301470",
+          "source": "Hacker News",
+          "summary": "Claude subscription plan provides more value than OpenAI's, study says",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Local AI is real now. And it's blowing my mind",
+          "url": "https://hive.technology/lab-notes/local-ai-is-real/",
+          "source": "Hacker News",
+          "summary": "Local AI is real now. And it's blowing my mind",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
+          "url": "https://github.com/nano-muse/nanoMuse",
+          "source": "Hacker News",
+          "summary": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Vim-like, hyper-efficient, LLM power tool – 20-80k tokens not 350k+",
+          "url": "https://easiest.ai/",
+          "source": "Hacker News",
+          "summary": "Show HN: Vim-like, hyper-efficient, LLM power tool – 20-80k tokens not 350k+",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Multiplayer AI coding workspace for teams and agents",
+          "url": "https://www.tryfridaywork.com",
+          "source": "Hacker News",
+          "summary": "Multiplayer AI coding workspace for teams and agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Biology, Buddhism and AI: the Platonic space model and the rogue agent swarm",
+          "url": "https://okossa.com/biology-buddhism-and-ai-ff213a852eb4",
+          "source": "Hacker News",
+          "summary": "Biology, Buddhism and AI: the Platonic space model and the rogue agent swarm",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
