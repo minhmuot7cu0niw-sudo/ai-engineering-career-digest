@@ -1,0 +1,116 @@
+{
+  "overview": "今日信号主要集中在 AI 编程工具的可靠性与模型部署：Claude Code 修复了指令式 hooks 的拦截问题，Ollama 发布新版本；此外，边缘多模态模型和轻量嵌入式 agent 值得技术选型时关注。给定条目没有招聘数据，职业信号仅能反映能力方向，不能据此判断招聘趋势。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Claude Code v2.1.294 修复指令式 hooks 的拦截问题",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "发布说明称，修复了用自然语言指令编写的 prompt 和 agent hooks 未能阻止目标行为的问题，并改进 Stop 和 SubagentStop 上的 prompt hooks。",
+          "why": "依赖 hooks 实施命令限制或流程约束的团队，可能受到此前拦截失效的影响。",
+          "action": "检查项目 hooks 的规则与拦截测试；升级后验证禁止操作确实会被阻止。",
+          "importance": 5
+        },
+        {
+          "title": "Ollama 发布 v0.40.1",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "发布条目提到服务端代理云端用量和余额 API；给定摘要未提供更多变更细节。",
+          "why": "运行 Ollama 的团队可能需要确认云端用量与余额查询链路是否受该版本影响。",
+          "action": "先查看完整变更说明；若依赖相关 API，升级前在测试环境核对代理行为。",
+          "importance": 3
+        },
+        {
+          "title": "Liquid AI 发布面向边缘设备的多模态决策模型",
+          "url": "https://www.liquid.ai/blog/d1-open",
+          "source": "Hacker News",
+          "summary": "条目称 Liquid AI 发布了面向边缘场景的多模态决策模型；给定信息未列出性能或硬件数据。",
+          "why": "需要本地或边缘推理的应用可以将其纳入候选，但目前条目不足以判断部署成本与效果。",
+          "action": "阅读模型资料，并在目标设备上验证延迟、资源占用和任务效果后再做选型。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "验证 AI 编程工具的规则约束，而不只依赖配置表面",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "Claude Code 修复了指令式 hooks 允许本应阻止的行为这一问题。",
+          "why": "配置存在不等于约束有效；失效可能让命令限制和代理流程保护形同虚设。",
+          "action": "为关键 hook 添加正向与反向测试，覆盖主代理、子代理及停止阶段，并记录工具版本。",
+          "importance": 5
+        },
+        {
+          "title": "评估 agent 运行环境时关注部署边界",
+          "url": "https://github.com/abird-ai/agentc",
+          "source": "Hacker News",
+          "summary": "agentc 条目自述为小于 1 MB、静态、无 libc 依赖的 agent，提供 Rust/C API。",
+          "why": "若属实，这类设计可能适合资源受限或需嵌入的场景；条目本身未提供基准或成熟度证据。",
+          "action": "对照目标平台检查依赖、二进制体积、接口能力与安全边界，再决定是否试用。",
+          "importance": 3
+        },
+        {
+          "title": "把 AI 订阅额度纳入编码工作流成本观测",
+          "url": "https://github.com/dkremsa/claude-pacer",
+          "source": "Hacker News",
+          "summary": "Pacer 条目关注 AI 编程订阅额度能否维持到重置时间。",
+          "why": "额度耗尽会打断工作流，尤其当团队无法预估高频使用的成本时。",
+          "action": "试用前核实工具的统计口径；团队可同时记录用量、任务类型和额度重置影响。",
+          "importance": 2
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "补齐 AI 集群网络基础：RDMA、集合通信与网络 fabric",
+          "url": "https://github.com/Rewsr/unawesome-ai-fabric-engineering",
+          "source": "Hacker News",
+          "summary": "这是一个 AI 集群网络工程阅读清单，主题包括 RDMA、collectives 和 fabrics。",
+          "why": "理解分布式训练与推理的网络瓶颈，有助于分析集群扩展和性能问题。",
+          "action": "按现有项目需要选读 RDMA 与集合通信部分，并用实际作业的通信模式验证概念。",
+          "importance": 3
+        },
+        {
+          "title": "关注边缘多模态模型的实际部署评估",
+          "url": "https://www.liquid.ai/blog/d1-open",
+          "source": "Hacker News",
+          "summary": "条目报道 Liquid AI 发布面向边缘的多模态决策模型，但未给出可比较的性能数据。",
+          "why": "边缘推理的价值取决于设备资源、延迟和任务表现，不能只凭模型发布信息判断。",
+          "action": "阅读模型资料，建立目标设备上的延迟、内存和任务准确性评测表。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "AI 工程能力信号：可靠性与流程约束仍需工程化",
+          "url": "https://www.compile.la/ai-changed-the-team-not-the-process/",
+          "source": "Hacker News",
+          "summary": "文章标题提出 AI 改变团队但没有改变流程；给定条目没有正文摘要，无法确认其具体论据。",
+          "why": "与 AI 工具相关的工程工作不只是生成代码，也涉及把工具纳入现有流程并验证行为。",
+          "action": "整理一个可展示的案例，说明如何为 AI 工作流设置约束、测试失败路径并衡量实际影响。",
+          "importance": 2
+        },
+        {
+          "title": "招聘趋势：当前条目不足以判断",
+          "url": "",
+          "source": "给定条目集合",
+          "summary": "条目中没有明确的岗位信息、招聘数量或企业招聘变化。",
+          "why": "仅凭产品发布和技术讨论无法可靠推断岗位技能需求或招聘趋势。",
+          "action": "将招聘趋势判断留待有岗位描述、企业招聘公告或招聘数据时再做。",
+          "importance": 1
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}
