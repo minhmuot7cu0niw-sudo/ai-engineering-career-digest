@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-10-09</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-10-09</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-10-09 13:15:15 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日最值得关注的是 AI 工程工具对执行控制、工作区管理和本地模型兼容性的改进。学习重点应放在任务评测与业务目标定义，职业上可关注领域型 Agent 和物理 AI 的项目机会。给定条目没有直接招聘数据，职业信号仅反映项目方向，不能据此判断岗位数量或薪资变化。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 5</span></div>
+  <h3>Claude Code 新增 hook 失败时阻断动作的配置</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>v2.1.295 为命令和 HTTP hooks 新增 onFailure: &quot;block&quot;；hook 无法启动、超时或返回非预期退出码时，可阻止动作继续执行。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>依赖 hook 执行检查的团队，可以明确配置检查失败后的处理方式，减少检查失效时动作仍被放行的风险。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>梳理承担权限或合规检查的 hooks，在测试环境启用该配置，并验证无法启动、超时和异常退出三种情况是否按预期阻断。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">GitHub Release: openai/codex</span><span class="item-importance">重要度 5</span></div>
+  <h3>Codex 新增受管理 Git worktree 工具</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>0.162.0 在启用 worktrees 功能时，支持从受信任的本地项目创建和列出受管理 Git worktrees。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>并行开发多个任务时，独立工作目录有助于隔离文件修改；此次更新提供了相应的工具入口。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>用两个独立的小任务试用 worktree 创建和列出功能，检查分支、未提交修改及任务完成后的清理流程。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">GitHub Release: ollama/ollama</span><span class="item-importance">重要度 4</span></div>
+  <h3>Ollama 首次运行旧模型时进行后台升级</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>v0.40.2 会在首次运行时后台升级由旧版本下载的模型，以改善在 llama.cpp 上运行的性能和兼容性，并保留原始副本以支持安全降级。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>升级可能影响首次运行体验和本地存储占用；保留原始副本也为版本回退提供了条件。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>先选择一个常用模型升级，记录首次加载耗时、后续推理表现及磁盘占用，并验证降级流程后再扩大使用范围。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>Moching 展示 Rust 桌面 Agent 与 219 个内置工具</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该 Show HN 项目将 Moching 描述为使用 Rust 构建、包含 219 个内置工具的 AI 桌面 Agent；给定信息未提供可靠性或性能数据。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>桌面自动化项目可作为工具集成的参考，但工具数量不足以说明实际任务完成能力。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>选取一个真实桌面流程，在隔离环境中检查工具权限、错误恢复和操作记录，再判断是否值得接入日常工作。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">GitHub Release: langchain-ai/langchain</span><span class="item-importance">重要度 3</span></div>
+  <h3>LangChain 与 langchain-core 发布新版本，摘要未披露具体改动</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>给定条目包含 langchain 1.4.4 和 langchain-core 1.6.9 的发布记录，但摘要不足以判断新增能力或修复内容。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>使用这些依赖的项目需要关注版本变化，但目前没有足够信息支持立即升级或预期性能收益。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>先阅读完整发布说明并核对依赖兼容要求；确需升级时，在现有项目中回归验证工具调用、消息处理和关键业务链路。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">ArXiv</span><span class="item-importance">重要度 4</span></div>
+  <h3>理解 AI 任务时间跨度指标的统计含义</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>论文重新分析 METR 的 50% 时间跨度指标，基于 228 个任务和 26 个 AI，使用样条与项目反应理论重新估计。摘要未给出最终结论。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>该指标描述 AI 以 50% 概率完成的任务所对应的人类完成时间；将其用于项目排期时，需要理解成功率和任务分布的限制。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>优先阅读指标定义、统计假设和不确定性分析；评估自己的 Agent 时，同时记录任务耗时、成功率与任务类型。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>排序系统学习重点：区分相关性与偏好</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>ZooWork 的文章以 ShopRanker 训练经验讨论“相关性不等于偏好”；给定摘要未提供训练方法或实验结果。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>搜索和推荐系统中，符合查询的结果未必就是用户更愿意选择的结果，这会影响标签设计与评估目标。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>阅读文章后检查现有排序任务：是否区分查询相关性与用户偏好，以及训练标签和评估指标是否对应实际业务目标。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>宏观经济即时预测出现可安装 Agent skill 项目</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>AI Economist 被描述为面向宏观经济即时预测的可安装 Agent skill；条目未提供预测准确率、用户规模或招聘信息。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这一项目为领域知识与 Agent 工程结合提供了具体观察对象，适合关注金融或经济分析应用的开发者研究。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>检查项目的数据来源、更新时间和预测验证方式；若制作作品集，可围绕可追溯数据、历史评估和结果解释构建一个小案例。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>Robium 将编码 Agent 工具延伸至物理 AI</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Robium 被描述为面向编码 Agent 的物理 AI harness；给定信息未说明支持的硬件、部署成熟度或企业采用情况。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>它提供了观察软件 Agent 与物理系统如何衔接的项目入口，但单个项目不足以证明相关招聘需求增长。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>若目标是机器人或物理 AI 岗位，先检查其接口与运行要求，再用仿真项目展示编码 Agent 接入、状态反馈和失败恢复能力。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
