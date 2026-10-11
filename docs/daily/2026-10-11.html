@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-10-11</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-10-11</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-10-11 12:48:12 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>本期重点是编码代理的版本维护、工具接入与任务管理，以及代理对外行动的控制。工程上优先处理已知故障和权限边界，再评估记忆与任务管理方案。职业方面，离线工作空间提供了企业应用方向的观察线索，但给定条目没有招聘数据，不能据此判断岗位需求增长。以下仅依据提供的标题和摘要；importance 为 1—5，5 表示最高优先级。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub Release: anomalyco/opencode</span><span class="item-importance">重要度 4</span></div>
+  <h3>OpenCode v1.19.0：新增主版本升级入口，调整 PTY 连接校验</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>摘要列出通过 opencode upgrade --major 升级到 OpenCode 2 的入口、允许 OpenAI ultrafast 服务层级，以及在检查 PTY 是否存在前验证连接来源和票据。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>涉及版本迁移、服务层级配置和终端连接校验，现有使用者需要检查兼容性与部署行为。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>先查看完整发布说明，在测试环境验证 PTY 连接和现有配置；将升级到 OpenCode 2 单独安排为迁移任务。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 4</span></div>
+  <h3>Claude Code v2.1.296：托管策略新增 code 配置键</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>可见摘要显示，Claude apps gateway 的 managed.policies[] 新增 code 键，采用与 cli 相同的设置，并应用于 Claude Desktop 的 Code 标签页；摘要同时提到与 desktop 配置配合开启网关模式。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>同时管理命令行与桌面编码入口的团队，需要确认策略覆盖范围，避免不同入口配置不一致。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>核对完整发布说明，检查现有 cli、desktop 和 code 策略，并验证 Code 标签页中的策略实际生效。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 5</span></div>
+  <h3>BBC 报道：Anthropic AI 代理向警方提供虚假线索</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>条目标题称，一个 Anthropic AI 代理在未破谋杀案中向警方提供了虚假线索；提供的摘要没有说明事件过程或技术原因。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这一报道提示，代理生成的信息一旦进入外部行动流程，错误可能影响真实业务和第三方。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>检查代理发送外部消息或提交线索的流程，为高影响操作加入人工确认、事实核验和可追溯记录。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>GSD Task Manager：用 MCP 为代理提供任务列表</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该 Show HN 项目将自身描述为向 AI 代理提供任务列表的 MCP 服务器。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>显式任务列表值得用于评估代理在多步骤工作中的进度管理能力，但标题不足以证明其可靠性。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>选一个可重复的小型开发任务，测试任务创建、状态更新和中断恢复，并检查任务状态是否与实际完成情况一致。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>编码代理长期记忆：以普通文件树组织信息</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>项目标题提出以普通文件树实现 AI 编码代理的长期记忆。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>文件形式便于人工检查和版本管理，适合作为记忆方案的评估起点；检索效果和过期信息处理仍需验证。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>用项目约定、常见错误和历史决策建立小型记忆集，检查跨会话读取效果，并测试旧决策被更新后是否仍被误用。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 3</span></div>
+  <h3>Qwen Code 预览版：修复替换远程 Host 时丢失绑定的问题</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>可见发布摘要列出一项代理修复：替换选定的远程 Host 时保留绑定。给定列表中的两个 nightly 条目也出现了相同描述。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>使用远程 Host 的用户应关注绑定保留问题；多个版本重复列出该修复，不代表出现了多项独立能力更新。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>若遇到相关问题，在测试环境验证替换 Host 后的绑定和连接行为，再决定是否采用该预览版本。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">GitHub Release: openai/codex</span><span class="item-importance">重要度 4</span></div>
+  <h3>Codex 0.162.1：修复多行异步问题导致的 TUI 崩溃</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>发布摘要说明，修复异步问题包含多行内容时的 TUI 崩溃，并保留换行和完整超链接目标。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>依赖终端交互和异步提问的工作流，可据此处理一个明确的稳定性问题。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>受影响用户升级后，用包含多行文本和链接的异步问题复测，确认界面显示和链接目标正常。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>优先理解代理工具接入中的身份与授权问题</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章标题讨论：为什么 AI 代理无法访问用户已经登录的工具，以及如何解决。给定摘要未提供具体方案。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>工具接入失败会直接阻碍代理执行任务，排查身份、授权和连接方式是实用的集成技能。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>阅读原文后，选一个实际工具，梳理用户登录状态、代理使用的凭据、授权范围和失败日志，形成可复用的排查步骤。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>从代理反编译案例学习成本与验证方法</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>文章标题以“500B Tokens Later”描述让 AI 代理反编译第一人称射击游戏的案例；摘要未提供完成度、费用或效果数据。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>该案例适合研究长任务中的资源消耗和成果验证，不能仅凭标题判断代理效率。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>阅读时记录任务拆分方式、停止条件、结果验证方法和实际资源数据，再为自己的长任务制定预算与验收标准。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>离线 AI 工作空间：关注业务集成与本地部署能力</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>CortextAI 将自身定位为面向邮件、笔记、任务和文件的私有离线 AI 工作空间；条目未提供客户采用情况或招聘信息。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这一产品定位提供了职业方向线索：可以关注 AI 与日常业务工具的集成、本地运行和数据管理能力，但不能据此推断招聘增长。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>准备求职作品时，可围绕本地文件与任务管理做一个可演示项目，展示离线运行、数据流向和实际任务完成效果。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
