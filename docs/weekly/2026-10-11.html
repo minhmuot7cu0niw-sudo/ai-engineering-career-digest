@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>个人工具与项目侦察周报 · 2026-10-11</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>个人工具与项目侦察周报 · 2026-10-11</h1></div>
+      <div class="meta"><strong>周报版</strong>2026-10-11 14:51:40 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>本周精选 3 个项目，分别服务于开发工作流、作品集表达和 Codex 协作探索。以候选数据的 2026-10-11 快照为基准，三者均在近 90 天内有推送记录；维护判断仅依据提供的数据，安装流程与实际效果尚未验证。建议本周先试终端和图表工具，多代理编排暂以小实验评估。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>本周值得安装</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub API</span><span class="item-importance">重要度 4</span></div>
+  <h3>Wave Terminal：试用面向 AI 工作流的跨平台终端</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>开源、集成 AI 的跨平台终端，面向命令行开发工作流。适合评估终端中的 AI 辅助能否减少查命令、理解报错时的操作成本。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>如果你目前在终端、编辑器和 AI 对话窗口之间来回切换，它值得作为一个集中处理命令行任务的候选入口。对 Codex 用户的价值在于改善日常终端体验；是否有额外收益，需要与现有 Codex CLI 工作流直接比较。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>建议本周试用。按仓库说明安装适合当前系统的版本，在一个熟悉的开发项目中完成启动、测试和一次报错排查，观察切换窗口与手动复制信息的次数是否减少，再决定是否长期使用。 成熟度与风险：最近推送为 2026-10-09，具备近期维护信号，项目明确定位为跨平台终端。发行版质量、AI 配置要求与费用尚未核验；首次试用重点检查现有 shell 配置和快捷键是否适配。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>学习与作品集</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">GitHub API</span><span class="item-importance">重要度 4</span></div>
+  <h3>Next AI Draw.io：把项目设计转成可修改的图表</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>将 AI 与 draw.io 图表结合的 Next.js 应用，支持用自然语言创建、修改和完善图表。解决从文字设计说明到可视化表达之间的手工绘图成本。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>适合把 AI 编程项目中的架构、调用流程或模块关系整理成作品集材料。相比从空白画布逐个拖拽图形，可以先用已有设计说明生成初稿，再核对内容；也适合作为学习自然语言驱动编辑交互的开源案例。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>建议本周尝试。按 README 的运行或使用说明启动，选一个已有项目生成一张架构图，再提出两轮具体修改要求。核对组件职责和连接关系后，将图表用于项目 README 或演示材料。 成熟度与风险：最近推送为 2026-10-11，有近期维护信号，技术栈与用途明确。部署条件、模型接入和使用成本尚未核验；生成图表需要人工检查，尤其是架构关系与流程顺序。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>值得观察</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">GitHub Trending</span><span class="item-importance">重要度 3</span></div>
+  <h3>OpenRig：探索 Codex 的持久多代理协作</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>面向 Claude Code、Codex 和 Pi 的代理协作工具，主打持久团队、角色分工、共享上下文与任务归属。针对多个代理协作时需要反复交接背景和明确责任的问题。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>与提升 Codex 使用效率直接相关，因此即使星数低于其他候选，也有较高的匹配度。如果你已有实现、测试、审查等可拆分任务，它可能减少人工在会话间转述信息的负担；实际收益取决于任务是否足够独立，以及协调成本是否可控。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>本周先阅读安装说明和协作示例，有明确需求再做小实验：在独立测试仓库中，让两个代理分别承担实现与审查，记录交接次数、完成时间和模型用量，判断是否优于当前单代理流程。 成熟度与风险：最近推送为 2026-10-11，近期活跃；描述明确支持 Codex，但安装可用性与协作稳定性尚未验证。多代理可能增加模型开销、上下文偏差和并行修改冲突，暂不建议直接承担关键项目。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
