@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-10-13</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-10-13</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-10-13 14:03:16 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日优先关注本地模型运行时、Agent 状态管理和敏感数据处理。给定条目中，Ollama 与 LangGraph 有可识别的技术更新，文档脱敏和 AI QA 有可试用的实践入口；学习与职业判断应围绕产品效果、验证能力和基础设施展开。部分摘要仅提供标题，以下不推断其具体成果；职业条目也不足以证明招聘需求或岗位数量发生变化。importance 使用 1—5 分，5 为最高。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">GitHub Release: ollama/ollama</span><span class="item-importance">重要度 4</span></div>
+  <h3>Ollama 候选版本更新 llama.cpp，涉及 decision models 与 EmbeddingGemma 2</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>发布摘要显示 llama.cpp 更新至 b11521，涉及 decision models 和 EmbeddingGemma 2。条目标题为 v0.40.4，但 URL 指向 rc1，应按候选版本评估。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>使用 Ollama 做本地推理或嵌入的工程师需要检查模型兼容性；给定信息没有提供性能提升或稳定性结论。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在隔离环境核对完整发布说明，测试目标模型的加载、输出与资源占用，通过后再决定是否升级。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">GitHub Release: langchain-ai/langgraph</span><span class="item-importance">重要度 4</span></div>
+  <h3>LangGraph checkpoint 4.3.0 修正内存保存器的增量历史默认行为</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>摘要明确列出修复：InMemorySaver 的 delta history 默认指向最新 checkpoint。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>依赖 InMemorySaver 增量历史的工作流需要确认升级前后的状态读取符合预期；摘要未说明其他存储后端是否受影响。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>检查项目是否依赖这一默认行为，用多次状态更新及恢复场景做回归验证，再调整依赖版本。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>DocCloak：向 AI 提交文档前的浏览器脱敏工具</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>条目介绍一个用于 AI 文档提交的浏览器端匿名化工具，未提供脱敏准确率或数据传输细节。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>文档进入 AI 工作流前，敏感信息处理可以成为独立且可检查的步骤；工具名称与运行形式本身不能证明数据安全。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>先用虚构敏感信息测试识别遗漏、导出结果和网络请求，人工检查后再考虑接入实际文档流程。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>AI QA Agent 测试 Hacker News 的演示</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>作者展示使用 AI QA Agent 测试 Hacker News；给定摘要没有说明覆盖率、缺陷发现数或误报情况。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这一演示可作为评估 AI 页面测试的入口，但不能直接据此判断其能否承担项目验收。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>选择自己的一个测试环境，用同一组页面任务比较 Agent 与现有测试的覆盖、误报、复现能力和执行成本。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 3</span></div>
+  <h3>Qwen Code nightly 修复 managed-agent 连接组件健壮性</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>发布摘要列出 managed-agent 的 connector 和 broker 健壮性修复；该版本为 nightly。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>使用相关组件的团队可重点核对连接问题是否匹配自身故障，其他用户暂时没有足够依据升级。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>阅读对应修复详情，在测试环境复现现有故障并验证连接中断、重连与错误处理，保留可回退版本。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>优先学习 AI 产品建设经验，并转化为项目验证</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>PostHog 的文章讨论构建 AI 产品的经验；给定摘要未展开具体观点。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>对正在交付 AI 应用的读者，产品经验值得优先阅读，但需要逐条判断是否适用于自己的用户与业务。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>阅读原文后，选出一条与当前项目最相关的建议，写明适用条件、验证指标和一次小规模实验。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>模型架构能否在不从头训练的情况下改变</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Amazon Science 文章探讨改变模型架构而不从头训练的问题；摘要未给出方法、实验结果或适用范围。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>从事模型训练、压缩或部署优化的读者可将其作为研究入口，应用开发者可按项目相关性安排阅读。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>阅读时提取架构变化范围、额外训练需求和评估条件，再判断是否值得在自己的模型上复现。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>Linus Torvalds 谈用 AI 补足自己不擅长的任务</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>标题引用 Torvalds 的表述：用 AI 处理自己不擅长的事情。给定信息没有列出具体任务或效率数据。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这提供了选择 AI 使用场景的职业参考：识别能力短板，同时保留验证输出的能力；个人观点不能代表招聘标准。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>挑选一类自己不熟悉但能够验收的任务，记录 AI 辅助前后的耗时、返工和质量，形成可展示的实践案例。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>Intel 将 Agentic AI 纳入开放基础设施叙事</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Intel 发布面向 Agentic AI 时代的开放基础设施消息；给定摘要没有披露具体招聘岗位或企业部署成果。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这为关注企业 AI 基础设施的读者提供了跟踪对象，但尚不能据此判断相关岗位需求增长。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>阅读原文确认具体技术范围，再对照目标公司的职位描述，检查模型服务、系统集成与运行监控技能是否匹配。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
