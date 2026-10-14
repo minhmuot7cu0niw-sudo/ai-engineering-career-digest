@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI 工程与职业速报 · 2026-10-14</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #66727d;
+      --line: rgba(35, 53, 67, .16);
+      --accent: #d96b3b;
+      --paper: rgba(255, 255, 255, .88);
+      --paper-strong: rgba(255, 255, 255, .96);
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9eff2; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(42, 65, 80, .15) 1px, transparent 1.35px) 0 0 / 18px 18px,
+        linear-gradient(180deg, #eef3f5 0%, #f8fafb 48%, #e9eff2 100%);
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 54px 48px 68px; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 0; max-width: none; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; line-height: 1.6; text-align: right; white-space: nowrap; }
+    .meta strong { display: block; color: var(--ink); font-size: 16px; }
+    .judgment { margin: 34px 0 46px; padding: 24px 28px; border: 1px solid var(--line); border-left: 5px solid var(--accent); background: var(--paper-strong); box-shadow: 0 12px 30px rgba(30, 49, 62, .08); }
+    .judgment-label, .field-label { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .judgment p { margin: 10px 0 0; font-size: 21px; line-height: 1.55; font-weight: 650; }
+    .status-note { margin: 12px 0 0; color: #8b4c2e; font-size: 13px; }
+    .brief-section { margin-top: 42px; }
+    .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+    .section-number { color: var(--accent); font-size: 14px; font-weight: 850; letter-spacing: .12em; }
+    h2 { margin: 0; font-size: 26px; line-height: 1.2; }
+    .brief-item { margin: 0 0 18px; padding: 22px 24px 24px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(30, 49, 62, .06); }
+    .item-topline { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; }
+    .item-number { color: var(--accent); font-weight: 800; }
+    .item-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item-importance { margin-left: auto; }
+    h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.35; }
+    .item-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .item-field { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+    .item-field p { margin: 8px 0 0; color: #33414c; font-size: 15px; line-height: 1.72; }
+    .action-field { padding: 12px 14px 0; border: 1px solid rgba(217, 107, 59, .28); background: rgba(217, 107, 59, .07); }
+    .empty-section { margin: 0; color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 760px) {
+      .page { padding: 34px 20px 46px; }
+      .masthead { display: block; }
+      .meta { margin-top: 16px; text-align: left; white-space: normal; }
+      .item-grid { grid-template-columns: 1fr; gap: 14px; }
+      h1 { font-size: 38px; }
+      .judgment p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><div class="eyebrow">AI Engineering / Career Brief</div><h1>AI 工程与职业速报 · 2026-10-14</h1></div>
+      <div class="meta"><strong>每日版</strong>2026-10-14 12:06:50 CST</div>
+    </header>
+    <section class="judgment"><div class="judgment-label">今日判断</div><p>今日信号集中在本地化 AI、可程序化决策模型与代码代理工程化。对工程师而言，重点是把模型能力接入可验证的本地工作流，并关注隐私、安全与运行可靠性，而非仅追逐通用聊天能力。</p></section>
+    <section class="brief-section">
+  <div class="section-heading"><span class="section-number">01</span><h2>今日关键变化</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.01</span><span class="item-source">Google DeepMind</span><span class="item-importance">重要度 5</span></div>
+  <h3>Google DeepMind 与新加坡政府发布端侧反诈骗 AI 工具</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>DeepMind 与新加坡 GovTech 使用轻量级端侧 Gemma 模型，在私聊场景中拦截对话式诈骗，并强调零云端数据外流。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>这表明端侧小模型已被用于高隐私、高风险的真实公共服务场景，隐私保护和低延迟将成为 AI 产品落地的重要约束。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>评估现有 AI 功能中哪些敏感文本分类、风险提示或审核任务可迁移到端侧或私有部署，并为其补充延迟、准确率和数据出域测试。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.02</span><span class="item-source">GitHub Release: ollama/ollama</span><span class="item-importance">重要度 5</span></div>
+  <h3>Ollama 0.40.4 在 CLI 中加入决策模型调用</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>可通过 ollama run 直接执行是/否判断、文本标签分类和基于量规的评分，例如对工单判断是否请求退款。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>本地模型工具开始将能力从开放式生成扩展到可嵌入业务流程的分类和评分，适合低成本自动分流与质量门禁。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>选取一个现有的工单路由、内容分级或 PR 检查任务，用固定样本集比较决策模型与规则方案的准确率、延迟和误判成本。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">01.03</span><span class="item-source">GitHub Release: anthropics/claude-code</span><span class="item-importance">重要度 4</span></div>
+  <h3>Claude Code 2.1.299 增加文件提及控制与终端空闲压缩</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>新增 CLAUDE_CODE_DISABLE_FILE_MENTIONS 环境变量；@ 文件提及时模型获得路径并使用文件工具读取，而非直接取得文件内容。终端中的超长闲置会话也加入了压缩机制。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>文件内容暴露边界和长会话上下文成本是代码代理在团队环境中的实际治理问题，这次更新直接影响使用方式与安全审查。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在团队开发环境验证该环境变量是否符合代码访问策略，并用长会话任务检查压缩后代理是否仍能保持关键上下文。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">02</span><h2>工程实践</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.01</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>Mano-P：无云依赖的端侧 GUI Agent 部署</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>项目主题是搭建不依赖云服务的端侧 GUI Agent。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>端侧 GUI 自动化可降低数据离开设备的风险，也减少对外部模型服务可用性和成本的依赖。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在隔离测试机上评估其安装、权限边界、界面操作可审计性和失败恢复机制，再决定是否用于内部自动化。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 3</span></div>
+  <h3>GenClass：10 MB 浏览器内模型捕捉不抛异常的缺陷</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>GenClass 宣称提供一个约 10 MB、可在浏览器中运行的模型，用于发现不会抛出异常的 bug。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>前端质量问题常以静默错误形式出现；小型本地运行时若有效，可作为传统监控和测试之外的补充信号。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在非生产构建中接入并设计带真实缺陷的对照样例，核验检出率、性能开销、误报率及其对用户数据的处理方式。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.03</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>LLM 代码翻译中的类型映射问题</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>研究主题聚焦 LLM 驱动代码翻译时如何正确处理类型映射。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>跨语言迁移的主要风险往往不是语法生成，而是空值、数值范围、集合语义和错误模型等类型契约被悄然改变。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>为代码翻译流程建立类型映射表，并在迁移验收中加入边界值、空值、序列化和异常语义的契约测试。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">02.04</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 3</span></div>
+  <h3>Qwen Code 更新托管 Agent 连接器与 broker 稳健性</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>预览版更新说明包含对 managed-agent 的 connector 与 broker 稳健性修复。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>多 Agent 或托管 Agent 系统的可靠性瓶颈常在连接、消息转发和恢复路径，而非单次模型调用质量。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>使用托管 Agent 时，给连接器和 broker 增加断连重试、幂等请求、超时告警与故障注入测试。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">03</span><h2>学习优先级</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.01</span><span class="item-source">GitHub Release: ollama/ollama</span><span class="item-importance">重要度 5</span></div>
+  <h3>学习本地决策模型的评测与集成</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Ollama 已支持在命令行中直接以决策模型完成判断、分类和评分任务。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>与其只练习提示词生成，更应掌握如何将模型输出约束为可度量、可回归测试的业务决策。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>用一个文本分类任务建立包含标签定义、金标集、阈值和人工复核回退的最小评测管线。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">03.02</span><span class="item-source">Hacker News</span><span class="item-importance">重要度 4</span></div>
+  <h3>学习代码翻译的类型契约验证</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>该研究讨论 LLM 代码翻译中的类型映射正确性。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI 辅助迁移会扩大跨语言改造速度，但类型系统与运行时语义的差异决定了结果是否可上线。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>选择一段小型服务模块，先人工定义源语言与目标语言类型契约，再以属性测试和集成测试验证 AI 生成迁移结果。</p></div>
+  </div>
+</article>
+</section><section class="brief-section">
+  <div class="section-heading"><span class="section-number">04</span><h2>职业信号</h2></div>
+  <article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.01</span><span class="item-source">Google DeepMind</span><span class="item-importance">重要度 5</span></div>
+  <h3>端侧隐私 AI 正在进入高风险公共服务场景</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>DeepMind 与新加坡 GovTech 的合作将轻量级端侧模型用于私聊反诈骗，且不向云端传出数据。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>AI 工程岗位的竞争力正在从模型调用扩展到端侧部署、隐私设计、风险评估和产品可靠性。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>在简历项目或作品集中展示至少一个离线或私有部署 AI 应用，并量化其数据边界、性能和评测结果。</p></div>
+  </div>
+</article><article class="brief-item">
+  <div class="item-topline"><span class="item-number">04.02</span><span class="item-source">GitHub Release: QwenLM/qwen-code</span><span class="item-importance">重要度 4</span></div>
+  <h3>Agent 系统的基础设施可靠性成为落地能力</h3>
+  <div class="item-grid">
+    <div class="item-field"><span class="field-label">发生了什么</span><p>Qwen Code 的预览版将 managed-agent 的连接器和 broker 稳健性列为修复内容。</p></div>
+    <div class="item-field"><span class="field-label">为什么重要</span><p>企业采用 Agent 后，需要能够处理服务连接、状态协调、恢复与观测的工程人才，而不只是搭建演示。</p></div>
+    <div class="item-field action-field"><span class="field-label">你现在做什么</span><p>补齐队列、重试、幂等、可观测性和故障恢复等分布式系统能力，并在 Agent 项目中明确展示这些设计。</p></div>
+  </div>
+</article>
+</section>
+    <footer class="footer">本页只呈现经过筛选和摘要的判断，不在正文展开外部链接；完整来源索引保留在同日期归档数据中。</footer>
+  </main>
+</body>
+</html>
