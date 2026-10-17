@@ -1,0 +1,116 @@
+{
+  "overview": "本期优先关注 Agent 授权边界、推理运行时稳定性和企业 AI 治理。工程上，先排查与现有环境直接相关的缺陷，再评估工具升级；学习上，优先补齐治理和数学基础。职业素材提供了受监管行业的落地案例，但没有直接招聘数据，不能据此判断岗位需求或薪资变化。以下仅依据给定标题与摘要，政策进展、项目效果及完整版本变更仍需通过原链接核实。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "中国拟调整技术出口管制范围，开放权重模型相关影响待核实",
+          "url": "https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/",
+          "source": "Hacker News",
+          "summary": "条目标题称中国将限制开放权重模型出口；所给路透链接指向拟将 AI、生物技术、太阳能等领域的 40 项技术加入出口管制清单的报道。现有材料不足以确认最终规则及具体模型适用范围。",
+          "why": "跨境部署或分发模型的团队，需要关注潜在的获取、交付和许可约束，但目前不能把提案视为已经生效的全面限制。",
+          "action": "核对报道中的提案状态、技术定义与生效安排，并梳理现有模型的来源、分发地区和替代方案。",
+          "importance": 5
+        },
+        {
+          "title": "Agent 未经批准执行指令：关注 MCP 契约漂移问题",
+          "url": "https://github.com/Paraphern/rugsnare/blob/main/docs/blog/2026-10-17-mcp-contract-drift.md",
+          "source": "Hacker News",
+          "summary": "这篇 Show HN 条目提出 AI Agent 可能遵循用户从未批准的指令，链接主题为 MCP 契约漂移；给定材料没有提供复现细节或影响范围。",
+          "why": "使用 MCP 工具的团队需要确认，用户批准的权限和实际执行时的工具行为是否一致。",
+          "action": "阅读并复现文中案例，检查工具描述变更、授权记录及执行前校验；优先审查涉及写入或外部操作的工具。",
+          "importance": 5
+        },
+        {
+          "title": "Claude Code 新增客户端自动模式分类器的模型配置",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "v2.1.302 新增 CLAUDE_CODE_AUTO_MODE_MODEL，用于选择客户端自动模式分类器使用的模型；摘要明确说明，该设置不改变服务端自动模式使用的模型。版本还在 /config 中加入了 Idle compaction 配置项。",
+          "why": "维护自动模式配置的团队多了一个可调参数，也需要准确区分客户端与服务端设置的作用范围。",
+          "action": "升级前核对完整发布说明；若使用自动模式，在测试环境验证该变量的作用范围，再更新团队配置文档。",
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "vLLM 候选版本修复 sm90 上 Mamba2 内核的 NaN 输出",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3",
+          "source": "GitHub Release: vllm-project/vllm",
+          "summary": "v0.32.0rc3 的发布标题明确列出：修复 sm90 上 Mamba2 chunk scan 内核产生 NaN 输出的问题。",
+          "why": "运行对应模型和硬件路径的服务，应优先验证数值正确性；其他部署环境与该修复的直接相关性较低。",
+          "action": "确认部署是否涉及 Mamba2 与 sm90；若涉及，用已知输入比较现用版本与候选版本的输出，检查 NaN 并做回归验证后再决定升级。",
+          "importance": 5
+        },
+        {
+          "title": "Ollama 修复 Windows 上遗留 runner 进程的问题",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "v0.40.6 的可见变更包含 Windows 平台防止 runner 进程遗留的修复；摘要未展示其他完整变更。",
+          "why": "Windows 本地推理用户若遇到服务退出后子进程仍存活的现象，可以将该版本列为排查和升级候选。",
+          "action": "在测试机器升级，重复执行模型启动、停止及主程序退出流程，检查 runner 进程和资源占用是否正常释放。",
+          "importance": 4
+        },
+        {
+          "title": "将 fzf 纳入 AI 编码 Agent 的文件选择流程",
+          "url": "https://junegunn.github.io/fzf/tips/using-fzf-with-ai-agents/",
+          "source": "Hacker News",
+          "summary": "该条目介绍 fzf 与 AI 编码 Agent 的结合使用，给定摘要没有展开具体操作步骤。",
+          "why": "文件和上下文选择是编码任务中的常见操作，可评估交互式筛选是否能减少定位目标文件的成本。",
+          "action": "按原文尝试一个日常任务，例如筛选待修改文件；比较接入前后的操作步骤和误选情况，再决定是否固化到工作流。",
+          "importance": 3
+        },
+        {
+          "title": "Twain 提供面向 AI 开发场景的差异查看工具",
+          "url": "https://github.com/andunieee/twain",
+          "source": "Hacker News",
+          "summary": "Twain 在 Show HN 中被介绍为类似 Meld、面向 AI 时代的 diff 查看器；现有材料未列出具体功能或成熟度。",
+          "why": "经常审查 AI 生成代码的开发者，可以评估它是否更便于理解修改范围和发现意外变更。",
+          "action": "用一份真实的 AI 代码修改试用 Twain，与现有 diff 工具比较审查体验，重点检查跨文件改动和无关修改是否容易识别。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "学习 AI 网关治理，将其转化为可演示的工程能力",
+          "url": "https://github.com/ddruhin/ai-gateway-governance-reference-architecture",
+          "source": "Hacker News",
+          "summary": "该条目提供 AI Gateway Governance 参考架构项目；给定摘要没有说明组件清单、部署要求或验证结果。",
+          "why": "对希望承担企业 AI 平台工作的工程师，治理架构是值得学习的主题，但参考项目是否适合生产需要另行评估。",
+          "action": "先阅读架构说明，再选鉴权、调用审计或用量控制中的一个方向制作最小演示，并记录设计取舍与适用边界。",
+          "importance": 4
+        },
+        {
+          "title": "补齐矩阵梯度基础，服务模型训练与数值调试",
+          "url": "https://alexwang.ai/posts/derivatives-and-gradients/",
+          "source": "Hacker News",
+          "summary": "《Matrix Gradients, Without the Pain》聚焦矩阵导数与梯度，适合作为相关基础知识的学习入口。",
+          "why": "涉及训练、损失函数实现或数值问题排查的读者，需要能够检查梯度表达式及张量形状。",
+          "action": "阅读后手推一个线性层加平方误差损失的梯度，再用自动微分核对结果；当前只做应用集成的读者可降低该项优先级。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Itaú 案例将客户交互与治理平台同时纳入生成式 AI 落地",
+          "url": "https://openai.com/index/itau-generative-ai",
+          "source": "OpenAI",
+          "summary": "OpenAI 发布的案例称，Itaú 通过对话界面 ia.i 和治理平台 IARA，将 AI First 战略应用于客户与员工场景，所在行业具有较强监管要求。",
+          "why": "该案例提示，面向受监管企业的 AI 工程能力可以同时覆盖业务集成和治理设计；它没有提供招聘数量或岗位技能要求，不能据此推断招聘增长。",
+          "action": "准备相关求职作品时，在业务功能之外展示权限、审计、评估和上线流程，并结合目标岗位的真实职位描述确定投入重点。",
+          "importance": 4
+        }
+      ]
+    }
+  ],
+  "degraded": false
+}
