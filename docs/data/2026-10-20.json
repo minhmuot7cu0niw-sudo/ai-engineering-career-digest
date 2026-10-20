@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "A Forgotten 1980 Reversible Computer, and the AI That Just Cut Quantum Costs 17x",
+          "url": "https://x.com/BrianRoemmele/article/2112202286441374119",
+          "source": "Hacker News",
+          "summary": "A Forgotten 1980 Reversible Computer, and the AI That Just Cut Quantum Costs 17x",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AWS CFO joked about the financial toll of AI. An internal recording reveals why",
+          "url": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
+          "source": "Hacker News",
+          "summary": "AWS CFO joked about the financial toll of AI. An internal recording reveals why",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Should agent-memory benchmarks test stale information?",
+          "url": "https://agentmemories.ai/home",
+          "source": "Hacker News",
+          "summary": "Should agent-memory benchmarks test stale information?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Show HN: An Open Source Aircraft",
+          "url": "https://adampaigge.github.io/openplane/",
+          "source": "Hacker News",
+          "summary": "Show HN: An Open Source Aircraft",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Textideo Director – an AI video creation tool for scenes, shots",
+          "url": "https://textideo.com/director",
+          "source": "Hacker News",
+          "summary": "Textideo Director – an AI video creation tool for scenes, shots",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Search for AI-agents and usefulness score",
+          "url": "https://xtract-production-2efc.up.railway.app/",
+          "source": "Hacker News",
+          "summary": "Show HN: Search for AI-agents and usefulness score",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Show HN: AppMaker – Build business apps with AI, visual editing and code",
+          "url": "https://appmaker.io/",
+          "source": "Hacker News",
+          "summary": "Show HN: AppMaker – Build business apps with AI, visual editing and code",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Yana – A local-first, human-governed AI runtime and IDE in Rust",
+          "url": "https://github.com/yanacuti1121/yana-ai",
+          "source": "Hacker News",
+          "summary": "Show HN: Yana – A local-first, human-governed AI runtime and IDE in Rust",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "New AI tool can predict cancer survival by a single patient selfie",
+          "url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+          "source": "Hacker News",
+          "summary": "New AI tool can predict cancer survival by a single patient selfie",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Show HN: Privacy Layer for Frontier Models",
+          "url": "https://privai-sandy.vercel.app/",
+          "source": "Hacker News",
+          "summary": "Show HN: Privacy Layer for Frontier Models",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Ukrainian drone flies wounded soldier from front line",
+          "url": "https://www.abc.net.au/news/2026-10-20/ukraine-airlifts-wounded-soldier-with-drone-in-world-first/107286436",
+          "source": "Hacker News",
+          "summary": "Ukrainian drone flies wounded soldier from front line",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
