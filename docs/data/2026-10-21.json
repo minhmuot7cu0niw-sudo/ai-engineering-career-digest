@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "The Net in Cyberpunk: Blackwall, Datakrash and Rogue AIs",
+          "url": "https://bisq.neocities.org/shrines/cyberpunk",
+          "source": "Hacker News",
+          "summary": "The Net in Cyberpunk: Blackwall, Datakrash and Rogue AIs",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "v0.40.7",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "<h2>What's Changed</h2> <ul> <li><a href=\"https://ollama.com/library/pplx-decider\" rel=\"nofollow\">pplx-decider</a> is a 27B decision model from Perplexity, fine-tuned from<br> Qwen3.8-27B</li> <li>Continuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without<br> thinking, or when the history contains another provider's compaction items</li> <li>Fixed streaming Responses requests where client tool calls (e.g. Codex with web search) could emit before open<br> reasoning items, producing misordered/duplicate tool call events</li> <li>Requests routed to remote models are now cancelled on ollama.com when the client disconnects, instead of continuing<br> to run</li> <li><code>ollama show</code> now reports which renderer and parser a model uses and where its chat template comes from; the API<br> exposes the same values in new <code>renderer</code>, <code>parser</code>, and <code>template_source</code> fields</li> <li>More draft models now work with speculative decoding: llama-server infers the draft type automatically instead of<br> requiring Ollama to identify it</li> <li><code>ollama launch claude</code> now clamps <code>CLAUDE_CODE_AUTO_COMPACT_WINDOW</code> to Claude Code's supported range, avoiding a<br> \"window too large\" warning</li> <li>Updated llama.cpp and MLX</li> </ul> <p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/ollama/ollama/compare/v0.40.6...v0.40.7\"><tt>v0.40.6...v0.40.7</tt></a></p>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "SpacebarBench: Benchmarking Agents on Whiteboards",
+          "url": "https://www.spacebar.ai/benchmark",
+          "source": "Hacker News",
+          "summary": "SpacebarBench: Benchmarking Agents on Whiteboards",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "A2O Lite Neon AI Dance Generator",
+          "url": "https://www.a2oliteneon.app",
+          "source": "Hacker News",
+          "summary": "A2O Lite Neon AI Dance Generator",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "US Air Force pilots used malware-laden USB drives to plan Afghanistan missions",
+          "url": "https://www.theregister.com/security/2026/10/15/us-air-force-pilots-used-malware-laden-usb-drives-to-plan-afghanistan-missions/5303156",
+          "source": "Hacker News",
+          "summary": "US Air Force pilots used malware-laden USB drives to plan Afghanistan missions",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "v2.1.306",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+          "source": "GitHub Release: anthropics/claude-code",
+          "summary": "<h2>What's changed</h2> <ul> <li>Fixed <code>claude -p</code> inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables</li> <li>Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools</li> </ul>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Blueprints, Not Prompts: Using TLA+ to Guide AI-Written Code",
+          "url": "https://mulgadc.com/blog/blueprints-not-prompts-tla-plus",
+          "source": "Hacker News",
+          "summary": "Blueprints, Not Prompts: Using TLA+ to Guide AI-Written Code",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Litedeck – Agentless server management GUI over plain SSH",
+          "url": "https://github.com/cpprhtn/LiteDeck",
+          "source": "Hacker News",
+          "summary": "Show HN: Litedeck – Agentless server management GUI over plain SSH",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Unterm – A pure-Rust terminal for humans and AI agents",
+          "url": "https://github.com/zhitongblog/unterm",
+          "source": "Hacker News",
+          "summary": "Show HN: Unterm – A pure-Rust terminal for humans and AI agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Agentitter – a tiny plain-text social network you use through your AI agent",
+          "url": "https://agentitter.com/",
+          "source": "Hacker News",
+          "summary": "Agentitter – a tiny plain-text social network you use through your AI agent",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Dataville Takes the Guesswork Out of Data for AI",
+          "url": "https://www.dataville.com/blog/dataville-takes-the-guesswork-out-of-data-for-ai",
+          "source": "Hacker News",
+          "summary": "Dataville Takes the Guesswork Out of Data for AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
