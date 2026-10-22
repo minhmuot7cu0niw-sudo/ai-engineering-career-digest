@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "AI agent on your notch, equipped with his own computer",
+          "url": "https://notcho.si",
+          "source": "Hacker News",
+          "summary": "AI agent on your notch, equipped with his own computer",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Flapping Airplanes",
+          "url": "https://flappingairplanes.com/",
+          "source": "Hacker News",
+          "summary": "Flapping Airplanes",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Nokia, T-Mobile and Nvidia complete first AI-RAN call",
+          "url": "https://www.nokia.com/blog/from-the-lab-to-the-live-network-nokia-t-mobile-and-nvidia-complete-worlds-first-ai-ran-call/",
+          "source": "Hacker News",
+          "summary": "Nokia, T-Mobile and Nvidia complete first AI-RAN call",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Show HN: HN Sieve – every Show HN scored and summarized by AI",
+          "url": "https://hnsieve.com",
+          "source": "Hacker News",
+          "summary": "Show HN: HN Sieve – every Show HN scored and summarized by AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI Overlay that Lives on your Desktop",
+          "url": "https://www.lumenoverlay.com",
+          "source": "Hacker News",
+          "summary": "AI Overlay that Lives on your Desktop",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Amazon warns new cyber flaws detected using AI are being 'broadly exploited'",
+          "url": "https://www.ft.com/content/245778d9-597b-492d-b5b6-a2967c77e853",
+          "source": "Hacker News",
+          "summary": "Amazon warns new cyber flaws detected using AI are being 'broadly exploited'",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Personal Agent Protocol",
+          "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
+          "source": "Hacker News",
+          "summary": "Personal Agent Protocol",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Data centers could erase decades of air quality gains",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+          "source": "Hacker News",
+          "summary": "Data centers could erase decades of air quality gains",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "LiteLLM Security Update",
+          "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
+          "source": "Hacker News",
+          "summary": "LiteLLM Security Update",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Can a malicious webpage hijack an AI agent?",
+          "url": "https://victorribeiro.com/bots/",
+          "source": "Hacker News",
+          "summary": "Can a malicious webpage hijack an AI agent?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Databricks launches AI Runtime for managed GPU training on enterprise data",
+          "url": "https://www.databricks.com/blog/ai-runtime-generally-available",
+          "source": "Hacker News",
+          "summary": "Databricks launches AI Runtime for managed GPU training on enterprise data",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
