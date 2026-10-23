@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Tech became the villain of the US midterms",
+          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/22/us-midterms-tech-datacenters-ai",
+          "source": "Hacker News",
+          "summary": "Tech became the villain of the US midterms",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI Agents Kinda Broke the Internet",
+          "url": "https://jacobg.co/ai-agents/",
+          "source": "Hacker News",
+          "summary": "AI Agents Kinda Broke the Internet",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The Customer Is the Builder: how AI coding agents change software economics",
+          "url": "https://arxiv.org/abs/2610.30307",
+          "source": "Hacker News",
+          "summary": "The Customer Is the Builder: how AI coding agents change software economics",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "The Signal Chats That Cost OpenAI Researchers Their Jobs",
+          "url": "https://www.wsj.com/tech/ai/the-signal-chats-that-cost-openai-researchers-their-jobs-594c5853",
+          "source": "Hacker News",
+          "summary": "The Signal Chats That Cost OpenAI Researchers Their Jobs",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Agent Compute Engine deep dive",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive",
+          "source": "Hacker News",
+          "summary": "Agent Compute Engine deep dive",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI RSS reader with summaries – Brew beta",
+          "url": "https://testflight.apple.com/join/CgRdkqc4",
+          "source": "Hacker News",
+          "summary": "AI RSS reader with summaries – Brew beta",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Show HN: TenseMem – deterministic memory for AI agents",
+          "url": "https://github.com/tensemem/tensemem",
+          "source": "Hacker News",
+          "summary": "Show HN: TenseMem – deterministic memory for AI agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The Surprising Popularity of AI",
+          "url": "https://www.economist.com/international/2026/10/22/the-surprising-popularity-of-ai",
+          "source": "Hacker News",
+          "summary": "The Surprising Popularity of AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+          "url": "https://zordt.com/",
+          "source": "Hacker News",
+          "summary": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Nvidia launches Minerva to catch failing parts in giant AI data centres",
+          "url": "https://thenextweb.com/news/nvidia-minerva-aiops-ai-factory-monitoring",
+          "source": "Hacker News",
+          "summary": "Nvidia launches Minerva to catch failing parts in giant AI data centres",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "v0.40.9",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "<h2>Speech</h2> <p>Ollama can now generate <a href=\"https://docs.ollama.com/capabilities/speech\" rel=\"nofollow\">speech</a> with Phonon on Apple Silicon. <code>ollama run</code> plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible <code>/v1/audio/speech</code> endpoint.</p> <div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"ollama run phonon &quot;Hello from Ollama.&quot;\"><pre>ollama run phonon <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Hello from Ollama.<span class=\"pl-pds\">\"</span></span></pre></div> <h2>d3 decision models</h2> <p><a href=\"https://ollama.com/library/d3\" rel=\"nofollow\">d3</a> brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes.</p> <div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"ollama run d3 &quot;A customer says their card was charged twice.&quot; --ask &quot;Is this a billing issue?&quot;\"><pre>ollama run d3 <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>A customer says their card was charged twice.<span class=\"pl-pds\">\"</span></span> --ask <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Is this a billing issue?<span class=\"pl-pds\">\"</span></span></pre></div> <h2>Flint on Linux and Windows</h2> <p><a href=\"https://ollama.com/library/flint\" rel=\"nofollow\">Flint</a> now runs on Linux and Windows as well as macOS.</p> <h2>Other improvements</h2> <ul> <li>Streaming OpenAI Responses and Anthropic Messages requests now report generation failures instead of ending silently after partial output.</li> <li><code>ollama launch</code> now passes cloud models' context lengths and capabilities to coding tools, fixing incorrect context and compaction settings.</li> <li>Anthropic-compatible web search now uses the model's supported thinking setting in follow-up requests, preventing avoidable failures.</li> </ul> <p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/ollama/ollama/compare/v0.40.8...v0.40.9\"><tt>v0.40.8...v0.40.9</tt></a></p>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
