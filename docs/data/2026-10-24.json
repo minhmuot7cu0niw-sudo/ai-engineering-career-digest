@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Show HN: Inference Cooperative, user-governed AI",
+          "url": "https://inference.coop/",
+          "source": "Hacker News",
+          "summary": "Show HN: Inference Cooperative, user-governed AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "CowAgent – Open-Source Super AI Assistant",
+          "url": "https://cowagent.ai/en/",
+          "source": "Hacker News",
+          "summary": "CowAgent – Open-Source Super AI Assistant",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "EU Member States approve \"digital expropriation\" for AI companies",
+          "url": "https://noyb.eu/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies",
+          "source": "Hacker News",
+          "summary": "EU Member States approve \"digital expropriation\" for AI companies",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Meta says if its AI makes a mistake, it will legally be the customer's fault",
+          "url": "https://www.cio.com/article/4237395/metas-new-enterprise-contract-says-if-its-ai-makes-a-mistake-it-will-legally-be-the-customers-fault.html",
+          "source": "Hacker News",
+          "summary": "Meta says if its AI makes a mistake, it will legally be the customer's fault",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "OpenAI disables internet access during model training",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/23/openai-disables-internet-access-during-model-training-while-anthropic-issues-another-mea-culpa/5305238",
+          "source": "Hacker News",
+          "summary": "OpenAI disables internet access during model training",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "DeepSeek Just Shook the AI Industry Again [video]",
+          "url": "https://www.youtube.com/watch?v=YX6QdIYVSgY",
+          "source": "Hacker News",
+          "summary": "DeepSeek Just Shook the AI Industry Again [video]",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "The anti-AI writing police are everywhere. What are they looking for?",
+          "url": "https://www.cnn.com/2026/10/21/tech/ai-detectors-pangram-literary-prizes-cec",
+          "source": "Hacker News",
+          "summary": "The anti-AI writing police are everywhere. What are they looking for?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Google's Frontier Imperative, Compute Scarcity Dilemmas and the Future of AI",
+          "url": "https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative",
+          "source": "Hacker News",
+          "summary": "Google's Frontier Imperative, Compute Scarcity Dilemmas and the Future of AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "I built rooms for AI agents to work together",
+          "url": "https://bellman.sh/r/blog/p001-hello-front-desk",
+          "source": "Hacker News",
+          "summary": "I built rooms for AI agents to work together",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "langgraph==1.2.17",
+          "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
+          "source": "GitHub Release: langchain-ai/langgraph",
+          "summary": "<p>Changes since 1.2.16</p> <ul> <li>release(langgraph): 1.2.17 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6007715725\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9418\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9418/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9418\">#9418</a>)</li> <li>fix(langgraph): apply an explicit recursion_limit equal to the default (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6007185309\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9417\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9417/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9417\">#9417</a>)</li> <li>fix(langgraph): keep the caller's namespace in RemoteGraph.stream(subgraphs=True) (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5990161824\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9401\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9401/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9401\">#9401</a>)</li> <li>chore(deps): remove precautionary third-party upper bounds (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5971266195\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9390\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9390/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9390\">#9390</a>)</li> <li>chore(deps): bump certifi from 2026.1.4 to 2026.10.19 in /libs/langgraph (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5952311222\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9375\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9375/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9375\">#9375</a>)</li> <li>chore(deps-dev): bump the minor-and-patch group in /libs/prebuilt with 6 updates (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5657850505\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9150\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9150/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9150\">#9150</a>)</li> </ul>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI in UX: Work Is Faster, but Practitioners Have Mixed Feelings",
+          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/",
+          "source": "Hacker News",
+          "summary": "AI in UX: Work Is Faster, but Practitioners Have Mixed Feelings",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
