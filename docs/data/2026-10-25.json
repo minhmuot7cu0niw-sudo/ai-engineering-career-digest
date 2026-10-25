@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Show HN: AgentSkill – Yara-L-Skill",
+          "url": "https://github.com/ajaynyayapathi/yara-l-skill",
+          "source": "Hacker News",
+          "summary": "Show HN: AgentSkill – Yara-L-Skill",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Tokens aren't valuable: No more AI",
+          "url": "https://www.reddit.com/r/opensource/s/Vmk5Fd1N8H",
+          "source": "Hacker News",
+          "summary": "Tokens aren't valuable: No more AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: AI Heat Map Sourced from over 140 News Feeds",
+          "url": "https://ai.jagular.io",
+          "source": "Hacker News",
+          "summary": "Show HN: AI Heat Map Sourced from over 140 News Feeds",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Show HN: An OSS browser and work environment for humans and agents",
+          "url": "https://github.com/zephium-browser/Zephium",
+          "source": "Hacker News",
+          "summary": "Show HN: An OSS browser and work environment for humans and agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Close the UI building AI agent loop with Protoshot",
+          "url": "https://npmjs.com/protoshot",
+          "source": "Hacker News",
+          "summary": "Show HN: Close the UI building AI agent loop with Protoshot",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "UK government sets out $800M of AI security funding",
+          "url": "https://www.reuters.com/world/uk/uk-government-sets-out-800-million-ai-security-funding-2026-10-23/",
+          "source": "Hacker News",
+          "summary": "UK government sets out $800M of AI security funding",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Break It on Purpose: an AI pipeline that triages and fixes its own bugs",
+          "url": "https://zontakllc.com/articles/break-it-on-purpose",
+          "source": "Hacker News",
+          "summary": "Break It on Purpose: an AI pipeline that triages and fixes its own bugs",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: AI Senate – AI senators debate live policy and vote on the record",
+          "url": "https://aisenatus.com",
+          "source": "Hacker News",
+          "summary": "Show HN: AI Senate – AI senators debate live policy and vote on the record",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI Performance in the Security Theater",
+          "url": "https://bykozy.me/blog/ai-performance-at-the-security-theater/",
+          "source": "Hacker News",
+          "summary": "AI Performance in the Security Theater",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "OneMemory – self-hosted shared memory for AI agents over MCP",
+          "url": "https://github.com/calasdan-sketch/onememory",
+          "source": "Hacker News",
+          "summary": "OneMemory – self-hosted shared memory for AI agents over MCP",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Cerebras Deploys Trillion-Parameter AI Models",
+          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+          "source": "Hacker News",
+          "summary": "Cerebras Deploys Trillion-Parameter AI Models",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
