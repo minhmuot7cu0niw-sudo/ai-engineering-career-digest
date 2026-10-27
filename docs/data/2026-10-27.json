@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "AI and the Collapse of Capitalism",
+          "url": "https://jasonpolak.substack.com/p/ai-and-the-collapse-of-capitalism",
+          "source": "Hacker News",
+          "summary": "AI and the Collapse of Capitalism",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Nvidia's AI showpiece: Jensen-mania, robot ducks and neocloud distress",
+          "url": "https://www.cnbc.com/2026/10/23/jensen-huang-gtc-robot-ducks-neocloud-distress.html",
+          "source": "Hacker News",
+          "summary": "Nvidia's AI showpiece: Jensen-mania, robot ducks and neocloud distress",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Create and edit images with a collection of easy-to-use AI tools",
+          "url": "https://www.picttool.com/",
+          "source": "Hacker News",
+          "summary": "Create and edit images with a collection of easy-to-use AI tools",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Kazakhstan Expands Compute for Its AI Future",
+          "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+          "source": "Hacker News",
+          "summary": "Kazakhstan Expands Compute for Its AI Future",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Limma – MCP for total recall and precision in data retrieval for agents",
+          "url": "https://limma.ai",
+          "source": "Hacker News",
+          "summary": "Show HN: Limma – MCP for total recall and precision in data retrieval for agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI and the Rise of Cognitive Overload",
+          "url": "https://www.psychologytoday.com/us/blog/the-mindful-epidemiologist/202603/ai-and-the-rise-of-cognitive-overload",
+          "source": "Hacker News",
+          "summary": "AI and the Rise of Cognitive Overload",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "AI Science vs. Human Science",
+          "url": "https://lacuna.tiptreesystems.com/paper/ai-science-vs-human-science/art_3901430d6c0e4bddb284362100ef8548",
+          "source": "Hacker News",
+          "summary": "AI Science vs. Human Science",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Let your agent talk to mine",
+          "url": "https://blog.danielbrain.ai/let-your-agent-talk-to-mine",
+          "source": "Hacker News",
+          "summary": "Let your agent talk to mine",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI wasn't overhyped. Almost everyone underestimated it",
+          "url": "https://benjamintodd.substack.com/p/almost-every-ai-forecast-of-the-last",
+          "source": "Hacker News",
+          "summary": "AI wasn't overhyped. Almost everyone underestimated it",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "The \"let-it-rip\" camp is wrong on AI",
+          "url": "https://economist.com/by-invitation/2026/10/26/the-let-it-rip-camp-is-wrong-on-ai",
+          "source": "Hacker News",
+          "summary": "The \"let-it-rip\" camp is wrong on AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Marlow – Build full-stack apps with AI and own your code",
+          "url": "https://marlow.app/beta",
+          "source": "Hacker News",
+          "summary": "Show HN: Marlow – Build full-stack apps with AI and own your code",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
