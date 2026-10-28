@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "AICC: Free AI certifications, technical courses, and learning resources",
+          "url": "https://www.aicertificationcouncil.com/",
+          "source": "Hacker News",
+          "summary": "AICC: Free AI certifications, technical courses, and learning resources",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: OpenMontage Drama Studio – self-hosted AI studio for short dramas",
+          "url": "https://github.com/charliewwdev/OpenMontage",
+          "source": "Hacker News",
+          "summary": "Show HN: OpenMontage Drama Studio – self-hosted AI studio for short dramas",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Binary – hiring tool (ATS) for startups that is MCP friendly",
+          "url": "https://binary.so",
+          "source": "Hacker News",
+          "summary": "Show HN: Binary – hiring tool (ATS) for startups that is MCP friendly",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "I ran each AI coding-agent sandbox's own tests against the others",
+          "url": "https://github.com/carlostapiacl/sandbox-conformance",
+          "source": "Hacker News",
+          "summary": "I ran each AI coding-agent sandbox's own tests against the others",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Tiny Desk AI – Turn yourself and friends into an \"Outstanding\" meme video",
+          "url": "https://tiny-desk-ai.app/",
+          "source": "Hacker News",
+          "summary": "Tiny Desk AI – Turn yourself and friends into an \"Outstanding\" meme video",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: The New Way to Make AI UGC Ads in 2026",
+          "url": "https://www.aivideosugc.com/ai-video-generation",
+          "source": "Hacker News",
+          "summary": "Show HN: The New Way to Make AI UGC Ads in 2026",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Show HN: Cirkit – Annotate, Trace, and Ask AI About Schematic PDFs",
+          "url": "https://www.cirkit.us/demo/",
+          "source": "Hacker News",
+          "summary": "Show HN: Cirkit – Annotate, Trace, and Ask AI About Schematic PDFs",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: How to Make AI UGC Ads in 2026 Using an AI Video Generator",
+          "url": "https://www.aivideosugc.com/",
+          "source": "Hacker News",
+          "summary": "Show HN: How to Make AI UGC Ads in 2026 Using an AI Video Generator",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "A bust-up between mathematicians fuels fears that AI could undermine science",
+          "url": "https://www.bbc.com/news/articles/c6gelgxjwzdzo",
+          "source": "Hacker News",
+          "summary": "A bust-up between mathematicians fuels fears that AI could undermine science",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Wikipedia: Signs of AI Writing",
+          "url": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+          "source": "Hacker News",
+          "summary": "Wikipedia: Signs of AI Writing",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Writing AI agents in YAML instead of Python",
+          "url": "https://codecut.ai/build-ai-agents-yaml-docker-agent/",
+          "source": "Hacker News",
+          "summary": "Writing AI agents in YAML instead of Python",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
