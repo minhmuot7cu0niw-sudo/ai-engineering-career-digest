@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Meta has a new AI pet app called Waddle World",
+          "url": "https://techcrunch.com/2026/10/28/meta-has-a-new-ai-pet-app-called-waddle-world/",
+          "source": "Hacker News",
+          "summary": "Meta has a new AI pet app called Waddle World",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI Chatbots Are Building an 'Algorithmic Self-Portrait' of You",
+          "url": "https://gizmodo.com/ai-chatbots-are-building-an-algorithmic-self-portrait-of-you-2000775529",
+          "source": "Hacker News",
+          "summary": "AI Chatbots Are Building an 'Algorithmic Self-Portrait' of You",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Free course: Build and deploy an AI web app with Django and DigitalOcean",
+          "url": "https://www.aicertificationcouncil.com/",
+          "source": "Hacker News",
+          "summary": "Free course: Build and deploy an AI web app with Django and DigitalOcean",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "New superconducting chip aims to help tame fusion plasma",
+          "url": "https://www.scientificamerican.com/article/new-superconducting-chip-aims-to-help-tame-fusion-plasma/",
+          "source": "Hacker News",
+          "summary": "New superconducting chip aims to help tame fusion plasma",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "O11: OpenRouter for Agent Tools",
+          "url": "https://o11.ai",
+          "source": "Hacker News",
+          "summary": "O11: OpenRouter for Agent Tools",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Ultrasound creates a tube that guides matter through the air",
+          "url": "https://www.helsinki.fi/en/news/energy/ultrasound-creates-tube-guides-matter-through-air",
+          "source": "Hacker News",
+          "summary": "Ultrasound creates a tube that guides matter through the air",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "NLnet Publishes More Stringent Generative AI Policy",
+          "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+          "source": "Hacker News",
+          "summary": "NLnet Publishes More Stringent Generative AI Policy",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Real Time AI Heat Map Sourced from over 140 News Feeds",
+          "url": "https://ai-news.jagular.io/",
+          "source": "Hacker News",
+          "summary": "Show HN: Real Time AI Heat Map Sourced from over 140 News Feeds",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Who's Ahead in the Global AI Talent Race?",
+          "url": "https://carnegieendowment.org/features/whos-ahead-in-the-global-ai-talent-race",
+          "source": "Hacker News",
+          "summary": "Who's Ahead in the Global AI Talent Race?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Tools, 17 with write access: How AI platforms bound agent authority",
+          "url": "https://www.antalpha.com/en-us/blog/120-tools-17-that-can-write-how-four-platforms-bound-an-ai-agents-authority/",
+          "source": "Hacker News",
+          "summary": "Tools, 17 with write access: How AI platforms bound agent authority",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI startup hacked Anthropic, gains access to employee details, internal messages",
+          "url": "https://www.techradar.com/pro/security/ai-startup-claims-it-hacked-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages",
+          "source": "Hacker News",
+          "summary": "AI startup hacked Anthropic, gains access to employee details, internal messages",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
