@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Show HN: Breatic – Collaborative canvases and documents with an AI agent",
+          "url": "https://github.com/orime-org/breatic",
+          "source": "Hacker News",
+          "summary": "Show HN: Breatic – Collaborative canvases and documents with an AI agent",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: HiPath AI – CS learning roadmaps where a quiz unlocks each lesson",
+          "url": "https://www.hipathai.me",
+          "source": "Hacker News",
+          "summary": "Show HN: HiPath AI – CS learning roadmaps where a quiz unlocks each lesson",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "A Defense Contractor Gave Their AI Agent Access to a Secure Pentagon System",
+          "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+          "source": "Hacker News",
+          "summary": "A Defense Contractor Gave Their AI Agent Access to a Secure Pentagon System",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "AI killed my software career [video]",
+          "url": "https://www.youtube.com/watch?v=cwsy-6gu5p4",
+          "source": "Hacker News",
+          "summary": "AI killed my software career [video]",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "I Built the Most AI-Pilled Company in the World",
+          "url": "https://twitter.com/jsnnsa/status/2115623382721126826",
+          "source": "Hacker News",
+          "summary": "I Built the Most AI-Pilled Company in the World",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "China increasingly depends on copying American AI",
+          "url": "https://www.economist.com/science-and-technology/2026/10/25/china-increasingly-depends-on-copying-american-ai",
+          "source": "Hacker News",
+          "summary": "China increasingly depends on copying American AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Ambition in the Age of AI",
+          "url": "https://aumitleon.dev/ambition-in-the-age-of-ai",
+          "source": "Hacker News",
+          "summary": "Ambition in the Age of AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The hard problem of AI therapy",
+          "url": "https://www.theseedsofscience.pub/p/the-hard-problem-of-ai-therapy",
+          "source": "Hacker News",
+          "summary": "The hard problem of AI therapy",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "How I Built the Most AI-Pilled Company in the World",
+          "url": "https://x.com/jsnnsa/status/2115623382721126826?a=fjiH4cVowfsIKfO0urI&s=46",
+          "source": "Hacker News",
+          "summary": "How I Built the Most AI-Pilled Company in the World",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Google eng is sure AI will destroy humanity he's stopped saving for retirement",
+          "url": "https://finance.yahoo.com/technology/ai/articles/former-google-engineer-sure-ai-103000827.html",
+          "source": "Hacker News",
+          "summary": "Google eng is sure AI will destroy humanity he's stopped saving for retirement",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: NovelHiveAI – A tool to turn novels into a multi-Voice audiobook",
+          "url": "https://novelhive.ai/",
+          "source": "Hacker News",
+          "summary": "Show HN: NovelHiveAI – A tool to turn novels into a multi-Voice audiobook",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
