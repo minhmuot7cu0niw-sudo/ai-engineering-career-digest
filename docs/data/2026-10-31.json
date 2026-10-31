@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Free AI Learning Platform",
+          "url": "https://www.aicertificationcouncil.com/",
+          "source": "Hacker News",
+          "summary": "Free AI Learning Platform",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Lambda.ai Is Down?",
+          "url": "https://lambda.ai",
+          "source": "Hacker News",
+          "summary": "Lambda.ai Is Down?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "See how AI search reads a page and fix it in one prompt",
+          "url": "https://lumi-geo.pages.dev/",
+          "source": "Hacker News",
+          "summary": "See how AI search reads a page and fix it in one prompt",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "ResumeFitting – AI resume ATS gap analysis and keyword matching",
+          "url": "https://resumefitting.com",
+          "source": "Hacker News",
+          "summary": "ResumeFitting – AI resume ATS gap analysis and keyword matching",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "How the built-in browsers in five AI coding tools broke basic browser rules",
+          "url": "https://theainewsreport.com/2026-10-30-embrace-ai-coding-assistant-embedded-browser-flaws-explained.html",
+          "source": "Hacker News",
+          "summary": "How the built-in browsers in five AI coding tools broke basic browser rules",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "VX100 and AXM2 Reference for DIY AI Hardware Projects",
+          "url": "https://github.com/pigeon-labs-stack/v100-sxm2-reference",
+          "source": "Hacker News",
+          "summary": "VX100 and AXM2 Reference for DIY AI Hardware Projects",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "OpenAI raises less than half of $30B target",
+          "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+          "source": "Hacker News",
+          "summary": "OpenAI raises less than half of $30B target",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Report of the Summit on Math Research in the Age of AI",
+          "url": "https://terrytao.wordpress.com/2026/10/30/__trashed/",
+          "source": "Hacker News",
+          "summary": "Report of the Summit on Math Research in the Age of AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Hi3D Launches AI 3D Model with 2048³ Voxel Resolution",
+          "url": "https://3dprintingindustry.com/news/hi3d-launches-ai-3d-model-with-2048%C2%B3-voxel-resolution-254150/",
+          "source": "Hacker News",
+          "summary": "Hi3D Launches AI 3D Model with 2048³ Voxel Resolution",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Postgres 19 is late, and it's AI's fault",
+          "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+          "source": "Hacker News",
+          "summary": "Postgres 19 is late, and it's AI's fault",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Ghost in the Log – a Halloween log investigation with a live AI",
+          "url": "https://ghost-in-the-log.vercel.app/",
+          "source": "Hacker News",
+          "summary": "Show HN: Ghost in the Log – a Halloween log investigation with a live AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
