@@ -1,0 +1,52 @@
+{
+  "overview": "模型不可用；以下仅列出已验证的候选，个性化适配度需要人工复核。",
+  "sections": [
+    {
+      "name": "本周值得安装",
+      "items": [
+        {
+          "title": "super-productivity/super-productivity",
+          "url": "https://github.com/super-productivity/super-productivity",
+          "source": "GitHub API",
+          "summary": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "23,313 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习与作品集",
+      "items": [
+        {
+          "title": "meta/flow",
+          "url": "https://github.com/meta/flow",
+          "source": "GitHub API",
+          "summary": "Adds static typing to JavaScript to improve developer productivity and code quality.",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "22,305 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "值得观察",
+      "items": [
+        {
+          "title": "jarun/nnn",
+          "url": "https://github.com/jarun/nnn",
+          "source": "GitHub API",
+          "summary": "n³ The unorthodox terminal file manager",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "22,102 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true,
+  "report_type": "project_scout"
+}
