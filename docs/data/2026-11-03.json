@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Mav AI | FULL MATCH. FULL INSIGHT. UNDER 30 MIN.",
+          "url": "https://www.mavai.tech",
+          "source": "Hacker News",
+          "summary": "Mav AI | FULL MATCH. FULL INSIGHT. UNDER 30 MIN.",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "\"This Is Fine\": How Clean Rooms Train Agents to Close the Books on Fire",
+          "url": "https://archytas-ai.com/blog/this-is-fine",
+          "source": "Hacker News",
+          "summary": "\"This Is Fine\": How Clean Rooms Train Agents to Close the Books on Fire",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Vercel: Computer use CLI for AI agents",
+          "url": "https://agent-browser.dev/desktop",
+          "source": "Hacker News",
+          "summary": "Vercel: Computer use CLI for AI agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "VeilCC – AI-resistant binary hardening that seals critical logic",
+          "url": "https://veilcc.com/",
+          "source": "Hacker News",
+          "summary": "VeilCC – AI-resistant binary hardening that seals critical logic",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Is hosting an open-source inference engine profitable?",
+          "url": "https://userecurrence.ai/research/is-hosting-open-source-inference-profitable",
+          "source": "Hacker News",
+          "summary": "Is hosting an open-source inference engine profitable?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI advisors debate your business decision in Claude Code",
+          "url": "https://github.com/nateherkai/roast-room",
+          "source": "Hacker News",
+          "summary": "AI advisors debate your business decision in Claude Code",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Code-First Internal Tools vs. Low-Code in the Age of AI",
+          "url": "https://openrun.dev/blog/code-first-internal-tools/",
+          "source": "Hacker News",
+          "summary": "Code-First Internal Tools vs. Low-Code in the Age of AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "MVP for a WW2 FPS Written by AI",
+          "url": "https://hng-production-47bb.up.railway.app/",
+          "source": "Hacker News",
+          "summary": "MVP for a WW2 FPS Written by AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: CheapGPT – a free local AI assistant powered by Chrome's Gemini Nano",
+          "url": "https://www.predatorray.me/CheapGPT/",
+          "source": "Hacker News",
+          "summary": "Show HN: CheapGPT – a free local AI assistant powered by Chrome's Gemini Nano",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Own Your HackerTube,an AI Curator Inspired by Karpathy's HackerTube",
+          "url": "https://ownhackertube.cc/",
+          "source": "Hacker News",
+          "summary": "Own Your HackerTube,an AI Curator Inspired by Karpathy's HackerTube",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Claude's new rules against game cloning won't stop the AI copying boom",
+          "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+          "source": "Hacker News",
+          "summary": "Claude's new rules against game cloning won't stop the AI copying boom",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
