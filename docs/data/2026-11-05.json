@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Big Tech claims voters' AI backlash is \"anti-Trump\" not \"anti-tech\"",
+          "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+          "source": "Hacker News",
+          "summary": "Big Tech claims voters' AI backlash is \"anti-Trump\" not \"anti-tech\"",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "LifeVal: Evaluating AI Model Performance on Personalized Agentic Consumer Tasks [pdf]",
+          "url": "https://cdn.openai.com/pdf/lifeval.pdf",
+          "source": "Hacker News",
+          "summary": "LifeVal: Evaluating AI Model Performance on Personalized Agentic Consumer Tasks [pdf]",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Secure meeting room for humans that AI can't see",
+          "url": "https://qube.so",
+          "source": "Hacker News",
+          "summary": "Secure meeting room for humans that AI can't see",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Open-weight AI models can exploit the patch gap",
+          "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
+          "source": "Hacker News",
+          "summary": "Open-weight AI models can exploit the patch gap",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Rack Community: a self-hosted AI lab whose job runner won't overload the box",
+          "url": "https://github.com/ohhbeehave35-commits/rack-community",
+          "source": "Hacker News",
+          "summary": "Rack Community: a self-hosted AI lab whose job runner won't overload the box",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Septaro, an AI-powered weekly reset to help you pursue your goals",
+          "url": "https://septaro.com",
+          "source": "Hacker News",
+          "summary": "Septaro, an AI-powered weekly reset to help you pursue your goals",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "v0.40.15",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "<h2>What's Changed</h2> <ul> <li>mlx: load bundled CUDA libraries in-process on Linux by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dhiltgen/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dhiltgen\">@dhiltgen</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6138252529\" data-permission-text=\"Title is private\" data-url=\"https://github.com/ollama/ollama/issues/19433\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ollama/ollama/pull/19433/hovercard\" href=\"https://github.com/ollama/ollama/pull/19433\">#19433</a></li> <li>model: add MiMo V2.6 model support by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dhiltgen/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dhiltgen\">@dhiltgen</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6112867838\" data-permission-text=\"Title is private\" data-url=\"https://github.com/ollama/ollama/issues/19400\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ollama/ollama/pull/19400/hovercard\" href=\"https://github.com/ollama/ollama/pull/19400\">#19400</a></li> </ul> <p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/ollama/ollama/compare/v0.40.14...v0.40.15-rc0\"><tt>v0.40.14...v0.40.15-rc0</tt></a></p>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Flims and TV shows created using AI have now reached a high level of quality",
+          "url": "https://crateh.com/en",
+          "source": "Hacker News",
+          "summary": "Flims and TV shows created using AI have now reached a high level of quality",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Mailbox.bot – A real street address for AI agents",
+          "url": "https://mailbox.bot",
+          "source": "Hacker News",
+          "summary": "Show HN: Mailbox.bot – A real street address for AI agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+          "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+          "source": "Hacker News",
+          "summary": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "langgraph-cli==0.4.41",
+          "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.41",
+          "source": "GitHub Release: langchain-ai/langgraph",
+          "summary": "<p>Changes since cli==0.4.40</p> <ul> <li>release(cli): 0.4.41 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6215195952\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9596\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9596/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9596\">#9596</a>)</li> <li>chore(deps): bump langgraph from 1.2.3 to 1.2.14 in /libs/cli (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6132496240\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9512\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9512/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9512\">#9512</a>)</li> <li>chore(deps): bump the minor-and-patch group in /libs/cli/js-examples with 9 updates (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6143890824\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9528\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9528/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9528\">#9528</a>)</li> <li>chore(deps): bump the minor-and-patch group in /libs/cli/js-monorepo-example with 8 updates (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6143889827\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9526\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9526/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9526\">#9526</a>)</li> <li>chore(deps): bump the uv group across 2 directories with 1 update (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6132496477\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9513\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9513/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9513\">#9513</a>)</li> <li>chore(deps): bump langgraph-sdk from 0.4.5 to 0.4.6 in /libs/cli (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6132497735\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9514\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9514/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9514\">#9514</a>)</li> <li>fix(cli): remove outdated deploy private-beta notice (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6127511742\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9506\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9506/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9506\">#9506</a>)</li> <li>chore(deps): bump zod from 4.3.6 to 4.6.7 in /libs/cli/js-monorepo-example (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6023251522\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langgraph/issues/9431\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/langchain-ai/langgraph/pull/9431/hovercard\" href=\"https://github.com/langchain-ai/langgraph/pull/9431\">#9431</a>)</li> </ul>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
