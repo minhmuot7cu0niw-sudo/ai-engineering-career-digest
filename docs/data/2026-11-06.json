@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Japan's Nikkei Poised to Enter Bear Market as AI Selloff Deepens",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/japan-s-nikkei-breaks-below-key-60-000-level-on-ai-selloff",
+          "source": "Hacker News",
+          "summary": "Japan's Nikkei Poised to Enter Bear Market as AI Selloff Deepens",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Stitch.ai – New all-in-one workspace with Stitchy the AI assistant",
+          "url": "https://app.stitch.ai/auth/signup",
+          "source": "Hacker News",
+          "summary": "Show HN: Stitch.ai – New all-in-one workspace with Stitchy the AI assistant",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "I struggle to believe that AI R&D is ingenious",
+          "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+          "source": "Hacker News",
+          "summary": "I struggle to believe that AI R&D is ingenious",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Sarvam Prism: a decision model built on Sarvam 105B",
+          "url": "https://www.sarvam.ai/blogs/sarvam-prism",
+          "source": "Hacker News",
+          "summary": "Sarvam Prism: a decision model built on Sarvam 105B",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Repairer – close the breach when a Linux flaw goes public",
+          "url": "https://gno.security/repairer/",
+          "source": "Hacker News",
+          "summary": "Show HN: Repairer – close the breach when a Linux flaw goes public",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "How accurately did science fiction stories predict AI?",
+          "url": "https://jamesyu.org/science-fiction-predictions-of-ai/",
+          "source": "Hacker News",
+          "summary": "How accurately did science fiction stories predict AI?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+          "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+          "source": "Hacker News",
+          "summary": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI and the Future of the Product Role",
+          "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+          "source": "Hacker News",
+          "summary": "AI and the Future of the Product Role",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Are We Cooked? CMU Faculty on AI, Careers and Learning [video]",
+          "url": "https://www.youtube.com/watch?v=U2DDKdUvq6k",
+          "source": "Hacker News",
+          "summary": "Are We Cooked? CMU Faculty on AI, Careers and Learning [video]",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Meta Warns Midterm Backlash Threatens AI Data Centers",
+          "url": "https://epyhia.com/meta-warns-midterm-backlash-threatens-ai-data-centers-goldman-sees-45",
+          "source": "Hacker News",
+          "summary": "Meta Warns Midterm Backlash Threatens AI Data Centers",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Open AI Cellular: Open platform for prototyping and testing AI based 6G",
+          "url": "https://www.openaicellular.org",
+          "source": "Hacker News",
+          "summary": "Open AI Cellular: Open platform for prototyping and testing AI based 6G",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
