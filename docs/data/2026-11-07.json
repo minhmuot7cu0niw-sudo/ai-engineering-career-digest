@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Show HN: Help me pick a logo animation for my in-browser AI creature game",
+          "url": "https://id-le.com/review/intro-logo-animation",
+          "source": "Hacker News",
+          "summary": "Show HN: Help me pick a logo animation for my in-browser AI creature game",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "We Engineer Safer Agents",
+          "url": "https://www.perplexity.ai/hub/blog/how-we-engineer-safer-agents",
+          "source": "Hacker News",
+          "summary": "We Engineer Safer Agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Quantum Computers Are Poised to Crack Encryption. AI Could Beat Them to It",
+          "url": "https://www.wsj.com/tech/ai/ai-math-online-encryption-quantum-computers-57926bb2",
+          "source": "Hacker News",
+          "summary": "Quantum Computers Are Poised to Crack Encryption. AI Could Beat Them to It",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "The AI Business Model Just Collapsed",
+          "url": "https://www.honest-broker.com/p/the-ai-business-model-just-collapsed",
+          "source": "Hacker News",
+          "summary": "The AI Business Model Just Collapsed",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Backwords – Let AI teach you how to speak in reverse",
+          "url": "https://backwords.greg.technology/",
+          "source": "Hacker News",
+          "summary": "Show HN: Backwords – Let AI teach you how to speak in reverse",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "YC Backed Bron AI Accused of Using LeBron's Name and Likeness",
+          "url": "https://frontofficesports.com/article/lebron-james-demands-ai-betting-app-stop-using-his-likeness/",
+          "source": "Hacker News",
+          "summary": "YC Backed Bron AI Accused of Using LeBron's Name and Likeness",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "DeepMind AI agents find two weaknesses in legacy 1024-bit RSA cryptosystems",
+          "url": "https://twitter.com/pushmeet/status/2118752095859794390",
+          "source": "Hacker News",
+          "summary": "DeepMind AI agents find two weaknesses in legacy 1024-bit RSA cryptosystems",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Release v0.26.9-nightly.20261106.80fd7c3353",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9-nightly.20261106.80fd7c3353",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "<h2>What's Changed</h2> <ul> <li>test(interactive): poll the foreground-shell frame instead of snapshotting it by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yiliang114/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yiliang114\">@yiliang114</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6242018925\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16455\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16455/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16455\">#16455</a></li> <li>test(managed-agent): retarget the lifecycle IT and retry snapshot claim deadlocks by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yiliang114/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yiliang114\">@yiliang114</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6239395715\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16446\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16446/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16446\">#16446</a></li> <li>fix(managed-agent): settle a title the dispatcher claimed first by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yiliang114/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yiliang114\">@yiliang114</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6239469602\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16447\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16447/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16447\">#16447</a></li> <li>feat(hooks): add FileChanged notifications for local sessions by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/samuelhsin/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/samuelhsin\">@samuelhsin</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5812956053\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/13969\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/13969/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/13969\">#13969</a></li> <li>fix(ci): move audio prebuilds to macOS 15 by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/liuxuely0626/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/liuxuely0626\">@liuxuely0626</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6244073843\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16464\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16464/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16464\">#16464</a></li> <li>fix(web-shell): show readable Skill completion details by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/callmeYe/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/callmeYe\">@callmeYe</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6240590105\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16451\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16451/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16451\">#16451</a></li> <li>feat(ci): make flaky-patrol rerun and no_action decisions visible by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6242362303\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16459\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16459/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16459\">#16459</a></li> <li>feat(cli): align managed agent basic tools with daemon by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/doudouOUC/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/doudouOUC\">@doudouOUC</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6239193348\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16445\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16445/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16445\">#16445</a></li> <li>test(serve): cover the workspace_runtime_stop boot-time conjunction by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yiliang114/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yiliang114\">@yiliang114</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6244701458\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16469\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16469/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16469\">#16469</a></li> <li>test(web-shell): unit-test settings development route by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yiliang114/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yiliang114\">@yiliang114</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6242118068\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16456\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16456/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16456\">#16456</a></li> <li>feat(web-shell): move session search beside the activity toggle by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6244443228\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16467\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16467/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16467\">#16467</a></li> <li>fix(ci): refresh host assets on older PR checkouts by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yiliang114/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yiliang114\">@yiliang114</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6246764751\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16476\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16476/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16476\">#16476</a></li> <li>perf(managed-agent): take runtime binding control off the tenant guards by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/doudouOUC/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/doudouOUC\">@doudouOUC</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6247678588\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16480\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16480/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16480\">#16480</a></li> <li>perf(managed-agent): take tool execution admission off tenant placement by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/doudouOUC/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/doudouOUC\">@doudouOUC</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6246844427\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16478\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16478/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16478\">#16478</a></li> <li>feat(ci): isolate triage agent credentials and run all triage on ECS by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6244500015\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16468\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16468/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16468\">#16468</a></li> <li>fix(web-shell): place the session search right of the activity toggle by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6247851358\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16481\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16481/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16481\">#16481</a></li> <li>fix(channels): deliver plain conversation comments to PR-bound sessions by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6229956287\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16416\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16416/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16416\">#16416</a></li> <li>docs(design): correct the daemon PR state transitions design by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6248143344\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16487\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16487/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16487\">#16487</a></li> <li>fix(managed-agent): lock storage rows through their alias key by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6219375759\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16376\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16376/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16376\">#16376</a></li> <li>perf(managed-agent): cache parsed statements on the MySQL pools by default by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6229460736\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16414\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16414/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16414\">#16414</a></li> <li>refactor(managed-agent): consolidate storage alias keys and use DigestUtils by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/doudouOUC/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/doudouOUC\">@doudouOUC</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6248008770\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16485\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16485/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16485\">#16485</a></li> <li>refactor(managed-agent): share JDBC statement helper and reuse JSON mappers by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/doudouOUC/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/doudouOUC\">@doudouOUC</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6248067774\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16486\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16486/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16486\">#16486</a></li> <li>fix(core): re-read a grown local journal prefix even when its timestamps did not move by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6247951129\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16483\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16483/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16483\">#16483</a></li> </ul> <p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/QwenLM/qwen-code/compare/v0.26.9...v0.26.9-nightly.20261106.80fd7c3353\"><tt>v0.26.9...v0.26.9-nightly.20261106.80fd7c3353</tt></a></p>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Brave Sells Its Search Index to AI, and Your Website Is Probably in It",
+          "url": "https://www.searchenginejournal.com/brave-sells-its-search-index-to-ai-and-your-website-is-probably-in-it/595829/",
+          "source": "Hacker News",
+          "summary": "Brave Sells Its Search Index to AI, and Your Website Is Probably in It",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Digestive Tract for Digestion, Respiration in Air-Breathing Weatherloach [pdf]",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11201251/",
+          "source": "Hacker News",
+          "summary": "Digestive Tract for Digestion, Respiration in Air-Breathing Weatherloach [pdf]",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The AI sell-off compared to well-known stock market crashes",
+          "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+          "source": "Hacker News",
+          "summary": "The AI sell-off compared to well-known stock market crashes",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
