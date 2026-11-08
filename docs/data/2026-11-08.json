@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Show HN: Reges Code – a free AI code editor that runs on local models",
+          "url": "https://regescode.com/",
+          "source": "Hacker News",
+          "summary": "Show HN: Reges Code – a free AI code editor that runs on local models",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Is \"GPU-hour per user\" a sane way to price LLM inference?",
+          "url": "https://www.mirastacklabs.ai/",
+          "source": "Hacker News",
+          "summary": "Is \"GPU-hour per user\" a sane way to price LLM inference?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Reges Town – a 3D city run by AI citizens, in the browser",
+          "url": "https://regestown.com",
+          "source": "Hacker News",
+          "summary": "Show HN: Reges Town – a 3D city run by AI citizens, in the browser",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "I Love the Smiths AI: A Familiar Elevator Scene, with You in It",
+          "url": "https://medium.com/@wangjiayiliuyan/i-love-the-smiths-ai-a-familiar-elevator-scene-with-you-in-it-51e69e0711e6",
+          "source": "Hacker News",
+          "summary": "I Love the Smiths AI: A Familiar Elevator Scene, with You in It",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Good Night, and Good Luck: AI, fear and what the job data says",
+          "url": "https://rpallas.xyz/good-night-and-good-luck/",
+          "source": "Hacker News",
+          "summary": "Good Night, and Good Luck: AI, fear and what the job data says",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Anthropic warns that it's close to RSI capability, a.k.a. self-building AI",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+          "source": "Hacker News",
+          "summary": "Anthropic warns that it's close to RSI capability, a.k.a. self-building AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Why mandating AI use in the workplace can backfire",
+          "url": "https://www.msn.com/en-us/news/other/why-mandating-ai-use-in-the-workplace-can-backfire/ar-AA2gAwkW",
+          "source": "Hacker News",
+          "summary": "Why mandating AI use in the workplace can backfire",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AIG Mistakenly Locks and Erases iPhone and Cannot Resolve After 3 Weeks",
+          "url": "https://www.reddit.com/r/iphone/comments/1xq6lky/warning_to_all_applecare_customers/",
+          "source": "Hacker News",
+          "summary": "AIG Mistakenly Locks and Erases iPhone and Cannot Resolve After 3 Weeks",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Consumer brain wave headsets threaten privacy",
+          "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+          "source": "Hacker News",
+          "summary": "Consumer brain wave headsets threaten privacy",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Release v0.26.9-nightly.20261107.65e1f1aeaa",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9-nightly.20261107.65e1f1aeaa",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "<h2>What's Changed</h2> <ul> <li>docs(providers): document Wally under OpenAI-compatible providers by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/sanchitmonga22/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/sanchitmonga22\">@sanchitmonga22</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6257180172\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16529\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16529/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16529\">#16529</a></li> <li>fix(core): share one gh runner and name an unusable view directory by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6259834020\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16545\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16545/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16545\">#16545</a></li> <li>fix(telemetry): report OpenAI cache_write_tokens as cache creation by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/2SinceJuly/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/2SinceJuly\">@2SinceJuly</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6241958336\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16454\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16454/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16454\">#16454</a></li> <li>feat(core): name the active shell in the startup context by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/2SinceJuly/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/2SinceJuly\">@2SinceJuly</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6248679548\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16491\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16491/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16491\">#16491</a></li> <li>docs(daemon): document session-scoped permission vote for channel auto-approve by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yiliang114/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yiliang114\">@yiliang114</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6259534570\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16541\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16541/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16541\">#16541</a></li> <li>test(cli): stop a flaky A2A approval poll from failing the whole shard by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/wenshao/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/wenshao\">@wenshao</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6262110954\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16555\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16555/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16555\">#16555</a></li> <li>fix(ci): route external PR CI directly to disposable runners by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yiliang114/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yiliang114\">@yiliang114</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6261023400\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16551\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16551/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16551\">#16551</a></li> </ul> <h2>New Contributors</h2> <ul> <li><a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/sanchitmonga22/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/sanchitmonga22\">@sanchitmonga22</a> made their first contribution in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6257180172\" data-permission-text=\"Title is private\" data-url=\"https://github.com/QwenLM/qwen-code/issues/16529\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/QwenLM/qwen-code/pull/16529/hovercard\" href=\"https://github.com/QwenLM/qwen-code/pull/16529\">#16529</a></li> </ul> <p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/QwenLM/qwen-code/compare/v0.27.0...v0.26.9-nightly.20261107.65e1f1aeaa\"><tt>v0.27.0...v0.26.9-nightly.20261107.65e1f1aeaa</tt></a></p>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI agents stole 190k gaming credentials for under $400 in model costs",
+          "url": "https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/",
+          "source": "Hacker News",
+          "summary": "AI agents stole 190k gaming credentials for under $400 in model costs",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
