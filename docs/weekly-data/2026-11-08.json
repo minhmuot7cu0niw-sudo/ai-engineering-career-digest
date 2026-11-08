@@ -1,0 +1,52 @@
+{
+  "overview": "模型不可用；以下仅列出已验证的候选，个性化适配度需要人工复核。",
+  "sections": [
+    {
+      "name": "本周值得安装",
+      "items": [
+        {
+          "title": "danielmiessler/LifeOS",
+          "url": "https://github.com/danielmiessler/LifeOS",
+          "source": "GitHub API",
+          "summary": "⛰️ LifeOS — The AI-powered Life Operating System that helps you hill climb to wherever you're going.",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "19,762 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习与作品集",
+      "items": [
+        {
+          "title": "ActivityWatch/activitywatch",
+          "url": "https://github.com/ActivityWatch/activitywatch",
+          "source": "GitHub API",
+          "summary": "The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "19,552 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "值得观察",
+      "items": [
+        {
+          "title": "alyssaxuu/screenity",
+          "url": "https://github.com/alyssaxuu/screenity",
+          "source": "GitHub API",
+          "summary": "The free and privacy-friendly screen recorder with no limits 🎥",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "18,963 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true,
+  "report_type": "project_scout"
+}
