@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Job Finding and Unemployment in the Age of AI",
+          "url": "https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202626-job-finding-and-unemployment-in-the-age-of-ai",
+          "source": "Hacker News",
+          "summary": "Job Finding and Unemployment in the Age of AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Why AI Coding Agents Lose Context After the PR, and How to Keep It",
+          "url": "https://www.harness.io/blog/why-ai-coding-agents-lose-context-after-pr",
+          "source": "Hacker News",
+          "summary": "Why AI Coding Agents Lose Context After the PR, and How to Keep It",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "What happens to the AI industry if Nvidia falters",
+          "url": "https://finshots.in/archive/what-happens-to-ai-industry-if-nvidia-falters/",
+          "source": "Hacker News",
+          "summary": "What happens to the AI industry if Nvidia falters",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Show HN: Nova Buddy AI – a friendly AI assistant for everyday people",
+          "url": "https://novabuddyai.com",
+          "source": "Hacker News",
+          "summary": "Show HN: Nova Buddy AI – a friendly AI assistant for everyday people",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Learning about Markets from Models: Evidence from an AI Hiring Platform",
+          "url": "https://arxiv.org/abs/2611.01226",
+          "source": "Hacker News",
+          "summary": "Learning about Markets from Models: Evidence from an AI Hiring Platform",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "LLMs Figure Out What You Mean – No Math Degree Required – Zarar's Blog",
+          "url": "https://zarar.dev/how-ai-figures-out-what-you-mean-no-math-required/",
+          "source": "Hacker News",
+          "summary": "LLMs Figure Out What You Mean – No Math Degree Required – Zarar's Blog",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Code sandboxes isolate what agents run. What isolates what they write?",
+          "url": "https://argonlabs.tech/blog/code-sandbox-vs-data-sandbox-for-ai-agents",
+          "source": "Hacker News",
+          "summary": "Code sandboxes isolate what agents run. What isolates what they write?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "What it takes to operate a SaaS when AI agents write all the code",
+          "url": "https://docspring.com/blog/posts/operating-a-saas-when-ai-agents-write-all-the-code/",
+          "source": "Hacker News",
+          "summary": "What it takes to operate a SaaS when AI agents write all the code",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Ramasite, a Self-Contained Laravel/Filament/SQLite CMS",
+          "url": "https://github.com/DaleFranks/ramasite",
+          "source": "Hacker News",
+          "summary": "Show HN: Ramasite, a Self-Contained Laravel/Filament/SQLite CMS",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "United Airlines Is Banning AI Bots from Booking Flights",
+          "url": "https://www.wsj.com/tech/ai/united-airlines-is-banning-ai-bots-from-booking-flights-5b514b38",
+          "source": "Hacker News",
+          "summary": "United Airlines Is Banning AI Bots from Booking Flights",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Can commercial stage-gates keep enterprise AI pilots out of procurement stalls?",
+          "url": "https://pilotmap.bizmasterynow.com/",
+          "source": "Hacker News",
+          "summary": "Can commercial stage-gates keep enterprise AI pilots out of procurement stalls?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
