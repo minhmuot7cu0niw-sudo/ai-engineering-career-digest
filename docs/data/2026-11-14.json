@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Transforming Ripgrep's Documentation with AI Automation and MkDocs",
+          "url": "https://entropicdrift.com/blog/mkdocs-drift-automation/",
+          "source": "Hacker News",
+          "summary": "Transforming Ripgrep's Documentation with AI Automation and MkDocs",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: EDNA – 100% on-device human sensing so AI can perceive the user",
+          "url": "https://openos.space",
+          "source": "Hacker News",
+          "summary": "Show HN: EDNA – 100% on-device human sensing so AI can perceive the user",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Sick of Herding AI Cats?",
+          "url": "https://clowder.sh",
+          "source": "Hacker News",
+          "summary": "Sick of Herding AI Cats?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "MathHelm: A Place to discuss AI-generated papers",
+          "url": "https://mathhelm.org/",
+          "source": "Hacker News",
+          "summary": "MathHelm: A Place to discuss AI-generated papers",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Browserr – An MCP-first browser for AI agents (one Rust binary)",
+          "url": "https://browserr.dev",
+          "source": "Hacker News",
+          "summary": "Show HN: Browserr – An MCP-first browser for AI agents (one Rust binary)",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "MathHelm: A Place to discuss AI-generated papers",
+          "url": "https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/",
+          "source": "Hacker News",
+          "summary": "MathHelm: A Place to discuss AI-generated papers",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+          "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+          "source": "Hacker News",
+          "summary": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Open-Source Version of Cyclon: Phone where AI is the interface?",
+          "url": "https://opencyclone.vercel.app/",
+          "source": "Hacker News",
+          "summary": "Show HN: Open-Source Version of Cyclon: Phone where AI is the interface?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Airtasker Third-Party Security Incident",
+          "url": "https://support.airtasker.com/hc/en-au/articles/64280722804505-November-2026-Third-Party-Security-Incident",
+          "source": "Hacker News",
+          "summary": "Airtasker Third-Party Security Incident",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Of Course Americans Blamed the Ground Stop on AI",
+          "url": "https://www.theatlantic.com/ideas/2026/11/faa-grounding-flights-cancelled/689444/",
+          "source": "Hacker News",
+          "summary": "Of Course Americans Blamed the Ground Stop on AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "FAA lifts ground stop at U.S. airports",
+          "url": "https://www.washingtonpost.com/transportation/2026/11/13/faa-grounds-flights-all-us-airports-citing-communications-issue/",
+          "source": "Hacker News",
+          "summary": "FAA lifts ground stop at U.S. airports",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
