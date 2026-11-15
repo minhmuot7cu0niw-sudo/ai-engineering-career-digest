@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "96.0% on LongMemEval: what retrieval does for long-term memory",
+          "url": "https://www.papr.ai/blog/papr-longmemeval-96",
+          "source": "Hacker News",
+          "summary": "96.0% on LongMemEval: what retrieval does for long-term memory",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Confessions of an AI Skeptic",
+          "url": "https://daniel-azuma.com/blog/2026-11-12-ai-skeptic/",
+          "source": "Hacker News",
+          "summary": "Confessions of an AI Skeptic",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
+          "url": "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d",
+          "source": "Hacker News",
+          "summary": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Smart AI Keyboard: Translate",
+          "url": "https://play.google.com/store/apps/details?id=smart.ai.keyboard&hl=en_US",
+          "source": "Hacker News",
+          "summary": "Smart AI Keyboard: Translate",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Anthropic bought a one-person, AI-powered biotech",
+          "url": "https://www.nature.com/articles/d41586-026-03640-9",
+          "source": "Hacker News",
+          "summary": "Anthropic bought a one-person, AI-powered biotech",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Linus Torvalds Wonders If Linux's AI-Prompted Patch Flood Has Peaked",
+          "url": "https://linux.slashdot.org/story/26/11/14/0827227/linus-torvalds-wonders-if-linuxs-ai-prompted-patch-flood-has-peaked",
+          "source": "Hacker News",
+          "summary": "Linus Torvalds Wonders If Linux's AI-Prompted Patch Flood Has Peaked",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Two planes collide at Miami International Airport",
+          "url": "https://www.cbsnews.com/miami/news/ups-plane-copa-airlines-jet-collide-miami-international-airport/",
+          "source": "Hacker News",
+          "summary": "Two planes collide at Miami International Airport",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+          "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+          "source": "Hacker News",
+          "summary": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "ChatMate: Remote Prompt Execution on AI Assistants Through Sandbox Escaping [video]",
+          "url": "https://www.youtube.com/watch?v=MspRSCAb6uI",
+          "source": "Hacker News",
+          "summary": "ChatMate: Remote Prompt Execution on AI Assistants Through Sandbox Escaping [video]",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Medicare's AI Experiment",
+          "url": "https://www.eff.org/deeplinks/2026/11/medicares-ai-experiment-effector-3820",
+          "source": "Hacker News",
+          "summary": "Medicare's AI Experiment",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Multi-agent AI (LangGraph) to audit AI papers for reproducibility",
+          "url": "https://github.com/owenpatience2010-cmyk/paperpulse",
+          "source": "Hacker News",
+          "summary": "Multi-agent AI (LangGraph) to audit AI papers for reproducibility",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
