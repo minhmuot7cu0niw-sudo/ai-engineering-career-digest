@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Show HN: OpenButterfly – Tracking the environmental impact of the AI ecosystem",
+          "url": "https://openbutterfly.com",
+          "source": "Hacker News",
+          "summary": "Show HN: OpenButterfly – Tracking the environmental impact of the AI ecosystem",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Google AI Ultra Subscription Not Worth It",
+          "url": "https://www.reddit.com/r/google_antigravity/comments/1xx9nl3/google_ai_ultra_subscription_not_worth_it/",
+          "source": "Hacker News",
+          "summary": "Google AI Ultra Subscription Not Worth It",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: A benchmark that diffs the whole database after an AI agent's task",
+          "url": "https://github.com/shubhamjoshipromail-svg/software-world-model",
+          "source": "Hacker News",
+          "summary": "Show HN: A benchmark that diffs the whole database after an AI agent's task",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "A Local-First Agent for Private Knowledge Work",
+          "url": "https://www.perplexity.ai/hub/blog/a-local-first-agent-for-private-and-cost-effective-knowledge-work",
+          "source": "Hacker News",
+          "summary": "A Local-First Agent for Private Knowledge Work",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Nvidia's Days as an Open Checkbook for the AI Economy Are Numbered",
+          "url": "https://www.wsj.com/tech/ai/nvidias-days-as-an-open-checkbook-for-the-ai-economy-are-numbered-90c7b388",
+          "source": "Hacker News",
+          "summary": "Nvidia's Days as an Open Checkbook for the AI Economy Are Numbered",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Free AI Background Remover with Local Browser Privacy Mode (No Sign-Up)",
+          "url": "https://toolifyhub.tools/tools/background-remover",
+          "source": "Hacker News",
+          "summary": "Show HN: Free AI Background Remover with Local Browser Privacy Mode (No Sign-Up)",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Reports of AI-related child sexual abuse material rise 8,400% in two years",
+          "url": "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
+          "source": "Hacker News",
+          "summary": "Reports of AI-related child sexual abuse material rise 8,400% in two years",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Memeo – Turn static photos into lip-synced AI meme videos in seconds",
+          "url": "https://memeo.app/",
+          "source": "Hacker News",
+          "summary": "Show HN: Memeo – Turn static photos into lip-synced AI meme videos in seconds",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Mapping cyber risk in the era of AI: Which industries are most exposed?",
+          "url": "https://www.moodys.com/web/en/us/insights/data-stories/moodys-2026-cyber-risk-exposure-heat-map-ranks-21-sectors.html",
+          "source": "Hacker News",
+          "summary": "Mapping cyber risk in the era of AI: Which industries are most exposed?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "AI and the City",
+          "url": "https://www.stripeeconomics.com/p/ai-and-the-city",
+          "source": "Hacker News",
+          "summary": "AI and the City",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: AquarIum – pick your favorite (AI-generated) fish tank",
+          "url": "https://galleries.artfish.ai/aquarium/",
+          "source": "Hacker News",
+          "summary": "Show HN: AquarIum – pick your favorite (AI-generated) fish tank",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
