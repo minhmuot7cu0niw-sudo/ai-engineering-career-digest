@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Mizan bias benchmark: testing AI models",
+          "url": "https://mizan.techforpalestine.org/hostage-or-detainee/",
+          "source": "Hacker News",
+          "summary": "Mizan bias benchmark: testing AI models",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents Efficient",
+          "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+          "source": "Hacker News",
+          "summary": "TokenEconomizer: Learning from Experience to Make AI Coding Agents Efficient",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "OpenScientist: An Open AI System That Automates Biomedical Research",
+          "url": "https://www.nature.com/articles/s41591-026-04808-6",
+          "source": "Hacker News",
+          "summary": "OpenScientist: An Open AI System That Automates Biomedical Research",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Show HN: Backplane – An AI Development Environment for Hardware",
+          "url": "https://backplaneworks.com/",
+          "source": "Hacker News",
+          "summary": "Show HN: Backplane – An AI Development Environment for Hardware",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Releasing Personal Agent Protocol 1.0",
+          "url": "https://sierra.ai/blog/releasing-poppy",
+          "source": "Hacker News",
+          "summary": "Releasing Personal Agent Protocol 1.0",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Pimco Says AI Bond Spreads May Tighten as Data Center Boom Slows",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/pimco-says-ai-bond-spreads-may-tighten-as-data-center-boom-slows",
+          "source": "Hacker News",
+          "summary": "Pimco Says AI Bond Spreads May Tighten as Data Center Boom Slows",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "LLMs are terrible at designing AI systems",
+          "url": "https://www.seangoedecke.com/llms-are-terrible-at-designing-ai-systems/",
+          "source": "Hacker News",
+          "summary": "LLMs are terrible at designing AI systems",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Agentic AI Attacks Nobody's Talking About (Yet)",
+          "url": "https://glyphzerolabs.com/blog/2026-04-17-agentic-ai-attacks/",
+          "source": "Hacker News",
+          "summary": "Agentic AI Attacks Nobody's Talking About (Yet)",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Fluxtail – Centralized log search and Live Tail",
+          "url": "https://indielaunches.com/projects/prj_diyrnmfunvob-fluxtail",
+          "source": "Hacker News",
+          "summary": "Show HN: Fluxtail – Centralized log search and Live Tail",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "US to curb China's access to AI chips",
+          "url": "https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/",
+          "source": "Hacker News",
+          "summary": "US to curb China's access to AI chips",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Extending separation logic to verify the xv6 OS kernel on RISC-V with AI agents",
+          "url": "https://arxiv.org/abs/2609.04043",
+          "source": "Hacker News",
+          "summary": "Extending separation logic to verify the xv6 OS kernel on RISC-V with AI agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
