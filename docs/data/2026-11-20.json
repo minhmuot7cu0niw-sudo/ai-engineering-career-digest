@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Show HN: Sandscale – Cloud infrastructure for AI creators, agents and developers",
+          "url": "https://sandscale.dev",
+          "source": "Hacker News",
+          "summary": "Show HN: Sandscale – Cloud infrastructure for AI creators, agents and developers",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: BSWorld – AI agents can now test Bluetooth code without hardware",
+          "url": "https://github.com/XiaoMi/bsworld",
+          "source": "Hacker News",
+          "summary": "Show HN: BSWorld – AI agents can now test Bluetooth code without hardware",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: AiTz – A universal gateway for discovering AI tools",
+          "url": "https://aitz.site",
+          "source": "Hacker News",
+          "summary": "Show HN: AiTz – A universal gateway for discovering AI tools",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Show HN: SoundBench – AI vocal remover and audio tools that run in the browser",
+          "url": "https://soundbench.net/",
+          "source": "Hacker News",
+          "summary": "Show HN: SoundBench – AI vocal remover and audio tools that run in the browser",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Humans.md: tell your AI agents how to work with you",
+          "url": "https://humansmd.dev/",
+          "source": "Hacker News",
+          "summary": "Humans.md: tell your AI agents how to work with you",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Tufazip: Tufa Labs Squeezes 1 GB of Wikipedia into 105.39 MB with a Transformer",
+          "url": "https://explainx.ai/blog/tufazip-tufa-labs-neural-text-compressor-enwik9-105-39-mb-large-text-compression-benchmark-2026",
+          "source": "Hacker News",
+          "summary": "Tufazip: Tufa Labs Squeezes 1 GB of Wikipedia into 105.39 MB with a Transformer",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Animated Steller's Jay, a beautiful AI benchmark",
+          "url": "https://grady.dev/projects/steller/",
+          "source": "Hacker News",
+          "summary": "Animated Steller's Jay, a beautiful AI benchmark",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
+          "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
+          "source": "Hacker News",
+          "summary": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: GhostFleet: A Battleship game with an advanced AI opponent",
+          "url": "https://ghostfleet.in/play?mode=wraithAI",
+          "source": "Hacker News",
+          "summary": "Show HN: GhostFleet: A Battleship game with an advanced AI opponent",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "You can't spell ennui without AI",
+          "url": "https://12gramsofcarbon.com/p/you-cant-spell-ennui-without-ai",
+          "source": "Hacker News",
+          "summary": "You can't spell ennui without AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Stanford AI100 – One Hundred Year Study on Artificial Intelligence – 2026 Report",
+          "url": "https://ai100.stanford.edu/reports/2026-report",
+          "source": "Hacker News",
+          "summary": "Stanford AI100 – One Hundred Year Study on Artificial Intelligence – 2026 Report",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
