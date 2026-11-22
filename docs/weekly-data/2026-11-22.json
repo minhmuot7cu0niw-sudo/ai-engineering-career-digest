@@ -1,0 +1,52 @@
+{
+  "overview": "模型不可用；以下仅列出已验证的候选，个性化适配度需要人工复核。",
+  "sections": [
+    {
+      "name": "本周值得安装",
+      "items": [
+        {
+          "title": "Flow-Launcher/Flow.Launcher",
+          "url": "https://github.com/Flow-Launcher/Flow.Launcher",
+          "source": "GitHub API",
+          "summary": ":mag: Quick file search & app launcher for Windows with community-made plugins",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "16,065 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习与作品集",
+      "items": [
+        {
+          "title": "YishenTu/claudian",
+          "url": "https://github.com/YishenTu/claudian",
+          "source": "GitHub API",
+          "summary": "An Obsidian plugin that embeds Claude Code, Codex and other agents as an AI collaborator in your vault.",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "16,049 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "值得观察",
+      "items": [
+        {
+          "title": "microsoft/RD-Agent",
+          "url": "https://github.com/microsoft/RD-Agent",
+          "source": "GitHub API",
+          "summary": "Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are committed to automating these high-value generic R&D processes through R&D-Agent, which lets AI drive data-driven AI. 🔗https://aka.ms/RD-Agent-Tech-Report",
+          "why": "候选项目满足近期活跃条件，但与现有方法的具体差异仍需人工复核。",
+          "action": "先阅读 README 并运行最小示例，再决定是否纳入长期工作流。",
+          "maturity": "15,448 stars；来源：GitHub API",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true,
+  "report_type": "project_scout"
+}
