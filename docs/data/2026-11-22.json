@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "AI as a Lifestyle Choice",
+          "url": "https://grahamdumpleton.me/posts/2026/11/ai-as-a-lifestyle-choice/",
+          "source": "Hacker News",
+          "summary": "AI as a Lifestyle Choice",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI Supply Chain Security: What Canary Tokens Found",
+          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+          "source": "Hacker News",
+          "summary": "AI Supply Chain Security: What Canary Tokens Found",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AiDotNet – Comprehensive AI/ML Framework for .NET",
+          "url": "https://github.com/ooples/AiDotNet",
+          "source": "Hacker News",
+          "summary": "AiDotNet – Comprehensive AI/ML Framework for .NET",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Show HN: Vouch – See what AI assistants say about your brand mid-conversation",
+          "url": "https://vouchgeo.com",
+          "source": "Hacker News",
+          "summary": "Show HN: Vouch – See what AI assistants say about your brand mid-conversation",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Can AI Make Its Own Manufacturing Decisions?",
+          "url": "https://semiengineering.com/can-ai-make-its-own-manufacturing-decisions/",
+          "source": "Hacker News",
+          "summary": "Can AI Make Its Own Manufacturing Decisions?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Current Efforts Aren't Enough to Slow the AI Cyber Virus",
+          "url": "https://www.bridgewater.com/research-and-insights/current-efforts-arent-enough-to-slow-the-ai-cyber-virus",
+          "source": "Hacker News",
+          "summary": "Current Efforts Aren't Enough to Slow the AI Cyber Virus",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Together.ai: Prompt Leakage for Requests",
+          "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+          "source": "Hacker News",
+          "summary": "Together.ai: Prompt Leakage for Requests",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+          "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+          "source": "Hacker News",
+          "summary": "Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Immigration officers make arrests at Seattle airport in 'distressing' scene",
+          "url": "https://apnews.com/article/immigration-arrest-seattle-airport-ice-4748ddb6161c28853d763e835aeb31f1",
+          "source": "Hacker News",
+          "summary": "Immigration officers make arrests at Seattle airport in 'distressing' scene",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Wall Street Asks What Can Save AI Trade After Anthropic Wipeout",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/wall-street-asks-what-can-save-ai-trade-after-anthropic-wipeout",
+          "source": "Hacker News",
+          "summary": "Wall Street Asks What Can Save AI Trade After Anthropic Wipeout",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Data Processing Incidents on Inference Providers",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+          "source": "Hacker News",
+          "summary": "Data Processing Incidents on Inference Providers",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
