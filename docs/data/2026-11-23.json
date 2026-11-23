@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Show HN: AI code review in VS Code with your own API key or Ollama, no account",
+          "url": "https://marketplace.visualstudio.com/items?itemName=puzaricloud.ai-code-review-any-model",
+          "source": "Hacker News",
+          "summary": "Show HN: AI code review in VS Code with your own API key or Ollama, no account",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Is selling an AI version of your face to this startup the future of Hollywood?",
+          "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+          "source": "Hacker News",
+          "summary": "Is selling an AI version of your face to this startup the future of Hollywood?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "How the Y2Y2R AI music video was made, shot by shot, with the prompts",
+          "url": "https://directthemachine.com/Y2Y2R/index.html",
+          "source": "Hacker News",
+          "summary": "How the Y2Y2R AI music video was made, shot by shot, with the prompts",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Show HN: Open-source MCP server to check AI search crawler readiness",
+          "url": "https://github.com/alicexixi85/geo-seo-mcp-pro",
+          "source": "Hacker News",
+          "summary": "Show HN: Open-source MCP server to check AI search crawler readiness",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI with Human Guidance May Have Cracked Quantum Gravity",
+          "url": "https://atuf-explorer.toughlute16.chatgpt.site/lean.html",
+          "source": "Hacker News",
+          "summary": "AI with Human Guidance May Have Cracked Quantum Gravity",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Transformer Digit Reversal",
+          "url": "https://singhcoder.github.io/ai-engineering/digit-reversal/",
+          "source": "Hacker News",
+          "summary": "Transformer Digit Reversal",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Show HN: Kavach AI – Sub-16ms AST security gate with 0% false positives",
+          "url": "https://github.com/rajrajak99/kavach-ai",
+          "source": "Hacker News",
+          "summary": "Show HN: Kavach AI – Sub-16ms AST security gate with 0% false positives",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Blocked for AI Reply",
+          "url": "https://blockedforaireply.levels.io",
+          "source": "Hacker News",
+          "summary": "Blocked for AI Reply",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+          "url": "https://www.bbc.com/news/articles/cqe9k09j9jv4o",
+          "source": "Hacker News",
+          "summary": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Two missing pieces in the AI safety discussion",
+          "url": "https://www.noahpinion.blog/p/two-missing-pieces-in-the-ai-safety",
+          "source": "Hacker News",
+          "summary": "Two missing pieces in the AI safety discussion",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Motion Brew, 100 free animated React components your AI agent can install",
+          "url": "https://motion-brew.com/",
+          "source": "Hacker News",
+          "summary": "Motion Brew, 100 free animated React components your AI agent can install",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
