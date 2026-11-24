@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "v0.40.18",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18",
+          "source": "GitHub Release: ollama/ollama",
+          "summary": "<h2>What's Changed</h2> <ul> <li>mlx: fuse Inkling residual mixing on Metal by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dhiltgen/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dhiltgen\">@dhiltgen</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6524139660\" data-permission-text=\"Title is private\" data-url=\"https://github.com/ollama/ollama/issues/19808\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ollama/ollama/pull/19808/hovercard\" href=\"https://github.com/ollama/ollama/pull/19808\">#19808</a></li> <li>mlxrunner: share tensor helpers and model setup across architectures by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/jaingaurav/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/jaingaurav\">@jaingaurav</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6523364325\" data-permission-text=\"Title is private\" data-url=\"https://github.com/ollama/ollama/issues/19805\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ollama/ollama/pull/19805/hovercard\" href=\"https://github.com/ollama/ollama/pull/19805\">#19805</a></li> <li>llama.cpp: version bump b12651 + remove jetpack5 support by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/pdevine/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/pdevine\">@pdevine</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6569399944\" data-permission-text=\"Title is private\" data-url=\"https://github.com/ollama/ollama/issues/19865\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ollama/ollama/pull/19865/hovercard\" href=\"https://github.com/ollama/ollama/pull/19865\">#19865</a></li> <li>inkling2: faster Metal decode, prefill and draft rounds by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dhiltgen/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dhiltgen\">@dhiltgen</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6549995510\" data-permission-text=\"Title is private\" data-url=\"https://github.com/ollama/ollama/issues/19843\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ollama/ollama/pull/19843/hovercard\" href=\"https://github.com/ollama/ollama/pull/19843\">#19843</a></li> </ul> <p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/ollama/ollama/compare/v0.40.17...v0.40.18-rc0\"><tt>v0.40.17...v0.40.18-rc0</tt></a></p>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Harny – AI coding agent for VSCodium/VS Code tuned for small/local LLMs",
+          "url": "https://harny.dev/",
+          "source": "Hacker News",
+          "summary": "Show HN: Harny – AI coding agent for VSCodium/VS Code tuned for small/local LLMs",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Will AI Solve Biology?",
+          "url": "https://romainbrette.fr/will-ai-solve-biology/",
+          "source": "Hacker News",
+          "summary": "Will AI Solve Biology?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Show HN: AI Agent Infrastructure and Memory Compaction Specifications",
+          "url": "https://github.com/grfdsasdvef/awesome-ai-agent-infrastructure",
+          "source": "Hacker News",
+          "summary": "Show HN: AI Agent Infrastructure and Memory Compaction Specifications",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Linux Foundation Welcomes Trace for Verifiable Runtime Evidence for AI Workloads",
+          "url": "https://www.linuxfoundation.org/press/linux-foundation-welcomes-trace-to-advance-verifiable-runtime-evidence-for-ai-workloads",
+          "source": "Hacker News",
+          "summary": "Linux Foundation Welcomes Trace for Verifiable Runtime Evidence for AI Workloads",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Building AI applications without stitching together multiple back end services",
+          "url": "https://www.purple8.ai/",
+          "source": "Hacker News",
+          "summary": "Building AI applications without stitching together multiple back end services",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "Evidence-Based AI Risk Ratings from CSAI",
+          "url": "https://riskrubric.ai/",
+          "source": "Hacker News",
+          "summary": "Evidence-Based AI Risk Ratings from CSAI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: One hour of AlphaZero-style Othello training on only one MacBook Air",
+          "url": "https://github.com/natsu0529/mac-alpha-zero",
+          "source": "Hacker News",
+          "summary": "Show HN: One hour of AlphaZero-style Othello training on only one MacBook Air",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI tutoring outperforms in-class active learning",
+          "url": "https://www.nature.com/articles/s41598-025-97652-6",
+          "source": "Hacker News",
+          "summary": "AI tutoring outperforms in-class active learning",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Can an LLM Grade Objective Facts Without Favoring Itself?",
+          "url": "https://blog.logcat.ai/2026/11/23/can-an-llm-grade-objective-facts-without-favoring-itself/",
+          "source": "Hacker News",
+          "summary": "Can an LLM Grade Objective Facts Without Favoring Itself?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Google has uncovered an autonomous AI cyber attack",
+          "url": "https://mashable.com/tech/google-says-first-autonomous-ai-cyberattack-has-happened",
+          "source": "Hacker News",
+          "summary": "Google has uncovered an autonomous AI cyber attack",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
