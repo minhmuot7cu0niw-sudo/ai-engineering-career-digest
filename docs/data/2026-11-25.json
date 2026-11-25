@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Show HN: Lightscale AI – A language for LLMs to write business software",
+          "url": "https://lightscale.ai/",
+          "source": "Hacker News",
+          "summary": "Show HN: Lightscale AI – A language for LLMs to write business software",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The Confessions of an AI Fraud Kingpin",
+          "url": "https://www.404media.co/the-confessions-of-an-ai-fraud-kingpin-onlyfake-owner-nazarenko/",
+          "source": "Hacker News",
+          "summary": "The Confessions of an AI Fraud Kingpin",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Open-source native AI harness that's trying to do less by default",
+          "url": "https://github.com/usehm/hm",
+          "source": "Hacker News",
+          "summary": "Show HN: Open-source native AI harness that's trying to do less by default",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Release v1.0.0-preview.2",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview.2",
+          "source": "GitHub Release: QwenLM/qwen-code",
+          "summary": "<h2>Highlights</h2> <ul> <li>Add Qwen4-Max to the Qwen subscription catalog (1M context window, image and video input).</li> <li>Show a reset countdown when Qwen subscription credits run out, and add an <code>/upgrade</code> command that opens the subscription plans page.</li> <li>Qwen subscription requests now carry the QwenCode user agent and gateway request id for easier troubleshooting, and Qwen subscription OAuth requests honor <code>Retry-After</code> before retrying when rate limited (429).</li> <li>Give Qoder limited-free models more accurate paid-confirmation messages based on the error code.</li> </ul>",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI consumes less water per dollar spent than almond milk or golf",
+          "url": "https://www.reuters.com/technology/ai-consumes-less-water-per-dollar-spent-than-almond-milk-or-golf-enverus-report-2026-11-24/",
+          "source": "Hacker News",
+          "summary": "AI consumes less water per dollar spent than almond milk or golf",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Sightline – Windows CLI for AI agents to capture UI and map DPI coords",
+          "url": "https://github.com/sao-coding/sightline",
+          "source": "Hacker News",
+          "summary": "Show HN: Sightline – Windows CLI for AI agents to capture UI and map DPI coords",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "We Turned a Harry Potter Clip into Hogwarts in Minecraft with AI",
+          "url": "https://huggingface.co/spaces/GameAnything/GameAnything",
+          "source": "Hacker News",
+          "summary": "We Turned a Harry Potter Clip into Hogwarts in Minecraft with AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The Docs AI Toolkit",
+          "url": "https://www.gitbook.com/blog/docs-ai-toolkit",
+          "source": "Hacker News",
+          "summary": "The Docs AI Toolkit",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Investigation uncovers influencers paid to promote Nvidia to China",
+          "url": "https://www.techradar.com/pro/days-after-nvidia-ceo-resigned-journalists-unearth-covert-influence-operation-using-right-wing-outlets-to-promote-nvidia-ai-chip-export-to-china",
+          "source": "Hacker News",
+          "summary": "Investigation uncovers influencers paid to promote Nvidia to China",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Dutch data protection authority advises against purchasing AI camera glasses",
+          "url": "https://autoriteitpersoonsgegevens.nl/en/current/ap-advises-against-purchasing-ai-camera-glasses-serious-risks-for-users-and-bystanders",
+          "source": "Hacker News",
+          "summary": "Dutch data protection authority advises against purchasing AI camera glasses",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "US Army plans to detonate an Iowa ammo plant, leading to airbourne lead plume",
+          "url": "https://www.centredaily.com/news/nation-world/national/article318231892.html",
+          "source": "Hacker News",
+          "summary": "US Army plans to detonate an Iowa ammo plant, leading to airbourne lead plume",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
