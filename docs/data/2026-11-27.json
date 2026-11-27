@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "Who gets to decide if something is written by AI?",
+          "url": "https://www.seangoedecke.com/who-gets-to-decide-if-something-is-written-by-ai/",
+          "source": "Hacker News",
+          "summary": "Who gets to decide if something is written by AI?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Mark to Swap: How the Market Is Mispricing the AI Boom",
+          "url": "https://www.groundbrkr.com/p/mark-to-swap-how-the-market-is-mispricing",
+          "source": "Hacker News",
+          "summary": "Mark to Swap: How the Market Is Mispricing the AI Boom",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The group chat where your AI talks behind your back",
+          "url": "https://construct22.com/",
+          "source": "Hacker News",
+          "summary": "The group chat where your AI talks behind your back",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Beattape.ai – Lofi Psychedelic Nostalgia",
+          "url": "https://beattape.ai/",
+          "source": "Hacker News",
+          "summary": "Beattape.ai – Lofi Psychedelic Nostalgia",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "We trained time-series AI models on AWS Trainium2, 2x cheaper than H200s",
+          "url": "https://twitter.com/martinmaritsch/status/2126195898795573437",
+          "source": "Hacker News",
+          "summary": "We trained time-series AI models on AWS Trainium2, 2x cheaper than H200s",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The AI labs are rumored to have results relevant to crypto",
+          "url": "https://twitter.com/secparam/status/2126079107817787693",
+          "source": "Hacker News",
+          "summary": "The AI labs are rumored to have results relevant to crypto",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "SynRAG – A fast CPU-only RAG engine",
+          "url": "https://github.com/Synlabs-ai/synrag",
+          "source": "Hacker News",
+          "summary": "SynRAG – A fast CPU-only RAG engine",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: Telegram image bot – 3 free AI images a day, 1 USDT = 10",
+          "url": "https://alexchen-imgbot-sales.containers.snapdeploy.app/",
+          "source": "Hacker News",
+          "summary": "Show HN: Telegram image bot – 3 free AI images a day, 1 USDT = 10",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "The simplest way to let your users bring their own AI sub to power your AI app",
+          "url": "https://byoa.rippling.computer/",
+          "source": "Hacker News",
+          "summary": "The simplest way to let your users bring their own AI sub to power your AI app",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "Norse Atlantic Airways Collapses – Wages Unpaid, All Flights Canceled",
+          "url": "https://loyaltylobby.com/2026/11/26/norse-atlantic-airways-collapses-wages-unpaid-all-flights-canceled-aircraft-back-at-their-bases/?omhide=true",
+          "source": "Hacker News",
+          "summary": "Norse Atlantic Airways Collapses – Wages Unpaid, All Flights Canceled",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: AshuTeacher – Free AI tutor, voice blackboard and thesis studio",
+          "url": "https://ashuteacher.vercel.app",
+          "source": "Hacker News",
+          "summary": "Show HN: AshuTeacher – Free AI tutor, voice blackboard and thesis studio",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
