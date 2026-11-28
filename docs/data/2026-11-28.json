@@ -1,0 +1,125 @@
+{
+  "overview": "模型调用暂不可用，本期保留原始条目供人工筛选。",
+  "sections": [
+    {
+      "name": "今日关键变化",
+      "items": [
+        {
+          "title": "'The taste layer of the internet ': Reddit's COO on why AI needs humans",
+          "url": "https://www.euronews.com/2026/11/26/the-taste-layer-of-the-internet-reddits-coo-on-why-ai-needs-humans",
+          "source": "Hacker News",
+          "summary": "'The taste layer of the internet ': Reddit's COO on why AI needs humans",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "AI labs sitting on 'bombshell' revelations, experts warn",
+          "url": "https://www.theguardian.com/technology/2026/nov/28/ai-artificial-intelligence-encryption-global-chaos",
+          "source": "Hacker News",
+          "summary": "AI labs sitting on 'bombshell' revelations, experts warn",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Why AI is solving maths' hardest problems. Here's why you should care",
+          "url": "https://news.sky.com/video/why-ai-is-solving-maths-hardest-problems-heres-why-you-should-care-13617298",
+          "source": "Hacker News",
+          "summary": "Why AI is solving maths' hardest problems. Here's why you should care",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "items": [
+        {
+          "title": "Nvidia and Kioxia 1.1PB SSD Memory Experiment Could Transform AI Infrastructure",
+          "url": "https://www.gizmoweek.com/gpu-memory-nvme-ssds/",
+          "source": "Hacker News",
+          "summary": "Nvidia and Kioxia 1.1PB SSD Memory Experiment Could Transform AI Infrastructure",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Building a better Dependabot with AI agents",
+          "url": "https://cdm.dev/blog/better-dependabot/",
+          "source": "Hacker News",
+          "summary": "Building a better Dependabot with AI agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Show HN: A web scraper for your AI agents",
+          "url": "https://atlas-compiler.com/",
+          "source": "Hacker News",
+          "summary": "Show HN: A web scraper for your AI agents",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "学习优先级",
+      "items": [
+        {
+          "title": "OpenAI claims to have solved a 57-year-old math problem at the heart of AI",
+          "url": "https://thenewstack.io/openai-matrix-multiplication-exponent/",
+          "source": "Hacker News",
+          "summary": "OpenAI claims to have solved a 57-year-old math problem at the heart of AI",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Google adding official Google AI plan support to Pi coding agent",
+          "url": "https://github.com/earendil-works/pi/pull/12614",
+          "source": "Hacker News",
+          "summary": "Google adding official Google AI plan support to Pi coding agent",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "What It Takes to Let AI Agents Work While You Walk Away",
+          "url": "https://ivankahl.com/blog/what-it-takes-to-let-ai-agents-work-while-you-walk-away/",
+          "source": "Hacker News",
+          "summary": "What It Takes to Let AI Agents Work While You Walk Away",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    },
+    {
+      "name": "职业信号",
+      "items": [
+        {
+          "title": "What Happens When AI Aligns Itself?",
+          "url": "https://www.rameznaam.com/p/what-happens-when-ai-aligns-itself",
+          "source": "Hacker News",
+          "summary": "What Happens When AI Aligns Itself?",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        },
+        {
+          "title": "Quick Take: AMD's Helios as a Plug-and-Play AI Appliance Standard",
+          "url": "https://www.microprocessorreport.com/p/quick-take-amds-helios-appliance",
+          "source": "Hacker News",
+          "summary": "Quick Take: AMD's Helios as a Plug-and-Play AI Appliance Standard",
+          "why": "该条目来自已配置的 AI 工程信息源，值得快速判断是否与你当前学习方向相关。",
+          "action": "打开原文，确认是否值得加入本周学习清单。",
+          "importance": 3
+        }
+      ]
+    }
+  ],
+  "degraded": true
+}
